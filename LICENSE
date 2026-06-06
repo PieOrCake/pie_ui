@@ -1,0 +1,67 @@
+Pie UI — Proprietary License
+Copyright © 2026 PieOrCake. All rights reserved.
+
+Pie UI is a closed-source project. This repository publishes only the addon's
+documentation, screenshots, and theme artwork. The source code is intentionally
+not made public.
+
+
+Why this project is closed source
+---------------------------------
+Pie UI renders a replacement HUD by reading the Guild Wars 2 client's memory,
+which relies on reverse engineering of the game client. Publishing the source
+would also publish those reverse-engineering details, so the code is kept
+private.
+
+Pie UI only reads the game's memory; it never writes to or modifies the game's
+memory or code. A few actions that you trigger yourself — clicking a skill to
+cast it, sending a chat message, or opening the world map or a build template
+from a chat link — are carried out by sending ordinary keyboard input, or by
+invoking the game client's own interface functions, to reproduce something you
+could already do by hand. Pie UI does not alter game state directly, inject code
+into the game, bot, or automate gameplay.
+
+
+Permitted use
+-------------
+You may download and use the Pie UI addon free of charge, including while
+streaming, recording, or making videos or other content — on monetised channels
+as well as personal ones. Streamers and content creators are warmly welcome to
+feature and showcase Pie UI. You may also quote or reuse this repository's
+documentation, screenshots, and theme artwork when describing, reviewing, or
+showcasing Pie UI, with attribution.
+
+This permission does not let you sell Pie UI, charge others for access to it, or
+bundle it into a paid product or service — see Restrictions below.
+
+
+Restrictions
+------------
+Except as expressly permitted above, you may not copy, modify, redistribute,
+sell, decompile, disassemble, or otherwise reverse engineer the Pie UI software
+or attempt to recover its source code, without prior written permission from the
+author.
+
+
+ArenaNet developer access
+-------------------------
+The author welcomes scrutiny from the people who make Guild Wars 2. Verified
+ArenaNet employees may request read-only access to the complete source code in
+order to review Pie UI's behaviour and confirm its compliance with the Guild
+Wars 2 User Agreement and rules of conduct. To request access, contact the
+author by opening an issue on this repository, via the contact form at
+https://pie.rocks.cc/, or by having a GM contact PieOrCake.7635 in-game.
+Such access is granted for review purposes only and conveys no license to use,
+copy, modify, or redistribute the source code.
+
+
+No warranty
+-----------
+This software is provided "as is", without warranty of any kind, express or
+implied. To the maximum extent permitted by law, the author shall not be liable
+for any claim, damages, or other liability arising from the use of this software.
+
+
+Pie UI is an unofficial, fan-made addon. Guild Wars 2 and ArenaNet are
+trademarks of ArenaNet, LLC and NCSOFT Corporation. Pie UI is not affiliated
+with, endorsed by, or sponsored by ArenaNet or NCSOFT.

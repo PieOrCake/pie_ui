@@ -1,6 +1,6 @@
 # Pie UI
 
-A [Raidcore Nexus](https://raidcore.gg/Nexus) addon for Guild Wars 2 that replaces native HUD elements with configurable, better-looking alternatives. All game-memory access is strictly read-only.
+A [Raidcore Nexus](https://raidcore.gg/Nexus) addon for Guild Wars 2 that replaces native HUD elements with configurable, better-looking alternatives. Pie UI only **reads** game memory — it never writes to or modifies the game. Actions you trigger yourself (casting a clicked skill, sending a chat message, opening the map from a link) use the game's normal input and interface paths, not memory edits or automation.
 
 ## AI Notice
 
@@ -81,3 +81,7 @@ Pie UI draws *replacements*, not overlays that erase the originals. To hide a na
 ## Installation
 
 Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
