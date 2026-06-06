@@ -81,21 +81,3 @@ Pie UI draws *replacements*, not overlays that erase the originals. To hide a na
 ## Installation
 
 Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
-
-## Building
-
-Cross-compiled to a Windows DLL from Linux with MinGW (`x86_64-w64-mingw32-g++`):
-
-```bash
-mkdir build && cd build
-cmake .. && make -j$(nproc)
-```
-
-Output: `build/PieUI.dll`.
-
-Pure logic (config, geometry, key routing) has host-compiled unit tests:
-
-```bash
-mkdir build-tests && cd build-tests
-cmake .. -DPIEUI_TESTS_ONLY=ON && make -j$(nproc) && ./pieui_tests
-```
