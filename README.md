@@ -10,11 +10,15 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 
 ## Screenshots
 
-![Vitals HUD and stacked hotbars](screenshots/first.png)
-
-![Replacement chat box with links, tabs and colours](screenshots/chatbox.png)
+![Vitals, skill bars and minimap](screenshots/vitals_bars_minimap.png)
 
 ![Boon and condition duration bars](screenshots/boons.png)
+
+![Chat box: item links with a live tooltip, class icons and tabs](screenshots/chatbox2.png)
+
+![Chat box: waypoint links, unread-count tabs and the send bar](screenshots/chatbox3.png)
+
+![The Pie UI chat box alongside the native chat](screenshots/chatbox.png)
 
 ## Features
 
@@ -48,6 +52,13 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 
 ### Target frame
 - A positionable bar showing your current target's health percentage.
+
+### Squad & party frames
+- A movable, resizable roster panel for your party or squad, styled to match the rest of Pie UI.
+- Squads are grouped into colour-coded **subgroup columns** (with labels); parties use a configurable grid.
+- Each member shows their **class / elite-spec icon**, **name**, and **commander / lieutenant tag**.
+- Your own row is highlighted, and members in another map instance are dimmed.
+- Configurable cell size, columns, fonts, and colours.
 
 ### Minimap
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type.

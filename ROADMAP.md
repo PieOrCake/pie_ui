@@ -29,6 +29,14 @@ native frame:
 - 📋 **Complete "everything else" coverage** — match the native effects bar exactly, including food,
   utility, and banner effects.
 
+### Squad & party frames
+The frames currently show each member's class, name, and commander tag. Going further means reading
+live state, which is harder and being explored:
+- 💡 **Member health bars** — live HP for members in your map (the native frame's main feature).
+- 💡 **Range / out-of-range fade** and **downed indicators**.
+- 💡 **Summon native squad management on demand** — a one-key toggle to pop the native squad panel
+  (create / invite / markers) back up while keeping the custom frames in play.
+
 ### Minimap
 - 🔨 **Live event markers** — dynamic events and hearts shown on the minimap.
 - 📋 **Node names on hover** — tooltips naming each gathering node (e.g. *Iron Ore*, *Flax*).
@@ -39,6 +47,8 @@ native frame:
 
 ### Chat & Tyrian IM
 - 🔨 **System messages** — capture the game's yellow system lines into the chat box.
+- 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
+- 💡 **Guild-mate & contact hover tooltips** — account, class, and current map on hover (online only).
 
 ### General & themes
 - 💡 **More visual themes** for the unified theme picker.
