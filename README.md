@@ -26,7 +26,8 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - HP, barrier, and endurance in four styles: **horizontal bar**, **vertical bar**, **reticle arcs**, and **reticle ring**.
 - Live HP/endurance/barrier numbers with a 3-stop HP colour gradient (green → amber → red).
 - Barrier shown as a separate strip or overlaid — always visible, even at full HP.
-- **Mount aware:** the bar tracks mount dodge endurance while mounted, with per-mount dodge segments, and shows the Skyscale's flight stamina.
+- **Downed warning:** the HP bar turns red with a deep-red border the moment you're downed, whatever your health was.
+- **Mount & glider aware:** tracks mount dodge endurance (with per-mount dodge segments) while mounted, the Skyscale's flight stamina, and your **glider stamina** while gliding.
 - Every colour is configurable.
 
 ### Skill bars
@@ -35,6 +36,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - **Click-to-cast** — click a skill to fire it; press-and-hold works for channelled skills (e.g. Siege Turtle jets).
 - Keybind labels on each slot, fully rebindable in-app.
 - Activation flash and combo/flip animations.
+- A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
 - Separate, independently placeable groups for weapons and utilities.
 
 ### Profession & pet bars
@@ -65,6 +67,11 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Map-completion tinting for mastery insights, pulled live from the GW2 API.
 - Correct player position in WvW, where the native compass data falls short.
 
+### Bottom-line strip
+- A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, **gold**, and your **active build / gear** names.
+- A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
+- Choose which readouts appear, arrange them left / centre / right, and colour each one.
+
 ### Replacement chat box
 - A movable, resizable chat panel with a fully **interactive tab strip**: rename tabs, pick which channels each shows (including guilds G1–G6), drag to reorder, and unread `(N)` badges.
 - Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon and live vendor/trading-post prices, **skill** links with a full tooltip, and **build template** links that open the native build window.
@@ -82,6 +89,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
 - Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
+- **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
 - Settings persist in a versioned `pieui.json` that survives updates.
 

@@ -16,8 +16,6 @@ native frame:
 - 📋 **Attitude colour** — friendly / hostile / neutral, matching the native frame.
 
 ### Skill bars
-- 📋 **Weapon-swap recharge** — show the cooldown on the weapon-swap slot.
-- 📋 **Drag-to-place handles** for the skill-bar groups, like the vitals widget already has.
 - 💡 **Cast bar** showing the skill currently being cast, with its name.
 
 ### Profession & pet bars
@@ -45,7 +43,13 @@ live state, which is harder and being explored:
 - 💡 **Commander tags** — friendly squad-commander markers on the minimap.
 - 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
+### Bottom-line strip
+- 📋 **Currency picker** — choose which wallet currencies the strip shows (Karma, Volatile Magic,
+  Bandit Crests, …), each with its own icon.
+
 ### Chat & Tyrian IM
+- 📋 **Item & material counts** — show how many of an item you own (inventory / bank / material
+  storage) in its link tooltip, like the native chat does.
 - 🔨 **System messages** — capture the game's yellow system lines into the chat box.
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
 - 💡 **Guild-mate & contact hover tooltips** — account, class, and current map on hover (online only).
