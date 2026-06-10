@@ -44,6 +44,15 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - **Pet / mech control bar** for Rangers and Mechanists: live pet skills with cooldowns, a creature HP bar, and command buttons (attack, return, swap, combat toggle).
 - Optional pet HP readout on the reticle HUD, beside your own health.
 
+### Profession resource bar
+A positionable bar for your specialisation's core resource — smooth fill or segmented pips, with a configurable colour per class. Currently covers:
+- **Necromancer** — Life Force (all specs).
+- **Mesmer** — clones, **Virtuoso** blades, and **Troubadour** notes.
+- **Guardian** — **Firebrand** tome pages and **Luminary**'s Radiant Forge.
+- **Revenant** — energy, with a recovery/drain **rate indicator**; plus a native-style **legend bar** that shows both legends side by side, the **swap cooldown** on the active legend, and the F1 swap indicator.
+- **Conduit** — **Affinity** stacks, shown as pulsing pips beside the energy bar.
+- **Ranger** — **Galeshot** arrows.
+
 ### Mounted hotbar
 - Per-mount skill layouts with the correct icons and keybind labels, shown automatically while mounted.
 

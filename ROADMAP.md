@@ -19,9 +19,10 @@ native frame:
 - 💡 **Cast bar** showing the skill currently being cast, with its name.
 
 ### Profession & pet bars
-- 📋 **Deeper mechanic bars** — richer per-profession treatments for attunements, kits, and legends.
-- 📋 **More profession resources** — round out the resource bar for the remaining professions and
-  elite specialisations.
+- 📋 **Deeper mechanic bars** — richer per-profession treatments for attunements and kits.
+- 📋 **More profession resources** — the resource bar covers Necromancer, Mesmer, Guardian, Revenant
+  (incl. Conduit) and Ranger Galeshot today; still to come are Warrior adrenaline, Engineer heat /
+  Holosmith, Thief initiative, Elementalist attunements, and the remaining elite-spec mechanics.
 
 ### Boon, condition & effect bars
 - 📋 **Complete "everything else" coverage** — match the native effects bar exactly, including food,
