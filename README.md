@@ -41,6 +41,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 
 ### Profession & pet bars
 - **Profession bar** (F1–F7) that auto-fits your specialisation's mechanics.
+- **Elementalist attunement highlight** — the active element's F-slot is enlarged with a thick, element-coloured border, matching the native UI.
 - **Pet / mech control bar** for Rangers and Mechanists: live pet skills with cooldowns, a creature HP bar, and command buttons (attack, return, swap, combat toggle).
 - Optional pet HP readout on the reticle HUD, beside your own health.
 
@@ -51,7 +52,9 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Guardian** — **Firebrand** tome pages and **Luminary**'s Radiant Forge.
 - **Revenant** — energy, with a recovery/drain **rate indicator**; plus a native-style **legend bar** that shows both legends side by side, the **swap cooldown** on the active legend, and the F1 swap indicator.
 - **Conduit** — **Affinity** stacks, shown as pulsing pips beside the energy bar.
-- **Ranger** — **Galeshot** arrows.
+- **Warrior** — **Adrenaline**, as segmented bars.
+- **Thief** — **Initiative** (all specs), shown as native-style diamond pips; **Specter** adds a **Shadow Force** bar and **Deadeye** a segmented **Malice** bar below the pips.
+- **Ranger** — **Galeshot** arrow charges.
 
 ### Mounted hotbar
 - Per-mount skill layouts with the correct icons and keybind labels, shown automatically while mounted.

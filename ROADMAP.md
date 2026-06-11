@@ -19,10 +19,11 @@ native frame:
 - 💡 **Cast bar** showing the skill currently being cast, with its name.
 
 ### Profession & pet bars
-- 📋 **Deeper mechanic bars** — richer per-profession treatments for attunements and kits.
+- 📋 **Deeper mechanic bars** — richer per-profession treatments for kits, transforms, and the like.
 - 📋 **More profession resources** — the resource bar covers Necromancer, Mesmer, Guardian, Revenant
-  (incl. Conduit) and Ranger Galeshot today; still to come are Warrior adrenaline, Engineer heat /
-  Holosmith, Thief initiative, Elementalist attunements, and the remaining elite-spec mechanics.
+  (incl. Conduit), Ranger Galeshot, Warrior adrenaline, and Thief initiative / Specter Shadow Force
+  today; still to come are Engineer heat / Holosmith, Elementalist Catalyst energy, Ranger Druid
+  astral force, and the remaining new elite-spec mechanics (Paragon Motivation, Galeshot Wind Force, …).
 
 ### Boon, condition & effect bars
 - 📋 **Complete "everything else" coverage** — match the native effects bar exactly, including food,
