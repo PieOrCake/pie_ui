@@ -80,8 +80,9 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Correct player position in WvW, where the native compass data falls short.
 
 ### Bottom-line strip
-- A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, **gold**, and your **active build / gear** names.
+- A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
 - A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
+- **Multi-currency wallet** — pick which currencies the wallet shows (gold plus any others: Karma, Volatile Magic, Bandit Crests, …), each with its own icon and balance.
 - Choose which readouts appear, arrange them left / centre / right, and colour each one.
 
 ### Replacement chat box

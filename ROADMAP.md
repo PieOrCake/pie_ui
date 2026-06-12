@@ -45,10 +45,6 @@ live state, which is harder and being explored:
 - 💡 **Commander tags** — friendly squad-commander markers on the minimap.
 - 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
-### Bottom-line strip
-- 📋 **Currency picker** — choose which wallet currencies the strip shows (Karma, Volatile Magic,
-  Bandit Crests, …), each with its own icon.
-
 ### Chat & Tyrian IM
 - 📋 **Item & material counts** — show how many of an item you own (inventory / bank / material
   storage) in its link tooltip, like the native chat does.
