@@ -37,11 +37,9 @@ live state, which is harder and being explored:
 - 💡 **Summon native squad management on demand** — a one-key toggle to pop the native squad panel
   (create / invite / markers) back up while keeping the custom frames in play.
 
-### Minimap
 - 🔨 **Live event markers** — dynamic events and hearts shown on the minimap.
-- 📋 **Node names on hover** — tooltips naming each gathering node (e.g. *Iron Ore*, *Flax*).
-- 📋 **More node & service icons** — leather/cloth nodes, plus service NPCs (merchant, repair, bank,
-  trading post, crafting).
+- 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
+  its look-alike yet.
 - 💡 **Commander tags** — friendly squad-commander markers on the minimap.
 - 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
@@ -50,7 +48,8 @@ live state, which is harder and being explored:
   storage) in its link tooltip, like the native chat does.
 - 🔨 **System messages** — capture the game's yellow system lines into the chat box.
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
-- 💡 **Guild-mate & contact hover tooltips** — account, class, and current map on hover (online only).
+- 💡 **Richer name hover tooltips** — account names already show on hover; still exploring class and
+  current map (online only).
 
 ### General & themes
 - 💡 **More visual themes** for the unified theme picker.

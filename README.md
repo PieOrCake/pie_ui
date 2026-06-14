@@ -35,7 +35,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - **Cooldown sweeps** with countdown numbers and grey-out.
 - **Click-to-cast** — click a skill to fire it; press-and-hold works for channelled skills (e.g. Siege Turtle jets).
 - Keybind labels on each slot, fully rebindable in-app.
-- Activation flash and combo/flip animations.
+- Activation flash and combo/flip animations, plus **theme-coloured slots** with an accent cooldown sweep and an activation glow.
 - A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
 - Separate, independently placeable groups for weapons and utilities.
 
@@ -75,7 +75,10 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Configurable cell size, columns, fonts, and colours.
 
 ### Minimap
-- A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type.
+- A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
+- **Node-name tooltips** — hover a node to see exactly what it is, named automatically by area (e.g. *Cluster of Desert Herbs* across every desert map).
+- **Map service badges** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, drawn as icons with hover tooltips.
+- **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
 - Map-completion tinting for mastery insights, pulled live from the GW2 API.
 - Correct player position in WvW, where the native compass data falls short.
 
@@ -83,14 +86,15 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
 - A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
 - **Multi-currency wallet** — pick which currencies the wallet shows (gold plus any others: Karma, Volatile Magic, Bandit Crests, …), each with its own icon and balance.
-- Choose which readouts appear, arrange them left / centre / right, and colour each one.
+- Choose which readouts appear, arrange them left / centre / right, and colour each one — with an optional **theme-coloured border**.
 
 ### Replacement chat box
 - A movable, resizable chat panel with a fully **interactive tab strip**: rename tabs, pick which channels each shows (including guilds G1–G6), drag to reorder, and unread `(N)` badges.
 - Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon and live vendor/trading-post prices, **skill** links with a full tooltip, and **build template** links that open the native build window.
 - Real **guild tags** on guild lines, **class/elite-spec icons** and **commander/lieutenant tags** on party/squad members' messages, and **timestamps** (12/24h).
 - Per-channel three-colour styling (name / sender / text) and four font-size presets.
-- **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper / invite to party / invite to squad**.
+- **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
+- **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, add / remove friend, block, and invite to party / squad**.
 
 ### Tyrian IM — built-in messenger
 - A per-contact whisper messenger (an evolution of the standalone Tyrian IM), with a conversation list, chat bubbles, and a reply box.
@@ -101,6 +105,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 ### General
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
 - Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
+- **Theme-coloured chrome** — widget borders follow the active theme's accent colour for a consistent look across the whole UI.
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
