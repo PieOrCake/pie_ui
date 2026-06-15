@@ -69,18 +69,20 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Squad & party frames
 - A movable, resizable roster panel for your party or squad, styled to match the rest of Pie UI.
-- Squads are grouped into colour-coded **subgroup columns** (with labels); parties use a configurable grid.
+- Squads are grouped into colour-coded **subgroup columns** (with labels); pick a **list** or native-style **grid** layout, and let long rosters **scroll** or **wrap into extra columns**.
 - Each member shows their **class / elite-spec icon**, **name**, and **commander / lieutenant tag**.
+- **Live health bars** for members on your map, with a configurable **high → mid → low** colour gradient (or profession colours), a **downed** state, and a **Necromancer shroud** life-force overlay. Out-of-range members show a neutral bar. *(Read-only; health is PvE-only — disabled in WvW / PvP.)*
 - Your own row is highlighted, and members in another map instance are dimmed.
-- Configurable cell size, columns, fonts, and colours.
+- Theme-tinted background with an accent border; configurable cell size, columns, fonts, and colours.
 
 ### Minimap
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
 - **Node-name tooltips** — hover a node to see exactly what it is, named automatically by area (e.g. *Cluster of Desert Herbs* across every desert map).
 - **Map service badges** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, drawn as icons with hover tooltips.
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
+- **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
 - Map-completion tinting for mastery insights, pulled live from the GW2 API.
-- Correct player position in WvW, where the native compass data falls short.
+- **WvW overlay** — objective ownership **badges** (keep / tower / camp / castle) and team-coloured **territory borders** on your current World-vs-World map, plus correct player position where the native compass data falls short.
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
@@ -95,6 +97,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Per-channel three-colour styling (name / sender / text) and four font-size presets.
 - **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
 - **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, add / remove friend, block, and invite to party / squad**.
+- A live **character counter** against GW2's 199-character line limit, so a long message is never silently truncated on send.
+- Optional **system & emote lines** (the game's yellow notices) shown inline in the chat box.
 
 ### Tyrian IM — built-in messenger
 - A per-contact whisper messenger (an evolution of the standalone Tyrian IM), with a conversation list, chat bubbles, and a reply box.

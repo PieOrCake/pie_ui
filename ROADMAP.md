@@ -30,23 +30,22 @@ native frame:
   utility, and banner effects.
 
 ### Squad & party frames
-The frames currently show each member's class, name, and commander tag. Going further means reading
-live state, which is harder and being explored:
-- 💡 **Member health bars** — live HP for members in your map (the native frame's main feature).
-- 💡 **Range / out-of-range fade** and **downed indicators**.
+The frames show each member's class, name, commander tag, and **live health** (PvE, in-map). Going
+further is being explored:
+- 💡 **Out-of-range fade / range indicator** — out-of-range members currently just show a neutral bar.
+- 💡 **Health in WvW / PvP** — live HP is PvE-only today.
 - 💡 **Summon native squad management on demand** — a one-key toggle to pop the native squad panel
   (create / invite / markers) back up while keeping the custom frames in play.
 
+### Minimap
 - 🔨 **Live event markers** — dynamic events and hearts shown on the minimap.
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
-- 💡 **Commander tags** — friendly squad-commander markers on the minimap.
 - 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
 ### Chat & Tyrian IM
 - 📋 **Item & material counts** — show how many of an item you own (inventory / bank / material
   storage) in its link tooltip, like the native chat does.
-- 🔨 **System messages** — capture the game's yellow system lines into the chat box.
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
 - 💡 **Richer name hover tooltips** — account names already show on hover; still exploring class and
   current map (online only).
