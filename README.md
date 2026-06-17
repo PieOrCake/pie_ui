@@ -123,6 +123,8 @@ Pie UI draws *replacements*, not overlays that erase the originals. To hide a na
 
 Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
 
+**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template and URL links work either way.
+
 ## Roadmap
 
 See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
