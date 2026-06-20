@@ -9,11 +9,10 @@ some are harder than they look. Anything already shipped lives in the [README](R
 ---
 
 ### Target frame
-The target frame currently shows the target's health percentage. The goal is full parity with the
-native frame:
-- 🔨 **Defiance / break bar** for targets that have one.
+The target frame already shows health, attitude colouring, and a native-style defiance / break bar
+(see the [README](README.md)). Still to come for full parity:
 - 📋 **Target name**, **level**, and **rank** (veteran / elite / champion / legendary).
-- 📋 **Attitude colour** — friendly / hostile / neutral, matching the native frame.
+- 📋 **Right-click context menu** on player targets (whisper, invite, add friend, …).
 
 ### Skill bars
 - 💡 **Cast bar** showing the skill currently being cast, with its name.
@@ -33,7 +32,6 @@ native frame:
 The frames show each member's class, name, commander tag, and **live health** (PvE, in-map). Going
 further is being explored:
 - 💡 **Out-of-range fade / range indicator** — out-of-range members currently just show a neutral bar.
-- 💡 **Health in WvW / PvP** — live HP is PvE-only today.
 - 💡 **Summon native squad management on demand** — a one-key toggle to pop the native squad panel
   (create / invite / markers) back up while keeping the custom frames in play.
 

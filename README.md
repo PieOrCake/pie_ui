@@ -1,6 +1,6 @@
 # Pie UI
 
-A [Raidcore Nexus](https://raidcore.gg/Nexus) addon for Guild Wars 2 that replaces native HUD elements with configurable, better-looking alternatives. Pie UI only **reads** game memory — it never writes to or modifies the game. Actions you trigger yourself (casting a clicked skill, sending a chat message, opening the map from a link) use the game's normal input and interface paths, not memory edits or automation.
+A [Raidcore Nexus](https://raidcore.gg/Nexus) addon for Guild Wars 2 that replaces native HUD elements with configurable, better-looking alternatives. Pie UI only **reads** game memory — it never writes to or modifies the game. Actions you trigger yourself (casting a clicked skill, sending a chat message, opening the map from a link) use the game's normal input and interface paths, not memory edits or automation. Pie UI performs memory reading — see the [Addon Policy](#addon-policy) for how it handles game data and stays within ArenaNet's guidelines.
 
 ## AI Notice
 
@@ -10,7 +10,11 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 
 ## Screenshots
 
-![Vitals, skill bars and minimap](screenshots/vitals_bars_minimap.png)
+![Player vitals and skill bars](screenshots/vitals_hotbars.png)
+
+![Squad and party frames](screenshots/squad.png)
+
+![Quick-toggle bar: show or hide each Pie UI element and its native counterpart](screenshots/ui_toggles.png)
 
 ![Boon and condition duration bars](screenshots/boons.png)
 
@@ -66,6 +70,9 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Target frame
 - A positionable bar showing your current target's health percentage.
+- **Attitude colouring** — the bar is tinted by the target's disposition (hostile / neutral / friendly), and turns hostile the moment you engage a neutral mob. All colours are configurable.
+- **Defiance / break bar** that mirrors the native one: **blue** when intact and ready to break, **orange/gold** while it regenerates back to full — with its own colour choosers.
+- Also works on **objects and gadgets** that have health (siege, cannons, attackable structures).
 
 ### Squad & party frames
 - A movable, resizable roster panel for your party or squad, styled to match the rest of Pie UI.
@@ -82,7 +89,6 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
 - **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
 - Map-completion tinting for mastery insights, pulled live from the GW2 API.
-- **WvW overlay** — objective ownership **badges** (keep / tower / camp / castle) and team-coloured **territory borders** on your current World-vs-World map, plus correct player position where the native compass data falls short.
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
@@ -106,6 +112,11 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Multiple visual **themes**, an optional notification **sound**, and per-conversation history saved to disk.
 - Right-click a name in the chat box (or use "Whisper") to open the conversation straight away.
 
+### Quick-toggle bar & native-UI hiding
+- One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, and party / squad frames — so a Pie UI widget cleanly replaces the game's own.
+- A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible.
+- In WvW / PvP the native elements are kept visible automatically (Pie UI's competitive-locked widgets are suppressed there, so you're never left without a HUD).
+
 ### General
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
 - Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
@@ -117,7 +128,31 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ## Hiding the native UI
 
-Pie UI draws *replacements*, not overlays that erase the originals. To hide a native element and drop a Pie UI widget in its place, use the game's own **Options → UI → Dynamic HUD** (covers the skill bar, health orb, compass, target, party, chat, and more). This keeps the addon policy-safe and avoids touching the game's render path.
+Pie UI draws *replacements*, not overlays that erase the originals — so it can hide the matching native element for you. Each widget's settings tab has a **"Hide native …"** toggle, and the **quick-toggle bar** (General tab) lets you flip every Pie UI element and its native counterpart from one place. Hiding goes through the game's own frame interface, so the addon never touches the render path and stays policy-safe. The native elements are restored automatically in WvW / PvP.
+
+## Addon Policy
+
+Pie UI reads game memory to mirror information Guild Wars 2 already shows you, and triggers actions only through the game's own input and interface paths. It is designed to operate within the guidelines of the Guild Wars 2 [Third-Party Programs](https://help.guildwars2.com/hc/en-us/articles/360013625034-Policy-Third-Party-Programs) and [Macros & Macro Use](https://help.guildwars2.com/hc/en-us/articles/360013762153-Policy-Macros-and-Macro-Use) policies. In areas of ambiguity, development is guided by community consensus and available statements from ArenaNet staff.
+
+### Data Parity
+
+Pie UI never surfaces information you couldn't already get from the native UI:
+
+- **Other players' health** (squad and party frames) is shown only as a bar and, optionally, a whole-number percentage — never a raw current/maximum value.
+- **Barrier, boons and conditions** are shown the same way the native frames show them — bar, duration and stacks.
+- **Your own** character's detailed readouts (exact resource values and so on) are your own data and are shown in full.
+
+### Mode Restrictions
+
+In competitive zones — PvP and WvW — Pie UI automatically disables its combat-relevant overlays (vitals, hotbars, target frame, resource bars, effect bars, minimap and squad/party frames) and restores the native UI, so it can never give an advantage over other players.
+
+### Memory Access
+
+To avoid providing a ready-made template for cheats, the source code is not public.
+
+### Disclaimer
+
+While every effort is made to keep Pie UI within ArenaNet's current policies, the use of any third-party software is at the sole discretion of the player. The developer of this addon is not responsible for any actions taken against your account. ArenaNet's policies are subject to change without notice; stay informed and decide for yourself whether you are comfortable with the risks of using third-party programs.
 
 ## Installation
 
