@@ -9,10 +9,14 @@ some are harder than they look. Anything already shipped lives in the [README](R
 ---
 
 ### Target frame
-The target frame already shows health, attitude colouring, and a native-style defiance / break bar
-(see the [README](README.md)). Still to come for full parity:
-- 📋 **Target name**, **level**, and **rank** (veteran / elite / champion / legendary).
-- 📋 **Right-click context menu** on player targets (whisper, invite, add friend, …).
+The target frame now shows health, attitude colouring, a native-style defiance / break bar, the
+target's **name** (with player guild name / tag), **level or mastery rank**, **class / elite-spec
+icon**, a skills / title line, and a **right-click player context menu** (see the
+[README](README.md)). Still to come for full parity:
+- 📋 **Rank** indicator (veteran / elite / champion / legendary).
+- 💡 **Elite spec for non-group player targets** — currently the elite-spec icon resolves only for your
+  party / squad members; arbitrary players show the core profession icon (their spec isn't in readable
+  client memory).
 
 ### Skill bars
 - 💡 **Cast bar** showing the skill currently being cast, with its name.

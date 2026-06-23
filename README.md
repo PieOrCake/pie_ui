@@ -70,8 +70,13 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Target frame
 - A positionable bar showing your current target's health percentage.
+- **Target name** — players show their account or character name (with **guild name and tag** when they're repping); NPCs, creatures and objects show their own name.
+- **Level** — or, for level-80 players, their **mastery rank** in gold, just like the native frame.
+- **Class icon** — the target player's profession, upgraded to the **elite-spec** icon for your party / squad members.
+- A **notable-skills / title** line beneath the bar.
 - **Attitude colouring** — the bar is tinted by the target's disposition (hostile / neutral / friendly), and turns hostile the moment you engage a neutral mob. All colours are configurable.
 - **Defiance / break bar** that mirrors the native one: **blue** when intact and ready to break, **orange/gold** while it regenerates back to full — with its own colour choosers.
+- **Right-click a player target** for a context menu — whisper, invite to party / squad, add friend, and group actions (kick, vote-to-kick) where applicable.
 - Also works on **objects and gadgets** that have health (siege, cannons, attackable structures).
 
 ### Squad & party frames
@@ -125,6 +130,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
 - Settings persist in a versioned `pieui.json` that survives updates.
+- An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
 ## Hiding the native UI
 
