@@ -1,6 +1,40 @@
 # Pie UI
 
-A [Raidcore Nexus](https://raidcore.gg/Nexus) addon for Guild Wars 2 that replaces native HUD elements with configurable, better-looking alternatives. Pie UI only **reads** game memory — it never writes to or modifies the game. Actions you trigger yourself (casting a clicked skill, sending a chat message, opening the map from a link) use the game's normal input and interface paths, not memory edits or automation. Pie UI performs memory reading — see the [Addon Policy](#addon-policy) for how it handles game data and stays within ArenaNet's guidelines.
+**Replace Guild Wars 2's native HUD with cleaner, fully configurable, better-looking elements** — player vitals, skill bars, target and squad frames, a full chat box, a minimap, and a lot more. A [Raidcore Nexus](https://raidcore.gg/Nexus) addon.
+
+Pie UI only **reads** game memory and triggers actions through the game's own input and interface paths — it never writes to, modifies, or automates the game. See the [Addon Policy](#addon-policy) for how it stays within ArenaNet's guidelines.
+
+![Player vitals and skill bars](screenshots/vitals_hotbars.png)
+
+## Highlights
+
+- **Player vitals & skill bars** — HP, barrier and endurance in four styles, live cooldown sweeps with countdowns, and **click-to-cast**.
+- **Profession mechanics** — an auto-fitting F1–F7 profession bar, pet / mech control, and **per-specialisation resource bars for every profession**.
+- **Boon, condition & effect bars** — your live effects across three placeable sections, with stack counts and countdowns.
+- **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, and a right-click player menu.
+- **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
+- **Minimap** — resource-node markers, map-service badges, a floor / layer system, live party / squad dots, and the commander's **squad markers**.
+- **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, and a per-contact messenger.
+- **Themes, quick-toggles & native-UI hiding** — drag-to-place widgets, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
+
+![Squad and party frames](screenshots/squad.png)
+
+![Chat box: item links with a live tooltip, class icons and tabs](screenshots/chatbox2.png)
+
+![Item link tooltip: live trading-post prices and how many of the item you own](screenshots/tooltip.png)
+
+<details>
+<summary><b>More screenshots</b></summary>
+
+![Quick-toggle bar: show or hide each Pie UI element and its native counterpart](screenshots/ui_toggles.png)
+
+![Boon and condition duration bars](screenshots/boons.png)
+
+![Chat box: waypoint links, unread-count tabs and the send bar](screenshots/chatbox3.png)
+
+![The Pie UI chat box alongside the native chat](screenshots/chatbox.png)
+
+</details>
 
 ## AI Notice
 
@@ -8,25 +42,10 @@ This addon has been largely created using Claude. I understand that some folks h
 
 If an LLM creating software upsets you, then perhaps this repo isn't for you. Move on, and enjoy your day.
 
-## Screenshots
+## Full feature list
 
-![Player vitals and skill bars](screenshots/vitals_hotbars.png)
-
-![Squad and party frames](screenshots/squad.png)
-
-![Quick-toggle bar: show or hide each Pie UI element and its native counterpart](screenshots/ui_toggles.png)
-
-![Boon and condition duration bars](screenshots/boons.png)
-
-![Chat box: item links with a live tooltip, class icons and tabs](screenshots/chatbox2.png)
-
-![Item link tooltip: live trading-post prices and how many of the item you own](screenshots/tooltip.png)
-
-![Chat box: waypoint links, unread-count tabs and the send bar](screenshots/chatbox3.png)
-
-![The Pie UI chat box alongside the native chat](screenshots/chatbox.png)
-
-## Features
+<details>
+<summary>Click to expand every feature</summary>
 
 ### Player vitals
 - HP, barrier, and endurance in four styles: **horizontal bar**, **vertical bar**, **reticle arcs**, and **reticle ring**.
@@ -125,6 +144,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, and party / squad frames — so a Pie UI widget cleanly replaces the game's own.
 - A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible.
 - In WvW / PvP the native elements are kept visible automatically (Pie UI's competitive-locked widgets are suppressed there, so you're never left without a HUD).
+- Pie UI draws *replacements*, not overlays that erase the originals, and hiding goes through the game's own frame interface — so the addon never touches the render path and stays policy-safe.
 
 ### General
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
@@ -136,13 +156,20 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Settings persist in a versioned `pieui.json` that survives updates.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
-## Hiding the native UI
+</details>
 
-Pie UI draws *replacements*, not overlays that erase the originals — so it can hide the matching native element for you. Each widget's settings tab has a **"Hide native …"** toggle, and the **quick-toggle bar** (General tab) lets you flip every Pie UI element and its native counterpart from one place. Hiding goes through the game's own frame interface, so the addon never touches the render path and stays policy-safe. The native elements are restored automatically in WvW / PvP.
+## Installation
+
+Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
+
+**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template and URL links work either way.
 
 ## Addon Policy
 
-Pie UI reads game memory to mirror information Guild Wars 2 already shows you, and triggers actions only through the game's own input and interface paths. It is designed to operate within the guidelines of the Guild Wars 2 [Third-Party Programs](https://help.guildwars2.com/hc/en-us/articles/360013625034-Policy-Third-Party-Programs) and [Macros & Macro Use](https://help.guildwars2.com/hc/en-us/articles/360013762153-Policy-Macros-and-Macro-Use) policies. In areas of ambiguity, development is guided by community consensus and available statements from ArenaNet staff.
+Pie UI reads game memory to mirror information Guild Wars 2 already shows you, and triggers actions only through the game's own input and interface paths. It never surfaces anything you couldn't get from the native UI, automatically disables its combat-relevant overlays in **PvP and WvW**, and keeps its source closed to avoid providing a cheat template. It is designed to operate within ArenaNet's [Third-Party Programs](https://help.guildwars2.com/hc/en-us/articles/360013625034-Policy-Third-Party-Programs) and [Macros & Macro Use](https://help.guildwars2.com/hc/en-us/articles/360013762153-Policy-Macros-and-Macro-Use) policies.
+
+<details>
+<summary>Full policy details</summary>
 
 ### Data Parity
 
@@ -164,11 +191,7 @@ To avoid providing a ready-made template for cheats, the source code is not publ
 
 While every effort is made to keep Pie UI within ArenaNet's current policies, the use of any third-party software is at the sole discretion of the player. The developer of this addon is not responsible for any actions taken against your account. ArenaNet's policies are subject to change without notice; stay informed and decide for yourself whether you are comfortable with the risks of using third-party programs.
 
-## Installation
-
-Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
-
-**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template and URL links work either way.
+</details>
 
 ## For addon developers
 
@@ -181,3 +204,4 @@ See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
 ## Credits
 
 Inline chat emoji use the [Twemoji](https://github.com/jdecked/twemoji) graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN, with shortcode names from [gemoji](https://github.com/github/gemoji) (MIT).
+</content>
