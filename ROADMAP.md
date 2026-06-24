@@ -46,8 +46,6 @@ further is being explored:
 - 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
 ### Chat & Tyrian IM
-- 📋 **Item & material counts** — show how many of an item you own (inventory / bank / material
-  storage) in its link tooltip, like the native chat does.
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
 - 💡 **Richer name hover tooltips** — account names already show on hover; still exploring class and
   current map (online only).

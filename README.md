@@ -20,6 +20,8 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 
 ![Chat box: item links with a live tooltip, class icons and tabs](screenshots/chatbox2.png)
 
+![Item link tooltip: live trading-post prices and how many of the item you own](screenshots/tooltip.png)
+
 ![Chat box: waypoint links, unread-count tabs and the send bar](screenshots/chatbox3.png)
 
 ![The Pie UI chat box alongside the native chat](screenshots/chatbox.png)
@@ -93,6 +95,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Map service badges** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, drawn as icons with hover tooltips.
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
 - **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
+- **Commander squad markers** — the commander's tactical marker shapes on the minimap: both the **placed ground markers** and the **target markers** pinned to a specific enemy, player or object — which track their target live and disappear when the commander clears them or the target is defeated.
 - Map-completion tinting for mastery insights, pulled live from the GW2 API.
 
 ### Bottom-line strip
@@ -103,13 +106,14 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Replacement chat box
 - A movable, resizable chat panel with a fully **interactive tab strip**: rename tabs, pick which channels each shows (including guilds G1–G6), drag to reorder, and unread `(N)` badges.
-- Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon and live vendor/trading-post prices, **skill** links with a full tooltip, and **build template** links that open the native build window.
+- Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon, live vendor/trading-post prices and **how many you own** (inventory, bank and material storage), **skill** links with a full tooltip, and **build template** links that open the native build window.
 - Real **guild tags** on guild lines, **class/elite-spec icons** and **commander/lieutenant tags** on party/squad members' messages, and **timestamps** (12/24h).
 - Per-channel three-colour styling (name / sender / text) and four font-size presets.
 - **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
 - **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, add / remove friend, block, and invite to party / squad**.
 - A live **character counter** against GW2's 199-character line limit, so a long message is never silently truncated on send.
 - Optional **system & emote lines** (the game's yellow notices) shown inline in the chat box.
+- **Inline emoji**: type Discord-style shortcodes like `:wave:` `:pie:` `:sob:` and they render as little Twemoji images in the chat box and Tyrian IM. As you type a code a **suggestion list** pops up (arrows + Tab/Enter to pick), or click the **emoji button** to browse and search a full picker — right-click any emoji to pin it to a row of **favourites**. The message still sends as plain text, so players without Pie UI just see the shortcode.
 
 ### Tyrian IM — built-in messenger
 - A per-contact whisper messenger (an evolution of the standalone Tyrian IM), with a conversation list, chat bubbles, and a reply box.
@@ -166,6 +170,14 @@ Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your
 
 **Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template and URL links work either way.
 
+## For addon developers
+
+Pie UI exposes a small, optional cross-addon API over the Nexus event bus — for example, another addon can ask Pie UI to open and pan the world map to a waypoint/PoI chat link. See **[INTEGRATION.md](INTEGRATION.md)** for the event contract and a worked example.
+
 ## Roadmap
 
 See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
+
+## Credits
+
+Inline chat emoji use the [Twemoji](https://github.com/jdecked/twemoji) graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN, with shortcode names from [gemoji](https://github.com/github/gemoji) (MIT).
