@@ -14,8 +14,8 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, and a right-click player menu.
 - **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
 - **Minimap** — resource-node markers, map-service badges, a floor / layer system, live party / squad dots, and the commander's **squad markers**.
-- **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, and a per-contact messenger.
-- **Themes, quick-toggles & native-UI hiding** — drag-to-place widgets, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
+- **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
+- **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
 
 ![Squad and party frames](screenshots/squad.png)
 
@@ -107,6 +107,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Live health bars** for members on your map, with a configurable **high → mid → low** colour gradient (or profession colours), a **downed** state, and a **Necromancer shroud** life-force overlay. Out-of-range members show a neutral bar. *(Read-only; health is PvE-only — disabled in WvW / PvP.)*
 - Your own row is highlighted, and members in another map instance are dimmed.
 - Theme-tinted background with an accent border; configurable cell size, columns, fonts, and colours.
+- *Requires the **RealTime API** (RTAPI) addon — a Raidcore addon installable from the [Nexus](https://raidcore.gg/Nexus) addon library — which supplies the party/squad roster. Without it the panel stays empty, and Pie UI shows a reminder in the frame and on the Squad settings tab.*
 
 ### Minimap
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
@@ -129,7 +130,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Real **guild tags** on guild lines, **class/elite-spec icons** and **commander/lieutenant tags** on party/squad members' messages, and **timestamps** (12/24h).
 - Per-channel three-colour styling (name / sender / text) and four font-size presets.
 - **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
-- **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, add / remove friend, block, and invite to party / squad**.
+- **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, add / remove friend, block, invite to party / squad, send mail, and report** — *Send mail* and *Report* open the game's own mail-compose and Conduct Report windows pre-filled with that player, so you finish in the native UI.
 - A live **character counter** against GW2's 199-character line limit, so a long message is never silently truncated on send.
 - Optional **system & emote lines** (the game's yellow notices) shown inline in the chat box.
 - **Inline emoji**: type Discord-style shortcodes like `:wave:` `:pie:` `:sob:` and they render as little Twemoji images in the chat box and Tyrian IM. As you type a code a **suggestion list** pops up (arrows + Tab/Enter to pick), or click the **emoji button** to browse and search a full picker — right-click any emoji to pin it to a row of **favourites**. The message still sends as plain text, so players without Pie UI just see the shortcode.
@@ -148,6 +149,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### General
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
+- **Custom fonts** — choose the font for all of Pie UI's text: the Guild Wars 2 default, the bundled **Inter**, or your own **`.ttf`** files dropped into the addon's `fonts` folder. Crisp **free pixel sizing** for TrueType faces, with optional **per-window overrides** (Chat, Messenger, Bottom Line, Squad Frames, Consumables).
 - Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
 - **Theme-coloured chrome** — widget borders follow the active theme's accent colour for a consistent look across the whole UI.
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
@@ -203,5 +205,13 @@ See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
 
 ## Credits
 
-Inline chat emoji use the [Twemoji](https://github.com/jdecked/twemoji) graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN, with shortcode names from [gemoji](https://github.com/github/gemoji) (MIT).
-</content>
+Pie UI is built with the help of these third-party libraries, tools and assets:
+
+- **[Dear ImGui](https://github.com/ocornut/imgui)** by Omar Cornut — the immediate-mode GUI that renders Pie UI's in-game interface. (MIT)
+- **[nlohmann/json](https://github.com/nlohmann/json)** — JSON parsing for settings storage. (MIT)
+- **[Nexus](https://github.com/RaidcoreGG/Nexus)** by Raidcore — the addon host platform Pie UI runs on, which also provides **[MinHook](https://github.com/TsudaKageyu/minhook)** (BSD-2-Clause) for safe game-function hooking.
+- **[Twemoji](https://github.com/jdecked/twemoji)** (jdecked fork) — the inline chat emoji graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN.
+- **[gemoji](https://github.com/github/gemoji)** — `:shortcode:` name data for the chat emoji. (MIT)
+- **Guild Wars 2 API & Wiki** — item, map and icon data is sourced from the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main) and the [Guild Wars 2 Wiki](https://wiki.guildwars2.com/).
+
+Guild Wars 2 and all related assets are © [ArenaNet, LLC](https://www.arena.net/) and NCSOFT Corporation. Pie UI is an unofficial, fan-made addon and is not affiliated with or endorsed by ArenaNet.
