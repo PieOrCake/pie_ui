@@ -4,35 +4,45 @@ Pie UI exposes a small cross-addon API over the **Nexus event bus** (`Events_Rai
 `Events_Subscribe`). It is an **optional dependency**: if Pie UI isn't installed, raising one of
 these events simply does nothing, so your addon never needs a hard dependency on it.
 
-All events are plain Nexus events — no shared headers or linking required.
+All events are plain Nexus events — no shared headers or linking required. (The event-name constants
+are also published in [`PieUiAPI.h`](PieUiAPI.h) if you'd rather include them than hard-code strings.)
 
 ---
 
-## Open / pan the world map to a waypoint or PoI
+## Open a chat link (perform its native action)
 
-Ask Pie UI to open the world map and pan it to a waypoint / Point of Interest, exactly as clicking a
-native waypoint chat link does. The user still clicks the point to travel — **Pie UI never travels
-for you**, and it makes no change to game state beyond opening and panning the map.
+Hand Pie UI any GW2 chat link and it performs that link's native action on the game thread — exactly
+as clicking the same link in chat would. Nothing here travels the player or changes account state;
+every action is a read-only window the user could open themselves:
+
+| Chat link | What Pie UI does |
+|---|---|
+| waypoint / PoI | opens and pans the world map to it (you still click to travel) |
+| wardrobe template | opens the native Wardrobe Template window |
+| build template | opens the native build window |
+| item / skin / outfit | opens the native wardrobe preview |
 
 | | |
 |---|---|
-| **Event** | `EV_PIEUI_OPEN_MAP` |
+| **Event** | `EV_PIEUI_OPEN_CHATLINK` |
 | **Direction** | your addon **raises** it; Pie UI listens |
-| **Payload** | a pointer to a null-terminated `"[&...]"` waypoint/PoI chat-link string |
+| **Payload** | a pointer to a null-terminated `"[&...]"` chat-link string |
 | **Reply** | none |
 
-Pie UI decodes the PoI id from the chat link itself, so you only need the link string — no decoding
-on your side. A non-map or malformed link is ignored silently.
+Pie UI decodes the link type and id itself, so you only need the link string — no decoding on your
+side. Any unsupported, malformed, or non-terminated input is ignored silently.
 
 ```cpp
-// `code` is a waypoint/PoI chat link, e.g. "[&BKgBAAA=]".
+// `code` is any chat link, e.g. a waypoint "[&BKgBAAA=]" or a wardrobe template "[&Cg...]".
 // Nexus delivers events synchronously, so a pointer to a local string is valid for the call.
 std::string code = "[&BKgBAAA=]";
-APIDefs->Events_Raise("EV_PIEUI_OPEN_MAP", (void*)code.c_str());
+APIDefs->Events_Raise("EV_PIEUI_OPEN_CHATLINK", (void*)code.c_str());
 ```
 
-That single call is all you need. If Pie UI is present it opens + pans the map; if not, nothing
-happens.
+That single call is all you need. If Pie UI is present it performs the action; if not, nothing happens.
+
+> **Legacy:** an older map-only event, `EV_PIEUI_OPEN_MAP`, still works (it acts only on
+> waypoint/PoI links). New callers should prefer `EV_PIEUI_OPEN_CHATLINK`.
 
 ---
 

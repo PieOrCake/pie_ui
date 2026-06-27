@@ -126,7 +126,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Replacement chat box
 - A movable, resizable chat panel with a fully **interactive tab strip**: rename tabs, pick which channels each shows (including guilds G1–G6), drag to reorder, and unread `(N)` badges.
-- Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon, live vendor/trading-post prices and **how many you own** (inventory, bank and material storage), **skill** links with a full tooltip, and **build template** links that open the native build window.
+- Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon, live vendor/trading-post prices and **how many you own** (inventory, bank and material storage), **skill** links with a full tooltip, **build template** links that open the native build window, and **wardrobe template** links that open the native Wardrobe Template window.
 - Real **guild tags** on guild lines, **class/elite-spec icons** and **commander/lieutenant tags** on party/squad members' messages, and **timestamps** (12/24h).
 - Per-channel three-colour styling (name / sender / text) and four font-size presets.
 - **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
@@ -164,7 +164,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
 
-**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template and URL links work either way.
+**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template, wardrobe-template and URL links work either way.
 
 ## Addon Policy
 
@@ -197,7 +197,7 @@ While every effort is made to keep Pie UI within ArenaNet's current policies, th
 
 ## For addon developers
 
-Pie UI exposes a small, optional cross-addon API over the Nexus event bus — for example, another addon can ask Pie UI to open and pan the world map to a waypoint/PoI chat link. See **[INTEGRATION.md](INTEGRATION.md)** for the event contract and a worked example.
+Pie UI exposes a small, optional cross-addon API over the Nexus event bus — another addon can hand Pie UI any `[&...]` chat link and have it perform that link's native action: open and pan the world map to a waypoint, open the Wardrobe Template or build window, or preview an item / skin. See **[INTEGRATION.md](INTEGRATION.md)** for the event contract and a worked example.
 
 ## Roadmap
 
