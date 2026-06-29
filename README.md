@@ -67,7 +67,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 ### Profession & pet bars
 - **Profession bar** (F1–F7) that auto-fits your specialisation's mechanics.
 - **Elementalist attunement highlight** — the active element's F-slot is enlarged with a thick, element-coloured border, matching the native UI.
-- **Pet / mech control bar** for Rangers and Mechanists: live pet skills with cooldowns, a creature HP bar, and command buttons (attack, return, swap, combat toggle).
+- **Pet / mech control bar** for Rangers and Mechanists: live pet skills with cooldowns, a creature HP bar, and command buttons (attack, return, swap, and a Guard / Avoid-Combat toggle that mirrors the pet's current stance).
 - Optional pet HP readout on the reticle HUD, beside your own health.
 
 ### Profession resource bar
@@ -79,7 +79,9 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Conduit** — **Affinity** stacks, shown as pulsing pips beside the energy bar.
 - **Warrior** — **Adrenaline**, as segmented bars.
 - **Thief** — **Initiative** (all specs), shown as native-style diamond pips; **Specter** adds a **Shadow Force** bar and **Deadeye** a segmented **Malice** bar below the pips.
-- **Ranger** — **Galeshot** arrow charges.
+- **Engineer** — **Holosmith** Photon Forge heat, a native-style blue→amber→red gradient bar.
+- **Ranger** — **Galeshot** arrow charges and **Druid** astral force.
+- **Elementalist** — **Catalyst** energy, as segmented sphere charges.
 
 ### Mounted hotbar
 - Per-mount skill layouts with the correct icons and keybind labels, shown automatically while mounted.
@@ -122,6 +124,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
 - A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
 - **Multi-currency wallet** — pick which currencies the wallet shows (gold plus any others: Karma, Volatile Magic, Bandit Crests, …), each with its own icon and balance.
+- **Quick Toggles** — an optional strip widget of show/hide chips for the Pie UI / native elements you choose, plus a lock/unlock control; click a chip to switch it Off / Pie UI / Native / Both.
 - Choose which readouts appear, arrange them left / centre / right, and colour each one — with an optional **theme-coloured border**.
 
 ### Replacement chat box
@@ -143,7 +146,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Quick-toggle bar & native-UI hiding
 - One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, and party / squad frames — so a Pie UI widget cleanly replaces the game's own.
-- A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible.
+- A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible. The same toggles are also available as a **Quick Toggles** widget you can add to the Bottom Line strip.
 - In WvW / PvP the native elements are kept visible automatically (Pie UI's competitive-locked widgets are suppressed there, so you're never left without a HUD).
 - Pie UI draws *replacements*, not overlays that erase the originals, and hiding goes through the game's own frame interface — so the addon never touches the render path and stays policy-safe.
 

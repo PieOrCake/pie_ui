@@ -24,9 +24,9 @@ icon**, a skills / title line, and a **right-click player context menu** (see th
 ### Profession & pet bars
 - 📋 **Deeper mechanic bars** — richer per-profession treatments for kits, transforms, and the like.
 - 📋 **More profession resources** — the resource bar covers Necromancer, Mesmer, Guardian, Revenant
-  (incl. Conduit), Ranger Galeshot, Warrior adrenaline, and Thief initiative / Specter Shadow Force
-  today; still to come are Engineer heat / Holosmith, Elementalist Catalyst energy, Ranger Druid
-  astral force, and the remaining new elite-spec mechanics (Paragon Motivation, Galeshot Wind Force, …).
+  (incl. Conduit), Warrior adrenaline, Thief initiative / Specter Shadow Force, Holosmith heat, Druid
+  astral force, Catalyst energy, and Ranger Galeshot today; still to come are the remaining new
+  elite-spec mechanics (Paragon Motivation, Galeshot Wind Force, Conduit Affinity, Evoker charges, …).
 
 ### Boon, condition & effect bars
 - 📋 **Complete "everything else" coverage** — match the native effects bar exactly, including food,
