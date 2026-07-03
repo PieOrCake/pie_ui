@@ -154,6 +154,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
 - **Custom fonts** — choose the font for all of Pie UI's text: the Guild Wars 2 default, the bundled **Inter**, or your own **`.ttf`** files dropped into the addon's `fonts` folder. Crisp **free pixel sizing** for TrueType faces, with optional **per-window overrides** (Chat, Messenger, Bottom Line, Squad Frames, Consumables).
 - Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
+- **Layout Profiles** — save your whole arrangement as **named layouts** and switch between them from the Layouts tab, the quick-toggle bar, the Bottom Line, or a keybind. Bind a layout to **Fractals, Raids or competitive maps** and Pie UI switches to it automatically as you come and go.
 - **Theme-coloured chrome** — widget borders follow the active theme's accent colour for a consistent look across the whole UI.
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
@@ -200,7 +201,12 @@ While every effort is made to keep Pie UI within ArenaNet's current policies, th
 
 ## For addon developers
 
-Pie UI exposes a small, optional cross-addon API over the Nexus event bus — another addon can hand Pie UI any `[&...]` chat link and have it perform that link's native action: open and pan the world map to a waypoint, open the Wardrobe Template or build window, or preview an item / skin. See **[INTEGRATION.md](INTEGRATION.md)** for the event contract and a worked example.
+Pie UI exposes a small, optional cross-addon API over the Nexus event bus:
+
+- **Open a chat link** — hand Pie UI any `[&...]` chat link and it performs that link's native action: open and pan the world map to a waypoint, open the Wardrobe Template or build window, or preview an item / skin.
+- **Match its theme** — Pie UI broadcasts its full active ImGui colour palette (plus a signature accent colour) so your addon can match its look automatically, updating whenever the user changes theme or trim.
+
+Both are optional no-ops when Pie UI isn't installed, so you never need a hard dependency. See **[INTEGRATION.md](INTEGRATION.md)** for the event contracts and worked examples; the event names and the theme struct are published in **[PieUiAPI.h](PieUiAPI.h)**.
 
 ## Roadmap
 
