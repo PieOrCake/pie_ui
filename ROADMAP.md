@@ -43,7 +43,6 @@ further is being explored:
 - 🔨 **Live event markers** — dynamic events and hearts shown on the minimap.
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
-- 💡 **Heart completion icons** — distinct icons for completed vs. incomplete renown hearts.
 
 ### Chat & Tyrian IM
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.

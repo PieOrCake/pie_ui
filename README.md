@@ -118,7 +118,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
 - **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
 - **Commander squad markers** — the commander's tactical marker shapes on the minimap: both the **placed ground markers** and the **target markers** pinned to a specific enemy, player or object — which track their target live and disappear when the commander clears them or the target is defeated.
-- Map-completion tinting for mastery insights, pulled live from the GW2 API. With the optional [Events: Alerts](https://raidcore.gg/Nexus) addon installed, a freshly collected insight recolours instantly instead of on the next API refresh.
+- **Map-completion markers** — renown hearts, hero challenges, mastery insights and the discovery markers (waypoints, points of interest, vistas) are greyed out until you complete them, then tint to the zone colour, mirroring the game's own map. Completion is read from the optional **Hoard & Seek** addon; without it the markers stay grey. With the optional [Events: Alerts](https://raidcore.gg/Nexus) addon installed, a freshly collected mastery insight recolours instantly instead of on the next refresh.
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
