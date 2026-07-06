@@ -59,7 +59,7 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Live weapon and utility skill icons that follow weapon swaps, kits, transforms, and bundles automatically.
 - **Cooldown sweeps** with countdown numbers and grey-out.
 - **Click-to-cast** — click a skill to fire it; press-and-hold works for channelled skills (e.g. Siege Turtle jets).
-- Keybind labels on each slot, fully rebindable in-app.
+- **Compact keybind labels** on each slot (`Shift+1` shows as `S+1`), fully rebindable in-app.
 - Activation flash and combo/flip animations, plus **theme-coloured slots** with an accent cooldown sweep and an activation glow.
 - A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
 - Separate, independently placeable groups for weapons and utilities.
@@ -135,7 +135,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
 - **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, set as target, inspect cosmetics, add / remove friend, block, invite to party / squad, send mail, and report** — *Set as target* picks a nearby player out of the crowd (e.g. a /say speaker) when they're streamed in, and *Send mail* / *Report* open the game's own mail-compose and Conduct Report windows pre-filled with that player, so you finish in the native UI.
 - A live **character counter** against GW2's 199-character line limit, so a long message is never silently truncated on send.
-- Optional **system & emote lines** (the game's yellow notices) shown inline in the chat box.
+- Optional **system & emote lines** shown inline — the game's yellow notices **and standard emotes** (`/dance`, `/wave`, …) that most chat addons drop — with a per-tab **item-pickup** filter (off by default, since loot can be spammy).
 - **Inline emoji**: type Discord-style shortcodes like `:wave:` `:pie:` `:sob:` and they render as little Twemoji images in the chat box and Tyrian IM. As you type a code a **suggestion list** pops up (arrows + Tab/Enter to pick), or click the **emoji button** to browse and search a full picker — right-click any emoji to pin it to a row of **favourites**. The message still sends as plain text, so players without Pie UI just see the shortcode.
 
 ### Tyrian IM — built-in messenger
@@ -159,6 +159,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
+- **Search in Wiki from your inventory** — right-click any item in your inventory, bank or material storage for a **Search in Wiki** option (plus **Search in Hoard & Seek** when that addon is present).
 - Settings persist in a versioned `pieui.json` that survives updates.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
