@@ -11,7 +11,7 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Player vitals & skill bars** — HP, barrier and endurance in four styles, live cooldown sweeps with countdowns, and **click-to-cast**.
 - **Profession mechanics** — an auto-fitting F1–F7 profession bar, pet / mech control, and **per-specialisation resource bars for every profession**.
 - **Boon, condition & effect bars** — your live effects across three placeable sections, with stack counts and countdowns.
-- **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, and a right-click player menu.
+- **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, a right-click player menu, and optional floating bars for the **target's boons and conditions**.
 - **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
 - **Minimap** — resource-node markers, map-service badges, a floor / layer system, live party / squad dots, and the commander's **squad markers**.
 - **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
@@ -100,6 +100,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Attitude colouring** — the bar is tinted by the target's disposition (hostile / neutral / friendly), and turns hostile the moment you engage a neutral mob. All colours are configurable.
 - **Defiance / break bar** that mirrors the native one: **blue** when intact and ready to break, **orange/gold** while it regenerates back to full — with its own colour choosers.
 - **Right-click a player target** for a context menu — whisper, invite to party / squad, add friend, and group actions (kick, vote-to-kick) where applicable.
+- **Account on hover** — hovering a resolved player target shows their account handle (and contact nickname).
+- **Target boon & condition bars** — optional floating strips that mirror the native frame, showing the target's **boons** and **conditions** (icons, stack counts and countdowns) for enemy mobs and bosses. Each strip is independently placeable and styled, sharing the same layout options as your own effect bars. Enable them on the Target settings tab.
 - Also works on **objects and gadgets** that have health (siege, cannons, attackable structures).
 
 ### Squad & party frames
@@ -159,7 +161,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
-- **Search in Wiki from your inventory** — right-click any item in your inventory, bank or material storage for a **Search in Wiki** option (plus **Search in Hoard & Seek** when that addon is present).
+- **Extra item right-click actions** — right-click any item in your inventory, bank or material storage for **Copy Name**, **Copy Chatcode**, and **Search in Wiki** (plus **Search in Hoard & Seek** when that addon is present).
 - Settings persist in a versioned `pieui.json` that survives updates.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
