@@ -30,8 +30,8 @@ icon**, a skills / title line, and a **right-click player context menu** (see th
   mechanics (the second Evoker ring, …).
 
 ### Boon, condition & effect bars
-- 📋 **Complete "everything else" coverage** — match the native effects bar exactly, including food,
-  utility, and banner effects.
+- 📋 **Complete "everything else" coverage** — match the native effects bar exactly. Food and utility
+  (nourishment) buffs now show; banner and other niche effects are still to come.
 
 ### Squad & party frames
 The frames show each member's class, name, commander tag, **live health** (PvE, in-map), and now **dim

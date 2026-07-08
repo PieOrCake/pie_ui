@@ -90,6 +90,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Three independently placeable sections — **boons**, **conditions**, and **everything else** — showing your live effects.
 - Per-section display: icons only, duration bars only, or icons with bars.
 - Stack counts, live countdown timers, orientation and wrapping all configurable.
+- **Food & utility buffs** appear in the everything-else section with their nourishment icons (apple / wrench), including the **Malnourished / Diminished** reminders that nudge you to re-buff when they run out.
 
 ### Target frame
 - A positionable bar showing your current target's health percentage.
@@ -147,7 +148,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Right-click a name in the chat box (or use "Whisper") to open the conversation straight away.
 
 ### Quick-toggle bar & native-UI hiding
-- One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, and party / squad frames — so a Pie UI widget cleanly replaces the game's own.
+- One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, party / squad frames, and the **mount skill bar** (including the skiff steering bar) — so a Pie UI widget cleanly replaces the game's own.
 - A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible. The same toggles are also available as a **Quick Toggles** widget you can add to the Bottom Line strip.
 - In WvW / PvP the native elements are kept visible automatically (Pie UI's competitive-locked widgets are suppressed there, so you're never left without a HUD).
 - Pie UI draws *replacements*, not overlays that erase the originals, and hiding goes through the game's own frame interface — so the addon never touches the render path and stays policy-safe.
@@ -161,7 +162,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
-- **Extra item right-click actions** — right-click any item in your inventory, bank or material storage for **Copy Name**, **Copy Chatcode**, and **Search in Wiki** (plus **Search in Hoard & Seek** when that addon is present).
+- **Extra item right-click actions** — right-click any item in your inventory, bank or material storage for **Copy Name**, **Copy Chatcode**, and **Search in Wiki** — opened in your game's language (plus **Search in Hoard & Seek** when that addon is present).
 - Settings persist in a versioned `pieui.json` that survives updates.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
