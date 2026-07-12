@@ -226,5 +226,6 @@ Pie UI is built with the help of these third-party libraries, tools and assets:
 - **[Twemoji](https://github.com/jdecked/twemoji)** (jdecked fork) — the inline chat emoji graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN.
 - **[gemoji](https://github.com/github/gemoji)** — `:shortcode:` name data for the chat emoji. (MIT)
 - **Guild Wars 2 API & Wiki** — item, map and icon data is sourced from the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main) and the [Guild Wars 2 Wiki](https://wiki.guildwars2.com/).
+- **[maps.gw2.io](https://github.com/Snappey/maps.gw2.io)** by Snappey — the minimap's auto-marker locations (vendors, portals, crafting stations, adventures) are derived from its open-source dataset. (open source)
 
 Guild Wars 2 and all related assets are © [ArenaNet, LLC](https://www.arena.net/) and NCSOFT Corporation. Pie UI is an unofficial, fan-made addon and is not affiliated with or endorsed by ArenaNet.
