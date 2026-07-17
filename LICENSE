@@ -35,6 +35,16 @@ This permission does not let you sell Pie UI, charge others for access to it, or
 bundle it into a paid product or service — see Restrictions below.
 
 
+Distribution via Raidcore / Nexus
+---------------------------------
+The author grants Raidcore and the Nexus addon library (raidcore.gg) permission
+to list, host, and distribute the Pie UI addon, unmodified and free of charge,
+to end users through their platform. This permission is limited to distribution
+of the addon as released by the author; it conveys no right to modify, sell, or
+reverse engineer Pie UI, and does not affect any other restriction in this
+licence.
+
+
 Restrictions
 ------------
 Except as expressly permitted above, you may not copy, modify, redistribute,
