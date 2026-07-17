@@ -116,6 +116,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Minimap
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
+- **Farming Overlay Mode** — a one-click *radar* view: strips away tiles, border and every other layer to show just gathering nodes and your bookmarks around a facing-locked centre. It's a transparent, **click-through** overlay you park over your reticle to spot nearby nodes while you play — clicks, drags and the wheel all pass straight to the game, and hovering a node or bookmark still names it. Saved per layout, so a dedicated farming layout switches it on and off with your other HUD.
 - **Node-name tooltips** — hover a node to see exactly what it is, named automatically by area (e.g. *Cluster of Desert Herbs* across every desert map).
 - **Map service badges** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, drawn as icons with hover tooltips.
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
@@ -227,5 +228,6 @@ Pie UI is built with the help of these third-party libraries, tools and assets:
 - **[gemoji](https://github.com/github/gemoji)** — `:shortcode:` name data for the chat emoji. (MIT)
 - **Guild Wars 2 API & Wiki** — item, map and icon data is sourced from the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main) and the [Guild Wars 2 Wiki](https://wiki.guildwars2.com/).
 - **[maps.gw2.io](https://github.com/Snappey/maps.gw2.io)** by Snappey — the minimap's auto-marker locations (vendors, portals, crafting stations, adventures) are derived from its open-source dataset. (open source)
+- **[Guild Wars 2 Wiki](https://wiki.guildwars2.com/)** — vendor, scout and adventure coordinates for the minimap's auto-markers are sourced from the wiki's community-maintained NPC data.
 
 Guild Wars 2 and all related assets are © [ArenaNet, LLC](https://www.arena.net/) and NCSOFT Corporation. Pie UI is an unofficial, fan-made addon and is not affiliated with or endorsed by ArenaNet.
