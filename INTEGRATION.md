@@ -7,6 +7,9 @@ these events simply does nothing, so your addon never needs a hard dependency on
 All events are plain Nexus events — no shared headers or linking required. (The event-name constants
 are also published in [`PieUiAPI.h`](PieUiAPI.h) if you'd rather include them than hard-code strings.)
 
+A generated reference for that header — every event, its payload and direction, plus the theme
+struct — is browsable at **<https://pieorcake.github.io/pie_ui/>**.
+
 ---
 
 ## Open a chat link (perform its native action)
