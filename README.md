@@ -13,9 +13,12 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Boon, condition & effect bars** — your live effects across three placeable sections, with stack counts and countdowns.
 - **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, a right-click player menu, and optional floating bars for the **target's boons and conditions**.
 - **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
-- **Minimap** — resource-node markers, map-service badges, a floor / layer system, live party / squad dots, and the commander's **squad markers**.
+- **Minimap** — live map-service markers read from the game itself, resource-node markers, a floor / layer system, click-a-waypoint travel, live party / squad / guild dots, and the commander's **squad markers**.
+- **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
+- **Nameplate class icons** — profession and elite-spec icons drawn on the game's own nameplates, in gold or tango style.
 - **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
 - **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
+- **Stays out of the way** — Pie UI's widgets clip behind open Guild Wars 2 windows instead of drawing across them.
 
 ![Squad and party frames](screenshots/squad.png)
 
@@ -63,6 +66,13 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Activation flash and combo/flip animations, plus **theme-coloured slots** with an accent cooldown sweep and an activation glow.
 - A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
 - Separate, independently placeable groups for weapons and utilities.
+- A **cast bar** showing the skill you are currently casting, with its name.
+- A sustained **"ability is running"** cue, and a slot flash when a skill actually fires rather than when you press the key. When the bar has nothing to show it says why instead of vanishing.
+
+### Nameplate class icons
+- Profession and **elite-specialisation** icons drawn onto the game's own nameplates, so you can read a crowd at a glance.
+- Two art styles, **gold** or **tango**, chosen independently for each place icons appear.
+- Configurable size, opacity, draw distance, and placement beside or above the name. They clip correctly out of open native panels.
 
 ### Profession & pet bars
 - **Profession bar** (F1–F7) that auto-fits your specialisation's mechanics.
@@ -96,7 +106,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - A positionable bar showing your current target's health percentage.
 - **Target name** — players show their account or character name (with **guild name and tag** when they're repping); NPCs, creatures and objects show their own name.
 - **Level** — or, for level-80 players, their **mastery rank** in gold, just like the native frame.
-- **Class icon** — the target player's profession, upgraded to the **elite-spec** icon for your party / squad members.
+- **Class icon** — the target player's profession, upgraded to the **elite-spec** icon for any player near enough for the game to have loaded them, not just your own party or squad.
 - A **notable-skills / title** line beneath the bar.
 - **Attitude colouring** — the bar is tinted by the target's disposition (hostile / neutral / friendly), and turns hostile the moment you engage a neutral mob. All colours are configurable.
 - **Defiance / break bar** that mirrors the native one: **blue** when intact and ready to break, **orange/gold** while it regenerates back to full — with its own colour choosers.
@@ -111,6 +121,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - Each member shows their **class / elite-spec icon**, **name**, and **commander / lieutenant tag**.
 - **Live health bars** for members on your map, with a configurable **high → mid → low** colour gradient (or profession colours), a **downed** state, and a **Necromancer shroud** life-force overlay. Out-of-range members show a neutral bar. *(Read-only; health is PvE-only — disabled in WvW / PvP.)*
 - Your own row is highlighted, and members in another map instance are dimmed.
+- **Ready checks** show on the frames as they come in, so you can answer without hunting for the native prompt.
+- **Join Squad** from the target frame, the minimap, or the chat menu, including commanders who are not near you.
 - Theme-tinted background with an accent border; configurable cell size, columns, fonts, and colours.
 - *Requires the **RealTime API** (RTAPI) addon — a Raidcore addon installable from the [Nexus](https://raidcore.gg/Nexus) addon library — which supplies the party/squad roster. Without it the panel stays empty, and Pie UI shows a reminder in the frame and on the Squad settings tab.*
 
@@ -118,11 +130,26 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
 - **Farming Overlay Mode** — a one-click *radar* view: strips away tiles, border and every other layer to show just gathering nodes and your bookmarks around a facing-locked centre. It's a transparent, **click-through** overlay you park over your reticle to spot nearby nodes while you play — clicks, drags and the wheel all pass straight to the game, and hovering a node or bookmark still names it. Saved per layout, so a dedicated farming layout switches it on and off with your other HUD.
 - **Node-name tooltips** — hover a node to see exactly what it is, named automatically by area (e.g. *Cluster of Desert Herbs* across every desert map).
-- **Map service badges** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, drawn as icons with hover tooltips.
-- **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support.
+- **Live map service markers** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, read live from the game rather than a fixed list, so they are always current, they include the ones that move around, and they use the game's own icons and names.
+- **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support. Waypoints, points of interest, vistas, hearts and hero points dim when they sit on another floor, and indoor and underground areas draw the game's own interior art.
+- **Click a waypoint to travel** — click one on the minimap and the game's own travel confirmation opens, exactly as it does on the native compass.
+- **Personal markers & bookmarks** — Alt-click anywhere to drop your own marker and Alt-click it again to clear it, or save a spot as a named bookmark with an emoji of your choice and jump back to it later.
+- **Guild members** show as their own dots with a tooltip naming the guild, and nearby **downed or defeated** players are marked using the game's own icons.
+- **Event rings** — each live event's boundary is drawn from the game's own marker, including the tilted ovals, alongside the event icon the game itself picked.
 - **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
 - **Commander squad markers** — the commander's tactical marker shapes on the minimap: both the **placed ground markers** and the **target markers** pinned to a specific enemy, player or object — which track their target live and disappear when the commander clears them or the target is defeated.
 - **Map-completion markers** — renown hearts, hero challenges, mastery insights and the discovery markers (waypoints, points of interest, vistas) are greyed out until you complete them, then tint to the zone colour, mirroring the game's own map. Completion is read from the optional **Hoard & Seek** addon; without it the markers stay grey. With the optional [Events: Alerts](https://raidcore.gg/Nexus) addon installed, a freshly collected mastery insight recolours instantly instead of on the next refresh.
+- **Map art from your own game files** — with the `-shareArchive` launch option set, Pie UI reads map tiles and icons straight out of your Guild Wars 2 archive: sharper art, far fewer downloads, and maps no public source carries (Mistlock Sanctuary, Temple of Febe). Without it everything still works, a few maps just look softer or are unavailable. Pie UI explains this on first run.
+
+### Content Guide
+- A panel that mirrors the game's own event guide, listing what is happening around you right now.
+- **Live events** with their name, level, and the game's own icon, plus **objectives** as they update: counters, lane fractions, health bars for the boss or escort, and the event's own prose line.
+- **Countdowns** for timed events, and a map clock for the maps that run on one.
+- **Meta events** show their child events beneath them, the way the native guide groups them.
+- **Renown hearts** nearby, with their level and progress bar, and your current **story step** with its goal and objective.
+- **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator.
+- **Bonus events and festivals** currently running, with their dates.
+- Collapsible sections, a resizable window, its own font, and a show toggle per section.
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
@@ -164,7 +191,9 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
 - Everything hides automatically on loading screens, character select, and the world map.
 - **Extra item right-click actions** — right-click any item in your inventory, bank or material storage for **Copy Name**, **Copy Chatcode**, and **Search in Wiki** — opened in your game's language (plus **Search in Hoard & Seek** when that addon is present).
+- **Hide behind native windows** — Pie UI's widgets clip out of any open Guild Wars 2 panel (Hero, Inventory, Bank, vendors) instead of drawing across it, and clicks over that panel go to the game.
 - Settings persist in a versioned `pieui.json` that survives updates.
+- If the game ever crashes, Pie UI writes a `crash_report.log` beside its settings naming what faulted and where. Sending that file makes a crash diagnosable instead of guesswork; it records memory addresses and the names of loaded files only, nothing about your character, account or chat.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
 </details>
@@ -226,8 +255,8 @@ Pie UI is built with the help of these third-party libraries, tools and assets:
 - **[Nexus](https://github.com/RaidcoreGG/Nexus)** by Raidcore — the addon host platform Pie UI runs on, which also provides **[MinHook](https://github.com/TsudaKageyu/minhook)** (BSD-2-Clause) for safe game-function hooking.
 - **[Twemoji](https://github.com/jdecked/twemoji)** (jdecked fork) — the inline chat emoji graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN.
 - **[gemoji](https://github.com/github/gemoji)** — `:shortcode:` name data for the chat emoji. (MIT)
-- **Guild Wars 2 API & Wiki** — item, map and icon data is sourced from the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main) and the [Guild Wars 2 Wiki](https://wiki.guildwars2.com/).
-- **[maps.gw2.io](https://github.com/Snappey/maps.gw2.io)** by Snappey — the minimap's auto-marker locations (vendors, portals, crafting stations, adventures) are derived from its open-source dataset. (open source)
-- **[Guild Wars 2 Wiki](https://wiki.guildwars2.com/)** — vendor, scout and adventure coordinates for the minimap's auto-markers are sourced from the wiki's community-maintained NPC data.
+- **Guild Wars 2 API & Wiki** — item, map and icon data is sourced from the official [Guild Wars 2 API](https://wiki.guildwars2.com/wiki/API:Main) and the [Guild Wars 2 Wiki](https://wiki.guildwars2.com/). This includes the menu launcher's panel icons and the minimap's event and map icons, which are Guild Wars 2 game art © ArenaNet.
+- **[assets.gw2dat.com](https://assets.gw2dat.com/)** — icons the game refers to by file id (event, marker and map art) are fetched from this community asset host when they are not already available locally. The artwork is Guild Wars 2 game art © ArenaNet.
+- **[tiles.guildwars2.com](https://tiles.guildwars2.com/)** — ArenaNet's own map tile service, used for minimap tiles that aren't read from your local game archive.
 
 Guild Wars 2 and all related assets are © [ArenaNet, LLC](https://www.arena.net/) and NCSOFT Corporation. Pie UI is an unofficial, fan-made addon and is not affiliated with or endorsed by ArenaNet.

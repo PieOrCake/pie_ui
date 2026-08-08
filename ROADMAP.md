@@ -11,15 +11,12 @@ some are harder than they look. Anything already shipped lives in the [README](R
 ### Target frame
 The target frame now shows health, attitude colouring, a native-style defiance / break bar, the
 target's **name** (with player guild name / tag), **level or mastery rank**, **class / elite-spec
-icon**, a skills / title line, and a **right-click player context menu** (see the
-[README](README.md)). Still to come for full parity:
+icon** (now for any nearby player, not just your group), a skills / title line, and a **right-click
+player context menu** (see the [README](README.md)). Still to come for full parity:
 - 📋 **Rank** indicator (veteran / elite / champion / legendary).
-- 💡 **Elite spec for non-group player targets** — currently the elite-spec icon resolves only for your
-  party / squad members; arbitrary players show the core profession icon (their spec isn't in readable
-  client memory).
 
 ### Skill bars
-- 💡 **Cast bar** showing the skill currently being cast, with its name.
+- 💡 **Out-of-range indicator** — dimming or underlining a skill your current target is too far away for.
 
 ### Profession & pet bars
 - 📋 **Deeper mechanic bars** — richer per-profession treatments for kits, transforms, and the like.
@@ -34,16 +31,18 @@ icon**, a skills / title line, and a **right-click player context menu** (see th
   (nourishment) buffs now show; banner and other niche effects are still to come.
 
 ### Squad & party frames
-The frames show each member's class, name, commander tag, **live health** (PvE, in-map), and now **dim
-out-of-range members**. Going further is being explored:
+The frames show each member's class, name, commander tag, **live health** (PvE, in-map), **ready
+checks**, and now **dim out-of-range members**. Going further is being explored:
 - 💡 **Summon native squad management on demand** — a one-key toggle to pop the native squad panel
   (create / invite / markers) back up while keeping the custom frames in play.
 
-### Minimap
-- 📋 **Event boundary rings** — live event dots already appear on the minimap; the next step is drawing
-  each event's area ring, like the native map.
+### Minimap & Content Guide
+Live service markers, floor awareness, waypoint travel, event rings and the Content Guide all landed
+in 0.9.4.0 (see the [README](README.md)). Next:
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
+- 🔨 **Content Guide polish** — it ships as experimental; achievement rows and a few objective
+  displays still need work.
 
 ### Chat & Tyrian IM
 - 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
