@@ -38,14 +38,18 @@ checks**, and now **dim out-of-range members**. Going further is being explored:
 
 ### Minimap & Content Guide
 Live service markers, floor awareness, waypoint travel, event rings and the Content Guide all landed
-in 0.9.4.0 (see the [README](README.md)). Next:
+in 0.9.4.0. Achievement rows now open the game's own panel, and festival bullets open the world map
+(see the [README](README.md)). Next:
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
-- 🔨 **Content Guide polish** — it ships as experimental; achievement rows and a few objective
-  displays still need work.
+- 🔨 **Content Guide polish** — it still ships as experimental; a few objective displays need work.
+
+### Loot Cascade
+The pickup list landed in 0.9.5.0 with the game's own row text, live owned counts and a hover
+tooltip (see the [README](README.md)). Still to come:
+- 📋 **Equipment icons** — armour and weapon rows draw their name but not yet their art.
 
 ### Chat & Tyrian IM
-- 💡 **Contacts / friends panel** — a floating list of your contacts with quick whisper access.
 - 💡 **Richer name hover tooltips** — account names already show on hover; still exploring class and
   current map (online only).
 

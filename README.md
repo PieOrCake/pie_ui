@@ -15,6 +15,7 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
 - **Minimap** — live map-service markers read from the game itself, resource-node markers, a floor / layer system, click-a-waypoint travel, live party / squad / guild dots, and the commander's **squad markers**.
 - **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
+- **Loot Cascade** — the pickup list, in the Pie UI theme and wherever you want it: item, coin and currency rows in rarity colour, and a hover tooltip showing what you picked up plus how many you already own in your bags, bank and material storage.
 - **Nameplate class icons** — profession and elite-spec icons drawn on the game's own nameplates, in gold or tango style.
 - **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
 - **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
@@ -68,6 +69,14 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Separate, independently placeable groups for weapons and utilities.
 - A **cast bar** showing the skill you are currently casting, with its name.
 - A sustained **"ability is running"** cue, and a slot flash when a skill actually fires rather than when you press the key. When the bar has nothing to show it says why instead of vanishing.
+- **Swap a skill without opening a panel** — right-click a utility slot for a grid of the skills that character actually has, and click one to equip it. Revenant legends and the Evoker's familiar work the same way.
+
+### Loot Cascade
+- Pie UI's own version of the pickup list that runs up the side of the screen, in your theme and wherever you place it.
+- Item rows in **rarity colour** with the game's own art, coin rows tinted by their largest denomination, and currency rows — all named with the game's own text, so quantities and plurals read exactly as they do natively.
+- Runs as a **conveyor** like the game's own: quiet pickups drift, a trophy-box flood moves fast and drains as it clears. The window's size decides how many rows you see. It can run **downward** like the native list or **upward**, for a list placed low on the screen.
+- **Hover a row** for the full item tooltip — icon, rarity, description, binding, vendor value, trading-post prices — plus how many you own in your **bags, bank and material storage**, read live from the game. The list holds still while you read.
+- Optional panel background, icon on either side, repeats combined into one counted row, and a one-click hide of the game's own list.
 
 ### Nameplate class icons
 - Profession and **elite-specialisation** icons drawn onto the game's own nameplates, so you can read a crowd at a glance.
@@ -122,6 +131,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Live health bars** for members on your map, with a configurable **high → mid → low** colour gradient (or profession colours), a **downed** state, and a **Necromancer shroud** life-force overlay. Out-of-range members show a neutral bar. *(Read-only; health is PvE-only — disabled in WvW / PvP.)*
 - Your own row is highlighted, and members in another map instance are dimmed.
 - **Ready checks** show on the frames as they come in, so you can answer without hunting for the native prompt.
+- **Vote-to-kick prompts** are replaced with a Pie UI one that names the player being voted on and who called it, with their character, level and class, so you know what you are voting on before you answer.
 - **Join Squad** from the target frame, the minimap, or the chat menu, including commanders who are not near you.
 - Theme-tinted background with an accent border; configurable cell size, columns, fonts, and colours.
 - *Requires the **RealTime API** (RTAPI) addon — a Raidcore addon installable from the [Nexus](https://raidcore.gg/Nexus) addon library — which supplies the party/squad roster. Without it the panel stays empty, and Pie UI shows a reminder in the frame and on the Squad settings tab.*
@@ -147,8 +157,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Countdowns** for timed events, and a map clock for the maps that run on one.
 - **Meta events** show their child events beneath them, the way the native guide groups them.
 - **Renown hearts** nearby, with their level and progress bar, and your current **story step** with its goal and objective.
-- **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator.
-- **Bonus events and festivals** currently running, with their dates.
+- **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator. **Click one to open the game's own achievement panel** at that achievement.
+- **Bonus events and festivals** currently running, with their dates and the game's own bullet lines for what each one offers. **Click a bullet** to open the world map where it happens.
 - Collapsible sections, a resizable window, its own font, and a show toggle per section.
 
 ### Bottom-line strip
