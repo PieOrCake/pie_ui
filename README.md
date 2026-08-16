@@ -16,6 +16,8 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Minimap** — live map-service markers read from the game itself, resource-node markers, a floor / layer system, click-a-waypoint travel, live party / squad / guild dots, and the commander's **squad markers**.
 - **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
 - **Loot Cascade** — the pickup list, in the Pie UI theme and wherever you want it: item, coin and currency rows in rarity colour, and a hover tooltip showing what you picked up plus how many you already own in your bags, bank and material storage.
+- **Notification toasts** — the game's achievement, reward and unlock pop-ups redrawn in your theme and placed where you want them, and still clickable: an achievement opens its panel, a skin or outfit opens the game's own preview.
+- **Mount, novelty & mastery buttons** — Pie UI replacements for the native always-on buttons, each with a picker showing only what your account actually owns.
 - **Nameplate class icons** — profession and elite-spec icons drawn on the game's own nameplates, in gold or tango style.
 - **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
 - **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
@@ -67,9 +69,12 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Activation flash and combo/flip animations, plus **theme-coloured slots** with an accent cooldown sweep and an activation glow.
 - A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
 - Separate, independently placeable groups for weapons and utilities.
-- A **cast bar** showing the skill you are currently casting, with its name.
+- A **cast bar** showing the skill you are currently casting, with its name. It also fills for the things that are not skills — opening a chest, gathering a node, reviving — using the game's own channel duration, so the bar runs at the real speed rather than an estimate.
 - A sustained **"ability is running"** cue, and a slot flash when a skill actually fires rather than when you press the key. When the bar has nothing to show it says why instead of vanishing.
-- **Swap a skill without opening a panel** — right-click a utility slot for a grid of the skills that character actually has, and click one to equip it. Revenant legends and the Evoker's familiar work the same way.
+- **Swap a skill without opening a panel** — right-click a utility slot for a grid of the skills that character actually has, and click one to equip it. This works on an **empty slot** too, so a slot you have just unlocked can be filled without opening the Hero panel. Revenant legends, the Evoker's familiar and Amalgam morphs work the same way.
+- **Slots you have not unlocked yet are dimmed**, read from the game rather than assumed from your level, so a levelling character can see at a glance what is still to come.
+- **Out-of-range underline** — a red underline on a skill your current target is too far away for, matching the native cue.
+- **Ctrl+right-click a weapon slot** to move the auto-attack there, which works in combat where the native menu does not.
 
 ### Loot Cascade
 - Pie UI's own version of the pickup list that runs up the side of the screen, in your theme and wherever you place it.
@@ -77,6 +82,11 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Runs as a **conveyor** like the game's own: quiet pickups drift, a trophy-box flood moves fast and drains as it clears. The window's size decides how many rows you see. It can run **downward** like the native list or **upward**, for a list placed low on the screen.
 - **Hover a row** for the full item tooltip — icon, rarity, description, binding, vendor value, trading-post prices — plus how many you own in your **bags, bank and material storage**, read live from the game. The list holds still while you read.
 - Optional panel background, icon on either side, repeats combined into one counted row, and a one-click hide of the game's own list.
+
+### Notification toasts
+- Pie UI's version of the pop-ups the game shows for achievements, rewards, unlocks and level-ups — in your theme, at a size and position you choose, with a one-click hide of the game's own.
+- Each toast carries its **theme trim** and highlights under the cursor, and long titles wrap instead of running out of the box.
+- **Toasts stay clickable**, doing what the native one does: an achievement opens the achievement panel at that achievement, and a skin or outfit opens the game's own preview window.
 
 ### Nameplate class icons
 - Profession and **elite-specialisation** icons drawn onto the game's own nameplates, so you can read a crowd at a glance.
@@ -104,6 +114,13 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Mounted hotbar
 - Per-mount skill layouts with the correct icons and keybind labels, shown automatically while mounted.
+- Mount skills your account has not unlocked the mastery for are **hidden rather than shown dead**, so the bar matches what you can actually use.
+
+### Mount, novelty & mastery buttons
+- Pie UI versions of the native always-on buttons, each placeable and themed like the rest of the HUD.
+- **Mount** — a picker of the mounts on your account; click one to summon it.
+- **Novelty** — your chairs, instruments, tonics, toys and held items, in the game's own categories.
+- **Mastery** — the mastery skill button, which fires the mastery it is showing. It hides itself when you have no mastery skill available, and the picker lists only masteries your account has trained.
 
 ### Boon, condition & effect bars
 - Three independently placeable sections — **boons**, **conditions**, and **everything else** — showing your live effects.
@@ -139,7 +156,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 ### Minimap
 - A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
 - **Farming Overlay Mode** — a one-click *radar* view: strips away tiles, border and every other layer to show just gathering nodes and your bookmarks around a facing-locked centre. It's a transparent, **click-through** overlay you park over your reticle to spot nearby nodes while you play — clicks, drags and the wheel all pass straight to the game, and hovering a node or bookmark still names it. Saved per layout, so a dedicated farming layout switches it on and off with your other HUD.
-- **Node-name tooltips** — hover a node to see exactly what it is, named automatically by area (e.g. *Cluster of Desert Herbs* across every desert map).
+- **The nodes the game itself draws** — which resource nodes appear is taken from the game's own compass data rather than guessed, so the minimap shows what the native compass shows, including nodes that are only there for you.
+- **Node-name tooltips** — hover a node to see exactly what it is. Special nodes take their name from the game's own marker, and ordinary ones are named by area (e.g. *Cluster of Desert Herbs* across every desert map).
 - **Live map service markers** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, read live from the game rather than a fixed list, so they are always current, they include the ones that move around, and they use the game's own icons and names.
 - **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support. Waypoints, points of interest, vistas, hearts and hero points dim when they sit on another floor, and indoor and underground areas draw the game's own interior art.
 - **Click a waypoint to travel** — click one on the minimap and the game's own travel confirmation opens, exactly as it does on the native compass.
@@ -154,7 +172,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 ### Content Guide
 - A panel that mirrors the game's own event guide, listing what is happening around you right now.
 - **Live events** with their name, level, and the game's own icon, plus **objectives** as they update: counters, lane fractions, health bars for the boss or escort, and the event's own prose line.
-- **Countdowns** for timed events, and a map clock for the maps that run on one.
+- Objectives follow **native's own display rule** — a counter draws as a captioned bar exactly where the game draws one and as text where it does not, scaling counters show a percentage, and a health bar that tracks several enemies sums them the way the native panel does.
+- **Countdowns** for timed events, and a map clock for the maps that run on one. A countdown **pulses red** as it runs out, on the game's own threshold.
 - **Meta events** show their child events beneath them, the way the native guide groups them.
 - **Renown hearts** nearby, with their level and progress bar, and your current **story step** with its goal and objective.
 - **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator. **Click one to open the game's own achievement panel** at that achievement.

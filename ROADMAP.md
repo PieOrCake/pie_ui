@@ -15,9 +15,6 @@ icon** (now for any nearby player, not just your group), a skills / title line, 
 player context menu** (see the [README](README.md)). Still to come for full parity:
 - 📋 **Rank** indicator (veteran / elite / champion / legendary).
 
-### Skill bars
-- 💡 **Out-of-range indicator** — dimming or underlining a skill your current target is too far away for.
-
 ### Profession & pet bars
 - 📋 **Deeper mechanic bars** — richer per-profession treatments for kits, transforms, and the like.
 - 📋 **More profession resources** — the resource bar covers Necromancer, Mesmer, Guardian, Revenant
@@ -38,11 +35,13 @@ checks**, and now **dim out-of-range members**. Going further is being explored:
 
 ### Minimap & Content Guide
 Live service markers, floor awareness, waypoint travel, event rings and the Content Guide all landed
-in 0.9.4.0. Achievement rows now open the game's own panel, and festival bullets open the world map
+in 0.9.4.0. Achievement rows now open the game's own panel, festival bullets open the world map, the
+minimap draws the nodes the game itself draws, and objectives follow native's own bar-or-text rule
 (see the [README](README.md)). Next:
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
-- 🔨 **Content Guide polish** — it still ships as experimental; a few objective displays need work.
+- 🔨 **Content Guide polish** — it still ships as experimental; a few objective displays need work,
+  and clicking a boss health row does not yet target that boss.
 
 ### Loot Cascade
 The pickup list landed in 0.9.5.0 with the game's own row text, live owned counts and a hover
