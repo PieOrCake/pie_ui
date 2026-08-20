@@ -40,8 +40,8 @@ minimap draws the nodes the game itself draws, and objectives follow native's ow
 (see the [README](README.md)). Next:
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
-- 🔨 **Content Guide polish** — it still ships as experimental; a few objective displays need work,
-  and clicking a boss health row does not yet target that boss.
+- 🔨 **Content Guide polish** — it still ships as experimental and a few objective displays need work.
+  Clicking a boss health row now targets that boss, as native does.
 
 ### Loot Cascade
 The pickup list landed in 0.9.5.0 with the game's own row text, live owned counts and a hover

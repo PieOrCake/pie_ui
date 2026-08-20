@@ -17,7 +17,9 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
 - **Loot Cascade** — the pickup list, in the Pie UI theme and wherever you want it: item, coin and currency rows in rarity colour, and a hover tooltip showing what you picked up plus how many you already own in your bags, bank and material storage.
 - **Notification toasts** — the game's achievement, reward and unlock pop-ups redrawn in your theme and placed where you want them, and still clickable: an achievement opens its panel, a skin or outfit opens the game's own preview.
+- **Reward tray** — the game's post-event chest and reward row, redrawn in your theme and placed where you want it, with the rows still opening and claiming as native's do.
 - **Mount, novelty & mastery buttons** — Pie UI replacements for the native always-on buttons, each with a picker showing only what your account actually owns.
+- **Wiki lookup in the game's own menus** — right-click an item in your inventory, bank or material storage and Pie UI's rows sit in the native menu alongside the game's.
 - **Nameplate class icons** — profession and elite-spec icons drawn on the game's own nameplates, in gold or tango style.
 - **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
 - **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
@@ -87,6 +89,15 @@ If an LLM creating software upsets you, then perhaps this repo isn't for you. Mo
 - Pie UI's version of the pop-ups the game shows for achievements, rewards, unlocks and level-ups — in your theme, at a size and position you choose, with a one-click hide of the game's own.
 - Each toast carries its **theme trim** and highlights under the cursor, and long titles wrap instead of running out of the box.
 - **Toasts stay clickable**, doing what the native one does: an achievement opens the achievement panel at that achievement, and a skin or outfit opens the game's own preview window.
+
+### Reward tray
+- Pie UI's version of the chest-and-reward row the game shows after an event or a meta, in your theme, at a size and position you choose, and freely movable like every other element.
+- The rows behave like native's: open the chest, or claim the reward. A long list gets a "+N" overflow count rather than running off the screen.
+- The game's own tray can be hidden so only Pie UI's is shown.
+
+### Item right-click menu
+- **Search in Wiki** on any item in your **inventory, bank or material storage**, as a real row in the game's own right-click menu — plus **Search in Hoard & Seek** when that addon is installed.
+- Prefer the old look? A setting puts the rows back on a small strip attached above the native menu instead.
 
 ### Nameplate class icons
 - Profession and **elite-specialisation** icons drawn onto the game's own nameplates, so you can read a crowd at a glance.
@@ -182,6 +193,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
+- **Switch build and gear templates from the strip** — click the Active Build or Active Gear chip and pick a row, with no panel to open.
 - A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
 - **Multi-currency wallet** — pick which currencies the wallet shows (gold plus any others: Karma, Volatile Magic, Bandit Crests, …), each with its own icon and balance.
 - **Quick Toggles** — an optional strip widget of show/hide chips for the Pie UI / native elements you choose, plus a lock/unlock control; click a chip to switch it Off / Pie UI / Native / Both.
