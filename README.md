@@ -42,6 +42,8 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 
 ![The Pie UI chat box alongside the native chat](screenshots/chatbox.png)
 
+![Loot Cascade: item pickups in rarity colour with the game's own art](screenshots/loot.png)
+
 </details>
 
 ## AI Notice
