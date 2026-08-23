@@ -1,0 +1,19 @@
+# Pie UI developer notice. Shown at the top of the screen, in the update banner's slot.
+# Lines starting with # are ignored. A key with nothing after the colon is ignored too.
+# A trailing # on a line is NOT a comment: put notes on their own line, like these.
+#
+# id:          REQUIRED. Change it and everyone sees the message again, including people who
+#              dismissed the last one. Leave it alone to edit text without re-nagging anyone.
+# text:        REQUIRED, at least one. One line each, up to three, 160 characters each.
+# max-version: optional. Show only to this build or older (e.g. 0.9.6.0). Omit for everyone.
+#              A build past it stops showing the message on its own, with nothing to clear.
+# until:       optional. Last day it shows, exactly YYYY-MM-DD, inclusive. Omit for no expiry.
+# link:        optional. https:// only. Adds a Details button that opens it in a browser.
+#
+# A typo in max-version or until hides the message completely, on purpose: a known-issue notice
+# must never reach people who already have the fix. If a message never appears, check those two.
+# To stop a message for everyone at once, delete its lines from this file.
+#
+# The minimum that displays anything is TWO lines:
+#     id: 2026-08-24-example
+#     text: We are aware of a problem with X and are working on it.
