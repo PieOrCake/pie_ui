@@ -18,7 +18,9 @@
 #     id: 2026-08-24-example
 #     text: We are aware of a problem with X and are working on it.
 
-id: 1-test
-text: Test line one
-text: Test line two
-link: https://pie.rocks.cc/
+id: 2-test
+text: Message from Pie UI development team
+max-version: 0.9.6.0
+text: We are aware of the bug that's dimming the utility bar.
+text: We're currently beta testing a fix.
+# link: https://pie.rocks.cc/
