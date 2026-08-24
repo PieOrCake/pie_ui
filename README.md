@@ -15,6 +15,7 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
 - **Minimap** — live map-service markers read from the game itself, resource-node markers, a floor / layer system, click-a-waypoint travel, live party / squad / guild dots, and the commander's **squad markers**.
 - **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
+- **Map meta panel** — the tiered meta bar and your participation bar for the map you are on, in a movable window. It appears only when the game says this map has a meta.
 - **Loot Cascade** — the pickup list, in the Pie UI theme and wherever you want it: item, coin and currency rows in rarity colour, and a hover tooltip showing what you picked up plus how many you already own in your bags, bank and material storage.
 - **Notification toasts** — the game's achievement, reward and unlock pop-ups redrawn in your theme and placed where you want them, and still clickable: an achievement opens its panel, a skin or outfit opens the game's own preview.
 - **Reward tray** — the game's post-event chest and reward row, redrawn in your theme and placed where you want it, with the rows still opening and claiming as native's do.
@@ -180,7 +181,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
 - **Commander squad markers** — the commander's tactical marker shapes on the minimap: both the **placed ground markers** and the **target markers** pinned to a specific enemy, player or object — which track their target live and disappear when the commander clears them or the target is defeated.
 - **Map-completion markers** — renown hearts, hero challenges, mastery insights and the discovery markers (waypoints, points of interest, vistas) are greyed out until you complete them, then tint to the zone colour, mirroring the game's own map. Completion is read from the optional **Hoard & Seek** addon; without it the markers stay grey. With the optional [Events: Alerts](https://raidcore.gg/Nexus) addon installed, a freshly collected mastery insight recolours instantly instead of on the next refresh.
-- **Map art from your own game files** — with the `-shareArchive` launch option set, Pie UI reads map tiles and icons straight out of your Guild Wars 2 archive: sharper art, far fewer downloads, and maps no public source carries (Mistlock Sanctuary, Temple of Febe). Without it everything still works, a few maps just look softer or are unavailable. Pie UI explains this on first run.
+- **Map art from your own game files** — Pie UI reads map tiles and icons straight out of your Guild Wars 2 archive: sharper art, far fewer downloads, and maps no public source carries (Mistlock Sanctuary, Temple of Febe). Needs the `-shareArchive` launch option — see [Installation](#installation).
 
 ### Content Guide
 - A panel that mirrors the game's own event guide, listing what is happening around you right now.
@@ -191,7 +192,15 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Renown hearts** nearby, with their level and progress bar, and your current **story step** with its goal and objective.
 - **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator. **Click one to open the game's own achievement panel** at that achievement.
 - **Bonus events and festivals** currently running, with their dates and the game's own bullet lines for what each one offers. **Click a bullet** to open the world map where it happens.
+- **Fractal status** when you are in one — your difficulty scale and personal reward level, the next island, the suggested agony resistance for your scale, and the day's **instabilities** with their icons, real names and the game's own description on hover.
+- **Single-click folding**, the game's own gesture: fold a whole section, or fold one event back to its title line while keeping its progress count.
 - Collapsible sections, a resizable window, its own font, and a show toggle per section.
+
+### Map meta panel
+- Pie UI's version of the game's map meta panel: the **tiered meta bar** and your **participation bar**, in a movable window with the usual pin and opacity controls.
+- It draws only when the game says the map you are on has a meta, so there is no map list to maintain and nothing to fall out of date.
+- The meta's name and its tier come from the game, worded the way the game words them.
+- Off in competitive game modes.
 
 ### Bottom-line strip
 - A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
@@ -237,6 +246,7 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 - **Hide behind native windows** — Pie UI's widgets clip out of any open Guild Wars 2 panel (Hero, Inventory, Bank, vendors) instead of drawing across it, and clicks over that panel go to the game.
 - Settings persist in a versioned `pieui.json` that survives updates.
 - If the game ever crashes, Pie UI writes a `crash_report.log` beside its settings naming what faulted and where. Sending that file makes a crash diagnosable instead of guesswork; it records memory addresses and the names of loaded files only, nothing about your character, account or chat.
+- **Notices from the developer** — a short banner at the top of the screen for things a release note cannot reach in time, with an optional Details link. Dismissing one is remembered. It is on by default, and turning it off stops Pie UI contacting GitHub at all.
 - An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
 
 </details>
@@ -244,6 +254,8 @@ A positionable bar for your specialisation's core resource — smooth fill or se
 ## Installation
 
 Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your `<Guild Wars 2>/addons/` folder and (re)load it from the Nexus addon list.
+
+**Game artwork:** Pie UI gets some of its art directly from the game. This requires that the game is launched with the `-shareArchive` command line option. **Without it, some art may be missing, such as icons or map tiles.** `-shareArchive` is an ArenaNet option, not invented by Pie UI — see [Command line arguments](https://wiki.guildwars2.com/wiki/Command_line_arguments) on the official wiki. Pie UI also explains this on first run.
 
 **Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template, wardrobe-template and URL links work either way.
 

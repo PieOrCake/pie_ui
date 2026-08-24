@@ -37,7 +37,8 @@ checks**, and now **dim out-of-range members**. Going further is being explored:
 Live service markers, floor awareness, waypoint travel, event rings and the Content Guide all landed
 in 0.9.4.0. Achievement rows now open the game's own panel, festival bullets open the world map, the
 minimap draws the nodes the game itself draws, and objectives follow native's own bar-or-text rule
-(see the [README](README.md)). Next:
+(see the [README](README.md)). 0.9.7.0 added the fractal status section, single-click folding, and a
+separate map meta panel. Next:
 - 📋 **Leather / cloth node distinction** — the only gather type the engine doesn't separate from
   its look-alike yet.
 - 🔨 **Content Guide polish** — it still ships as experimental and a few objective displays need work.
