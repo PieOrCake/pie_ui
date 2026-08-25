@@ -8,32 +8,27 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 
 ## Highlights
 
-- **Player vitals & skill bars** — HP, barrier and endurance in four styles, live cooldown sweeps with countdowns, and **click-to-cast**.
-- **Profession mechanics** — an auto-fitting F1–F7 profession bar, pet / mech control, and **per-specialisation resource bars for every profession**.
-- **Boon, condition & effect bars** — your live effects across three placeable sections, with stack counts and countdowns.
-- **Target frame** — health, attitude colouring, a defiance / break bar, the target's name, level or mastery rank, class / elite-spec icon, a right-click player menu, and optional floating bars for the **target's boons and conditions**.
-- **Squad & party frames** — a styled roster with colour-coded subgroup columns, commander tags, and live (PvE) health bars.
-- **Minimap** — live map-service markers read from the game itself, resource-node markers, a floor / layer system, click-a-waypoint travel, live party / squad / guild dots, and the commander's **squad markers**.
-- **Content Guide** — a nearby-events panel mirroring the game's own, with live objectives and countdowns, renown hearts, your story step, tracked achievements and bonus events.
-- **Map meta panel** — the tiered meta bar and your participation bar for the map you are on, in a movable window. It appears only when the game says this map has a meta.
-- **Loot Cascade** — the pickup list, in the Pie UI theme and wherever you want it: item, coin and currency rows in rarity colour, and a hover tooltip showing what you picked up plus how many you already own in your bags, bank and material storage.
-- **Notification toasts** — the game's achievement, reward and unlock pop-ups redrawn in your theme and placed where you want them, and still clickable: an achievement opens its panel, a skin or outfit opens the game's own preview.
-- **Reward tray** — the game's post-event chest and reward row, redrawn in your theme and placed where you want it, with the rows still opening and claiming as native's do.
-- **Mount, novelty & mastery buttons** — Pie UI replacements for the native always-on buttons, each with a picker showing only what your account actually owns.
-- **Wiki lookup in the game's own menus** — right-click an item in your inventory, bank or material storage and Pie UI's rows sit in the native menu alongside the game's.
-- **Nameplate class icons** — profession and elite-spec icons drawn on the game's own nameplates, in gold or tango style.
-- **Replacement chat box & Tyrian IM** — interactive tabs, clickable links with rich tooltips, inline emoji, built-in whisper sending, **right-click to mail or report a player**, and a per-contact messenger.
-- **Themes, custom fonts, quick-toggles & native-UI hiding** — drag-to-place widgets, **your own TrueType fonts**, per-feature opacity, theme-coloured chrome, and one-click hiding of the native element each widget replaces.
-- **Stays out of the way** — Pie UI's widgets clip behind open Guild Wars 2 windows instead of drawing across them.
+- **Player vitals and skill bars** in different styles, with live cooldown timers and click-to-cast.
+- **Profession mechanics** — an F1–F7 bar, pet and mech control, and a resource bar for every profession.
+- **Boon, condition and effect bars** with stack counts and countdowns.
+- **Target frame** with a break bar, class icon, and a right-click player menu.
+- **Squad and party frames** with subgroup columns, commander tags and live health.
+- **Minimap** with waypoint travel, resource nodes and live squad dots.
+- **Content Guide** — nearby events, hearts, your story step and tracked achievements, plus a map meta panel.
+- **Replacement chat box** with clickable links, inline emoji and a per-contact messenger.
+- **Loot Cascade, toasts and the reward tray**, redrawn in your theme and placed where you want them.
+- **Themes, your own fonts and drag-to-place everything**, with one-click hiding of the native element each widget replaces.
+
+Every element is described below, and each one can be turned off.
 
 ![Squad and party frames](screenshots/squad.png)
 
 ![Chat box: item links with a live tooltip, class icons and tabs](screenshots/chatbox2.png)
 
-![Item link tooltip: live trading-post prices and how many of the item you own](screenshots/tooltip.png)
-
 <details>
 <summary><b>More screenshots</b></summary>
+
+![Item link tooltip: live trading-post prices and how many of the item you own](screenshots/tooltip.png)
 
 ![Quick-toggle bar: show or hide each Pie UI element and its native counterpart](screenshots/ui_toggles.png)
 
@@ -47,207 +42,79 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 
 </details>
 
-## AI Notice
-
-This addon has been largely created using Claude. I understand that some folks have a moral, financial or political objection to creating software using an LLM. I just wanted to make a useful tool for the GW2 community, and this was the only way I could do it.
-
-If an LLM creating software upsets you, then perhaps this repo isn't for you. Move on, and enjoy your day.
-
-## Full feature list
+## What each element does
 
 <details>
-<summary>Click to expand every feature</summary>
+<summary>Click to expand</summary>
 
 ### Player vitals
-- HP, barrier, and endurance in four styles: **horizontal bar**, **vertical bar**, **reticle arcs**, and **reticle ring**.
-- Live HP/endurance/barrier numbers with a 3-stop HP colour gradient (green → amber → red).
-- Barrier shown as a separate strip or overlaid — always visible, even at full HP.
-- **Downed warning:** the HP bar turns red with a deep-red border the moment you're downed, whatever your health was.
-- **Mount & glider aware:** tracks mount dodge endurance (with per-mount dodge segments) while mounted, the Skyscale's flight stamina, and your **glider stamina** while gliding.
-- Every colour is configurable.
+HP, barrier and endurance in several styles: horizontal bar, vertical bar and reticle arcs. Live numbers with a health colour gradient, a clear downed warning, and every colour configurable. It follows what you are doing, so it tracks mount dodge endurance while mounted and your stamina while gliding.
 
 ### Skill bars
-- Live weapon and utility skill icons that follow weapon swaps, kits, transforms, and bundles automatically.
-- **Cooldown sweeps** with countdown numbers and grey-out.
-- **Click-to-cast** — click a skill to fire it; press-and-hold works for channelled skills (e.g. Siege Turtle jets).
-- **Compact keybind labels** on each slot (`Shift+1` shows as `S+1`), fully rebindable in-app.
-- Activation flash and combo/flip animations, plus **theme-coloured slots** with an accent cooldown sweep and an activation glow.
-- A **weapon-swap / stow button** that mirrors the native one, with its recharge (and the right behaviour per profession).
-- Separate, independently placeable groups for weapons and utilities.
-- A **cast bar** showing the skill you are currently casting, with its name. It also fills for the things that are not skills — opening a chest, gathering a node, reviving — using the game's own channel duration, so the bar runs at the real speed rather than an estimate.
-- A sustained **"ability is running"** cue, and a slot flash when a skill actually fires rather than when you press the key. When the bar has nothing to show it says why instead of vanishing.
-- **Swap a skill without opening a panel** — right-click a utility slot for a grid of the skills that character actually has, and click one to equip it. This works on an **empty slot** too, so a slot you have just unlocked can be filled without opening the Hero panel. Revenant legends, the Evoker's familiar and Amalgam morphs work the same way.
-- **Slots you have not unlocked yet are dimmed**, read from the game rather than assumed from your level, so a levelling character can see at a glance what is still to come.
-- **Out-of-range underline** — a red underline on a skill your current target is too far away for, matching the native cue.
-- **Ctrl+right-click a weapon slot** to move the auto-attack there, which works in combat where the native menu does not.
+Your weapon and utility skills with live icons that follow weapon swaps, kits, transforms and bundles by themselves, plus cooldown sweeps with countdowns, compact keybind labels and click-to-cast. Weapons and utilities are placed independently, and a weapon-swap button mirrors the native one. You can also swap a utility skill straight from the bar with a right-click, without opening the Hero panel.
+
+### Cast bar
+Shows the skill you are casting and its name, and fills for the things that are not skills too: opening a chest or gathering a node. It runs on the game's own timing, so it speeds up under quickness exactly as the native bar does.
 
 ### Loot Cascade
-- Pie UI's own version of the pickup list that runs up the side of the screen, in your theme and wherever you place it.
-- Item rows in **rarity colour** with the game's own art, coin rows tinted by their largest denomination, and currency rows — all named with the game's own text, so quantities and plurals read exactly as they do natively.
-- Runs as a **conveyor** like the game's own: quiet pickups drift, a trophy-box flood moves fast and drains as it clears. The window's size decides how many rows you see. It can run **downward** like the native list or **upward**, for a list placed low on the screen.
-- **Hover a row** for the full item tooltip — icon, rarity, description, binding, vendor value, trading-post prices — plus how many you own in your **bags, bank and material storage**, read live from the game. The list holds still while you read.
-- Optional panel background, icon on either side, repeats combined into one counted row, and a one-click hide of the game's own list.
+Pie UI's version of the pickup list that runs up the side of the screen, in your theme and wherever you put it. Items appear in rarity colour with the game's own art and wording, and the list moves like the game's own: quiet pickups drift, a trophy flood moves fast and drains as it clears. Hover any row for the full item tooltip plus how many you already own across bags, bank and material storage.
 
 ### Notification toasts
-- Pie UI's version of the pop-ups the game shows for achievements, rewards, unlocks and level-ups — in your theme, at a size and position you choose, with a one-click hide of the game's own.
-- Each toast carries its **theme trim** and highlights under the cursor, and long titles wrap instead of running out of the box.
-- **Toasts stay clickable**, doing what the native one does: an achievement opens the achievement panel at that achievement, and a skin or outfit opens the game's own preview window.
+The pop-ups the game shows for achievements, rewards, unlocks and level-ups, redrawn in your theme at a size and position you choose. They stay clickable and do what the native ones do: an achievement opens the achievement panel at that achievement, a skin or outfit opens the game's own preview.
 
 ### Reward tray
-- Pie UI's version of the chest-and-reward row the game shows after an event or a meta, in your theme, at a size and position you choose, and freely movable like every other element.
-- The rows behave like native's: open the chest, or claim the reward. A long list gets a "+N" overflow count rather than running off the screen.
-- The game's own tray can be hidden so only Pie UI's is shown.
+The chest-and-reward row the game shows after an event or a meta, in your theme and freely placed like everything else. The rows still open and claim exactly as native's do.
 
 ### Item right-click menu
-- **Search in Wiki** on any item in your **inventory, bank or material storage**, as a real row in the game's own right-click menu — plus **Search in Hoard & Seek** when that addon is installed.
-- Prefer the old look? A setting puts the rows back on a small strip attached above the native menu instead.
+Pie UI adds its own rows to the game's own right-click menu on any item in your inventory, bank or material storage: search the wiki in your game's language, copy the name, or copy the chat code. A Hoard & Seek search appears too when that addon is installed.
 
 ### Nameplate class icons
-- Profession and **elite-specialisation** icons drawn onto the game's own nameplates, so you can read a crowd at a glance.
-- Two art styles, **gold** or **tango**, chosen independently for each place icons appear.
-- Configurable size, opacity, draw distance, and placement beside or above the name. They clip correctly out of open native panels.
+Profession and elite-specialisation icons drawn onto the game's own nameplates, so you can read a crowd at a glance. Two art styles, gold or tango, with size, opacity, draw distance and placement all configurable.
 
 ### Profession & pet bars
-- **Profession bar** (F1–F7) that auto-fits your specialisation's mechanics.
-- **Elementalist attunement highlight** — the active element's F-slot is enlarged with a thick, element-coloured border, matching the native UI.
-- **Pet / mech control bar** for Rangers and Mechanists: live pet skills with cooldowns, a creature HP bar, and command buttons (attack, return, swap, and a Guard / Avoid-Combat toggle that mirrors the pet's current stance).
-- Optional pet HP readout on the reticle HUD, beside your own health.
+An F1–F7 profession bar that fits your specialisation's mechanics automatically, including the native-style highlight on an Elementalist's active attunement. Rangers and Mechanists get a pet or mech bar as well, with live skills and cooldowns, a creature health bar and the full set of commands.
 
 ### Profession resource bar
-A positionable bar for your specialisation's core resource — smooth fill or segmented pips, with a configurable colour per class. Currently covers:
-- **Necromancer** — Life Force (all specs).
-- **Mesmer** — clones, **Virtuoso** blades, and **Troubadour** notes.
-- **Guardian** — **Firebrand** tome pages and **Luminary**'s Radiant Forge.
-- **Revenant** — energy, with a recovery/drain **rate indicator**; plus a native-style **legend bar** that shows both legends side by side, the **swap cooldown** on the active legend, and the F1 swap indicator.
-- **Conduit** — **Affinity** stacks, shown as pulsing pips beside the energy bar.
-- **Warrior** — **Adrenaline**, as segmented bars.
-- **Thief** — **Initiative** (all specs), shown as native-style diamond pips; **Specter** adds a **Shadow Force** bar and **Deadeye** a segmented **Malice** bar below the pips.
-- **Engineer** — **Holosmith** Photon Forge heat, a native-style blue→amber→red gradient bar.
-- **Ranger** — **Galeshot** arrow charges and **Druid** astral force.
-- **Elementalist** — **Catalyst** energy, as segmented sphere charges.
+A positionable bar for your specialisation's core resource, drawn as a smooth fill or segmented pips in a colour you choose. **Every profession has one**, and it follows your elite specialisation, so it shows the right thing whether that is life force, initiative, adrenaline, energy, heat or a specialisation's own mechanic. Specs with a second resource get it alongside, and Revenants also get a native-style legend bar with the swap cooldown on the active legend.
 
 ### Mounted hotbar
-- Per-mount skill layouts with the correct icons and keybind labels, shown automatically while mounted.
-- Mount skills your account has not unlocked the mastery for are **hidden rather than shown dead**, so the bar matches what you can actually use.
+The right skills for whichever mount you are on, with the correct icons and keybind labels, shown automatically while mounted. Skills you have not unlocked the mastery for are hidden rather than shown dead, so the bar matches what you can actually use.
 
 ### Mount, novelty & mastery buttons
-- Pie UI versions of the native always-on buttons, each placeable and themed like the rest of the HUD.
-- **Mount** — a picker of the mounts on your account; click one to summon it.
-- **Novelty** — your chairs, instruments, tonics, toys and held items, in the game's own categories.
-- **Mastery** — the mastery skill button, which fires the mastery it is showing. It hides itself when you have no mastery skill available, and the picker lists only masteries your account has trained.
+Pie UI versions of the native always-on buttons, each placeable and themed like the rest of the HUD. Every picker lists only what your account actually owns, and the mastery button hides itself when there is no mastery skill to use.
 
 ### Boon, condition & effect bars
-- Three independently placeable sections — **boons**, **conditions**, and **everything else** — showing your live effects.
-- Per-section display: icons only, duration bars only, or icons with bars.
-- Stack counts, live countdown timers, orientation and wrapping all configurable.
-- **Food & utility buffs** appear in the everything-else section with their nourishment icons (apple / wrench), including the **Malnourished / Diminished** reminders that nudge you to re-buff when they run out.
+Your live effects across three independently placeable sections: boons, conditions, and everything else. Show icons, duration bars or both, with stack counts and countdowns, and set orientation and wrapping per section. Food and utility buffs appear with their own nourishment icons, including the reminders that nudge you to re-buff.
 
 ### Target frame
-- A positionable bar showing your current target's health percentage.
-- **Target name** — players show their account or character name (with **guild name and tag** when they're repping); NPCs, creatures and objects show their own name.
-- **Level** — or, for level-80 players, their **mastery rank** in gold, just like the native frame.
-- **Class icon** — the target player's profession, upgraded to the **elite-spec** icon for any player near enough for the game to have loaded them, not just your own party or squad.
-- A **notable-skills / title** line beneath the bar.
-- **Attitude colouring** — the bar is tinted by the target's disposition (hostile / neutral / friendly), and turns hostile the moment you engage a neutral mob. All colours are configurable.
-- **Defiance / break bar** that mirrors the native one: **blue** when intact and ready to break, **orange/gold** while it regenerates back to full — with its own colour choosers.
-- **Right-click a player target** for a context menu — whisper, invite to party / squad, add friend, and group actions (kick, vote-to-kick) where applicable.
-- **Account on hover** — hovering a resolved player target shows their account handle (and contact nickname).
-- **Target boon & condition bars** — optional floating strips that mirror the native frame, showing the target's **boons** and **conditions** (icons, stack counts and countdowns) for enemy mobs and bosses. Each strip is independently placeable and styled, sharing the same layout options as your own effect bars. Enable them on the Target settings tab.
-- Also works on **objects and gadgets** that have health (siege, cannons, attackable structures).
+Your target's health with attitude colouring and a native-style defiance and break bar. It names the target and shows their level or mastery rank, class and elite-spec icon, and a skills or title line, and it works on creatures, objects and gadgets as well as players. Right-click a player target for whisper, party and squad actions, and turn on optional floating strips for the target's boons and conditions.
 
 ### Squad & party frames
-- A movable, resizable roster panel for your party or squad, styled to match the rest of Pie UI.
-- Squads are grouped into colour-coded **subgroup columns** (with labels); pick a **list** or native-style **grid** layout, and let long rosters **scroll** or **wrap into extra columns**.
-- Each member shows their **class / elite-spec icon**, **name**, and **commander / lieutenant tag**.
-- **Live health bars** for members on your map, with a configurable **high → mid → low** colour gradient (or profession colours), a **downed** state, and a **Necromancer shroud** life-force overlay. Out-of-range members show a neutral bar. *(Read-only; health is PvE-only — disabled in WvW / PvP.)*
-- Your own row is highlighted, and members in another map instance are dimmed.
-- **Ready checks** show on the frames as they come in, so you can answer without hunting for the native prompt.
-- **Vote-to-kick prompts** are replaced with a Pie UI one that names the player being voted on and who called it, with their character, level and class, so you know what you are voting on before you answer.
-- **Join Squad** from the target frame, the minimap, or the chat menu, including commanders who are not near you.
-- Theme-tinted background with an accent border; configurable cell size, columns, fonts, and colours.
-- *Requires the **RealTime API** (RTAPI) addon — a Raidcore addon installable from the [Nexus](https://raidcore.gg/Nexus) addon library — which supplies the party/squad roster. Without it the panel stays empty, and Pie UI shows a reminder in the frame and on the Squad settings tab.*
+A movable, resizable roster for your party or squad, as a list or a native-style grid, with colour-coded subgroup columns for squads. Each member shows their class, name, commander tag and live health, and ready checks and vote-to-kick prompts arrive on the frames so you can answer without hunting for the native prompt. *Health is read-only and PvE-only. Requires the **RealTime API** (RTAPI) addon from the [Nexus](https://raidcore.gg/Nexus) library, which supplies the roster.*
 
 ### Minimap
-- A clean, positionable minimap with resource-node markers (herb / wood / ore) sized to gather type, plus **Season 3/4 special-node icons** (Winterberries, Difluorite, …).
-- **Farming Overlay Mode** — a one-click *radar* view: strips away tiles, border and every other layer to show just gathering nodes and your bookmarks around a facing-locked centre. It's a transparent, **click-through** overlay you park over your reticle to spot nearby nodes while you play — clicks, drags and the wheel all pass straight to the game, and hovering a node or bookmark still names it. Saved per layout, so a dedicated farming layout switches it on and off with your other HUD.
-- **The nodes the game itself draws** — which resource nodes appear is taken from the game's own compass data rather than guessed, so the minimap shows what the native compass shows, including nodes that are only there for you.
-- **Node-name tooltips** — hover a node to see exactly what it is. Special nodes take their name from the game's own marker, and ordinary ones are named by area (e.g. *Cluster of Desert Herbs* across every desert map).
-- **Live map service markers** — merchants, crafting stations, banks, the trading post, bounty boards, map-currency collectors, scouts and more, read live from the game rather than a fixed list, so they are always current, they include the ones that move around, and they use the game's own icons and names.
-- **Floor / layer system** — follows you between map floors automatically, with a manual floor selector, correct marker layering, and cave / sublevel support. Waypoints, points of interest, vistas, hearts and hero points dim when they sit on another floor, and indoor and underground areas draw the game's own interior art.
-- **Click a waypoint to travel** — click one on the minimap and the game's own travel confirmation opens, exactly as it does on the native compass.
-- **Personal markers & bookmarks** — Alt-click anywhere to drop your own marker and Alt-click it again to clear it, or save a spot as a named bookmark with an emoji of your choice and jump back to it later.
-- **Guild members** show as their own dots with a tooltip naming the guild, and nearby **downed or defeated** players are marked using the game's own icons.
-- **Event rings** — each live event's boundary is drawn from the game's own marker, including the tilted ovals, alongside the event icon the game itself picked.
-- **Party / squad dots** — live positions of your group members on the minimap in the native dot style, with a **commander tag**; off-view members clamp to the rim with a direction tick. Toggles and colours configurable.
-- **Commander squad markers** — the commander's tactical marker shapes on the minimap: both the **placed ground markers** and the **target markers** pinned to a specific enemy, player or object — which track their target live and disappear when the commander clears them or the target is defeated.
-- **Map-completion markers** — renown hearts, hero challenges, mastery insights and the discovery markers (waypoints, points of interest, vistas) are greyed out until you complete them, then tint to the zone colour, mirroring the game's own map. Completion is read from the optional **Hoard & Seek** addon; without it the markers stay grey. With the optional [Events: Alerts](https://raidcore.gg/Nexus) addon installed, a freshly collected mastery insight recolours instantly instead of on the next refresh.
-- **Map art from your own game files** — Pie UI reads map tiles and icons straight out of your Guild Wars 2 archive: sharper art, far fewer downloads, and maps no public source carries (Mistlock Sanctuary, Temple of Febe). Needs the `-shareArchive` launch option — see [Installation](#installation).
+A clean, positionable minimap that draws what the game's own compass draws: resource nodes, live service markers, event boundary rings, waypoints, points of interest and map-completion markers, with a floor system that follows you between levels and into caves. Click a waypoint to travel, alt-click to drop the game's own personal marker, save any spot as a named bookmark with an emoji of your choice, and see your party, squad and guild live, commander markers included. A one-click Farming Overlay strips it back to a transparent, click-through node radar you can park over your reticle. *Map-completion markers grey out until you complete them, which is read from the optional [Hoard & Seek](https://raidcore.gg/Nexus) addon; without it they stay grey. Map art is read from your own game files where possible, which needs the `-shareArchive` launch option — see [Installation](#installation).*
 
 ### Content Guide
-- A panel that mirrors the game's own event guide, listing what is happening around you right now.
-- **Live events** with their name, level, and the game's own icon, plus **objectives** as they update: counters, lane fractions, health bars for the boss or escort, and the event's own prose line.
-- Objectives follow **native's own display rule** — a counter draws as a captioned bar exactly where the game draws one and as text where it does not, scaling counters show a percentage, and a health bar that tracks several enemies sums them the way the native panel does.
-- **Countdowns** for timed events, and a map clock for the maps that run on one. A countdown **pulses red** as it runs out, on the game's own threshold.
-- **Meta events** show their child events beneath them, the way the native guide groups them.
-- **Renown hearts** nearby, with their level and progress bar, and your current **story step** with its goal and objective.
-- **Tracked achievements** with live progress read from the game, shown as a percentage with a tier indicator. **Click one to open the game's own achievement panel** at that achievement.
-- **Bonus events and festivals** currently running, with their dates and the game's own bullet lines for what each one offers. **Click a bullet** to open the world map where it happens.
-- **Fractal status** when you are in one — your difficulty scale and personal reward level, the next island, the suggested agony resistance for your scale, and the day's **instabilities** with their icons, real names and the game's own description on hover.
-- **Single-click folding**, the game's own gesture: fold a whole section, or fold one event back to its title line while keeping its progress count.
-- Collapsible sections, a resizable window, its own font, and a show toggle per section.
+A panel mirroring the game's own event guide: what is happening around you right now, with live objectives, countdowns and meta groupings, displayed the way the game displays them. It also carries the renown hearts near you, your current story step, your tracked achievements with live progress, whatever festival is running, and your fractal status when you are in one. Click an achievement to open the game's own panel at it.
 
 ### Map meta panel
-- Pie UI's version of the game's map meta panel: the **tiered meta bar** and your **participation bar**, in a movable window with the usual pin and opacity controls.
-- It draws only when the game says the map you are on has a meta, so there is no map list to maintain and nothing to fall out of date.
-- The meta's name and its tier come from the game, worded the way the game words them.
-- Off in competitive game modes.
+The tiered meta bar and your participation bar for the map you are on, in a movable window with the usual pin and opacity controls. It draws only when the game says the map has a meta, so there is no map list to maintain and nothing to fall out of date.
 
 ### Bottom-line strip
-- A configurable status strip of live readouts: **FPS**, **memory**, **server ping**, **region / map / coordinates**, **character name and class**, **level**, **mount**, **XP**, your **wallet**, and your **active build / gear** names.
-- **Switch build and gear templates from the strip** — click the Active Build or Active Gear chip and pick a row, with no panel to open.
-- A **clock** showing in-game **Tyrian** time alongside your **local** and **server** time — display one (click to cycle) or **all three at once**, in 12- or 24-hour format.
-- **Multi-currency wallet** — pick which currencies the wallet shows (gold plus any others: Karma, Volatile Magic, Bandit Crests, …), each with its own icon and balance.
-- **Quick Toggles** — an optional strip widget of show/hide chips for the Pie UI / native elements you choose, plus a lock/unlock control; click a chip to switch it Off / Pie UI / Native / Both.
-- Choose which readouts appear, arrange them left / centre / right, and colour each one — with an optional **theme-coloured border**.
+A configurable status strip of live readouts: performance and ping, where you are, your character, level, mount, XP, your wallet, clocks, and your active build and gear. You can switch build and gear templates straight from the strip with no panel to open. Choose which readouts appear, arrange them left, centre or right, and colour each one.
 
 ### Replacement chat box
-- A movable, resizable chat panel with a fully **interactive tab strip**: rename tabs, pick which channels each shows (including guilds G1–G6), drag to reorder, and unread `(N)` badges.
-- Rich, clickable lines: **URLs**, **waypoint** links that open and pan the world map, **item** links with name, icon, live vendor/trading-post prices and **how many you own** (inventory, bank and material storage), **skill** links with a full tooltip, **build template** links that open the native build window, and **wardrobe template** links that open the native Wardrobe Template window.
-- Real **guild tags** on guild lines, **class/elite-spec icons** and **commander/lieutenant tags** on party/squad members' messages, and **timestamps** (12/24h).
-- Per-channel three-colour styling (name / sender / text) and four font-size presets.
-- **Account names on hover** — hover a sender's name to see their account handle (guild, whisper, say and map chat).
-- **Sending** built in: an input row with leading slash commands, a channel picker, and **left-click a name to whisper** or right-click for **whisper, set as target, inspect cosmetics, add / remove friend, block, invite to party / squad, send mail, and report** — *Set as target* picks a nearby player out of the crowd (e.g. a /say speaker) when they're streamed in, and *Send mail* / *Report* open the game's own mail-compose and Conduct Report windows pre-filled with that player, so you finish in the native UI.
-- A live **character counter** against GW2's 199-character line limit, so a long message is never silently truncated on send.
-- Optional **system & emote lines** shown inline — the game's yellow notices **and standard emotes** (`/dance`, `/wave`, …) that most chat addons drop — with a per-tab **item-pickup** filter (off by default, since loot can be spammy).
-- **Inline emoji**: type Discord-style shortcodes like `:wave:` `:pie:` `:sob:` and they render as little Twemoji images in the chat box and Tyrian IM. As you type a code a **suggestion list** pops up (arrows + Tab/Enter to pick), or click the **emoji button** to browse and search a full picker — right-click any emoji to pin it to a row of **favourites**. The message still sends as plain text, so players without Pie UI just see the shortcode.
+A movable, resizable chat panel with a fully interactive tab strip: rename tabs, choose which channels each one shows, drag to reorder, and see unread badges. Lines are rich and clickable, with live tooltips on item and skill links, guild tags and class icons on senders, and account names on hover. Sending is built in, including whispers, with a right-click menu on any name for the full set of player actions, and inline emoji by shortcode with a searchable picker.
 
 ### Tyrian IM — built-in messenger
-- A per-contact whisper messenger (an evolution of the standalone Tyrian IM), with a conversation list, chat bubbles, and a reply box.
-- An always-visible **floating icon** that bobs, flashes, and shows an unread badge; click it to jump to your unread conversation.
-- Multiple visual **themes**, an optional notification **sound**, and per-conversation history saved to disk.
-- Right-click a name in the chat box (or use "Whisper") to open the conversation straight away.
+A per-contact whisper messenger with a conversation list, chat bubbles, a reply box and history saved to disk. A floating icon bobs and flashes with an unread badge, and right-clicking a name in the chat box opens that conversation straight away.
 
 ### Quick-toggle bar & native-UI hiding
-- One-click **"Hide native …"** toggles in each widget's settings — skill bar (which also covers the F1–F7 profession bar, weapon-swap, XP bar, health globe and native effect icons), chat, target frame, minimap / compass, party / squad frames, and the **mount skill bar** (including the skiff steering bar) — so a Pie UI widget cleanly replaces the game's own.
-- A floating, themed **quick-toggle bar** (enable it on the General tab) listing every Pie UI element beside its nearest native counterpart, so you can show or hide either with a single click — with a theme-accent highlight on whatever's currently visible. The same toggles are also available as a **Quick Toggles** widget you can add to the Bottom Line strip.
-- In WvW / PvP the native elements are kept visible automatically (Pie UI's competitive-locked widgets are suppressed there, so you're never left without a HUD).
-- Pie UI draws *replacements*, not overlays that erase the originals, and hiding goes through the game's own frame interface — so the addon never touches the render path and stays policy-safe.
+Every Pie UI widget can hide the native element it replaces, and a floating quick-toggle bar lists them side by side so you can show or hide either with a single click. In WvW and PvP the native elements are kept up automatically, so you are never left without a HUD. Pie UI draws replacements rather than erasing the originals, and hiding goes through the game's own interface, never the render path.
 
 ### General
-- A clean settings window (open via keybind, the quick-access tray icon, or the Nexus options panel) with per-subsystem tabs and colour pickers.
-- **Custom fonts** — choose the font for all of Pie UI's text: the Guild Wars 2 default, the bundled **Inter**, or your own **`.ttf`** files dropped into the addon's `fonts` folder. Crisp **free pixel sizing** for TrueType faces, with optional **per-window overrides** (Chat, Messenger, Bottom Line, Squad Frames, Consumables).
-- Drag-to-place and resize any widget in unlock mode, with snap-to-grid.
-- **Layout Profiles** — save your whole arrangement as **named layouts** and switch between them from the Layouts tab, the quick-toggle bar, the Bottom Line, or a keybind. Bind a layout to **Fractals, Raids or competitive maps** and Pie UI switches to it automatically as you come and go.
-- **Theme-coloured chrome** — widget borders follow the active theme's accent colour for a consistent look across the whole UI.
-- **Per-feature opacity** for in-combat and out-of-combat (set to zero to hide a widget entirely).
-- **Hide-on-hover** — optionally have a widget fade out for a few seconds while your mouse is over it, so native panels behind it (Hero, Guild, vendors) are visible and clickable.
-- Everything hides automatically on loading screens, character select, and the world map.
-- **Extra item right-click actions** — right-click any item in your inventory, bank or material storage for **Copy Name**, **Copy Chatcode**, and **Search in Wiki** — opened in your game's language (plus **Search in Hoard & Seek** when that addon is present).
-- **Hide behind native windows** — Pie UI's widgets clip out of any open Guild Wars 2 panel (Hero, Inventory, Bank, vendors) instead of drawing across it, and clicks over that panel go to the game.
-- Settings persist in a versioned `pieui.json` that survives updates.
-- If the game ever crashes, Pie UI writes a `crash_report.log` beside its settings naming what faulted and where. Sending that file makes a crash diagnosable instead of guesswork; it records memory addresses and the names of loaded files only, nothing about your character, account or chat.
-- **Notices from the developer** — a short banner at the top of the screen for things a release note cannot reach in time, with an optional Details link. Dismissing one is remembered. It is on by default, and turning it off stops Pie UI contacting GitHub at all.
-- An **About Pie UI** panel with quick links for support, bug reports, feature requests, and Ko-fi.
+A clean settings window with per-subsystem tabs, opened by keybind, tray icon or the Nexus options panel. Drag to place and resize anything in unlock mode, save whole arrangements as named Layout Profiles and have Pie UI switch between them automatically for fractals, raids or competitive maps, and set per-feature opacity for in and out of combat. You can use your own TrueType fonts, and Pie UI's widgets clip out of any open Guild Wars 2 panel instead of drawing across it. Settings live in a versioned file that survives updates, and if the game ever crashes Pie UI writes a report naming what faulted, recording addresses and file names only.
 
 </details>
 
@@ -288,6 +155,12 @@ While every effort is made to keep Pie UI within ArenaNet's current policies, th
 
 </details>
 
+## AI Notice
+
+This addon has been largely created using Claude. I understand that some folks have a moral, financial or political objection to creating software using an LLM. I just wanted to make a useful tool for the GW2 community, and this was the only way I could do it.
+
+If an LLM creating software upsets you, then perhaps this repo isn't for you. Move on, and enjoy your day.
+
 ## For addon developers
 
 Pie UI exposes a small, optional cross-addon API over the Nexus event bus:
@@ -297,9 +170,11 @@ Pie UI exposes a small, optional cross-addon API over the Nexus event bus:
 
 Both are optional no-ops when Pie UI isn't installed, so you never need a hard dependency. See **[INTEGRATION.md](INTEGRATION.md)** for the event contracts and worked examples; the event names and the theme struct are published in **[PieUiAPI.h](PieUiAPI.h)**, with a browsable reference at **[the API docs](https://pieorcake.github.io/pie_ui/)**.
 
-## Roadmap
+## Requests and known gaps
 
-See [ROADMAP.md](ROADMAP.md) for what's planned and being explored.
+Every native always-on HUD element now has a Pie UI replacement. What is left is parity polish inside
+those elements, tracked as [issues on the repo](https://github.com/PieOrCake/pie_ui/issues) — that is
+also the place to ask for something, or to tell me what is broken.
 
 ## Credits
 
