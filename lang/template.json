@@ -1905,9 +1905,9 @@
    "budget": 0
   },
   {
-   "key": "%d ms",
+   "key": "%d ms|slider unit: milliseconds. Translate only the 'ms'",
    "display": "%d ms",
-   "context": "",
+   "context": "slider unit: milliseconds. Translate only the 'ms'",
    "section": "Chat Section",
    "tooltip": false,
    "budget": 0
@@ -2513,9 +2513,9 @@
    "budget": 0
   },
   {
-   "key": "%d s",
+   "key": "%d s|slider unit: seconds. Translate only the 's'",
    "display": "%d s",
-   "context": "",
+   "context": "slider unit: seconds. Translate only the 's'",
    "section": "Consumables Section",
    "tooltip": false,
    "budget": 0
@@ -3041,9 +3041,9 @@
    "budget": 0
   },
   {
-   "key": "+%d px",
+   "key": "+%d px|slider unit: pixels, an offset. Translate only the 'px'",
    "display": "+%d px",
-   "context": "",
+   "context": "slider unit: pixels, an offset. Translate only the 'px'",
    "section": "Content Guide Section",
    "tooltip": false,
    "budget": 0
@@ -3257,9 +3257,9 @@
    "budget": 0
   },
   {
-   "key": "%.0f s",
+   "key": "%.0f s|slider unit: seconds. Translate only the 's'",
    "display": "%.0f s",
-   "context": "",
+   "context": "slider unit: seconds. Translate only the 's'",
    "section": "Effects Section",
    "tooltip": false,
    "budget": 0
@@ -3681,9 +3681,9 @@
    "budget": 0
   },
   {
-   "key": "%.1f s",
+   "key": "%.1f s|slider unit: seconds. Translate only the 's'",
    "display": "%.1f s",
-   "context": "",
+   "context": "slider unit: seconds. Translate only the 's'",
    "section": "General Section",
    "tooltip": false,
    "budget": 0
@@ -3849,9 +3849,9 @@
    "budget": 0
   },
   {
-   "key": "%.0f px",
+   "key": "%.0f px|slider unit: pixels. Translate only the 'px'",
    "display": "%.0f px",
-   "context": "",
+   "context": "slider unit: pixels. Translate only the 'px'",
    "section": "General Section",
    "tooltip": false,
    "budget": 0
@@ -7985,9 +7985,9 @@
    "budget": 0
   },
   {
-   "key": "%.1fx",
+   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
    "display": "%.1fx",
-   "context": "",
+   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
    "section": "Tim Section",
    "tooltip": false,
    "budget": 0
@@ -8657,9 +8657,9 @@
    "budget": 0
   },
   {
-   "key": "%.0f deg",
+   "key": "%.0f deg|slider unit: degrees. Translate only the 'deg'",
    "display": "%.0f deg",
-   "context": "",
+   "context": "slider unit: degrees. Translate only the 'deg'",
    "section": "Vitals Section",
    "tooltip": false,
    "budget": 0
@@ -8721,9 +8721,9 @@
    "budget": 0
   },
   {
-   "key": "%.2fx",
+   "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
    "display": "%.2fx",
-   "context": "",
+   "context": "slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
    "section": "Vitals Section",
    "tooltip": false,
    "budget": 0
