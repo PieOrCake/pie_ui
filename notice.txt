@@ -22,4 +22,4 @@ id: 0.9.7.x-upcoming-1
 max-version: 0.9.7.9
 text: Coming in the next release:
 text: Automatically change your title, using rules you create!
-link: https://discord.gg/fe3R8HKbu
+#link: https://discord.gg/fe3R8HKbu
