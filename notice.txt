@@ -18,8 +18,8 @@
 #     id: 2026-08-24-example
 #     text: We are aware of a problem with X and are working on it.
 
-id: 3-test
-max-version: 0.9.6.0
-text: We are aware of the bug that's dimming the utility bar.
-text: We're currently beta testing a fix.
-# link: https://pie.rocks.cc/
+id: 0.9.7.x-upcoming-1
+max-version: 0.9.7.9
+text: Coming in the next release:
+text: Automatically change your title, using rules you create!
+link: https://discord.gg/fe3R8HKbu
