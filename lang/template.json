@@ -1393,14 +1393,6 @@
    "budget": 0
   },
   {
-   "key": "Whisper",
-   "display": "Whisper",
-   "context": "",
-   "section": "Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Send mail",
    "display": "Send mail",
    "context": "",
@@ -1593,32 +1585,8 @@
    "budget": 0
   },
   {
-   "key": "Say",
-   "display": "Say",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Party",
-   "display": "Party",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Squad broadcast",
    "display": "Squad broadcast",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Team",
-   "display": "Team",
    "context": "",
    "section": "Chat Section",
    "tooltip": false,
@@ -1643,62 +1611,6 @@
   {
    "key": "Emote",
    "display": "Emote",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "NPCs",
-   "display": "NPCs",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Combat",
-   "display": "Combat",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Feedback",
-   "display": "Feedback",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Item pickups",
-   "display": "Item pickups",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "PvE",
-   "display": "PvE",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "PvP",
-   "display": "PvP",
-   "context": "",
-   "section": "Chat Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "WvW",
-   "display": "WvW",
    "context": "",
    "section": "Chat Section",
    "tooltip": false,
@@ -2297,8 +2209,136 @@
    "budget": 0
   },
   {
+   "key": "Say",
+   "display": "Say",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Map",
+   "display": "Map",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Party",
+   "display": "Party",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad",
+   "display": "Squad",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Team",
+   "display": "Team",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Whisper",
+   "display": "Whisper",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "NPCs",
+   "display": "NPCs",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Combat",
+   "display": "Combat",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Emotes",
+   "display": "Emotes",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Game Messages",
    "display": "Game Messages",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Feedback",
+   "display": "Feedback",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Self (/self)",
+   "display": "Self (/self)",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Notifications",
+   "display": "Notifications",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Item pickups",
+   "display": "Item pickups",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "PvE",
+   "display": "PvE",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "PvP",
+   "display": "PvP",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "WvW",
+   "display": "WvW",
    "context": "",
    "section": "Chat Window",
    "tooltip": false,
@@ -2353,6 +2393,22 @@
    "budget": 0
   },
   {
+   "key": "Type a message after /self. It prints in your chat, for you only.",
+   "display": "Type a message after /self. It prints in your chat, for you only.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Whisper: click a player's name, or type /w Name to set a target.",
+   "display": "Whisper: click a player's name, or type /w Name to set a target.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Chat",
    "display": "Chat",
    "context": "",
@@ -2371,14 +2427,6 @@
   {
    "key": "Eat some food",
    "display": "Eat some food",
-   "context": "",
-   "section": "Consumable Catalog",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Utility",
-   "display": "Utility",
    "context": "",
    "section": "Consumable Catalog",
    "tooltip": false,
@@ -2683,6 +2731,14 @@
   {
    "key": "Click to collapse",
    "display": "Click to collapse",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Click to open the Story Journal.",
+   "display": "Click to open the Story Journal.",
    "context": "",
    "section": "Content Guide",
    "tooltip": true,
@@ -3545,6 +3601,174 @@
    "budget": 0
   },
   {
+   "key": "The language the game is set to",
+   "display": "The language the game is set to",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Currency names",
+   "display": "Currency names",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Map names",
+   "display": "Map names",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Item details",
+   "display": "Item details",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Game artwork",
+   "display": "Game artwork",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Wallet balances",
+   "display": "Wallet balances",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Material storage counts",
+   "display": "Material storage counts",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Which skins, dyes and mounts are unlocked",
+   "display": "Which skins, dyes and mounts are unlocked",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chosen novelties",
+   "display": "Chosen novelties",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Titles",
+   "display": "Titles",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Mastery rank",
+   "display": "Mastery rank",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Wizard's Vault objectives",
+   "display": "Wizard's Vault objectives",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Achievement progress",
+   "display": "Achievement progress",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Your guilds and their messages of the day",
+   "display": "Your guilds and their messages of the day",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chat link details",
+   "display": "Chat link details",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Something Pie UI does not recognise",
+   "display": "Something Pie UI does not recognise",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "THEME",
+   "display": "THEME",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "WIDGET BORDERS",
+   "display": "WIDGET BORDERS",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Custom border colour (Virro Mode)",
+   "display": "Custom border colour (Virro Mode)",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Gives every widget's borders one colour instead of the theme colour. A widget with its own custom border colour keeps it.",
+   "display": "Gives every widget's borders one colour instead of the theme colour. A widget with its own custom border colour keeps it.",
+   "context": "",
+   "section": "General Section",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Border colour",
+   "display": "Border colour",
+   "context": "",
+   "section": "General Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "GENERAL",
    "display": "GENERAL",
    "context": "",
@@ -4057,40 +4281,24 @@
    "budget": 160
   },
   {
-   "key": "THEME",
-   "display": "THEME",
+   "key": "DATA SHARED WITH OTHER ADDONS",
+   "display": "DATA SHARED WITH OTHER ADDONS",
    "context": "",
    "section": "General Section",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "WIDGET BORDERS",
-   "display": "WIDGET BORDERS",
+   "key": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
+   "display": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
    "context": "",
    "section": "General Section",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Custom border colour (Virro Mode)",
-   "display": "Custom border colour (Virro Mode)",
-   "context": "",
-   "section": "General Section",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Gives every widget's borders one colour instead of the theme colour. A widget with its own custom border colour keeps it.",
-   "display": "Gives every widget's borders one colour instead of the theme colour. A widget with its own custom border colour keeps it.",
-   "context": "",
-   "section": "General Section",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Border colour",
-   "display": "Border colour",
+   "key": "Nothing is being shared right now.",
+   "display": "Nothing is being shared right now.",
    "context": "",
    "section": "General Section",
    "tooltip": false,
@@ -5577,6 +5785,22 @@
    "budget": 0
   },
   {
+   "key": "Show out-of-bounds areas in story instances",
+   "display": "Show out-of-bounds areas in story instances",
+   "context": "",
+   "section": "Minimap Section",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Shades the parts of a story instance you cannot reach, the way the game's own compass does. It has no effect anywhere else.",
+   "display": "Shades the parts of a story instance you cannot reach, the way the game's own compass does. It has no effect anywhere else.",
+   "context": "",
+   "section": "Minimap Section",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "Include events across the whole map",
    "display": "Include events across the whole map",
    "context": "",
@@ -5885,14 +6109,6 @@
    "display": "Notification",
    "context": "",
    "section": "Notification Type Map",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Notifications",
-   "display": "Notifications",
-   "context": "",
-   "section": "Notifications",
    "tooltip": false,
    "budget": 0
   },
@@ -6513,24 +6729,8 @@
    "budget": 0
   },
   {
-   "key": "Squad",
-   "display": "Squad",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Squad / Party",
    "display": "Squad / Party",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Map",
-   "display": "Map",
    "context": "",
    "section": "Quick Toggle Model",
    "tooltip": false,
@@ -6827,6 +7027,54 @@
   {
    "key": "No alternates",
    "display": "No alternates",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Weapon",
+   "display": "Weapon",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Utility",
+   "display": "Utility",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Profession",
+   "display": "Profession",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pet",
+   "display": "Pet",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Special",
+   "display": "Special",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Swap",
+   "display": "Swap",
    "context": "",
    "section": "Skillbar",
    "tooltip": false,
