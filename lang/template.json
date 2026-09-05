@@ -6249,6 +6249,22 @@
    "budget": 0
   },
   {
+   "key": "%d Â· Build %d",
+   "display": "%d Â· Build %d",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%d Â· Equipment %d",
+   "display": "%d Â· Equipment %d",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Out of combat only",
    "display": "Out of combat only",
    "context": "",
@@ -6825,6 +6841,38 @@
    "budget": 0
   },
   {
+   "key": "PREVIEW: no addon conflict is present. This is how the notice looks when one is.",
+   "display": "PREVIEW: no addon conflict is present. This is how the notice looks when one is.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Guild, party and squad chat need a part of the game another addon is already using, so Pie UI is not showing them this session. Other channels are unaffected.",
+   "display": "Guild, party and squad chat need a part of the game another addon is already using, so Pie UI is not showing them this session. Other channels are unaffected.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Guild, party and squad chat need a part of the game %s is already using, so Pie UI is not showing them this session. Other channels are unaffected.",
+   "display": "Guild, party and squad chat need a part of the game %s is already using, so Pie UI is not showing them this session. Other channels are unaffected.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Both addons read chat the same way, so use whichever chat window you prefer.",
+   "display": "Both addons read chat the same way, so use whichever chat window you prefer.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Chat",
    "display": "Chat",
    "context": "",
@@ -6993,6 +7041,14 @@
    "budget": 160
   },
   {
+   "key": "%d%%\nClick to target",
+   "display": "%d%%\nClick to target",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Your contribution: %u",
    "display": "Your contribution: %u",
    "context": "",
@@ -7057,6 +7113,22 @@
    "budget": 160
   },
   {
+   "key": "Bonus Event: %s",
+   "display": "Bonus Event: %s",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Bonus Event",
+   "display": "Bonus Event",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Click to show this on the world map.",
    "display": "Click to show this on the world map.",
    "context": "",
@@ -7089,12 +7161,28 @@
    "budget": 0
   },
   {
+   "key": "Wizard's Vault",
+   "display": "Wizard's Vault",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Show tracked achievements instead.\nPie UI remembers this choice; it does not change the game's own panel.",
    "display": "Show tracked achievements instead.\nPie UI remembers this choice; it does not change the game's own panel.",
    "context": "",
    "section": "Content Guide",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Show tracked Wizard's Vault objectives instead.\nPie UI remembers this choice; it does not change the game's own panel.",
+   "display": "Show tracked Wizard's Vault objectives instead.\nPie UI remembers this choice; it does not change the game's own panel.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Nothing tracked in the Wizard's Vault",
@@ -7105,8 +7193,80 @@
    "budget": 0
   },
   {
+   "key": "Daily objective\n%u Astral Acclaim",
+   "display": "Daily objective\n%u Astral Acclaim",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Weekly objective\n%u Astral Acclaim",
+   "display": "Weekly objective\n%u Astral Acclaim",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Special objective\n%u Astral Acclaim",
+   "display": "Special objective\n%u Astral Acclaim",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "No tracked achievements",
    "display": "No tracked achievements",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "\nClick to open it in the game's own panel.",
+   "display": "\nClick to open it in the game's own panel.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Tracked achievement.",
+   "display": "Tracked achievement.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Waiting for Hoard & Seek to answer.\nThe completion number appears once it does.",
+   "display": "Waiting for Hoard & Seek to answer.\nThe completion number appears once it does.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.\nWithout it Pie UI can name a tracked achievement but not measure it.",
+   "display": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.\nWithout it Pie UI can name a tracked achievement but not measure it.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%d/%d overall (tier %d of %d)",
+   "display": "%d/%d overall (tier %d of %d)",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "\nFrom your account record - may be a few minutes behind",
+   "display": "\nFrom your account record - may be a few minutes behind",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7721,6 +7881,14 @@
    "budget": 0
   },
   {
+   "key": "Join %s's Squad",
+   "display": "Join %s's Squad",
+   "context": "",
+   "section": "Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Join Squad (no name for this commander)",
    "display": "Join Squad (no name for this commander)",
    "context": "",
@@ -8127,6 +8295,14 @@
    "section": "Quick Bar",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Layout: %s (click to cycle)",
+   "display": "Layout: %s (click to cycle)",
+   "context": "",
+   "section": "Quick Bar",
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "More in Pie UI settings",
