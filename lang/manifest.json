@@ -1,6 +1,13 @@
 {
+  "de": {
+    "credit": "iXTelumZ",
+    "sha": "23030e577be8ae86",
+    "total": 1189,
+    "translated": 1189,
+    "updated": "2026-09-07"
+  },
   "template": {
-    "sha": "466b37fde9d6b52c",
+    "sha": "fcaf5c124b1bc0b6",
     "updated": "2026-09-07"
   }
 }

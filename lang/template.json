@@ -6249,16 +6249,16 @@
    "budget": 0
   },
   {
-   "key": "%d Â· Build %d",
-   "display": "%d Â· Build %d",
+   "key": "%d · Build %d",
+   "display": "%d · Build %d",
    "context": "",
    "section": "Bottom Line",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "%d Â· Equipment %d",
-   "display": "%d Â· Equipment %d",
+   "key": "%d · Equipment %d",
+   "display": "%d · Equipment %d",
    "context": "",
    "section": "Bottom Line",
    "tooltip": false,
