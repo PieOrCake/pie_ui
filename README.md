@@ -17,6 +17,12 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
 - **Content Guide** — nearby events, hearts, your story step and tracked achievements, plus a map meta panel.
 - **Replacement chat box** with clickable links, inline emoji and a per-contact messenger.
 - **Loot Cascade, toasts and the reward tray**, redrawn in your theme and placed where you want them.
+- **Tooltips built from the game itself** — skills, items, traits, recipes and effects, in your
+  language, with the game's own artwork, and no web lookup. Pie UI can take over the game's own
+  item tooltips and add your prices and counts to them.
+- **Pie UI speaks your language** — every piece of text it draws can be translated, it follows
+  your game's language automatically, and German is included. There is a translator workbench
+  built in for anyone who wants to add another.
 - **Themes, your own fonts and drag-to-place everything**, with one-click hiding of the native element each widget replaces.
 
 Every element is described below, and each one can be turned off.
@@ -83,6 +89,12 @@ The right skills for whichever mount you are on, with the correct icons and keyb
 ### Mount, novelty & mastery buttons
 Pie UI versions of the native always-on buttons, each placeable and themed like the rest of the HUD. Every picker lists only what your account actually owns, and the mastery button hides itself when there is no mastery skill to use.
 
+### Instance controls
+Pie UI's own copy of the game's exit-instance button, placeable and sizeable like everything else. It leaves through the game's own confirmation, becomes an hourglass with your queue position while you wait for a map, and appears on an open-world map that is closing for want of players, where the game shows its own. Keep it alongside the native button, or hide the native one and use only this.
+
+### Automatic titles
+Change your displayed title by itself, from rules you write: in fractals wear this, on this map wear that, on this character wear the other. Conditions cover game mode, map, profession, specialisation and your build and equipment tabs, and the list only ever offers titles you have actually unlocked.
+
 ### Boon, condition & effect bars
 Your live effects across three independently placeable sections: boons, conditions, and everything else. Show icons, duration bars or both, with stack counts and countdowns, and set orientation and wrapping per section. Food and utility buffs appear with their own nourishment icons, including the reminders that nudge you to re-buff.
 
@@ -114,7 +126,7 @@ A per-contact whisper messenger with a conversation list, chat bubbles, a reply 
 Every Pie UI widget can hide the native element it replaces, and a floating quick-toggle bar lists them side by side so you can show or hide either with a single click. In WvW and PvP the native elements are kept up automatically, so you are never left without a HUD. Pie UI draws replacements rather than erasing the originals, and hiding goes through the game's own interface, never the render path.
 
 ### General
-A clean settings window with per-subsystem tabs, opened by keybind, tray icon or the Nexus options panel. Drag to place and resize anything in unlock mode, save whole arrangements as named Layout Profiles and have Pie UI switch between them automatically for fractals, raids or competitive maps, and set per-feature opacity for in and out of combat. You can use your own TrueType fonts, and Pie UI's widgets clip out of any open Guild Wars 2 panel instead of drawing across it. Settings live in a versioned file that survives updates, and if the game ever crashes Pie UI writes a report naming what faulted, recording addresses and file names only.
+A clean settings window with per-subsystem tabs, opened by keybind, tray icon or the Nexus options panel. Drag to place and resize anything in unlock mode, save whole arrangements as named Layout Profiles and have Pie UI switch between them automatically for fractals, raids or competitive maps, and set per-feature opacity for in and out of combat. You can use your own TrueType fonts, pick the language Pie UI draws in (or let it follow the game's), and Pie UI's widgets clip out of any open Guild Wars 2 panel instead of drawing across it. Settings live in a versioned file that survives updates, and if the game ever crashes Pie UI writes a report naming what faulted, recording addresses and file names only.
 
 </details>
 
@@ -124,7 +136,7 @@ Requires the [Nexus](https://raidcore.gg/Nexus) host. Copy `PieUI.dll` into your
 
 **Game artwork:** Pie UI gets some of its art directly from the game. This requires that the game is launched with the `-shareArchive` command line option. **Without it, some art may be missing, such as icons or map tiles.** `-shareArchive` is an ArenaNet option, not invented by Pie UI — see [Command line arguments](https://wiki.guildwars2.com/wiki/Command_line_arguments) on the official wiki. Pie UI also explains this on first run.
 
-**Companion addon (recommended):** chat **item, skill and skin** names and tooltips are resolved by the separate [Decoder Ring](https://github.com/PieOrCake/decoder_ring) addon. Pie UI works fine without it — those links just fall back to generic `[Item]` / `[Skill]` / `[Skin]` labels until Decoder Ring is installed. Waypoint, build-template, wardrobe-template and URL links work either way.
+**Companion addon (optional):** **Hoard & Seek** adds what your other characters are carrying, and mastery progress, to Pie UI's tooltips. Everything else - chat item, skill, trait, recipe and skin names and their tooltips - comes from the game client itself, so it works with no companion addon at all.
 
 ## Addon Policy
 
