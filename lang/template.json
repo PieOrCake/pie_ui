@@ -6473,8 +6473,8 @@
    "budget": 0
   },
   {
-   "key": "Hoard & Seek is required for other-account counts and unlock\nstatus. Install it from the Nexus library.",
-   "display": "Hoard & Seek is required for other-account counts and unlock\nstatus. Install it from the Nexus library.",
+   "key": "Hoard & Seek is required for other-account counts and unlock status. Install it from the Nexus library.",
+   "display": "Hoard & Seek is required for other-account counts and unlock status. Install it from the Nexus library.",
    "context": "",
    "section": "Chat",
    "tooltip": false,
@@ -7041,8 +7041,8 @@
    "budget": 160
   },
   {
-   "key": "%d%%\nClick to target",
-   "display": "%d%%\nClick to target",
+   "key": "Click to target",
+   "display": "Click to target",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7109,8 +7109,8 @@
    "display": "%d%% complete",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Bonus Event: %s",
@@ -7169,16 +7169,24 @@
    "budget": 0
   },
   {
-   "key": "Show tracked achievements instead.\nPie UI remembers this choice; it does not change the game's own panel.",
-   "display": "Show tracked achievements instead.\nPie UI remembers this choice; it does not change the game's own panel.",
+   "key": "Show tracked achievements instead.",
+   "display": "Show tracked achievements instead.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
-   "key": "Show tracked Wizard's Vault objectives instead.\nPie UI remembers this choice; it does not change the game's own panel.",
-   "display": "Show tracked Wizard's Vault objectives instead.\nPie UI remembers this choice; it does not change the game's own panel.",
+   "key": "Show tracked Wizard's Vault objectives instead.",
+   "display": "Show tracked Wizard's Vault objectives instead.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pie UI remembers this choice; it does not change the game's own panel.",
+   "display": "Pie UI remembers this choice; it does not change the game's own panel.",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7193,24 +7201,32 @@
    "budget": 0
   },
   {
-   "key": "Daily objective\n%u Astral Acclaim",
-   "display": "Daily objective\n%u Astral Acclaim",
+   "key": "Daily objective",
+   "display": "Daily objective",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Weekly objective\n%u Astral Acclaim",
-   "display": "Weekly objective\n%u Astral Acclaim",
+   "key": "Weekly objective",
+   "display": "Weekly objective",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Special objective\n%u Astral Acclaim",
-   "display": "Special objective\n%u Astral Acclaim",
+   "key": "Special objective",
+   "display": "Special objective",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%u Astral Acclaim",
+   "display": "%u Astral Acclaim",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7225,8 +7241,8 @@
    "budget": 0
   },
   {
-   "key": "\nClick to open it in the game's own panel.",
-   "display": "\nClick to open it in the game's own panel.",
+   "key": "Click to open it in the game's own panel.",
+   "display": "Click to open it in the game's own panel.",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7241,16 +7257,32 @@
    "budget": 0
   },
   {
-   "key": "Waiting for Hoard & Seek to answer.\nThe completion number appears once it does.",
-   "display": "Waiting for Hoard & Seek to answer.\nThe completion number appears once it does.",
+   "key": "Waiting for Hoard & Seek to answer.",
+   "display": "Waiting for Hoard & Seek to answer.",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.\nWithout it Pie UI can name a tracked achievement but not measure it.",
-   "display": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.\nWithout it Pie UI can name a tracked achievement but not measure it.",
+   "key": "The completion number appears once it does.",
+   "display": "The completion number appears once it does.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.",
+   "display": "Completion numbers need the Hoard & Seek addon, which supplies your account's achievement progress.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Without it Pie UI can name a tracked achievement but not measure it.",
+   "display": "Without it Pie UI can name a tracked achievement but not measure it.",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7265,8 +7297,8 @@
    "budget": 0
   },
   {
-   "key": "\nFrom your account record - may be a few minutes behind",
-   "display": "\nFrom your account record - may be a few minutes behind",
+   "key": "From your account record - may be a few minutes behind",
+   "display": "From your account record - may be a few minutes behind",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -7289,12 +7321,12 @@
    "budget": 0
   },
   {
-   "key": "The events listed here are real, but their detail is unfinished: progress and health bars can be missing or shown twice, and objective text does not always arrive. Read the game's own panel for anything that matters.",
-   "display": "The events listed here are real, but their detail is unfinished: progress and health bars can be missing or shown twice, and objective text does not always arrive. Read the game's own panel for anything that matters.",
+   "key": "These events are real, but their detail is unfinished: bars and objective text can be missing or wrong. Read the game's own panel for anything that matters.",
+   "display": "These events are real, but their detail is unfinished: bars and objective text can be missing or wrong. Read the game's own panel for anything that matters.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
+   "tooltip": true,
+   "budget": 160
   },
   {
    "key": "Loading...",
@@ -7505,6 +7537,30 @@
    "budget": 0
   },
   {
+   "key": "(incomplete)",
+   "display": "(incomplete)",
+   "context": "",
+   "section": "Map Completion",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "(locked)",
+   "display": "(locked)",
+   "context": "",
+   "section": "Map Completion",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "(undiscovered)",
+   "display": "(undiscovered)",
+   "context": "",
+   "section": "Map Completion",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Map Meta",
    "display": "Map Meta",
    "context": "",
@@ -7537,8 +7593,8 @@
    "budget": 160
   },
   {
-   "key": "Mastery - no key is bound to the mastery skill in game,\nso clicking cannot cast it. Right-click to choose one.",
-   "display": "Mastery - no key is bound to the mastery skill in game,\nso clicking cannot cast it. Right-click to choose one.",
+   "key": "Mastery - no key is bound to the mastery skill in game, so clicking cannot cast it. Right-click to choose one.",
+   "display": "Mastery - no key is bound to the mastery skill in game, so clicking cannot cast it. Right-click to choose one.",
    "context": "",
    "section": "Mastery",
    "tooltip": true,
@@ -7553,24 +7609,40 @@
    "budget": 160
   },
   {
-   "key": "Your default mastery.\nNo key is bound to this mastery skill in game, so clicking cannot use it.\nRight-click makes it the default.",
-   "display": "Your default mastery.\nNo key is bound to this mastery skill in game, so clicking cannot use it.\nRight-click makes it the default.",
+   "key": "Your default mastery.",
+   "display": "Your default mastery.",
    "context": "",
    "section": "Mastery",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "No key is bound to this mastery skill in game, so clicking cannot use it.\nRight-click makes it your default.",
-   "display": "No key is bound to this mastery skill in game, so clicking cannot use it.\nRight-click makes it your default.",
+   "key": "No key is bound to this mastery skill in game, so clicking cannot use it.",
+   "display": "No key is bound to this mastery skill in game, so clicking cannot use it.",
    "context": "",
    "section": "Mastery",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Your default mastery.\nClick to use it, right-click to keep it default.",
-   "display": "Your default mastery.\nClick to use it, right-click to keep it default.",
+   "key": "Right-click makes it the default.",
+   "display": "Right-click makes it the default.",
+   "context": "",
+   "section": "Mastery",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Right-click makes it your default.",
+   "display": "Right-click makes it your default.",
+   "context": "",
+   "section": "Mastery",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Click to use it, right-click to keep it default.",
+   "display": "Click to use it, right-click to keep it default.",
    "context": "",
    "section": "Mastery",
    "tooltip": false,
@@ -7761,14 +7833,6 @@
    "budget": 0
   },
   {
-   "key": "Click to teleport.",
-   "display": "Click to teleport.",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Not obtained",
    "display": "Not obtained",
    "context": "",
@@ -7779,14 +7843,6 @@
   {
    "key": "Install Hoard & Seek to show completion",
    "display": "Install Hoard & Seek to show completion",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%s away",
-   "display": "%s away",
    "context": "",
    "section": "Minimap",
    "tooltip": false,
@@ -7929,16 +7985,16 @@
    "budget": 0
   },
   {
-   "key": "Dismount - no key is bound to Mount/Dismount in game, so clicking\ncannot dismount.",
-   "display": "Dismount - no key is bound to Mount/Dismount in game, so clicking\ncannot dismount.",
+   "key": "Dismount - no key is bound to Mount/Dismount in game, so clicking cannot dismount.",
+   "display": "Dismount - no key is bound to Mount/Dismount in game, so clicking cannot dismount.",
    "context": "",
    "section": "Mount",
    "tooltip": true,
    "budget": 160
   },
   {
-   "key": "Mount - no key is bound to Mount/Dismount in game,\nso clicking cannot mount. Right-click to choose one.",
-   "display": "Mount - no key is bound to Mount/Dismount in game,\nso clicking cannot mount. Right-click to choose one.",
+   "key": "Mount - no key is bound to Mount/Dismount in game, so clicking cannot mount. Right-click to choose one.",
+   "display": "Mount - no key is bound to Mount/Dismount in game, so clicking cannot mount. Right-click to choose one.",
    "context": "",
    "section": "Mount",
    "tooltip": true,
@@ -8121,20 +8177,28 @@
    "budget": 0
   },
   {
-   "key": "Left-click: make this the default\nRight-click: choose a different novelty",
-   "display": "Left-click: make this the default\nRight-click: choose a different novelty",
+   "key": "Left-click: make this the default",
+   "display": "Left-click: make this the default",
    "context": "",
    "section": "Novelty",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Right-click: choose a different novelty",
+   "display": "Right-click: choose a different novelty",
+   "context": "",
+   "section": "Novelty",
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Click to choose a novelty for this category",
    "display": "Click to choose a novelty for this category",
    "context": "",
    "section": "Novelty",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Other characters: %d",
@@ -8617,6 +8681,62 @@
    "budget": 160
   },
   {
+   "key": "Some artwork is missing: the game was not launched with -shareArchive.",
+   "display": "Some artwork is missing: the game was not launched with -shareArchive.",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pie UI gets some of its art directly from the game. This requires that the game is launched with the -shareArchive command line option. Without it, some art may be missing, such as icons or map tiles.",
+   "display": "Pie UI gets some of its art directly from the game. This requires that the game is launched with the -shareArchive command line option. Without it, some art may be missing, such as icons or map tiles.",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "-shareArchive is an ArenaNet option, not invented by Pie UI.",
+   "display": "-shareArchive is an ArenaNet option, not invented by Pie UI.",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This is shown once. A reminder stays in the settings until the option is added.",
+   "display": "This is shown once. A reminder stays in the settings until the option is added.",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Missing game artwork",
+   "display": "Missing game artwork",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Command line arguments (official wiki)",
+   "display": "Command line arguments (official wiki)",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Got it",
+   "display": "Got it",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Not a skill",
    "display": "Not a skill",
    "context": "",
@@ -8963,14 +9083,6 @@
   {
    "key": "%s (other instance)",
    "display": "%s (other instance)",
-   "context": "",
-   "section": "Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Squad Frames (no group)",
-   "display": "Squad Frames (no group)",
    "context": "",
    "section": "Squad Frames",
    "tooltip": false,
@@ -9331,30 +9443,6 @@
   {
    "key": "Game artwork",
    "display": "Game artwork",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI gets some of its art directly from the game. This requires that the game is launched with the -shareArchive command line option. Without it, some art may be missing, such as icons or map tiles.",
-   "display": "Pie UI gets some of its art directly from the game. This requires that the game is launched with the -shareArchive command line option. Without it, some art may be missing, such as icons or map tiles.",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "-shareArchive is an ArenaNet option, not invented by Pie UI.",
-   "display": "-shareArchive is an ArenaNet option, not invented by Pie UI.",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Command line arguments (official wiki)",
-   "display": "Command line arguments (official wiki)",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
