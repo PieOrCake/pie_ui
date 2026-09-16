@@ -329,6 +329,22 @@
    "budget": 0
   },
   {
+   "key": "Show native hints and nags",
+   "display": "Show native hints and nags",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "The game's own tips and its repeating reminders, such as the one about an ability being ready to master. Turning this off hides both.",
+   "display": "The game's own tips and its repeating reminders, such as the one about an ability being ready to master. Turning this off hides both.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "ITEMS",
    "display": "ITEMS",
    "context": "",
@@ -1593,20 +1609,12 @@
    "budget": 0
   },
   {
-   "key": "Adjust hotbars when downed/defeated",
-   "display": "Adjust hotbars when downed/defeated",
+   "key": "Hide hotbars while downed or defeated",
+   "display": "Hide hotbars while downed or defeated",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
    "budget": 0
-  },
-  {
-   "key": "While downed, show only the weapon bar (the downed skills). While defeated, hide all hotbars. Restored on revive.",
-   "display": "While downed, show only the weapon bar (the downed skills). While defeated, hide all hotbars. Restored on revive.",
-   "context": "",
-   "section": "Settings > Hotbars",
-   "tooltip": true,
-   "budget": 160
   },
   {
    "key": "INTERACTION",
@@ -1675,6 +1683,22 @@
   {
    "key": "Right-click a heal, utility or elite slot for a grid of the other skills available there. Pick one to equip it, the same as the game's own swap.",
    "display": "Right-click a heal, utility or elite slot for a grid of the other skills available there. Pick one to equip it, the same as the game's own swap.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Right-click F4 to rename your mech",
+   "display": "Right-click F4 to rename your mech",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Opens the game's own rename window, so the naming rules are the game's. Only on a Mechanist with the mech out.",
+   "display": "Opens the game's own rename window, so the naming rules are the game's. Only on a Mechanist with the mech out.",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
@@ -4377,6 +4401,110 @@
    "budget": 160
   },
   {
+   "key": "Show marker pack routes",
+   "display": "Show marker pack routes",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Draws routes from the marker packs installed in TaimiHUD, following the categories switched on there. Changing those categories can take a while to show here.",
+   "display": "Draws routes from the marker packs installed in TaimiHUD, following the categories switched on there. Changing those categories can take a while to show here.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "No marker packs found.",
+   "display": "No marker packs found.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Reading marker packs...",
+   "display": "Reading marker packs...",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Waiting to read the marker packs.",
+   "display": "Waiting to read the marker packs.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "No routes found in the installed marker packs.",
+   "display": "No routes found in the installed marker packs.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
+   "display": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
+   "display": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Too many routes to draw here; some are left out.",
+   "display": "Too many routes to draw here; some are left out.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%d markers drawn on this map, %d still waiting for their picture.",
+   "display": "%d markers drawn on this map, %d still waiting for their picture.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Marker pack icon size",
+   "display": "Marker pack icon size",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%.1fx|slider unit: a multiplier. Translate only the 'x'",
+   "display": "%.1fx",
+   "context": "slider unit: a multiplier. Translate only the 'x'",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
+   "display": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "Show map badges (vendors, bounty boards)",
    "display": "Show map badges (vendors, bounty boards)",
    "context": "",
@@ -4419,6 +4547,38 @@
   {
    "key": "Heart area colour",
    "display": "Heart area colour",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show fog of war",
+   "display": "Show fog of war",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Covers ground this character has not explored yet, the way the game's own compass does. This version is a flat colour, not a brushed paint.",
+   "display": "Covers ground this character has not explored yet, the way the game's own compass does. This version is a flat colour, not a brushed paint.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Fog colour",
+   "display": "Fog colour",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Fog opacity",
+   "display": "Fog opacity",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
@@ -6577,6 +6737,46 @@
    "budget": 0
   },
   {
+   "key": "Invite to [%s]",
+   "display": "Invite to [%s]",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Guild Invite",
+   "display": "Guild Invite",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Kick from [%s]",
+   "display": "Kick from [%s]",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Kick from Guild",
+   "display": "Kick from Guild",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Confirm: kick from guild?",
+   "display": "Confirm: kick from guild?",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Vote to kick from party",
    "display": "Vote to kick from party",
    "context": "",
@@ -6825,8 +7025,24 @@
    "budget": 0
   },
   {
+   "key": "rolls %d (%d-%d)",
+   "display": "rolls %d (%d-%d)",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Type a message after /self. It prints in your chat, for you only.",
    "display": "Type a message after /self. It prints in your chat, for you only.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "That is not a number or a range. Try /roll on its own, /roll 20, or /roll 50-100.",
+   "display": "That is not a number or a range. Try /roll on its own, /roll 20, or /roll 50-100.",
    "context": "",
    "section": "Chat Window",
    "tooltip": false,
@@ -8233,16 +8449,16 @@
    "budget": 0
   },
   {
-   "key": "TP Buy: ",
-   "display": "TP Buy: ",
+   "key": "Buy: ",
+   "display": "Buy: ",
    "context": "",
    "section": "Price Row Text",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "TP Sell: ",
-   "display": "TP Sell: ",
+   "key": "Sell: ",
+   "display": "Sell: ",
    "context": "",
    "section": "Price Row Text",
    "tooltip": false,
@@ -8259,6 +8475,22 @@
   {
    "key": "No sell offers",
    "display": "No sell offers",
+   "context": "",
+   "section": "Price Row Text",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Trading Post",
+   "display": "Trading Post",
+   "context": "",
+   "section": "Price Row Text",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This item",
+   "display": "This item",
    "context": "",
    "section": "Price Row Text",
    "tooltip": false,
@@ -9205,14 +9437,6 @@
    "display": "Hand-kite",
    "context": "",
    "section": "Squad Roles Store",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Guild Invite",
-   "display": "Guild Invite",
-   "context": "",
-   "section": "Target Frame",
    "tooltip": false,
    "budget": 0
   },
