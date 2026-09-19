@@ -24,6 +24,8 @@ Pie UI only **reads** game memory and triggers actions through the game's own in
   your game's language automatically, and German is included. There is a translator workbench
   built in for anyone who wants to add another.
 - **Themes, your own fonts and drag-to-place everything**, with one-click hiding of the native element each widget replaces.
+- **Find any setting by typing** — search the settings by an option's name, by what it does, or by
+  the word you would use for it, and land on the right tab.
 
 Every element is described below, and each one can be turned off.
 
