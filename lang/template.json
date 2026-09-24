@@ -1,4 +1,8 @@
 {
+ "sinceRelease": {
+  "version": "0.9.9.0",
+  "recorded": "2026-09-16"
+ },
  "strings": [
   {
    "key": "LANGUAGE",
@@ -257,6 +261,51 @@
    "budget": 0
   },
   {
+   "key": "CORNERS",
+   "display": "CORNERS",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Slot corners",
+   "display": "Slot corners",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
+   "display": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Bar corners",
+   "display": "Bar corners",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
+   "display": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "GENERAL",
    "display": "GENERAL",
    "context": "",
@@ -265,12 +314,13 @@
    "budget": 0
   },
   {
-   "key": "Unlock UI (move & resize widgets)",
-   "display": "Unlock UI (move & resize widgets)",
+   "key": "A keybind and the Pie UI icon's right-click menu both toggle this. The keybind starts unassigned; set it under Nexus > Keybinds.",
+   "display": "A keybind and the Pie UI icon's right-click menu both toggle this. The keybind starts unassigned; set it under Nexus > Keybinds.",
    "context": "",
    "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "UI animations",
@@ -383,6 +433,33 @@
    "section": "Settings > General",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Colour context menu items",
+   "display": "Colour context menu items",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Destroy",
+   "display": "Destroy",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use All / Consume All",
+   "display": "Use All / Consume All",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Replace the game's item tooltips with Pie UI's own",
@@ -697,6 +774,38 @@
    "budget": 160
   },
   {
+   "key": "DATA SHARED WITH OTHER ADDONS",
+   "display": "DATA SHARED WITH OTHER ADDONS",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
+   "display": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Nothing is being shared right now.",
+   "display": "Nothing is being shared right now.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Reset to defaults",
+   "display": "Reset to defaults",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "No title",
    "display": "No title",
    "context": "",
@@ -765,20 +874,12 @@
    "display": "Tab names differ per character. Add a character condition to see them.",
    "context": "",
    "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Tab names for that character are not known yet. Log in as them once.",
    "display": "Tab names for that character are not known yet. Log in as them once.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "TITLES",
-   "display": "TITLES",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
@@ -845,8 +946,8 @@
    "display": "This title did not apply. You may no longer have it.",
    "context": "",
    "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Otherwise",
@@ -905,36 +1006,94 @@
    "budget": 0
   },
   {
-   "key": "DATA SHARED WITH OTHER ADDONS",
-   "display": "DATA SHARED WITH OTHER ADDONS",
+   "key": "Interact",
+   "display": "Interact",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
-   "display": "Other addons can ask Pie UI for what the game already knows, so they do not have to fetch it from the internet.",
+   "key": "Show the interact prompt",
+   "display": "Show the interact prompt",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Nothing is being shared right now.",
-   "display": "Nothing is being shared right now.",
+   "key": "Show the game's own prompt",
+   "display": "Show the game's own prompt",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Reset to defaults",
-   "display": "Reset to defaults",
+   "key": "Mesmer troll protection",
+   "display": "Mesmer troll protection",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Require a modifier key to take a portal.",
+   "display": "Require a modifier key to take a portal.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Alt",
+   "display": "Alt",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Control",
+   "display": "Control",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shift",
+   "display": "Shift",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Where it applies:",
+   "display": "Where it applies:",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Set Out of combat to 0 to hide it while idle. Unlock the UI (above) to move and resize it.",
+   "display": "Set Out of combat to 0 to hide it while idle. Unlock the UI (above) to move and resize it.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Layouts",
@@ -959,6 +1118,141 @@
    "section": "Settings > Layouts",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Layouts are one file each, in the folder below. To use one somebody sent you, put the file in there and it becomes one of your layouts.",
+   "display": "Layouts are one file each, in the folder below. To use one somebody sent you, put the file in there and it becomes one of your layouts.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copy path",
+   "display": "Copy path",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Everything in this layout is on the screen.",
+   "display": "Everything in this layout is on the screen.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Some parts of this layout are off the screen:",
+   "display": "Some parts of this layout are off the screen:",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Bring those back on screen",
+   "display": "Bring those back on screen",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "IMPORT SKILL BARS",
+   "display": "IMPORT SKILL BARS",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "There is no other layout to take bars from yet.",
+   "display": "There is no other layout to take bars from yet.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Take its bars",
+   "display": "Take its bars",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copies only the skill bars, their groups and their controller buttons into the layout you are using. Everything else of yours is left alone.",
+   "display": "Copies only the skill bars, their groups and their controller buttons into the layout you are using. Everything else of yours is left alone.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "PASSING THIS LAYOUT ON",
+   "display": "PASSING THIS LAYOUT ON",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "who made it",
+   "display": "who made it",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use my account name",
+   "display": "Use my account name",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Left empty, the file says nothing about who made it. Your account name is yours to give, so nothing fills this in for you.",
+   "display": "Left empty, the file says nothing about who made it. Your account name is yours to give, so nothing fills this in for you.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "what it is for",
+   "display": "what it is for",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Save this",
+   "display": "Save this",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "ACTIVE LAYOUT",
@@ -997,8 +1291,8 @@
    "display": "The Default layout cannot be deleted.",
    "context": "",
    "section": "Settings > Layouts",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "New Layout",
@@ -1369,14 +1663,6 @@
    "budget": 0
   },
   {
-   "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
-   "display": "%.2fx",
-   "context": "slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
-   "section": "Settings > Health & Vitals",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Group spacing",
    "display": "Group spacing",
    "context": "",
@@ -1487,6 +1773,185 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "CONTROLLER BUTTONS",
+   "display": "CONTROLLER BUTTONS",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show your controller's buttons on the skill slots instead of keyboard keys. A button is set on a key, so every bar that draws that key shows it.",
+   "display": "Show your controller's buttons on the skill slots instead of keyboard keys. A button is set on a key, so every bar that draws that key shows it.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Press the key you want to put a button on. Escape cancels.",
+   "display": "Press the key you want to put a button on. Escape cancels.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Add a key",
+   "display": "Add a key",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Press the key your controller sends for a skill, then choose the button to draw. Clear a key to go back to its keyboard label.",
+   "display": "Press the key your controller sends for a skill, then choose the button to draw. Clear a key to go back to its keyboard label.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Use each button's own colours",
+   "display": "Use each button's own colours",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off draws the buttons in your interface theme's colour. On draws them in their own, which suits the coloured PlayStation buttons.",
+   "display": "Off draws the buttons in your interface theme's colour. On draws them in their own, which suits the coloured PlayStation buttons.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "No keys have a controller button yet.",
+   "display": "No keys have a controller button yet.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Change",
+   "display": "Change",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Clear",
+   "display": "Clear",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "FREE PLACEMENT",
+   "display": "FREE PLACEMENT",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Unlock the interface, then drag a bar's slots one at a time to build a shape that suits your controller.",
+   "display": "Unlock the interface, then drag a bar's slots one at a time to build a shape that suits your controller.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Place weapon slots freely",
+   "display": "Place weapon slots freely",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Place utility slots freely",
+   "display": "Place utility slots freely",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Place profession slots freely",
+   "display": "Place profession slots freely",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Place pet slots freely",
+   "display": "Place pet slots freely",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Return every slot",
+   "display": "Return every slot",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off, the bar moves as one piece while the interface is unlocked. On, each of its slots moves on its own.",
+   "display": "Off, the bar moves as one piece while the interface is unlocked. On, each of its slots moves on its own.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "No slots have been moved out of their bar.",
+   "display": "No slots have been moved out of their bar.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Return to its bar",
+   "display": "Return to its bar",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Enable Hotbars",
@@ -1609,12 +2074,13 @@
    "budget": 0
   },
   {
-   "key": "Hide hotbars while downed or defeated",
-   "display": "Hide hotbars while downed or defeated",
+   "key": "Hide hotbars, mount, novelty and mastery while downed or defeated",
+   "display": "Hide hotbars, mount, novelty and mastery while downed or defeated",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "INTERACTION",
@@ -1799,6 +2265,15 @@
    "section": "Settings > Hotbars",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Controller",
+   "display": "Controller",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Tip: Unlock the UI (General tab) to drag each bar into place.",
@@ -2007,6 +2482,15 @@
    "section": "Settings > Profession Resource",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Use combat opacity while the resource drains",
+   "display": "Use combat opacity while the resource drains",
+   "context": "",
+   "section": "Settings > Profession Resource",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Thief (initiative)",
@@ -2335,6 +2819,42 @@
    "section": "Settings > Target",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Show the target's rank next to its name",
+   "display": "Show the target's rank next to its name",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show the target's portrait",
+   "display": "Show the target's portrait",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Portrait opacity",
+   "display": "Portrait opacity",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Another add-on is using something Pie UI needs for this, so the portrait stays empty while the game's own target frame is hidden.",
+   "display": "Another add-on is using something Pie UI needs for this, so the portrait stays empty while the game's own target frame is hidden.",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Standalone frame",
@@ -3401,746 +3921,73 @@
    "budget": 160
   },
   {
-   "key": "Say",
-   "display": "Say",
+   "key": "Instant",
+   "display": "Instant",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Party",
-   "display": "Party",
+   "key": "Fade",
+   "display": "Fade",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Squad broadcast",
-   "display": "Squad broadcast",
+   "key": "Slide",
+   "display": "Slide",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Team",
-   "display": "Team",
+   "key": "Grow",
+   "display": "Grow",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Whisper (in)",
-   "display": "Whisper (in)",
+   "key": "Social",
+   "display": "Social",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Whisper (out)",
-   "display": "Whisper (out)",
+   "key": "SOURCES",
+   "display": "SOURCES",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Emote",
-   "display": "Emote",
+   "key": "Pie UI's own pop-up for things people do: someone on your contact list changing status, or someone joining or leaving your group.",
+   "display": "Pie UI's own pop-up for things people do: someone on your contact list changing status, or someone joining or leaving your group.",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Error",
-   "display": "Error",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G1",
-   "display": "G1",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G2",
-   "display": "G2",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G3",
-   "display": "G3",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G4",
-   "display": "G4",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G5",
-   "display": "G5",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "G6",
-   "display": "G6",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Enable Chat",
-   "display": "Enable Chat",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Show native chat",
-   "display": "Show native chat",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Show system + emote lines",
-   "display": "Show system + emote lines",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Show the game's yellow system lines (command feedback, errors) and standard emotes.",
-   "display": "Show the game's yellow system lines (command feedback, errors) and standard emotes.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Hide blocked players' messages",
-   "display": "Hide blocked players' messages",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Match the base game: don't show chat from players on your in-game Blocked list. Uses the game's own block check for the message sender.",
-   "display": "Match the base game: don't show chat from players on your in-game Blocked list. Uses the game's own block check for the message sender.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show owned counts in item tooltips",
-   "display": "Show owned counts in item tooltips",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Inventory / Bank / Material Storage counts in chat item tooltips, via the Hoard & Seek addon.",
-   "display": "Inventory / Bank / Material Storage counts in chat item tooltips, via the Hoard & Seek addon.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show unlock status in item tooltips",
-   "display": "Show unlock status in item tooltips",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Skin / dye / mini unlocked or locked status in chat item tooltips, via the Hoard & Seek addon.",
-   "display": "Skin / dye / mini unlocked or locked status in chat item tooltips, via the Hoard & Seek addon.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show unlock markers beside chat links",
-   "display": "Show unlock markers beside chat links",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
-   "display": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "INPUT",
-   "display": "INPUT",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI input box",
-   "display": "Pie UI input box",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Native chat",
-   "display": "Native chat",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
-   "display": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Send speed (char delay ms)",
-   "display": "Send speed (char delay ms)",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%d ms|slider unit: milliseconds. Translate only the 'ms'",
-   "display": "%d ms",
-   "context": "slider unit: milliseconds. Translate only the 'ms'",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
-   "display": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "TAB STRIP",
-   "display": "TAB STRIP",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Right-click a tab to rename it, choose its channels, or delete it; drag tabs to reorder; click + to add. The tab strip sits on the chosen edge.",
-   "display": "Right-click a tab to rename it, choose its channels, or delete it; drag tabs to reorder; click + to add. The tab strip sits on the chosen edge.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Position",
-   "display": "Position",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Background",
-   "display": "Background",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
-   "display": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "MINIMAL MODE",
-   "display": "MINIMAL MODE",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Chat shrinks to the last few lines with no panel, no tabs and no input box, then comes back the moment you need it.",
-   "display": "Chat shrinks to the last few lines with no panel, no tabs and no input box, then comes back the moment you need it.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Shrink chat when I am not using it",
-   "display": "Shrink chat when I am not using it",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Use the game's own chat toggle key",
-   "display": "Use the game's own chat toggle key",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Automatic settings below are ignored when shrunk by the keybind. Press the keybind again to restore.",
-   "display": "Automatic settings below are ignored when shrunk by the keybind. Press the keybind again to restore.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Bound to",
-   "display": "Bound to",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Bound to a key I cannot read yet.",
-   "display": "Bound to a key I cannot read yet.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "No key bound. Set one in the game's control options, under Chat Toggle.",
-   "display": "No key bound. Set one in the game's control options, under Chat Toggle.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Shrink after",
-   "display": "Shrink after",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%.0f s|slider unit: seconds. Translate only the 's'",
-   "display": "%.0f s",
-   "context": "slider unit: seconds. Translate only the 's'",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Seconds of no chat activity before it shrinks. Set it to zero to use the key alone and never shrink on its own.",
-   "display": "Seconds of no chat activity before it shrinks. Set it to zero to use the key alone and never shrink on its own.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Apply:",
-   "display": "Apply:",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Both",
-   "display": "Both",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Lines to keep",
-   "display": "Lines to keep",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Oldest line",
-   "display": "Oldest line",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "How faint the oldest kept line is. The newest line always stays fully bright.",
-   "display": "How faint the oldest kept line is. The newest line always stays fully bright.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Bring chat back when:",
-   "display": "Bring chat back when:",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "The mouse is over it",
-   "display": "The mouse is over it",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "A message arrives",
-   "display": "A message arrives",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "On these channels:",
-   "display": "On these channels:",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Typing and sending always bring it back.",
-   "display": "Typing and sending always bring it back.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "REMEMBERED PLAYERS",
-   "display": "REMEMBERED PLAYERS",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI has saved data on %zu other characters.",
-   "display": "Pie UI has saved data on %zu other characters.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Delete remembered players?",
-   "display": "Delete remembered players?",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "This will permanently delete everything Pie UI has saved about other characters.",
-   "display": "This will permanently delete everything Pie UI has saved about other characters.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "This cannot be undone, and Pie UI starts saving again straight away.",
-   "display": "This cannot be undone, and Pie UI starts saving again straight away.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "CLASS ICONS",
-   "display": "CLASS ICONS",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "TIMESTAMPS",
-   "display": "TIMESTAMPS",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Show timestamps",
-   "display": "Show timestamps",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "12-hour",
-   "display": "12-hour",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "24-hour",
-   "display": "24-hour",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "TRACKED WORDS",
-   "display": "TRACKED WORDS",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Flash a chat row when one of these words appears. Comma-separated, case-insensitive. Empty = off.",
-   "display": "Flash a chat row when one of these words appears. Comma-separated, case-insensitive. Empty = off.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Words",
-   "display": "Words",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Match inside larger words",
-   "display": "Match inside larger words",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "On, a tracked word also matches inside longer words: \"pie\" flags \"piece\" too. Off, only whole words match.",
-   "display": "On, a tracked word also matches inside longer words: \"pie\" flags \"piece\" too. Off, only whole words match.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Include sender names",
-   "display": "Include sender names",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Also flash when a tracked word appears in the sender's name, not just the message body. Off by default, so a player named Pie does not flash every line.",
-   "display": "Also flash when a tracked word appears in the sender's name, not just the message body. Off by default, so a player named Pie does not flash every line.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Flash colour",
-   "display": "Flash colour",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Colour and opacity of the flash. The opacity you pick is the peak brightness; the pulse fades from there.",
-   "display": "Colour and opacity of the flash. The opacity you pick is the peak brightness; the pulse fades from there.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Pulses",
-   "display": "Pulses",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "How many times the row/border pulses per mention.",
-   "display": "How many times the row/border pulses per mention.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "PARTY / SQUAD",
-   "display": "PARTY / SQUAD",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Commander label",
-   "display": "Commander label",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Lieutenant label",
-   "display": "Lieutenant label",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Shown beside the tag image in party/squad chat only (e.g. CMDR / LT, or Boss / Henchman). Leave blank to show just the tag.",
-   "display": "Shown beside the tag image in party/squad chat only (e.g. CMDR / LT, or Boss / Henchman). Leave blank to show just the tag.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Notify when someone joins/leaves party/squad:",
-   "display": "Notify when someone joins/leaves party/squad:",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Chat message",
-   "display": "Chat message",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Toast",
-   "display": "Toast",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Only when commander",
-   "display": "Only when commander",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Squad joins are announced when the person accepts (not when invited). Party joins can't be detected reliably, so only party leaves are shown.",
-   "display": "Squad joins are announced when the person accepts (not when invited). Party joins can't be detected reliably, so only party leaves are shown.",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "GUILD",
-   "display": "GUILD",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Show guild message of the day on login",
-   "display": "Show guild message of the day on login",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "CONTACTS",
-   "display": "CONTACTS",
-   "context": "",
-   "section": "Settings > Chat",
-   "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Status-change toast",
    "display": "Status-change toast",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
   },
@@ -4148,15 +3995,902 @@
    "key": "Pop a notification when someone on your contact list comes online, goes offline, or switches to away.",
    "display": "Pop a notification when someone on your contact list comes online, goes offline, or switches to away.",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Notify when someone joins/leaves party/squad:",
+   "display": "Notify when someone joins/leaves party/squad:",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chat message",
+   "display": "Chat message",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Toast",
+   "display": "Toast",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Only when commander",
+   "display": "Only when commander",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad joins are announced when the person accepts (not when invited). Party joins can't be detected reliably, so only party leaves are shown.",
+   "display": "Squad joins are announced when the person accepts (not when invited). Party joins can't be detected reliably, so only party leaves are shown.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "APPEARANCE",
+   "display": "APPEARANCE",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Set both opacities to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
+   "display": "Set both opacities to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Seconds a notice stays",
+   "display": "Seconds a notice stays",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Hovering the notices pauses this.",
+   "display": "Hovering the notices pauses this.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Maximum notices shown",
+   "display": "Maximum notices shown",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Which way new notices stack. Use Up for notices placed low on the screen.",
+   "display": "Which way new notices stack. Use Up for notices placed low on the screen.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
+   "display": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Set background colour",
+   "display": "Set background colour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off, the notices use the standard dark panel. The slider above still sets how solid it is.",
+   "display": "Off, the notices use the standard dark panel. The slider above still sets how solid it is.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "MOTION",
+   "display": "MOTION",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "How it appears",
+   "display": "How it appears",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "How it disappears",
+   "display": "How it disappears",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Animation speed",
+   "display": "Animation speed",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
+   "display": "%.2fx",
+   "context": "slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
+   "display": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Preview",
+   "display": "Preview",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show a few sample notices so you can watch the motion. They are placeholders, not real people.",
+   "display": "Show a few sample notices so you can watch the motion. They are placeholders, not real people.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Say",
+   "display": "Say",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Party",
+   "display": "Party",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad broadcast",
+   "display": "Squad broadcast",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Team",
+   "display": "Team",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Whisper (in)",
+   "display": "Whisper (in)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Whisper (out)",
+   "display": "Whisper (out)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Emote",
+   "display": "Emote",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Error",
+   "display": "Error",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G1",
+   "display": "G1",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G2",
+   "display": "G2",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G3",
+   "display": "G3",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G4",
+   "display": "G4",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G5",
+   "display": "G5",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "G6",
+   "display": "G6",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Enable Chat",
+   "display": "Enable Chat",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show native chat",
+   "display": "Show native chat",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show system + emote lines",
+   "display": "Show system + emote lines",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show the game's yellow system lines (command feedback, errors) and standard emotes.",
+   "display": "Show the game's yellow system lines (command feedback, errors) and standard emotes.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Hide blocked players' messages",
+   "display": "Hide blocked players' messages",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Match the base game: don't show chat from players on your in-game Blocked list. Uses the game's own block check for the message sender.",
+   "display": "Match the base game: don't show chat from players on your in-game Blocked list. Uses the game's own block check for the message sender.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Show owned counts in item tooltips",
+   "display": "Show owned counts in item tooltips",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Inventory / Bank / Material Storage counts in chat item tooltips, via the Hoard & Seek addon.",
+   "display": "Inventory / Bank / Material Storage counts in chat item tooltips, via the Hoard & Seek addon.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Show unlock status in item tooltips",
+   "display": "Show unlock status in item tooltips",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Skin / dye / mini unlocked or locked status in chat item tooltips, via the Hoard & Seek addon.",
+   "display": "Skin / dye / mini unlocked or locked status in chat item tooltips, via the Hoard & Seek addon.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Show unlock markers beside chat links",
+   "display": "Show unlock markers beside chat links",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
+   "display": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "INPUT",
+   "display": "INPUT",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pie UI input box",
+   "display": "Pie UI input box",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Native chat",
+   "display": "Native chat",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
+   "display": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Send speed (char delay ms)",
+   "display": "Send speed (char delay ms)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%d ms|slider unit: milliseconds. Translate only the 'ms'",
+   "display": "%d ms",
+   "context": "slider unit: milliseconds. Translate only the 'ms'",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
+   "display": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "TAB STRIP",
+   "display": "TAB STRIP",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Right-click a tab to rename it, choose its channels, or delete it; drag tabs to reorder; click + to add. The tab strip sits on the chosen edge.",
+   "display": "Right-click a tab to rename it, choose its channels, or delete it; drag tabs to reorder; click + to add. The tab strip sits on the chosen edge.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Position",
+   "display": "Position",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Background",
+   "display": "Background",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
+   "display": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "MINIMAL MODE",
+   "display": "MINIMAL MODE",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chat shrinks to the last few lines with no panel, no tabs and no input box, then comes back the moment you need it.",
+   "display": "Chat shrinks to the last few lines with no panel, no tabs and no input box, then comes back the moment you need it.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Shrink chat when I am not using it",
+   "display": "Shrink chat when I am not using it",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Use the game's own chat toggle key",
+   "display": "Use the game's own chat toggle key",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Automatic settings below are ignored when shrunk by the keybind. Press the keybind again to restore.",
+   "display": "Automatic settings below are ignored when shrunk by the keybind. Press the keybind again to restore.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Bound to",
+   "display": "Bound to",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Bound to a key I cannot read yet.",
+   "display": "Bound to a key I cannot read yet.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "No key bound. Set one in the game's control options, under Chat Toggle.",
+   "display": "No key bound. Set one in the game's control options, under Chat Toggle.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Shrink after",
+   "display": "Shrink after",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%.0f s|slider unit: seconds. Translate only the 's'",
+   "display": "%.0f s",
+   "context": "slider unit: seconds. Translate only the 's'",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Seconds of no chat activity before it shrinks. Set it to zero to use the key alone and never shrink on its own.",
+   "display": "Seconds of no chat activity before it shrinks. Set it to zero to use the key alone and never shrink on its own.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Apply:",
+   "display": "Apply:",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Both",
+   "display": "Both",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Lines to keep",
+   "display": "Lines to keep",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Oldest line",
+   "display": "Oldest line",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "How faint the oldest kept line is. The newest line always stays fully bright.",
+   "display": "How faint the oldest kept line is. The newest line always stays fully bright.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Bring chat back when:",
+   "display": "Bring chat back when:",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "The mouse is over it",
+   "display": "The mouse is over it",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "A message arrives",
+   "display": "A message arrives",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "On these channels:",
+   "display": "On these channels:",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Typing and sending always bring it back.",
+   "display": "Typing and sending always bring it back.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "REMEMBERED PLAYERS",
+   "display": "REMEMBERED PLAYERS",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pie UI has saved data on %zu other characters.",
+   "display": "Pie UI has saved data on %zu other characters.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Delete remembered players?",
+   "display": "Delete remembered players?",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This will permanently delete everything Pie UI has saved about other characters.",
+   "display": "This will permanently delete everything Pie UI has saved about other characters.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This cannot be undone, and Pie UI starts saving again straight away.",
+   "display": "This cannot be undone, and Pie UI starts saving again straight away.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "CLASS ICONS",
+   "display": "CLASS ICONS",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "TIMESTAMPS",
+   "display": "TIMESTAMPS",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show timestamps",
+   "display": "Show timestamps",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "12-hour",
+   "display": "12-hour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "24-hour",
+   "display": "24-hour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "TRACKED WORDS",
+   "display": "TRACKED WORDS",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Flash a chat row when one of these words appears. Comma-separated, case-insensitive. Empty = off.",
+   "display": "Flash a chat row when one of these words appears. Comma-separated, case-insensitive. Empty = off.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Words",
+   "display": "Words",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Match inside larger words",
+   "display": "Match inside larger words",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "On, a tracked word also matches inside longer words: \"pie\" flags \"piece\" too. Off, only whole words match.",
+   "display": "On, a tracked word also matches inside longer words: \"pie\" flags \"piece\" too. Off, only whole words match.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Include sender names",
+   "display": "Include sender names",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Also flash when a tracked word appears in the sender's name, not just the message body. Off by default, so a player named Pie does not flash every line.",
+   "display": "Also flash when a tracked word appears in the sender's name, not just the message body. Off by default, so a player named Pie does not flash every line.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Flash colour",
+   "display": "Flash colour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Colour and opacity of the flash. The opacity you pick is the peak brightness; the pulse fades from there.",
+   "display": "Colour and opacity of the flash. The opacity you pick is the peak brightness; the pulse fades from there.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Pulses",
+   "display": "Pulses",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "How many times the row/border pulses per mention.",
+   "display": "How many times the row/border pulses per mention.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "PARTY / SQUAD",
+   "display": "PARTY / SQUAD",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Commander label",
+   "display": "Commander label",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Lieutenant label",
+   "display": "Lieutenant label",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Shown beside the tag image in party/squad chat only (e.g. CMDR / LT, or Boss / Henchman). Leave blank to show just the tag.",
+   "display": "Shown beside the tag image in party/squad chat only (e.g. CMDR / LT, or Boss / Henchman). Leave blank to show just the tag.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "GUILD",
+   "display": "GUILD",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show guild message of the day on login",
+   "display": "Show guild message of the day on login",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chat appearance",
+   "display": "Chat appearance",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "CHANNEL COLOURS",
    "display": "CHANNEL COLOURS",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
   },
@@ -4164,7 +4898,7 @@
    "key": "Channel",
    "display": "Channel",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
   },
@@ -4172,7 +4906,7 @@
    "key": "Sender",
    "display": "Sender",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
   },
@@ -4180,7 +4914,7 @@
    "key": "Text",
    "display": "Text",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
   },
@@ -4188,9 +4922,178 @@
    "key": "Guild channels",
    "display": "Guild channels",
    "context": "",
-   "section": "Settings > Chat",
+   "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Handle whispers in the Messenger (off = use the chat window)",
+   "display": "Handle whispers in the Messenger (off = use the chat window)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Opens incoming and outgoing whispers in the Messenger window instead of the chatbox. Off returns them to the chatbox.",
+   "display": "Opens incoming and outgoing whispers in the Messenger window instead of the chatbox. Off returns them to the chatbox.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "FLOATING ICON",
+   "display": "FLOATING ICON",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
+   "display": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Tip: Unlock the UI (General tab) to drag the icon into place.",
+   "display": "Tip: Unlock the UI (General tab) to drag the icon into place.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
+   "display": "%.1fx",
+   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Idle opacity",
+   "display": "Idle opacity",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Icon opacity when idle. Jumps to fully visible when a message arrives.",
+   "display": "Icon opacity when idle. Jumps to fully visible when a message arrives.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Play sound on incoming whisper",
+   "display": "Play sound on incoming whisper",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "(Default)",
+   "display": "(Default)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Sound file",
+   "display": "Sound file",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Refresh",
+   "display": "Refresh",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Test",
+   "display": "Test",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "SENDING",
+   "display": "SENDING",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Send delay (ms)",
+   "display": "Send delay (ms)",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "HISTORY",
+   "display": "HISTORY",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Clear chat history",
+   "display": "Clear chat history",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Clear Messenger history?",
+   "display": "Clear Messenger history?",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This will permanently delete all Messenger conversation history.",
+   "display": "This will permanently delete all Messenger conversation history.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "This cannot be undone.",
+   "display": "This cannot be undone.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Notices",
+   "display": "Notices",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
@@ -4235,14 +5138,6 @@
   {
    "key": "Bookmark",
    "display": "Bookmark",
-   "context": "",
-   "section": "Settings > Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Change",
-   "display": "Change",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
@@ -4369,6 +5264,15 @@
    "budget": 0
   },
   {
+   "key": "Show story guidance arrows in cities",
+   "display": "Show story guidance arrows in cities",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Show out-of-bounds areas in story instances",
    "display": "Show out-of-bounds areas in story instances",
    "context": "",
@@ -4377,12 +5281,13 @@
    "budget": 0
   },
   {
-   "key": "Shades the parts of a story instance you cannot reach, the way the game's own compass does. It has no effect anywhere else.",
-   "display": "Shades the parts of a story instance you cannot reach, the way the game's own compass does. It has no effect anywhere else.",
+   "key": "Shades the parts of a story instance you cannot reach.",
+   "display": "Shades the parts of a story instance you cannot reach.",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Include events across the whole map",
@@ -4561,12 +5466,13 @@
    "budget": 0
   },
   {
-   "key": "Covers ground this character has not explored yet, the way the game's own compass does. This version is a flat colour, not a brushed paint.",
-   "display": "Covers ground this character has not explored yet, the way the game's own compass does. This version is a flat colour, not a brushed paint.",
+   "key": "Covers ground this character has not explored yet.",
+   "display": "Covers ground this character has not explored yet.",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Fog colour",
@@ -5673,174 +6579,6 @@
    "budget": 0
   },
   {
-   "key": "Handle whispers in the Messenger (off = use the chat window)",
-   "display": "Handle whispers in the Messenger (off = use the chat window)",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Opens incoming and outgoing whispers in the Messenger window instead of the chatbox. Off returns them to the chatbox.",
-   "display": "Opens incoming and outgoing whispers in the Messenger window instead of the chatbox. Off returns them to the chatbox.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "APPEARANCE",
-   "display": "APPEARANCE",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "FLOATING ICON",
-   "display": "FLOATING ICON",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
-   "display": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Tip: Unlock the UI (General tab) to drag the icon into place.",
-   "display": "Tip: Unlock the UI (General tab) to drag the icon into place.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "display": "%.1fx",
-   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Idle opacity",
-   "display": "Idle opacity",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Icon opacity when idle. Jumps to fully visible when a message arrives.",
-   "display": "Icon opacity when idle. Jumps to fully visible when a message arrives.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Play sound on incoming whisper",
-   "display": "Play sound on incoming whisper",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "(Default)",
-   "display": "(Default)",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Sound file",
-   "display": "Sound file",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Refresh",
-   "display": "Refresh",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Test",
-   "display": "Test",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "SENDING",
-   "display": "SENDING",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Send delay (ms)",
-   "display": "Send delay (ms)",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "HISTORY",
-   "display": "HISTORY",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Clear chat history",
-   "display": "Clear chat history",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Clear Messenger history?",
-   "display": "Clear Messenger history?",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "This will permanently delete all Messenger conversation history.",
-   "display": "This will permanently delete all Messenger conversation history.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "This cannot be undone.",
-   "display": "This cannot be undone.",
-   "context": "",
-   "section": "Settings > Messenger",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "About Pie UI",
    "display": "About Pie UI",
    "context": "",
@@ -5861,8 +6599,8 @@
    "display": "Opens the game's Send Mail window addressed to PieOrCake.7635",
    "context": "",
    "section": "Settings > About Pie UI",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "ABOUT PIE UI",
@@ -6429,8 +7167,8 @@
    "display": "Out of combat only",
    "context": "",
    "section": "Bottom Line",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Bottom Line",
@@ -6509,16 +7247,16 @@
    "display": "You have unlocked this",
    "context": "",
    "section": "Chat",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Not unlocked on this account",
    "display": "Not unlocked on this account",
    "context": "",
    "section": "Chat",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "%s Build",
@@ -6811,14 +7549,6 @@
   {
    "key": "Open map",
    "display": "Open map",
-   "context": "",
-   "section": "Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Preview",
-   "display": "Preview",
    "context": "",
    "section": "Chat",
    "tooltip": false,
@@ -7197,8 +7927,8 @@
    "display": "Group event - not meant to be soloed.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Homestead",
@@ -7221,8 +7951,8 @@
    "display": "Homestead decoration options.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "No options are available.",
@@ -7237,24 +7967,24 @@
    "display": "Toggle the game's own decoration mode.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Bind the Decorate key in the game's Control Options to use this.",
    "display": "Bind the Decorate key in the game's Control Options to use this.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Pie UI could not find the game's Decorate keybind.",
    "display": "Pie UI could not find the game's Decorate keybind.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Click to target",
@@ -7277,24 +8007,24 @@
    "display": "Click to expand",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Click to collapse",
    "display": "Click to collapse",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Click to open the Story Journal.",
    "display": "Click to open the Story Journal.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Content Guide",
@@ -7349,8 +8079,8 @@
    "display": "Click to show this on the world map.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Ends in %s",
@@ -7541,8 +8271,8 @@
    "display": "These events are real, but their detail is unfinished: bars and objective text can be missing or wrong. Read the game's own panel for anything that matters.",
    "context": "",
    "section": "Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Loading...",
@@ -7645,8 +8375,25 @@
    "display": "Emoji",
    "context": "",
    "section": "Emoji Picker",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Unlock UI (move & resize widgets)",
+   "display": "Unlock UI (move & resize widgets)",
+   "context": "",
+   "section": "General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Next layout",
+   "display": "Next layout",
+   "context": "",
+   "section": "General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Open Pie UI settings",
@@ -7663,6 +8410,15 @@
    "section": "Instance Controls",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Interact prompt",
+   "display": "Interact prompt",
+   "context": "",
+   "section": "Interact Prompt",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Copy Name",
@@ -7805,24 +8561,24 @@
    "display": "Mastery - right-click to choose one",
    "context": "",
    "section": "Mastery",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Mastery - no key is bound to the mastery skill in game, so clicking cannot cast it. Right-click to choose one.",
    "display": "Mastery - no key is bound to the mastery skill in game, so clicking cannot cast it. Right-click to choose one.",
    "context": "",
    "section": "Mastery",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Mastery - click to use, right-click to choose",
    "display": "Mastery - click to use, right-click to choose",
    "context": "",
    "section": "Mastery",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Your default mastery.",
@@ -7997,8 +8753,8 @@
    "display": "Message not delivered",
    "context": "",
    "section": "Messenger",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Send",
@@ -8069,16 +8825,16 @@
    "display": "Auto floor",
    "context": "",
    "section": "Minimap",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Drop a bookmark here",
    "display": "Drop a bookmark here",
    "context": "",
    "section": "Minimap",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "name this bookmark (Enter/Esc)",
@@ -8205,40 +8961,40 @@
    "display": "Dismount - no key is bound to Mount/Dismount in game, so clicking cannot dismount.",
    "context": "",
    "section": "Mount",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Mount - no key is bound to Mount/Dismount in game, so clicking cannot mount. Right-click to choose one.",
    "display": "Mount - no key is bound to Mount/Dismount in game, so clicking cannot mount. Right-click to choose one.",
    "context": "",
    "section": "Mount",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Click to dismount",
    "display": "Click to dismount",
    "context": "",
    "section": "Mount",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Mount - right-click to choose one",
    "display": "Mount - right-click to choose one",
    "context": "",
    "section": "Mount",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Mount - click to mount, right-click to choose",
    "display": "Mount - click to mount, right-click to choose",
    "context": "",
    "section": "Mount",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "This is your selected mount",
@@ -8373,16 +9129,16 @@
    "display": "Novelty - click to use, right-click to choose",
    "context": "",
    "section": "Novelty",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Novelty - right-click to choose one",
    "display": "Novelty - right-click to choose one",
    "context": "",
    "section": "Novelty",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Novelty",
@@ -8557,40 +9313,40 @@
    "display": "Expand the toggle bar",
    "context": "",
    "section": "Quick Bar",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Collapse to the title bar",
    "display": "Collapse to the title bar",
    "context": "",
    "section": "Quick Bar",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Editing: frames movable. Click to lock.",
    "display": "Editing: frames movable. Click to lock.",
    "context": "",
    "section": "Quick Bar",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Locked. Click to move/resize Pie UI frames.",
    "display": "Locked. Click to move/resize Pie UI frames.",
    "context": "",
    "section": "Quick Bar",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Toggle bar orientation",
    "display": "Toggle bar orientation",
    "context": "",
    "section": "Quick Bar",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Layout: %s (click to cycle)",
@@ -8793,12 +9549,202 @@
    "budget": 0
   },
   {
-   "key": "Pie UI Settings",
-   "display": "Pie UI Settings",
+   "key": "Slightly rounded",
+   "display": "Slightly rounded",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Rounded",
+   "display": "Rounded",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Very rounded",
+   "display": "Very rounded",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No settings match that search.",
+   "display": "No settings match that search.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "exit leave instance dungeon fractal raid strike|search keyword",
+   "display": "exit leave instance dungeon fractal raid strike",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "compass radar map rotate zoom|search keyword",
+   "display": "compass radar map rotate zoom",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "waypoint favourite favorite pin|search keyword",
+   "display": "waypoint favourite favorite pin",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "timer event schedule world boss|search keyword",
+   "display": "timer event schedule world boss",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "chat contact friend online offline whisper guild|search keyword",
+   "display": "chat contact friend online offline whisper guild",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "buff buffs boon condition condi aura duration|search keyword",
+   "display": "buff buffs boon condition condi aura duration",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "hp endurance dodge barrier globe|search keyword",
+   "display": "hp endurance dodge barrier globe",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "skillbar skills weapon utility elite mount|search keyword",
+   "display": "skillbar skills weapon utility elite mount",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "party subgroup raid squad members|search keyword",
+   "display": "party subgroup raid squad members",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "status bar tray strip widgets|search keyword",
+   "display": "status bar tray strip widgets",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "toast popup alert reward banner|search keyword",
+   "display": "toast popup alert reward banner",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "event meta heart objective daily achievement mastery collection|search keyword",
+   "display": "event meta heart objective daily achievement mastery collection",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "food utility sharpening reminder buff expiry|search keyword",
+   "display": "food utility sharpening reminder buff expiry",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "drops pickup rewards items|search keyword",
+   "display": "drops pickup rewards items",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "casting channel interrupt timer|search keyword",
+   "display": "casting channel interrupt timer",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "initiative life force virtue attunement adrenaline|search keyword",
+   "display": "initiative life force virtue attunement adrenaline",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "enemy mob boss breakbar defiance health|search keyword",
+   "display": "enemy mob boss breakbar defiance health",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "tim messenger whisper message dm private|search keyword",
+   "display": "tim messenger whisper message dm private",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Forced visible on WvW and PvP maps.",
@@ -8807,6 +9753,59 @@
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "toast popup alert notification preview animation fade slide yellow|search keyword",
+   "display": "toast popup alert notification preview animation fade slide yellow",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "move resize unlock reset position preset|search keyword",
+   "display": "move resize unlock reset position preset",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape|search keyword",
+   "display": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "text size typeface bold|search keyword",
+   "display": "text size typeface bold",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pie UI Settings",
+   "display": "Pie UI Settings",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Search settings",
+   "display": "Search settings",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "(whole hotbar hidden)",
@@ -9071,6 +10070,366 @@
    "section": "Skillbar",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Weapon 1",
+   "display": "Weapon 1",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon 2",
+   "display": "Weapon 2",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon 3",
+   "display": "Weapon 3",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon 4",
+   "display": "Weapon 4",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon 5",
+   "display": "Weapon 5",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Healing skill",
+   "display": "Healing skill",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Utility skill 1",
+   "display": "Utility skill 1",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Utility skill 2",
+   "display": "Utility skill 2",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Utility skill 3",
+   "display": "Utility skill 3",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Elite skill",
+   "display": "Elite skill",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F1",
+   "display": "Profession F1",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F2",
+   "display": "Profession F2",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F3",
+   "display": "Profession F3",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F4",
+   "display": "Profession F4",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F5",
+   "display": "Profession F5",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F6",
+   "display": "Profession F6",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession F7",
+   "display": "Profession F7",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pet combat toggle",
+   "display": "Pet combat toggle",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon group",
+   "display": "Weapon group",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Utility group",
+   "display": "Utility group",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession group",
+   "display": "Profession group",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pet group",
+   "display": "Pet group",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Xbox",
+   "display": "Xbox",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "PlayStation",
+   "display": "PlayStation",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Steam Deck",
+   "display": "Steam Deck",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Nintendo Switch",
+   "display": "Nintendo Switch",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "All",
+   "display": "All",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Type a prompt, or pick a button below",
+   "display": "Type a prompt, or pick a button below",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "L1, R2, LT...",
+   "display": "L1, R2, LT...",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use text",
+   "display": "Use text",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "search buttons...",
+   "display": "search buttons...",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No buttons match that search.",
+   "display": "No buttons match that search.",
+   "context": "",
+   "section": "Slot Glyph Picker",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Now online",
+   "display": "Now online",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Now offline",
+   "display": "Now offline",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Now away",
+   "display": "Now away",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Joined the party",
+   "display": "Joined the party",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Left the party",
+   "display": "Left the party",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Joined the squad",
+   "display": "Joined the squad",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Left the squad",
+   "display": "Left the squad",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Social notices",
+   "display": "Social notices",
+   "context": "",
+   "section": "Social Notices",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Squad Frames: install the RealTime API addon",
@@ -9357,16 +10716,16 @@
    "display": "Grid layout (click for List)",
    "context": "",
    "section": "Squad Frames",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "List layout (click for Grid)",
    "display": "List layout (click for Grid)",
    "context": "",
    "section": "Squad Frames",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Role",
@@ -9439,6 +10798,15 @@
    "section": "Squad Roles Store",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Target Portrait",
+   "display": "Target Portrait",
+   "context": "",
+   "section": "Target Portrait",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Dungeons",
