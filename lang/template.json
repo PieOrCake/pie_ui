@@ -2074,6 +2074,60 @@
    "budget": 0
   },
   {
+   "key": "Auto-attack marker",
+   "display": "Auto-attack marker",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Border",
+   "display": "Border",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Badge",
+   "display": "Badge",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Border outlines the whole slot with two arrows on it. Badge is a dot in the slot's top-left corner.",
+   "display": "Border outlines the whole slot with two arrows on it. Badge is a dot in the slot's top-left corner.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Set marker colour",
+   "display": "Set marker colour",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off, the marker uses the theme's border colour.",
+   "display": "Off, the marker uses the theme's border colour.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Hide hotbars, mount, novelty and mastery while downed or defeated",
    "display": "Hide hotbars, mount, novelty and mastery while downed or defeated",
    "context": "",
@@ -2115,12 +2169,13 @@
    "budget": 0
   },
   {
-   "key": "Ctrl+right-click a weapon slot to move the auto-attack there, or a pet/mech skill to toggle autocast, even in combat. A plain right-click still aims the camera.",
-   "display": "Ctrl+right-click a weapon slot to move the auto-attack there, or a pet/mech skill to toggle autocast, even in combat. A plain right-click still aims the camera.",
+   "key": "Ctrl+right-click a weapon slot to move the auto-attack there, or the slot that already has it to turn auto-attack off. Works in combat, and on pet skills.",
+   "display": "Ctrl+right-click a weapon slot to move the auto-attack there, or the slot that already has it to turn auto-attack off. Works in combat, and on pet skills.",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Shift-click a skill to link it in chat",
@@ -2848,8 +2903,8 @@
    "new": true
   },
   {
-   "key": "Another add-on is using something Pie UI needs for this, so the portrait stays empty while the game's own target frame is hidden.",
-   "display": "Another add-on is using something Pie UI needs for this, so the portrait stays empty while the game's own target frame is hidden.",
+   "key": "Pie UI cannot hide the game's own target frame on this game version, so the portrait stays empty while that frame is hidden.",
+   "display": "Pie UI cannot hide the game's own target frame on this game version, so the portrait stays empty while that frame is hidden.",
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
@@ -4927,6 +4982,24 @@
    "budget": 0
   },
   {
+   "key": "Icon",
+   "display": "Icon",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Wear another theme's notification icon. The icon brings its own flash colour with it.",
+   "display": "Wear another theme's notification icon. The icon brings its own flash colour with it.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Handle whispers in the Messenger (off = use the chat window)",
    "display": "Handle whispers in the Messenger (off = use the chat window)",
    "context": "",
@@ -4989,6 +5062,15 @@
    "section": "Settings > Social",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Use a different theme's icon",
+   "display": "Use a different theme's icon",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Play sound on incoming whisper",
@@ -8027,6 +8109,15 @@
    "budget": 0
   },
   {
+   "key": "Click to open the achievements panel.",
+   "display": "Click to open the achievements panel.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Content Guide",
    "display": "Content Guide",
    "context": "",
@@ -8181,14 +8272,6 @@
   {
    "key": "No tracked achievements",
    "display": "No tracked achievements",
-   "context": "",
-   "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Click to open it in the game's own panel.",
-   "display": "Click to open it in the game's own panel.",
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
@@ -9894,6 +9977,15 @@
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Centred",
+   "display": "Centred",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Bar colour",
