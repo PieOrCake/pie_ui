@@ -59,7 +59,7 @@ Every element is described below, and each one can be turned off.
 HP, barrier and endurance in several styles: horizontal bar, vertical bar and reticle arcs. Live numbers with a health colour gradient, a clear downed warning, and every colour configurable. It follows what you are doing, so it tracks mount dodge endurance while mounted and your stamina while gliding.
 
 ### Skill bars
-Your weapon and utility skills with live icons that follow weapon swaps, kits, transforms and bundles by themselves, plus cooldown sweeps with countdowns, compact keybind labels and click-to-cast. Weapons and utilities are placed independently, and a weapon-swap button mirrors the native one. You can also swap a utility skill straight from the bar with a right-click, without opening the Hero panel.
+Your weapon and utility skills with live icons that follow weapon swaps, kits, transforms and bundles by themselves, plus cooldown sweeps with countdowns, compact keybind labels and click-to-cast. Weapons and utilities are placed independently, and a weapon-swap button mirrors the native one. You can also swap a utility skill straight from the bar with a right-click, without opening the Hero panel. Round the corners of slots and bars, show a controller button on a slot instead of a key, and drag a single slot out of its bar.
 
 ### Cast bar
 Shows the skill you are casting and its name, and fills for the things that are not skills too: opening a chest or gathering a node. It runs on the game's own timing, so it speeds up under quickness exactly as the native bar does.
@@ -101,13 +101,13 @@ Change your displayed title by itself, from rules you write: in fractals wear th
 Your live effects across three independently placeable sections: boons, conditions, and everything else. Show icons, duration bars or both, with stack counts and countdowns, and set orientation and wrapping per section. Food and utility buffs appear with their own nourishment icons, including the reminders that nudge you to re-buff.
 
 ### Target frame
-Your target's health with attitude colouring and a native-style defiance and break bar. It names the target and shows their level or mastery rank, class and elite-spec icon, and a skills or title line, and it works on creatures, objects and gadgets as well as players. Right-click a player target for whisper, party and squad actions, and turn on optional floating strips for the target's boons and conditions.
+Your target's health with attitude colouring and a native-style defiance and break bar. It names the target and shows their level or mastery rank, class and elite-spec icon, and a skills or title line, and it works on creatures, objects and gadgets as well as players. Right-click a player target for whisper, party and squad actions, and turn on optional floating strips for the target's boons and conditions. A coloured gem marks veteran, elite, champion and legendary enemies, and the target's portrait can be placed as its own element.
 
 ### Squad & party frames
 A movable, resizable roster for your party or squad, as a list or a native-style grid, with colour-coded subgroup columns for squads. Each member shows their class, name, commander tag and live health, and ready checks and vote-to-kick prompts arrive on the frames so you can answer without hunting for the native prompt. *Health is read-only and PvE-only. Requires the **RealTime API** (RTAPI) addon from the [Nexus](https://raidcore.gg/Nexus) library, which supplies the roster.*
 
 ### Minimap
-A clean, positionable minimap that draws what the game's own compass draws: resource nodes, live service markers, event boundary rings, waypoints, points of interest and map-completion markers, with a floor system that follows you between levels and into caves. Click a waypoint to travel, alt-click to drop the game's own personal marker, save any spot as a named bookmark with an emoji of your choice, and see your party, squad and guild live, commander markers included. A one-click Farming Overlay strips it back to a transparent, click-through node radar you can park over your reticle. *Map-completion markers grey out until you complete them, which is read from the optional [Hoard & Seek](https://raidcore.gg/Nexus) addon; without it they stay grey. Map art is read from your own game files where possible, which needs the `-shareArchive` launch option — see [Installation](#installation).*
+A clean, positionable minimap that draws what the game's own compass draws: resource nodes, live service markers, event boundary rings, waypoints, points of interest and map-completion markers, with a floor system that follows you between levels and into caves. Click a waypoint to travel, alt-click to drop the game's own personal marker, save any spot as a named bookmark with an emoji of your choice, and see your party, squad and guild live, commander markers included. A one-click Farming Overlay strips it back to a transparent, click-through node radar you can park over your reticle. It also shows the compass guidance arrows and the Skimmer's Aetherlocation dots. *Map-completion markers grey out until you complete them, which is read from the optional [Hoard & Seek](https://raidcore.gg/Nexus) addon; without it they stay grey. Map art is read from your own game files where possible, which needs the `-shareArchive` launch option — see [Installation](#installation).*
 
 ### Content Guide
 A panel mirroring the game's own event guide: what is happening around you right now, with live objectives, countdowns and meta groupings, displayed the way the game displays them. It also carries the renown hearts near you, your current story step, your tracked achievements with live progress, whatever festival is running, and your fractal status when you are in one. Click an achievement to open the game's own panel at it.
@@ -128,7 +128,7 @@ A per-contact whisper messenger with a conversation list, chat bubbles, a reply 
 Every Pie UI widget can hide the native element it replaces, and a floating quick-toggle bar lists them side by side so you can show or hide either with a single click. In WvW and PvP the native elements are kept up automatically, so you are never left without a HUD. Pie UI draws replacements rather than erasing the originals, and hiding goes through the game's own interface, never the render path.
 
 ### General
-A clean settings window with per-subsystem tabs, opened by keybind, tray icon or the Nexus options panel. Drag to place and resize anything in unlock mode, save whole arrangements as named Layout Profiles and have Pie UI switch between them automatically for fractals, raids or competitive maps, and set per-feature opacity for in and out of combat. You can use your own TrueType fonts, pick the language Pie UI draws in (or let it follow the game's), and Pie UI's widgets clip out of any open Guild Wars 2 panel instead of drawing across it. Settings live in a versioned file that survives updates, and if the game ever crashes Pie UI writes a report naming what faulted, recording addresses and file names only.
+A clean settings window with per-subsystem tabs, opened by keybind, tray icon or the Nexus options panel. Drag to place and resize anything in unlock mode, save whole arrangements as named Layout Profiles and have Pie UI switch between them automatically for fractals, raids or competitive maps, export a layout to share it or import someone else's, and set per-feature opacity for in and out of combat. You can use your own TrueType fonts, pick the language Pie UI draws in (or let it follow the game's), and Pie UI's widgets clip out of any open Guild Wars 2 panel instead of drawing across it. Settings live in a versioned file that survives updates, and if the game ever crashes Pie UI writes a report naming what faulted, recording addresses and file names only.
 
 </details>
 
@@ -196,6 +196,7 @@ Pie UI is built with the help of these third-party libraries, tools and assets:
 
 - **[Dear ImGui](https://github.com/ocornut/imgui)** by Omar Cornut — the immediate-mode GUI that renders Pie UI's in-game interface. (MIT)
 - **[nlohmann/json](https://github.com/nlohmann/json)** — JSON parsing for settings storage. (MIT)
+- **[HDE64](https://github.com/TsudaKageyu/minhook/tree/master/src/hde)** (Hacker Disassembler Engine) by Vyacheslav Patkov — helps keep features working after game updates. (BSD-2-Clause)
 - **[Nexus](https://github.com/RaidcoreGG/Nexus)** by Raidcore — the addon host platform Pie UI runs on, which also provides **[MinHook](https://github.com/TsudaKageyu/minhook)** (BSD-2-Clause) for safe game-function hooking.
 - **[Twemoji](https://github.com/jdecked/twemoji)** (jdecked fork) — the inline chat emoji graphics (© Twitter, Inc. and contributors, licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)), fetched on demand from a CDN.
 - **[gemoji](https://github.com/github/gemoji)** — `:shortcode:` name data for the chat emoji. (MIT)
@@ -205,3 +206,5 @@ Pie UI is built with the help of these third-party libraries, tools and assets:
 - **[tiles.guildwars2.com](https://tiles.guildwars2.com/)** — ArenaNet's own map tile service, used for minimap tiles that aren't read from your local game archive.
 
 Guild Wars 2 and all related assets are © [ArenaNet, LLC](https://www.arena.net/) and NCSOFT Corporation. Pie UI is an unofficial, fan-made addon and is not affiliated with or endorsed by ArenaNet.
+
+The full licence notices for the bundled libraries are in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
