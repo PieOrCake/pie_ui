@@ -1,7 +1,7 @@
 {
  "sinceRelease": {
-  "version": "0.9.9.0",
-  "recorded": "2026-09-16"
+  "version": "0.9.10.0",
+  "recorded": "2026-10-01"
  },
  "strings": [
   {
@@ -266,8 +266,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Slot corners",
@@ -275,8 +274,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
@@ -284,8 +282,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Bar corners",
@@ -293,8 +290,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
@@ -302,8 +298,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "GENERAL",
@@ -319,8 +314,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "UI animations",
@@ -440,8 +434,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Destroy",
@@ -449,8 +442,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Use All / Consume All",
@@ -458,8 +450,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Replace the game's item tooltips with Pie UI's own",
@@ -1011,8 +1002,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show the interact prompt",
@@ -1020,8 +1010,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show the game's own prompt",
@@ -1029,8 +1018,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Mesmer troll protection",
@@ -1038,8 +1026,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Require a modifier key to take a portal.",
@@ -1047,8 +1034,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Alt",
@@ -1056,8 +1042,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Control",
@@ -1065,8 +1050,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shift",
@@ -1074,8 +1058,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Where it applies:",
@@ -1083,8 +1066,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set Out of combat to 0 to hide it while idle. Unlock the UI (above) to move and resize it.",
@@ -1092,8 +1074,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Layouts",
@@ -1125,8 +1106,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copy path",
@@ -1134,8 +1114,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Everything in this layout is on the screen.",
@@ -1143,8 +1122,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Some parts of this layout are off the screen:",
@@ -1152,8 +1130,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Bring those back on screen",
@@ -1161,8 +1138,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "IMPORT SKILL BARS",
@@ -1170,8 +1146,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "There is no other layout to take bars from yet.",
@@ -1179,8 +1154,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Take its bars",
@@ -1188,8 +1162,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copies only the skill bars, their groups and their controller buttons into the layout you are using. Everything else of yours is left alone.",
@@ -1197,8 +1170,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "PASSING THIS LAYOUT ON",
@@ -1206,8 +1178,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "who made it",
@@ -1215,8 +1186,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Use my account name",
@@ -1224,8 +1194,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Left empty, the file says nothing about who made it. Your account name is yours to give, so nothing fills this in for you.",
@@ -1233,8 +1202,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "what it is for",
@@ -1242,8 +1210,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Save this",
@@ -1251,8 +1218,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "ACTIVE LAYOUT",
@@ -1780,8 +1746,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show your controller's buttons on the skill slots instead of keyboard keys. A button is set on a key, so every bar that draws that key shows it.",
@@ -1789,8 +1754,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Press the key you want to put a button on. Escape cancels.",
@@ -1798,8 +1762,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add a key",
@@ -1807,8 +1770,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Press the key your controller sends for a skill, then choose the button to draw. Clear a key to go back to its keyboard label.",
@@ -1816,8 +1778,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Use each button's own colours",
@@ -1825,8 +1786,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off draws the buttons in your interface theme's colour. On draws them in their own, which suits the coloured PlayStation buttons.",
@@ -1834,8 +1794,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "No keys have a controller button yet.",
@@ -1843,8 +1802,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Change",
@@ -1860,8 +1818,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "FREE PLACEMENT",
@@ -1869,8 +1826,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unlock the interface, then drag a bar's slots one at a time to build a shape that suits your controller.",
@@ -1878,8 +1834,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Place weapon slots freely",
@@ -1887,8 +1842,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Place utility slots freely",
@@ -1896,8 +1850,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Place profession slots freely",
@@ -1905,8 +1858,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Place pet slots freely",
@@ -1914,8 +1866,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Return every slot",
@@ -1923,8 +1874,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the bar moves as one piece while the interface is unlocked. On, each of its slots moves on its own.",
@@ -1932,8 +1882,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "No slots have been moved out of their bar.",
@@ -1941,8 +1890,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Return to its bar",
@@ -1950,8 +1898,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Enable Hotbars",
@@ -2079,8 +2026,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Border",
@@ -2088,8 +2034,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Badge",
@@ -2097,8 +2042,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Border outlines the whole slot with two arrows on it. Badge is a dot in the slot's top-left corner.",
@@ -2106,8 +2050,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set marker colour",
@@ -2115,8 +2058,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the marker uses the theme's border colour.",
@@ -2124,8 +2066,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Hide hotbars, mount, novelty and mastery while downed or defeated",
@@ -2133,8 +2074,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "INTERACTION",
@@ -2174,8 +2114,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Shift-click a skill to link it in chat",
@@ -2327,8 +2266,7 @@
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tip: Unlock the UI (General tab) to drag each bar into place.",
@@ -2544,8 +2482,7 @@
    "context": "",
    "section": "Settings > Profession Resource",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Thief (initiative)",
@@ -2881,8 +2818,7 @@
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show the target's portrait",
@@ -2890,8 +2826,7 @@
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Portrait opacity",
@@ -2899,8 +2834,7 @@
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI cannot hide the game's own target frame on this game version, so the portrait stays empty while that frame is hidden.",
@@ -2908,8 +2842,7 @@
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Standalone frame",
@@ -3981,8 +3914,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Fade",
@@ -3990,8 +3922,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Slide",
@@ -3999,8 +3930,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Grow",
@@ -4008,8 +3938,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Social",
@@ -4017,8 +3946,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "SOURCES",
@@ -4026,8 +3954,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI's own pop-up for things people do: someone on your contact list changing status, or someone joining or leaving your group.",
@@ -4035,8 +3962,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Status-change toast",
@@ -4108,8 +4034,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Seconds a notice stays",
@@ -4117,8 +4042,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Hovering the notices pauses this.",
@@ -4126,8 +4050,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Maximum notices shown",
@@ -4135,8 +4058,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Which way new notices stack. Use Up for notices placed low on the screen.",
@@ -4144,8 +4066,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
@@ -4153,8 +4074,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set background colour",
@@ -4162,8 +4082,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the notices use the standard dark panel. The slider above still sets how solid it is.",
@@ -4171,8 +4090,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "MOTION",
@@ -4180,8 +4098,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "How it appears",
@@ -4189,8 +4106,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "How it disappears",
@@ -4198,8 +4114,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Animation speed",
@@ -4207,8 +4122,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
@@ -4224,8 +4138,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Preview",
@@ -4241,8 +4154,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Say",
@@ -4938,8 +4850,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CHANNEL COLOURS",
@@ -4987,8 +4898,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wear another theme's notification icon. The icon brings its own flash colour with it.",
@@ -4996,8 +4906,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Handle whispers in the Messenger (off = use the chat window)",
@@ -5069,8 +4978,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Play sound on incoming whisper",
@@ -5174,8 +5082,7 @@
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
@@ -5351,8 +5258,7 @@
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show out-of-bounds areas in story instances",
@@ -5368,8 +5274,7 @@
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Include events across the whole map",
@@ -5553,8 +5458,7 @@
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Fog colour",
@@ -6013,16 +5917,8 @@
    "budget": 160
   },
   {
-   "key": "Nearby events and map metas (EXPERIMENTAL)",
-   "display": "Nearby events and map metas (EXPERIMENTAL)",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Unfinished. Events list correctly, but their progress bars and objective text are often missing, incomplete or duplicated. Do not rely on it.",
-   "display": "Unfinished. Events list correctly, but their progress bars and objective text are often missing, incomplete or duplicated. Do not rely on it.",
+   "key": "Nearby events and map metas",
+   "display": "Nearby events and map metas",
    "context": "",
    "section": "Settings > Content Guide",
    "tooltip": false,
@@ -6815,6 +6711,14 @@
   {
    "key": "- nlohmann/json: settings storage. MIT licensed.",
    "display": "- nlohmann/json: settings storage. MIT licensed.",
+   "context": "",
+   "section": "Settings > About Pie UI",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "- HDE64 (Vyacheslav Patkov): keeping features working after game updates. BSD licensed.",
+   "display": "- HDE64 (Vyacheslav Patkov): keeping features working after game updates. BSD licensed.",
    "context": "",
    "section": "Settings > About Pie UI",
    "tooltip": false,
@@ -8114,8 +8018,7 @@
    "context": "",
    "section": "Content Guide",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Content Guide",
@@ -8342,22 +8245,6 @@
    "budget": 0
   },
   {
-   "key": "(experimental)",
-   "display": "(experimental)",
-   "context": "",
-   "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "These events are real, but their detail is unfinished: bars and objective text can be missing or wrong. Read the game's own panel for anything that matters.",
-   "display": "These events are real, but their detail is unfinished: bars and objective text can be missing or wrong. Read the game's own panel for anything that matters.",
-   "context": "",
-   "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Loading...",
    "display": "Loading...",
    "context": "",
@@ -8475,8 +8362,7 @@
    "context": "",
    "section": "General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Open Pie UI settings",
@@ -8500,8 +8386,7 @@
    "context": "",
    "section": "Interact Prompt",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copy Name",
@@ -9637,8 +9522,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rounded",
@@ -9646,8 +9530,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Very rounded",
@@ -9655,8 +9538,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No settings match that search.",
@@ -9664,8 +9546,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "exit leave instance dungeon fractal raid strike|search keyword",
@@ -9673,8 +9554,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "compass radar map rotate zoom|search keyword",
@@ -9682,8 +9562,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "waypoint favourite favorite pin|search keyword",
@@ -9691,8 +9570,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "timer event schedule world boss|search keyword",
@@ -9700,8 +9578,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "chat contact friend online offline whisper guild|search keyword",
@@ -9709,8 +9586,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "buff buffs boon condition condi aura duration|search keyword",
@@ -9718,8 +9594,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "hp endurance dodge barrier globe|search keyword",
@@ -9727,8 +9602,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "skillbar skills weapon utility elite mount|search keyword",
@@ -9736,8 +9610,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "party subgroup raid squad members|search keyword",
@@ -9745,8 +9618,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "status bar tray strip widgets|search keyword",
@@ -9754,8 +9626,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "toast popup alert reward banner|search keyword",
@@ -9763,8 +9634,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "event meta heart objective daily achievement mastery collection|search keyword",
@@ -9772,8 +9642,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "food utility sharpening reminder buff expiry|search keyword",
@@ -9781,8 +9650,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "drops pickup rewards items|search keyword",
@@ -9790,8 +9658,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "casting channel interrupt timer|search keyword",
@@ -9799,8 +9666,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "initiative life force virtue attunement adrenaline|search keyword",
@@ -9808,8 +9674,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "enemy mob boss breakbar defiance health|search keyword",
@@ -9817,8 +9682,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "tim messenger whisper message dm private|search keyword",
@@ -9826,8 +9690,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Forced visible on WvW and PvP maps.",
@@ -9843,8 +9706,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "move resize unlock reset position preset|search keyword",
@@ -9852,8 +9714,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape|search keyword",
@@ -9861,8 +9722,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "text size typeface bold|search keyword",
@@ -9870,8 +9730,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI Settings",
@@ -9887,8 +9746,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "(whole hotbar hidden)",
@@ -9984,8 +9842,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Bar colour",
@@ -10169,8 +10026,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Weapon 2",
@@ -10178,8 +10034,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Weapon 3",
@@ -10187,8 +10042,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Weapon 4",
@@ -10196,8 +10050,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Weapon 5",
@@ -10205,8 +10058,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Healing skill",
@@ -10214,8 +10066,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Utility skill 1",
@@ -10223,8 +10074,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Utility skill 2",
@@ -10232,8 +10082,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Utility skill 3",
@@ -10241,8 +10090,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Elite skill",
@@ -10250,8 +10098,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F1",
@@ -10259,8 +10106,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F2",
@@ -10268,8 +10114,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F3",
@@ -10277,8 +10122,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F4",
@@ -10286,8 +10130,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F5",
@@ -10295,8 +10138,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F6",
@@ -10304,8 +10146,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession F7",
@@ -10313,8 +10154,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pet combat toggle",
@@ -10322,8 +10162,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Weapon group",
@@ -10331,8 +10170,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Utility group",
@@ -10340,8 +10178,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession group",
@@ -10349,8 +10186,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pet group",
@@ -10358,8 +10194,7 @@
    "context": "",
    "section": "Slot Cluster",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Xbox",
@@ -10367,8 +10202,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "PlayStation",
@@ -10376,8 +10210,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Steam Deck",
@@ -10385,8 +10218,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Nintendo Switch",
@@ -10394,8 +10226,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "All",
@@ -10403,8 +10234,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Type a prompt, or pick a button below",
@@ -10412,8 +10242,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "L1, R2, LT...",
@@ -10421,8 +10250,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Use text",
@@ -10430,8 +10258,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "search buttons...",
@@ -10439,8 +10266,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No buttons match that search.",
@@ -10448,8 +10274,7 @@
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Now online",
@@ -10457,8 +10282,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Now offline",
@@ -10466,8 +10290,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Now away",
@@ -10475,8 +10298,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Joined the party",
@@ -10484,8 +10306,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Left the party",
@@ -10493,8 +10314,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Joined the squad",
@@ -10502,8 +10322,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Left the squad",
@@ -10511,8 +10330,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Social notices",
@@ -10520,8 +10338,7 @@
    "context": "",
    "section": "Social Notices",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Squad Frames: install the RealTime API addon",
@@ -10897,8 +10714,7 @@
    "context": "",
    "section": "Target Portrait",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Dungeons",
