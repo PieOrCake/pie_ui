@@ -22,4 +22,4 @@ id: 0.9.10.1-upcoming-1
 # max-version: 0.9.7.9
 text: What would you like added/improved/fixed for the 1.0 release?
 text: Let us know in discord by clicking the link below.
-link: https://discord.gg/fe3R8HKbu
+link: https://discord.gg/9Z2N4Vukf
