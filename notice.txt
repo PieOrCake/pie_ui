@@ -21,6 +21,6 @@
 id: 0.9.10.1-upcoming-2
 # max-version: 0.9.7.9
 text: We are aware that the game patch has broken Pie UI.
-text: We'll be beta testing the fixes shortly, and hope
-text: to have a release later today.
+text: We are currently testing the fixes, and hope
+text: to have a new release soon.
 # link: https://discord.gg/9Z2N4Vukf
