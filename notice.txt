@@ -18,8 +18,9 @@
 #     id: 2026-08-24-example
 #     text: We are aware of a problem with X and are working on it.
 
-id: 0.9.10.1-upcoming-1
+id: 0.9.10.1-upcoming-2
 # max-version: 0.9.7.9
-text: What would you like added/improved/fixed for the 1.0 release?
-text: Let us know in discord by clicking the link below.
-link: https://discord.gg/9Z2N4Vukf
+text: We are aware that the game patch has broken Pie UI.
+text: We'll be beta testing the fixes shortly, and hope
+text: to have a release later today.
+# link: https://discord.gg/9Z2N4Vukf
