@@ -237,28 +237,22 @@
    "budget": 0
   },
   {
-   "key": "Custom border colour",
-   "display": "Custom border colour",
+   "key": "Set border colour",
+   "display": "Set border colour",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "A widget with its own custom border colour keeps it.",
-   "display": "A widget with its own custom border colour keeps it.",
+   "key": "Off, borders follow the theme. A widget with its own border colour keeps it.",
+   "display": "Off, borders follow the theme. A widget with its own border colour keeps it.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Border colour",
-   "display": "Border colour",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
+   "budget": 160,
+   "new": true
   },
   {
    "key": "CORNERS",
@@ -629,6 +623,42 @@
    "budget": 0
   },
   {
+   "key": "Downed state",
+   "display": "Downed state",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
+   "display": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Native",
+   "display": "Native",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pie UI",
+   "display": "Pie UI",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "MENU BAR",
    "display": "MENU BAR",
    "context": "",
@@ -645,12 +675,13 @@
    "budget": 0
   },
   {
-   "key": "Pie UI menu bar",
-   "display": "Pie UI menu bar",
+   "key": "Enable menu bar",
+   "display": "Enable menu bar",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "(no menu bar shown; panel keybinds H, I, G still work)",
@@ -741,28 +772,13 @@
    "budget": 160
   },
   {
-   "key": "Opacity (in combat)",
-   "display": "Opacity (in combat)",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Opacity (out of combat)",
-   "display": "Opacity (out of combat)",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "0 hides the launcher in that state. It stays visible while the UI is unlocked, so you can still find it.",
-   "display": "0 hides the launcher in that state. It stays visible while the UI is unlocked, so you can still find it.",
+   "key": "Set Out of combat to 0 to hide the bar while idle. Unlock the UI (above) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the bar while idle. Unlock the UI (above) to drag and resize it.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "DATA SHARED WITH OTHER ADDONS",
@@ -1005,20 +1021,22 @@
    "budget": 0
   },
   {
-   "key": "Show the interact prompt",
-   "display": "Show the interact prompt",
+   "key": "Enable interact prompt",
+   "display": "Enable interact prompt",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Show the game's own prompt",
-   "display": "Show the game's own prompt",
+   "key": "Show native interact prompt",
+   "display": "Show native interact prompt",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Mesmer troll protection",
@@ -1069,12 +1087,13 @@
    "budget": 0
   },
   {
-   "key": "Set Out of combat to 0 to hide it while idle. Unlock the UI (above) to move and resize it.",
-   "display": "Set Out of combat to 0 to hide it while idle. Unlock the UI (above) to move and resize it.",
+   "key": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (above) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (above) to drag and resize it.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Layouts",
@@ -1237,6 +1256,14 @@
    "budget": 0
   },
   {
+   "key": "New Layout",
+   "display": "New Layout",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Duplicate",
    "display": "Duplicate",
    "context": "",
@@ -1253,16 +1280,24 @@
    "budget": 0
   },
   {
-   "key": "The Default layout cannot be deleted.",
-   "display": "The Default layout cannot be deleted.",
+   "key": "Duplicate Layout",
+   "display": "Duplicate Layout",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "New Layout",
-   "display": "New Layout",
+   "key": "Delete Layout?",
+   "display": "Delete Layout?",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "The Default layout cannot be deleted.",
+   "display": "The Default layout cannot be deleted.",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
@@ -1279,30 +1314,6 @@
   {
    "key": "New layout name:",
    "display": "New layout name:",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "OK",
-   "display": "OK",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Duplicate Layout",
-   "display": "Duplicate Layout",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Delete Layout?",
-   "display": "Delete Layout?",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
@@ -1349,20 +1360,20 @@
    "budget": 0
   },
   {
-   "key": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
-   "display": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
    "key": "Reassign layout?",
    "display": "Reassign layout?",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
+   "display": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160
   },
   {
    "key": "'%s' is the layout for this one. Use '%s' instead?",
@@ -1421,6 +1432,15 @@
    "budget": 0
   },
   {
+   "key": "Show percentage",
+   "display": "Show percentage",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Show stamina bar (Skyscale flight / gliding)",
    "display": "Show stamina bar (Skyscale flight / gliding)",
    "context": "",
@@ -1429,20 +1449,31 @@
    "budget": 0
   },
   {
-   "key": "Set Out of combat to 0 to hide the widget while idle.",
-   "display": "Set Out of combat to 0 to hide the widget while idle.",
-   "context": "",
-   "section": "Settings > Health & Vitals",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show while mounted (use in-combat opacity)",
-   "display": "Show while mounted (use in-combat opacity)",
+   "key": "Show your portrait",
+   "display": "Show your portrait",
    "context": "",
    "section": "Settings > Health & Vitals",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Set Out of combat to 0 to hide the widget while idle. Unlock the UI (General) to drag it into position.",
+   "display": "Set Out of combat to 0 to hide the widget while idle. Unlock the UI (General) to drag it into position.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Only while a bar is not full",
+   "display": "Only while a bar is not full",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Show while gliding (full opacity for stamina)",
@@ -1499,6 +1530,15 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Orb",
+   "display": "Orb",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "STYLE",
@@ -1667,6 +1707,42 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Health colour",
+   "display": "Health colour",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Thresholds",
+   "display": "Thresholds",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Class colour",
+   "display": "Class colour",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Class colour fills the bar with your profession's colour, which greys out as your health drops.",
+   "display": "Class colour fills the bar with your profession's colour, which greys out as your health drops.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "HP",
@@ -1909,6 +1985,15 @@
    "budget": 0
   },
   {
+   "key": "Pie UI's own skill bars, with cooldowns and click-to-cast. Weapons and utilities can be placed separately.",
+   "display": "Pie UI's own skill bars, with cooldowns and click-to-cast. Weapons and utilities can be placed separately.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "DISPLAY",
    "display": "DISPLAY",
    "context": "",
@@ -2021,6 +2106,24 @@
    "budget": 0
   },
   {
+   "key": "Skill activation animation",
+   "display": "Skill activation animation",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Either the game's own animation while a skill winds up and casts, or Pie UI's flash when you press a slot and pulse while the skill runs.",
+   "display": "Either the game's own animation while a skill winds up and casts, or Pie UI's flash when you press a slot and pulse while the skill runs.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Auto-attack marker",
    "display": "Auto-attack marker",
    "context": "",
@@ -2067,14 +2170,6 @@
    "section": "Settings > Hotbars",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Hide hotbars, mount, novelty and mastery while downed or defeated",
-   "display": "Hide hotbars, mount, novelty and mastery while downed or defeated",
-   "context": "",
-   "section": "Settings > Hotbars",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "INTERACTION",
@@ -2179,6 +2274,24 @@
    "section": "Settings > Hotbars",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Tooltips in combat",
+   "display": "Tooltips in combat",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tooltips out of combat",
+   "display": "Tooltips out of combat",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "MOUNT SELECTOR",
@@ -2469,6 +2582,15 @@
    "budget": 0
   },
   {
+   "key": "Artwork",
+   "display": "Artwork",
+   "context": "",
+   "section": "Settings > Profession Resource",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Set Out of combat to 0 to hide the bar while idle. Unlock the UI (General) to drag it into position.",
    "display": "Set Out of combat to 0 to hide the bar while idle. Unlock the UI (General) to drag it into position.",
    "context": "",
@@ -2717,6 +2839,24 @@
    "budget": 0
   },
   {
+   "key": "WHICH BOONS TO SHOW",
+   "display": "WHICH BOONS TO SHOW",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show all boons",
+   "display": "Show all boons",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Show native boons",
    "display": "Show native boons",
    "context": "",
@@ -2829,16 +2969,17 @@
    "budget": 0
   },
   {
-   "key": "Portrait opacity",
-   "display": "Portrait opacity",
+   "key": "Rank artwork",
+   "display": "Rank artwork",
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Pie UI cannot hide the game's own target frame on this game version, so the portrait stays empty while that frame is hidden.",
-   "display": "Pie UI cannot hide the game's own target frame on this game version, so the portrait stays empty while that frame is hidden.",
+   "key": "Portrait opacity",
+   "display": "Portrait opacity",
    "context": "",
    "section": "Settings > Target",
    "tooltip": false,
@@ -3019,6 +3160,15 @@
    "section": "Settings > Bottom Line",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "A status strip along the bottom of the screen. You choose which readouts it shows and where they sit.",
+   "display": "A status strip along the bottom of the screen. You choose which readouts it shows and where they sit.",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Show native XP bar",
@@ -3397,12 +3547,22 @@
    "budget": 0
   },
   {
-   "key": "Custom colour",
-   "display": "Custom colour",
+   "key": "Set text colour",
+   "display": "Set text colour",
    "context": "",
    "section": "Settings > Bottom Line",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off, this readout uses the strip's text colour.",
+   "display": "Off, this readout uses the strip's text colour.",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Slot",
@@ -3437,12 +3597,13 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own party/squad frames",
-   "display": "Show the game's own party/squad frames",
+   "key": "Show native party/squad frames",
+   "display": "Show native party/squad frames",
    "context": "",
    "section": "Settings > Squad Frames",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Include Pie UI's own vote-kick prompt",
@@ -3669,12 +3830,13 @@
    "budget": 0
   },
   {
-   "key": "Use theme background",
-   "display": "Use theme background",
+   "key": "Off, the panel uses the theme's background.",
+   "display": "Off, the panel uses the theme's background.",
    "context": "",
    "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Gradient",
@@ -3709,12 +3871,13 @@
    "budget": 0
   },
   {
-   "key": "Match the theme colour",
-   "display": "Match the theme colour",
+   "key": "Off, the border uses the theme's accent colour.",
+   "display": "Off, the border uses the theme's accent colour.",
    "context": "",
    "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Name colour",
@@ -3909,46 +4072,6 @@
    "budget": 160
   },
   {
-   "key": "Instant",
-   "display": "Instant",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Fade",
-   "display": "Fade",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Slide",
-   "display": "Slide",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Grow",
-   "display": "Grow",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Social",
-   "display": "Social",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "SOURCES",
    "display": "SOURCES",
    "context": "",
@@ -3967,6 +4090,14 @@
   {
    "key": "Status-change toast",
    "display": "Status-change toast",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Social",
+   "display": "Social",
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
@@ -4029,14 +4160,6 @@
    "budget": 0
   },
   {
-   "key": "Set both opacities to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
-   "display": "Set both opacities to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
    "key": "Seconds a notice stays",
    "display": "Seconds a notice stays",
    "context": "",
@@ -4069,6 +4192,15 @@
    "budget": 160
   },
   {
+   "key": "Set both to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
+   "display": "Set both to 0 to hide the notices. Unlock the UI (General) to drag them into position.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
    "display": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
    "context": "",
@@ -4087,54 +4219,6 @@
   {
    "key": "Off, the notices use the standard dark panel. The slider above still sets how solid it is.",
    "display": "Off, the notices use the standard dark panel. The slider above still sets how solid it is.",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "MOTION",
-   "display": "MOTION",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "How it appears",
-   "display": "How it appears",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "How it disappears",
-   "display": "How it disappears",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Animation speed",
-   "display": "Animation speed",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
-   "display": "%.2fx",
-   "context": "slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
-   "display": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
@@ -4275,6 +4359,15 @@
    "section": "Settings > Social",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Pie UI's own chat box, with clickable links and tabs you set up yourself, in a window you can place anywhere.",
+   "display": "Pie UI's own chat box, with clickable links and tabs you set up yourself, in a window you can place anywhere.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Show native chat",
@@ -4445,6 +4538,15 @@
    "budget": 0
   },
   {
+   "key": "Set Out of combat to 0 to hide the chat while idle. Unlock the UI (General) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the chat while idle. Unlock the UI (General) to drag and resize it.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Background",
    "display": "Background",
    "context": "",
@@ -4453,12 +4555,13 @@
    "budget": 0
   },
   {
-   "key": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
-   "display": "Opacity of the chat panel background and its animated art. Text stays fully readable.",
+   "key": "The panel behind the messages, not the messages themselves. At 0 the text sits straight on the world.",
+   "display": "The panel behind the messages, not the messages themselves. At 0 the text sits straight on the world.",
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "MINIMAL MODE",
@@ -4949,14 +5052,6 @@
    "budget": 0
   },
   {
-   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "display": "%.1fx",
-   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Idle opacity",
    "display": "Idle opacity",
    "context": "",
@@ -5077,6 +5172,51 @@
    "budget": 0
   },
   {
+   "key": "Enable Group Finder",
+   "display": "Enable Group Finder",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Lists the commanders on your map, with buttons to join their squad or whisper them.",
+   "display": "Lists the commanders on your map, with buttons to join their squad or whisper them.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "LOOKING FOR GROUP",
+   "display": "LOOKING FOR GROUP",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows the groups advertised in this category wherever you are, alongside the groups for your current map.",
+   "display": "Shows the groups advertised in this category wherever you are, alongside the groups for your current map.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Set Out of combat to 0 to hide the window while idle. Unlock the UI (General) to drag it into position.",
+   "display": "Set Out of combat to 0 to hide the window while idle. Unlock the UI (General) to drag it into position.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Notices",
    "display": "Notices",
    "context": "",
@@ -5149,12 +5289,13 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own minimap",
-   "display": "Show the game's own minimap",
+   "key": "Show native minimap",
+   "display": "Show native minimap",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Farming overlay mode",
@@ -5381,9 +5522,9 @@
    "budget": 0
   },
   {
-   "key": "%.1fx|slider unit: a multiplier. Translate only the 'x'",
+   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
    "display": "%.1fx",
-   "context": "slider unit: a multiplier. Translate only the 'x'",
+   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
    "section": "Settings > Minimap",
    "tooltip": false,
    "budget": 0
@@ -5445,12 +5586,22 @@
    "budget": 0
   },
   {
-   "key": "Show fog of war",
-   "display": "Show fog of war",
+   "key": "Fog of war",
+   "display": "Fog of war",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off",
+   "display": "Off",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Covers ground this character has not explored yet.",
@@ -5597,28 +5748,67 @@
    "budget": 160
   },
   {
-   "key": "Show the button",
-   "display": "Show the button",
+   "key": "Enable Instance Controls",
+   "display": "Enable Instance Controls",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Show the game's own button",
-   "display": "Show the game's own button",
+   "key": "Show native instance button",
+   "display": "Show native instance button",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Set Out of combat to 0 to hide it while idle. Unlock the UI (General) to move and resize it.",
-   "display": "Set Out of combat to 0 to hide it while idle. Unlock the UI (General) to move and resize it.",
+   "key": "Set Out of combat to 0 to hide the controls while idle. Unlock the UI (General) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the controls while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
    "section": "Settings > Minimap",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Enable map closing prompt",
+   "display": "Enable map closing prompt",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Replaces the game's prompt to move off a closing map with one you can place anywhere.",
+   "display": "Replaces the game's prompt to move off a closing map with one you can place anywhere.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Show native map closing prompt",
+   "display": "Show native map closing prompt",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (General) to drag it into position.",
+   "display": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (General) to drag it into position.",
+   "context": "",
+   "section": "Settings > Minimap",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Enable Map Meta",
@@ -5741,12 +5931,13 @@
    "budget": 0
   },
   {
-   "key": "Applies while the window is NOT pinned. Set Out of combat to 0 to hide while idle.",
-   "display": "Applies while the window is NOT pinned. Set Out of combat to 0 to hide while idle.",
+   "key": "Applies while the window is NOT pinned. Set Out of combat to 0 to hide the window while idle.",
+   "display": "Applies while the window is NOT pinned. Set Out of combat to 0 to hide the window while idle.",
    "context": "",
    "section": "Settings > Consumables",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "WHAT TO TRACK",
@@ -5781,12 +5972,13 @@
    "budget": 160
   },
   {
-   "key": "Show Content Guide",
-   "display": "Show Content Guide",
+   "key": "Enable Content Guide",
+   "display": "Enable Content Guide",
    "context": "",
    "section": "Settings > Content Guide",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "What the game's Content Guide is pointing you at - story step, renown heart, point of interest - in a window you can place anywhere.",
@@ -5797,20 +5989,13 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own Content Guide",
-   "display": "Show the game's own Content Guide",
+   "key": "Show native Content Guide",
+   "display": "Show native Content Guide",
    "context": "",
    "section": "Settings > Content Guide",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Turning both off leaves no guide at all.",
-   "display": "Turning both off leaves no guide at all.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "WHAT TO SHOW",
@@ -5885,6 +6070,24 @@
    "budget": 0
   },
   {
+   "key": "Adventures",
+   "display": "Adventures",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The adventure you are running, with its medal progress and time left. The X beside its name leaves the adventure, as in the game's own panel.",
+   "display": "The adventure you are running, with its medal progress and time left. The X beside its name leaves the adventure, as in the game's own panel.",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Fractal status",
    "display": "Fractal status",
    "context": "",
@@ -5917,6 +6120,24 @@
    "budget": 160
   },
   {
+   "key": "Achievements shown",
+   "display": "Achievements shown",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "All|slider value: no limit, every tracked achievement is shown",
+   "display": "All",
+   "context": "slider value: no limit, every tracked achievement is shown",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Nearby events and map metas",
    "display": "Nearby events and map metas",
    "context": "",
@@ -5925,28 +6146,22 @@
    "budget": 0
   },
   {
-   "key": "Drag the window's corner to set its width while the UI is unlocked (General > Unlock UI). Long lines wrap to that width; the height follows the content.",
-   "display": "Drag the window's corner to set its width while the UI is unlocked (General > Unlock UI). Long lines wrap to that width; the height follows the content.",
+   "key": "Set Out of combat to 0 to hide the guide while idle. Unlock the UI (General) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the guide while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
    "section": "Settings > Content Guide",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
-   "key": "Opacity",
-   "display": "Opacity",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "The window background only; the text stays readable at any setting. 0 hides it.",
-   "display": "The window background only; the text stays readable at any setting. 0 hides it.",
+   "key": "The panel behind the rows, not the rows themselves. At 0 the text sits straight on the world.",
+   "display": "The panel behind the rows, not the rows themselves. At 0 the text sits straight on the world.",
    "context": "",
    "section": "Settings > Content Guide",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "EVENT TITLES",
@@ -6053,14 +6268,6 @@
    "budget": 0
   },
   {
-   "key": "Font: Settings > Fonts > Content Guide",
-   "display": "Font: Settings > Fonts > Content Guide",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Enable Loot Cascade",
    "display": "Enable Loot Cascade",
    "context": "",
@@ -6077,20 +6284,13 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own loot list",
-   "display": "Show the game's own loot list",
+   "key": "Show native loot list",
+   "display": "Show native loot list",
    "context": "",
    "section": "Settings > Loot Cascade",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Turning both off means no pickup list at all.",
-   "display": "Turning both off means no pickup list at all.",
-   "context": "",
-   "section": "Settings > Loot Cascade",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Seconds a row stays",
@@ -6173,14 +6373,6 @@
    "budget": 0
   },
   {
-   "key": "Font: Settings > Fonts > Loot Cascade",
-   "display": "Font: Settings > Fonts > Loot Cascade",
-   "context": "",
-   "section": "Settings > Loot Cascade",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Set both to 0 to hide the list. Unlock the UI (General) to drag it into position.",
    "display": "Set both to 0 to hide the list. Unlock the UI (General) to drag it into position.",
    "context": "",
@@ -6221,20 +6413,31 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own notifications",
-   "display": "Show the game's own notifications",
+   "key": "Show native notifications",
+   "display": "Show native notifications",
    "context": "",
    "section": "Settings > Notifications",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Turning both off means no notifications at all.",
-   "display": "Turning both off means no notifications at all.",
+   "key": "Include achievement eligibility",
+   "display": "Include achievement eligibility",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A notification stays up while you can earn an achievement where you are. Dismissed, it returns the next time you become eligible.",
+   "display": "A notification stays up while you can earn an achievement where you are. Dismissed, it returns the next time you become eligible.",
    "context": "",
    "section": "Settings > Notifications",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Seconds a notification stays",
@@ -6301,6 +6504,54 @@
    "budget": 160
   },
   {
+   "key": "MOTION",
+   "display": "MOTION",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "How it appears",
+   "display": "How it appears",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "How it disappears",
+   "display": "How it disappears",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Animation speed",
+   "display": "Animation speed",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "%.2fx|slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
+   "display": "%.2fx",
+   "context": "slider unit: a multiplier, as in 1.50x. Translate only the 'x'",
+   "section": "Settings > Notifications",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
+   "display": "Higher is faster. Sliding notices travel from whichever side of the screen they sit nearest.",
+   "context": "",
+   "section": "Settings > Notifications",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "PENDING REWARD TRAY",
    "display": "PENDING REWARD TRAY",
    "context": "",
@@ -6317,12 +6568,13 @@
    "budget": 0
   },
   {
-   "key": "Enable the Pie UI reward tray",
-   "display": "Enable the Pie UI reward tray",
+   "key": "Enable reward tray",
+   "display": "Enable reward tray",
    "context": "",
    "section": "Settings > Notifications",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Left-click a chest to open its reward dialog, right-click to claim it outright. Some chests always open the dialog.",
@@ -6333,20 +6585,13 @@
    "budget": 160
   },
   {
-   "key": "Show the game's own reward tray",
-   "display": "Show the game's own reward tray",
+   "key": "Show native reward tray",
+   "display": "Show native reward tray",
    "context": "",
    "section": "Settings > Notifications",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Turning both off means nothing shows pending rewards.",
-   "display": "Turning both off means nothing shows pending rewards.",
-   "context": "",
-   "section": "Settings > Notifications",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Left to right",
@@ -6421,12 +6666,13 @@
    "budget": 0
   },
   {
-   "key": "0 hides it. Unlock the UI (General) to drag it into position.",
-   "display": "0 hides it. Unlock the UI (General) to drag it into position.",
+   "key": "Set Out of combat to 0 to hide the tray while idle. Unlock the UI (General) to drag it into position.",
+   "display": "Set Out of combat to 0 to hide the tray while idle. Unlock the UI (General) to drag it into position.",
    "context": "",
    "section": "Settings > Notifications",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Fonts",
@@ -7693,6 +7939,15 @@
    "budget": 0
   },
   {
+   "key": "Count unread messages",
+   "display": "Count unread messages",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Send to",
    "display": "Send to",
    "context": "",
@@ -8085,6 +8340,15 @@
    "budget": 0
   },
   {
+   "key": "Leave this adventure.",
+   "display": "Leave this adventure.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Wizard's Vault Objectives",
    "display": "Wizard's Vault Objectives",
    "context": "",
@@ -8237,6 +8501,15 @@
    "budget": 0
   },
   {
+   "key": "More",
+   "display": "More",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Events",
    "display": "Events",
    "context": "",
@@ -8309,6 +8582,15 @@
    "budget": 0
   },
   {
+   "key": "Class effects",
+   "display": "Class effects",
+   "context": "",
+   "section": "Effect Sections",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Specialty Effects",
    "display": "Specialty Effects",
    "context": "",
@@ -8349,6 +8631,249 @@
    "budget": 0
   },
   {
+   "key": "AgWorld.cpp",
+   "display": "AgWorld.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertAchievement.cpp",
+   "display": "AlAlertAchievement.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertMinipetUnlock.cpp",
+   "display": "AlAlertMinipetUnlock.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertOutfitUnlock.cpp",
+   "display": "AlAlertOutfitUnlock.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertRevealPoi.cpp",
+   "display": "AlAlertRevealPoi.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertSkillChallenge.cpp",
+   "display": "AlAlertSkillChallenge.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertSkinUnlock.cpp",
+   "display": "AlAlertSkinUnlock.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AlAlertToyUnlock.cpp",
+   "display": "AlAlertToyUnlock.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AreaContext.cpp",
+   "display": "AreaContext.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AttentionAnimation.cpp",
+   "display": "AttentionAnimation.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "CmbtCliBreakBar.cpp",
+   "display": "CmbtCliBreakBar.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ChCliAchievement.cpp",
+   "display": "ChCliAchievement.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "CnContext.cpp",
+   "display": "CnContext.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "QlButtonGuild.cpp",
+   "display": "QlButtonGuild.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "DlgInstanceTravelButton.cpp",
+   "display": "DlgInstanceTravelButton.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "LfgCliGroupData.h",
+   "display": "LfgCliGroupData.h",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "MapInt.h",
+   "display": "MapInt.h",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ObCliCaptureLocation.cpp",
+   "display": "ObCliCaptureLocation.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ObCliCounter.h",
+   "display": "ObCliCounter.h",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ObCliKillCount.cpp",
+   "display": "ObCliKillCount.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ObCliEventStatus.cpp",
+   "display": "ObCliEventStatus.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ObCliCollectItems.cpp",
+   "display": "ObCliCollectItems.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "AvGadgetResourceNode.cpp",
+   "display": "AvGadgetResourceNode.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "RewCliContext.cpp",
+   "display": "RewCliContext.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "GdCliGadgetPropBoss.cpp",
+   "display": "GdCliGadgetPropBoss.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "TtItemComparison.cpp",
+   "display": "TtItemComparison.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "WorldMapManager.cpp",
+   "display": "WorldMapManager.cpp",
+   "context": "",
+   "section": "Game Layout Table",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Unlock UI (move & resize widgets)",
    "display": "Unlock UI (move & resize widgets)",
    "context": "",
@@ -8371,6 +8896,167 @@
    "section": "General",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "This group's map is full.",
+   "display": "This group's map is full.",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Join",
+   "display": "Join",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Message",
+   "display": "Message",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "None",
+   "display": "None",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Edit or withdraw your group's listing.",
+   "display": "Edit or withdraw your group's listing.",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Advertise your group",
+   "display": "Advertise your group",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Click to leave quick play.",
+   "display": "Click to leave quick play.",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "OK",
+   "display": "OK",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Leaving quick play also takes you out of your group.",
+   "display": "Leaving quick play also takes you out of your group.",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Leave quick play",
+   "display": "Leave quick play",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your group's listing",
+   "display": "Your group's listing",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Update listing",
+   "display": "Update listing",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Advertise",
+   "display": "Advertise",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Withdraw",
+   "display": "Withdraw",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Group Finder",
+   "display": "Group Finder",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Watched category",
+   "display": "Watched category",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Lock the watched category",
+   "display": "Lock the watched category",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Change the watched category",
+   "display": "Change the watched category",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Instance Controls",
@@ -8523,6 +9209,15 @@
    "section": "Map Meta",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Map closing",
+   "display": "Map closing",
+   "context": "",
+   "section": "Map Redirect",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Mastery - right-click to choose one",
@@ -9517,6 +10212,38 @@
    "budget": 0
   },
   {
+   "key": "Instant",
+   "display": "Instant",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Fade",
+   "display": "Fade",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Slide",
+   "display": "Slide",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Grow",
+   "display": "Grow",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Slightly rounded",
    "display": "Slightly rounded",
    "context": "",
@@ -9853,12 +10580,13 @@
    "budget": 0
   },
   {
-   "key": "Set Out of combat to 0 to hide while idle. Unlock the UI (General) to drag and resize this section.",
-   "display": "Set Out of combat to 0 to hide while idle. Unlock the UI (General) to drag and resize this section.",
+   "key": "Set Out of combat to 0 to hide the section while idle. Unlock the UI (General) to drag and resize it.",
+   "display": "Set Out of combat to 0 to hide the section while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Some artwork is missing: the game was not launched with -shareArchive.",
@@ -10163,6 +10891,24 @@
    "section": "Slot Cluster",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Stow pet",
+   "display": "Stow pet",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pet management",
+   "display": "Pet management",
+   "context": "",
+   "section": "Slot Cluster",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Weapon group",
@@ -10715,6 +11461,15 @@
    "section": "Target Portrait",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Your Portrait",
+   "display": "Your Portrait",
+   "context": "",
+   "section": "Target Portrait",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Dungeons",
