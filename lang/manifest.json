@@ -16,5 +16,12 @@
   "template": {
     "sha": "eb96ab2b15d9b225",
     "updated": "2026-10-14"
+  },
+  "zh": {
+    "credit": "FusRoDah",
+    "sha": "0a05c9b39dc2d219",
+    "total": 1428,
+    "translated": 1428,
+    "updated": "2026-10-17"
   }
 }
