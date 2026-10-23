@@ -381,6 +381,46 @@
    "budget": 160
   },
   {
+   "key": "Hide Pie UI behind native windows",
+   "display": "Hide Pie UI behind native windows",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Downed state",
+   "display": "Downed state",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
+   "display": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Native",
+   "display": "Native",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pie UI",
+   "display": "Pie UI",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "ITEMS",
    "display": "ITEMS",
    "context": "",
@@ -501,12 +541,13 @@
    "budget": 0
   },
   {
-   "key": "Draws each nearby player's elite specialisation icon on their nameplate, so you can see what people are playing without targeting them. Opacity 0 turns it off.",
-   "display": "Draws each nearby player's elite specialisation icon on their nameplate, so you can see what people are playing without targeting them. Opacity 0 turns it off.",
+   "key": "Shows each nearby player's elite specialisation icon beside their name, so you can see what people are playing without targeting them.",
+   "display": "Shows each nearby player's elite specialisation icon beside their name, so you can see what people are playing without targeting them.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Nameplate class icons",
@@ -515,22 +556,6 @@
    "section": "Settings > General",
    "tooltip": false,
    "budget": 0
-  },
-  {
-   "key": "(hidden in WvW and PvP)",
-   "display": "(hidden in WvW and PvP)",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Opacity of the icon. 0 turns the feature off completely.",
-   "display": "Opacity of the icon. 0 turns the feature off completely.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
   },
   {
    "key": "Range",
@@ -568,86 +593,6 @@
    "key": "%.0f px|slider unit: pixels. Translate only the 'px'",
    "display": "%.0f px",
    "context": "slider unit: pixels. Translate only the 'px'",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Native nameplates change size with your interface settings and resolution, so this is set by eye.",
-   "display": "Native nameplates change size with your interface settings and resolution, so this is set by eye.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Position:",
-   "display": "Position:",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Left of the name",
-   "display": "Left of the name",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Above, centred",
-   "display": "Above, centred",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Class icons:",
-   "display": "Class icons:",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Hide Pie UI behind native windows",
-   "display": "Hide Pie UI behind native windows",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Downed state",
-   "display": "Downed state",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
-   "display": "Choose whose downed view you see: the game's downed bar, or the downed skills on Pie UI's weapon bar with your health on Pie UI's vitals.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Native",
-   "display": "Native",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI",
-   "display": "Pie UI",
-   "context": "",
    "section": "Settings > General",
    "tooltip": false,
    "budget": 0
@@ -1149,36 +1094,56 @@
    "budget": 0
   },
   {
-   "key": "IMPORT SKILL BARS",
-   "display": "IMPORT SKILL BARS",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "There is no other layout to take bars from yet.",
-   "display": "There is no other layout to take bars from yet.",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Take its bars",
-   "display": "Take its bars",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Copies only the skill bars, their groups and their controller buttons into the layout you are using. Everything else of yours is left alone.",
-   "display": "Copies only the skill bars, their groups and their controller buttons into the layout you are using. Everything else of yours is left alone.",
+   "key": "The specialization you are playing now. Its layout wins over the game mode's, and the game mode's is used for a specialization with none.",
+   "display": "The specialization you are playing now. Its layout wins over the game mode's, and the game mode's is used for a specialization with none.",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Reassign layout?",
+   "display": "Reassign layout?",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "'%s' is the layout for this one. Use '%s' instead?",
+   "display": "'%s' is the layout for this one. Use '%s' instead?",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Also used for:",
+   "display": "Also used for:",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "COPY ELEMENTS",
+   "display": "COPY ELEMENTS",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copies chosen parts of a layout, like the minimap or the chat, into your other layouts. Where they sit and how big they are, or everything about them.",
+   "display": "Copies chosen parts of a layout, like the minimap or the chat, into your other layouts. Where they sit and how big they are, or everything about them.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "PASSING THIS LAYOUT ON",
@@ -1349,28 +1314,12 @@
    "budget": 0
   },
   {
-   "key": "Reassign layout?",
-   "display": "Reassign layout?",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
    "display": "In PvP and WvW, Pie UI shows only a limited set of elements and never hides the native UI, so a Competitive layout applies only to those.",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "'%s' is the layout for this one. Use '%s' instead?",
-   "display": "'%s' is the layout for this one. Use '%s' instead?",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "You're in a competitive mode - only limited elements are shown here, so this layout is partially applied.",
@@ -1523,6 +1472,24 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Detach endurance bar",
+   "display": "Detach endurance bar",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Gives the endurance bar its own frame, so it can be moved and resized separately while the UI is unlocked.",
+   "display": "Gives the endurance bar its own frame, so it can be moved and resized separately while the UI is unlocked.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "STYLE",
@@ -1893,6 +1860,15 @@
    "budget": 0
   },
   {
+   "key": "Drag a slot's corner to give it its own size.",
+   "display": "Drag a slot's corner to give it its own size.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Place weapon slots freely",
    "display": "Place weapon slots freely",
    "context": "",
@@ -1957,6 +1933,15 @@
    "budget": 0
   },
   {
+   "key": "Match its bar",
+   "display": "Match its bar",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Enable Hotbars",
    "display": "Enable Hotbars",
    "context": "",
@@ -2007,6 +1992,22 @@
   {
    "key": "Turn off to hide the game's weapon and utility skill bars so Pie UI's replace them. The mastery and novelty buttons stay.",
    "display": "Turn off to hide the game's weapon and utility skill bars so Pie UI's replace them. The mastery and novelty buttons stay.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Show native mount bar (V engage + endurance)",
+   "display": "Show native mount bar (V engage + endurance)",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Turn off to hide the game's mount skill bar (V engage and the energy bar) while mounted. The artwork behind it stays; only the switch above removes that.",
+   "display": "Turn off to hide the game's mount skill bar (V engage and the energy bar) while mounted. The artwork behind it stays; only the switch above removes that.",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
@@ -2269,36 +2270,22 @@
    "budget": 0
   },
   {
-   "key": "MOUNT SELECTOR",
-   "display": "MOUNT SELECTOR",
+   "key": "SELECTOR BUTTONS",
+   "display": "SELECTOR BUTTONS",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Your selected mount, pulsing red in combat, with the game's own picker on right-click. Unlock the UI to move or resize it, like the novelty and mastery buttons.",
-   "display": "Your selected mount, pulsing red in combat, with the game's own picker on right-click. Unlock the UI to move or resize it, like the novelty and mastery buttons.",
+   "key": "Buttons for your mount, novelty and mastery, each with the game's own picker on right-click. Unlock the UI to move or resize them.",
+   "display": "Buttons for your mount, novelty and mastery, each with the game's own picker on right-click. Unlock the UI to move or resize them.",
    "context": "",
    "section": "Settings > Hotbars",
    "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show native mount bar (V engage + endurance)",
-   "display": "Show native mount bar (V engage + endurance)",
-   "context": "",
-   "section": "Settings > Hotbars",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Turn off to hide the game's mount skill bar (V engage and the energy bar) while mounted. The artwork behind it stays; only the switch above removes that.",
-   "display": "Turn off to hide the game's mount skill bar (V engage and the energy bar) while mounted. The artwork behind it stays; only the switch above removes that.",
-   "context": "",
-   "section": "Settings > Hotbars",
-   "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Show mount selector",
@@ -2347,14 +2334,6 @@
    "section": "Settings > Hotbars",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Controller",
-   "display": "Controller",
-   "context": "",
-   "section": "Settings > Hotbars",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "Tip: Unlock the UI (General tab) to drag each bar into place.",
@@ -3461,6 +3440,24 @@
    "budget": 160
   },
   {
+   "key": "Label",
+   "display": "Label",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Commanders on this map, groups for this map, and groups in your watched category. Click it to show or hide the Group Finder.",
+   "display": "Commanders on this map, groups for this map, and groups in your watched category. Click it to show or hide the Group Finder.",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Class",
    "display": "Class",
    "context": "",
@@ -3537,14 +3534,6 @@
    "display": "Slot",
    "context": "",
    "section": "Settings > Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "RealTime API addon not found. Squad Frames need it for the party/squad roster and will stay empty until it is installed.",
-   "display": "RealTime API addon not found. Squad Frames need it for the party/squad roster and will stay empty until it is installed.",
-   "context": "",
-   "section": "Settings > Squad Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -4037,6 +4026,185 @@
    "budget": 160
   },
   {
+   "key": "Custom Artwork",
+   "display": "Custom Artwork",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show custom artwork",
+   "display": "Show custom artwork",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Draws your own pictures on screen, each placed and sized like any other element. Each layout keeps its own.",
+   "display": "Draws your own pictures on screen, each placed and sized like any other element. Each layout keeps its own.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Put PNG or JPG pictures in addons/PieUI/images, then add a layer for each. Unlock the interface to move and resize them.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images, then add a layer for each. Unlock the interface to move and resize them.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Refresh",
+   "display": "Refresh",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Refresh after adding or editing a picture, so the new version shows.",
+   "display": "Refresh after adding or editing a picture, so the new version shows.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Add layer",
+   "display": "Add layer",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The images folder is empty.",
+   "display": "The images folder is empty.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No image layers yet.",
+   "display": "No image layers yet.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Picture",
+   "display": "Picture",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shown while the native hotbar is hidden.",
+   "display": "Shown while the native hotbar is hidden.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This picture is not in the images folder.",
+   "display": "This picture is not in the images folder.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This picture is larger than 16 MB.",
+   "display": "This picture is larger than 16 MB.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This file name cannot be opened.",
+   "display": "This file name cannot be opened.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This picture could not be loaded.",
+   "display": "This picture could not be loaded.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Behind Pie UI",
+   "display": "Behind Pie UI",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "In front of Pie UI",
+   "display": "In front of Pie UI",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Remove layer",
+   "display": "Remove layer",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Remove layer?",
+   "display": "Remove layer?",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Remove this layer? Its place and size cannot be recovered.",
+   "display": "Remove this layer? Its place and size cannot be recovered.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "SOURCES",
    "display": "SOURCES",
    "context": "",
@@ -4373,6 +4541,33 @@
    "budget": 160
   },
   {
+   "key": "Share that you're a Pie UI user",
+   "display": "Share that you're a Pie UI user",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Adds a hidden pie to the messages you send. Other Pie UI users see a pie beside your name, and players without Pie UI see nothing.",
+   "display": "Adds a hidden pie to the messages you send. Other Pie UI users see a pie beside your name, and players without Pie UI see nothing.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Show the pie on my sent messages",
+   "display": "Show the pie on my sent messages",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Show owned counts in item tooltips",
    "display": "Show owned counts in item tooltips",
    "context": "",
@@ -4415,62 +4610,6 @@
   {
    "key": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
    "display": "A filled dot for unlocked, a hollow ring for locked, without hovering. No marker means the status is not known yet, never that it is locked.",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "INPUT",
-   "display": "INPUT",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI input box",
-   "display": "Pie UI input box",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Native chat",
-   "display": "Native chat",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
-   "display": "Choose where you type: Pie UI's own input box, or the game's chat with this window over it. The chat focus keybind opens either, and Pie UI's box adds /self.",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Send speed (char delay ms)",
-   "display": "Send speed (char delay ms)",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%d ms|slider unit: milliseconds. Translate only the 'ms'",
-   "display": "%d ms",
-   "context": "slider unit: milliseconds. Translate only the 'ms'",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
-   "display": "Delay between each character Pie UI types when sending a message. Lower is faster, but too low can drop or scramble characters.",
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
@@ -4997,12 +5136,40 @@
    "budget": 0
   },
   {
-   "key": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
-   "display": "The floating icon is always shown; click it to open the messenger. It flashes and shows a badge on unread whispers.",
+   "key": "Click the icon to open the Messenger. It flashes and shows a badge on unread whispers.",
+   "display": "Click the icon to open the Messenger. It flashes and shows a badge on unread whispers.",
    "context": "",
    "section": "Settings > Social",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Floating",
+   "display": "Floating",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "In chat window",
+   "display": "In chat window",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "While the chat window cannot show it, the floating icon appears for unread whispers.",
+   "display": "While the chat window cannot show it, the floating icon appears for unread whispers.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Tip: Unlock the UI (General tab) to drag the icon into place.",
@@ -5055,14 +5222,6 @@
   {
    "key": "Sound file",
    "display": "Sound file",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Refresh",
-   "display": "Refresh",
    "context": "",
    "section": "Settings > Social",
    "tooltip": false,
@@ -5181,10 +5340,19 @@
    "budget": 0
   },
   {
+   "key": "Maps",
+   "display": "Maps",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
    "display": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5192,7 +5360,7 @@
    "key": "Show bookmarks",
    "display": "Show bookmarks",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5200,7 +5368,7 @@
    "key": "No map loaded.",
    "display": "No map loaded.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5208,7 +5376,7 @@
    "key": "Bookmarks on this map: %d",
    "display": "Bookmarks on this map: %d",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5216,7 +5384,7 @@
    "key": "(%zu more on other maps)",
    "display": "(%zu more on other maps)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5224,7 +5392,7 @@
    "key": "Bookmark",
    "display": "Bookmark",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5232,7 +5400,7 @@
    "key": "Enable Minimap",
    "display": "Enable Minimap",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5240,7 +5408,7 @@
    "key": "Terrain navigation map with a player arrow, points of interest, gathering nodes and live events.",
    "display": "Terrain navigation map with a player arrow, points of interest, gathering nodes and live events.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5248,7 +5416,7 @@
    "key": "Show native minimap",
    "display": "Show native minimap",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5256,7 +5424,7 @@
    "key": "Farming overlay mode",
    "display": "Farming overlay mode",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5264,7 +5432,7 @@
    "key": "Turns the minimap into a bare, transparent radar that rotates with your facing and shows only gathering nodes. Saved per layout.",
    "display": "Turns the minimap into a bare, transparent radar that rotates with your facing and shows only gathering nodes. Saved per layout.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5272,7 +5440,7 @@
    "key": "SHAPE",
    "display": "SHAPE",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5280,7 +5448,7 @@
    "key": "Rotate map to facing",
    "display": "Rotate map to facing",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5288,7 +5456,7 @@
    "key": "Show map markers (waypoints, points of interest, vistas, hearts, hero points)",
    "display": "Show map markers (waypoints, points of interest, vistas, hearts, hero points)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5296,7 +5464,7 @@
    "key": "Grey undiscovered waypoints, points of interest and vistas (this character)",
    "display": "Grey undiscovered waypoints, points of interest and vistas (this character)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5304,7 +5472,7 @@
    "key": "Alt-click to place a personal map marker",
    "display": "Alt-click to place a personal map marker",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5312,7 +5480,7 @@
    "key": "Drops the game's own white star, so it also shows on the native compass and world map and your party sees it. Placing a new one moves it.",
    "display": "Drops the game's own white star, so it also shows on the native compass and world map and your party sees it. Placing a new one moves it.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5320,7 +5488,7 @@
    "key": "Click a waypoint to travel",
    "display": "Click a waypoint to travel",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5328,7 +5496,7 @@
    "key": "One click shows the game's confirmation with the travel cost. A double-click travels straight away, with no confirmation.",
    "display": "One click shows the game's confirmation with the travel cost. A double-click travels straight away, with no confirmation.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5336,7 +5504,7 @@
    "key": "Show gathering nodes (herb, wood, ore)",
    "display": "Show gathering nodes (herb, wood, ore)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5344,7 +5512,7 @@
    "key": "Show live events",
    "display": "Show live events",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5352,7 +5520,7 @@
    "key": "Show story guidance arrows in cities",
    "display": "Show story guidance arrows in cities",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5360,7 +5528,7 @@
    "key": "Show out-of-bounds areas in story instances",
    "display": "Show out-of-bounds areas in story instances",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5368,7 +5536,7 @@
    "key": "Shades the parts of a story instance you cannot reach.",
    "display": "Shades the parts of a story instance you cannot reach.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5376,7 +5544,7 @@
    "key": "Include events across the whole map",
    "display": "Include events across the whole map",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5384,7 +5552,7 @@
    "key": "Shows events anywhere on this map rather than only nearby ones. Zoom out to see more.",
    "display": "Shows events anywhere on this map rather than only nearby ones. Zoom out to see more.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5392,23 +5560,87 @@
    "key": "Show marker pack routes",
    "display": "Show marker pack routes",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Draws routes from the marker packs installed in TaimiHUD, following the categories switched on there. Changing those categories can take a while to show here.",
-   "display": "Draws routes from the marker packs installed in TaimiHUD, following the categories switched on there. Changing those categories can take a while to show here.",
+   "key": "Draws routes and markers from your marker packs, following the categories switched on in TaimiHUD or Taquito.",
+   "display": "Draws routes and markers from your marker packs, following the categories switched on in TaimiHUD or Taquito.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "TaimiHUD",
+   "display": "TaimiHUD",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Taquito",
+   "display": "Taquito",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Marker packs from",
+   "display": "Marker packs from",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The addon whose marker packs and category switches the minimap follows. TaimiHUD changes can take a while to show here; Taquito's show at once.",
+   "display": "The addon whose marker packs and category switches the minimap follows. TaimiHUD changes can take a while to show here; Taquito's show at once.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Waiting for Taquito to share its marker packs.",
+   "display": "Waiting for Taquito to share its marker packs.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Taquito is not running.",
+   "display": "Taquito is not running.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Taquito is still loading its marker packs.",
+   "display": "Taquito is still loading its marker packs.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "No marker packs found.",
    "display": "No marker packs found.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5416,7 +5648,7 @@
    "key": "Reading marker packs...",
    "display": "Reading marker packs...",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5424,7 +5656,7 @@
    "key": "Waiting to read the marker packs.",
    "display": "Waiting to read the marker packs.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5432,7 +5664,7 @@
    "key": "No routes found in the installed marker packs.",
    "display": "No routes found in the installed marker packs.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5440,7 +5672,7 @@
    "key": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
    "display": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5448,7 +5680,7 @@
    "key": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
    "display": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5456,7 +5688,7 @@
    "key": "Too many routes to draw here; some are left out.",
    "display": "Too many routes to draw here; some are left out.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5464,7 +5696,7 @@
    "key": "%d markers drawn on this map, %d still waiting for their picture.",
    "display": "%d markers drawn on this map, %d still waiting for their picture.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5472,7 +5704,7 @@
    "key": "Marker pack icon size",
    "display": "Marker pack icon size",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5480,7 +5712,7 @@
    "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
    "display": "%.1fx",
    "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5488,15 +5720,33 @@
    "key": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
    "display": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Marker pack line width",
+   "display": "Marker pack line width",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Scales the width of the routes the marker packs draw on the minimap. Wider routes are easier to follow at a glance.",
+   "display": "Scales the width of the routes the marker packs draw on the minimap. Wider routes are easier to follow at a glance.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Show map badges (vendors, bounty boards)",
    "display": "Show map badges (vendors, bounty boards)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5504,7 +5754,7 @@
    "key": "Show service markers",
    "display": "Show service markers",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5512,7 +5762,7 @@
    "key": "Vendors, bankers, crafting stations, asura gates, stairs and lifts, with the game's own icons.",
    "display": "Vendors, bankers, crafting stations, asura gates, stairs and lifts, with the game's own icons.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5520,7 +5770,7 @@
    "key": "Show renown-heart areas",
    "display": "Show renown-heart areas",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5528,7 +5778,7 @@
    "key": "Outlines each renown heart's area and highlights the one you are standing in, so you know when you are leaving the area where it still counts.",
    "display": "Outlines each renown heart's area and highlights the one you are standing in, so you know when you are leaving the area where it still counts.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5536,7 +5786,7 @@
    "key": "Heart area colour",
    "display": "Heart area colour",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5544,7 +5794,7 @@
    "key": "Fog of war",
    "display": "Fog of war",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5552,7 +5802,7 @@
    "key": "Off",
    "display": "Off",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5560,7 +5810,7 @@
    "key": "Covers ground this character has not explored yet.",
    "display": "Covers ground this character has not explored yet.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5568,7 +5818,7 @@
    "key": "Fog colour",
    "display": "Fog colour",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5576,7 +5826,7 @@
    "key": "Fog opacity",
    "display": "Fog opacity",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5584,7 +5834,7 @@
    "key": "Show party/squad members",
    "display": "Show party/squad members",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5592,23 +5842,24 @@
    "key": "Hover tooltips on member dots",
    "display": "Hover tooltips on member dots",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Hover a dot for name, class, role, account and distance. Class needs the RealTime API addon.",
-   "display": "Hover a dot for name, class, role, account and distance. Class needs the RealTime API addon.",
+   "key": "Hover a dot for name, class, role, account and distance.",
+   "display": "Hover a dot for name, class, role, account and distance.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Show commander tag",
    "display": "Show commander tag",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5616,7 +5867,7 @@
    "key": "Role markers",
    "display": "Role markers",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5624,7 +5875,7 @@
    "key": "(enable Role icons in Squad Frames settings)",
    "display": "(enable Role icons in Squad Frames settings)",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5632,7 +5883,7 @@
    "key": "Include squad members in other map copies",
    "display": "Include squad members in other map copies",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5640,7 +5891,7 @@
    "key": "Squad members on another copy of this map, as faded dots.",
    "display": "Squad members on another copy of this map, as faded dots.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5648,7 +5899,7 @@
    "key": "Show guild members",
    "display": "Show guild members",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5656,23 +5907,15 @@
    "key": "Nearby guild members who are not in your party or squad. PvE only, and only players close enough to have loaded.",
    "display": "Nearby guild members who are not in your party or squad. PvE only, and only players close enough to have loaded.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Guild dot colour",
-   "display": "Guild dot colour",
-   "context": "",
-   "section": "Settings > Minimap",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "ZOOM",
    "display": "ZOOM",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5680,7 +5923,7 @@
    "key": "Higher zoom = closer in. 5-8 roughly matches the in-game minimap.",
    "display": "Higher zoom = closer in. 5-8 roughly matches the in-game minimap.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5688,7 +5931,7 @@
    "key": "Zoom",
    "display": "Zoom",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5696,15 +5939,105 @@
    "key": "Set Out of combat to 0 to hide the minimap while idle. Unlock the UI (General) to drag and resize it.",
    "display": "Set Out of combat to 0 to hide the minimap while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Map key opens",
+   "display": "Map key opens",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pie UI world map",
+   "display": "Pie UI world map",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show completion status",
+   "display": "Show completion status",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show completion in map tooltips",
+   "display": "Show completion in map tooltips",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show incomplete maps",
+   "display": "Show incomplete maps",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show map bonuses",
+   "display": "Show map bonuses",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show compass rose",
+   "display": "Show compass rose",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Scales the icons the marker packs draw on the world map. At 1.0x they match the size of the game's own map icons.",
+   "display": "Scales the icons the marker packs draw on the world map. At 1.0x they match the size of the game's own map icons.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Scales the width of the routes the marker packs draw on the world map. Wider routes are easier to follow at a glance.",
+   "display": "Scales the width of the routes the marker packs draw on the world map. Wider routes are easier to follow at a glance.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Close map after taking a waypoint",
+   "display": "Close map after taking a waypoint",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Enable Instance Controls",
    "display": "Enable Instance Controls",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5712,7 +6045,7 @@
    "key": "Show native instance button",
    "display": "Show native instance button",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5720,7 +6053,7 @@
    "key": "Set Out of combat to 0 to hide the controls while idle. Unlock the UI (General) to drag and resize it.",
    "display": "Set Out of combat to 0 to hide the controls while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5728,7 +6061,7 @@
    "key": "Enable map closing prompt",
    "display": "Enable map closing prompt",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5736,7 +6069,7 @@
    "key": "Replaces the game's prompt to move off a closing map with one you can place anywhere.",
    "display": "Replaces the game's prompt to move off a closing map with one you can place anywhere.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5744,7 +6077,7 @@
    "key": "Show native map closing prompt",
    "display": "Show native map closing prompt",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5752,7 +6085,7 @@
    "key": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (General) to drag it into position.",
    "display": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (General) to drag it into position.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5760,7 +6093,7 @@
    "key": "Enable Map Meta",
    "display": "Enable Map Meta",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -5768,7 +6101,7 @@
    "key": "Shows the current map meta's progress and your participation, like the game's own panel above the compass. Hidden without a meta, and in competitive modes.",
    "display": "Shows the current map meta's progress and your participation, like the game's own panel above the compass. Hidden without a meta, and in competitive modes.",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
   },
@@ -5776,7 +6109,7 @@
    "key": "Bookmarks",
    "display": "Bookmarks",
    "context": "",
-   "section": "Settings > Minimap",
+   "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
   },
@@ -6045,6 +6378,24 @@
    "budget": 160
   },
   {
+   "key": "Pulse the agony warning",
+   "display": "Pulse the agony warning",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "When your agony resistance is far too low for the scale, the red line pulses out of combat. In combat it stays a steady red.",
+   "display": "When your agony resistance is far too low for the scale, the red line pulses out of combat. In combat it stays a steady red.",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Tracked achievements / Wizard's Vault",
    "display": "Tracked achievements / Wizard's Vault",
    "context": "",
@@ -6077,6 +6428,33 @@
    "budget": 0
   },
   {
+   "key": "Fractions",
+   "display": "Fractions",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Percentages",
+   "display": "Percentages",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "How each row shows its progress: 5/6, or 83% as the game's own panel does. With percentages, hover a row for its exact count.",
+   "display": "How each row shows its progress: 5/6, or 83% as the game's own panel does. With percentages, hover a row for its exact count.",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Nearby events and map metas",
    "display": "Nearby events and map metas",
    "context": "",
@@ -6099,6 +6477,31 @@
    "section": "Settings > Content Guide",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Grow down",
+   "display": "Grow down",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Grow up",
+   "display": "Grow up",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Keeps the bottom edge in place and stacks the sections upward, the story nearest that edge. For a guide placed at the bottom of the screen.",
+   "display": "Keeps the bottom edge in place and stacks the sections upward, the story nearest that edge. For a guide placed at the bottom of the screen.",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "EVENT TITLES",
@@ -6131,78 +6534,6 @@
    "section": "Settings > Content Guide",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "TEXT COLOUR",
-   "display": "TEXT COLOUR",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Event titles normally follow your theme's accent colour. A theme whose accent is black or grey makes them hard to read, so you can set them yourself here.",
-   "display": "Event titles normally follow your theme's accent colour. A theme whose accent is black or grey makes them hard to read, so you can set them yourself here.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Set event title colour",
-   "display": "Set event title colour",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Off, titles use your theme's accent colour.",
-   "display": "Off, titles use your theme's accent colour.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Set accent colour",
-   "display": "Set accent colour",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "The gold text: section headings, the heart line, achievement names and the go-here row.",
-   "display": "The gold text: section headings, the heart line, achievement names and the go-here row.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Set body text colour",
-   "display": "Set body text colour",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Every description and objective line in the window, not just events.",
-   "display": "Every description and objective line in the window, not just events.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "The game's own colours still win: the countdown's red, the story line's green.",
-   "display": "The game's own colours still win: the countdown's red, the story line's green.",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "Enable Loot Cascade",
@@ -6295,6 +6626,14 @@
   {
    "key": "Icon position",
    "display": "Icon position",
+   "context": "",
+   "section": "Settings > Loot Cascade",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Left of the name",
+   "display": "Left of the name",
    "context": "",
    "section": "Settings > Loot Cascade",
    "tooltip": false,
@@ -6725,14 +7064,6 @@
    "budget": 0
   },
   {
-   "key": "Messenger",
-   "display": "Messenger",
-   "context": "",
-   "section": "Settings > Fonts",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "About Pie UI",
    "display": "About Pie UI",
    "context": "",
@@ -6823,6 +7154,14 @@
   {
    "key": "Website",
    "display": "Website",
+   "context": "",
+   "section": "Settings > About Pie UI",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Discord",
+   "display": "Discord",
    "context": "",
    "section": "Settings > About Pie UI",
    "tooltip": false,
@@ -7013,14 +7352,6 @@
    "budget": 0
   },
   {
-   "key": "Mount",
-   "display": "Mount",
-   "context": "",
-   "section": "Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Level / XP",
    "display": "Level / XP",
    "context": "",
@@ -7069,14 +7400,6 @@
    "budget": 0
   },
   {
-   "key": "Quick Toggles",
-   "display": "Quick Toggles",
-   "context": "",
-   "section": "Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Layout",
    "display": "Layout",
    "context": "",
@@ -7099,6 +7422,15 @@
    "section": "Bottom Line",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Day and night",
+   "display": "Day and night",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Show FPS",
@@ -7163,6 +7495,15 @@
    "section": "Bottom Line",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Show label",
+   "display": "Show label",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "24-hour clock",
@@ -7253,12 +7594,219 @@
    "budget": 0
   },
   {
+   "key": "Dawn",
+   "display": "Dawn",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Day",
+   "display": "Day",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dusk",
+   "display": "Dusk",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Night",
+   "display": "Night",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dawn in %d min",
+   "display": "Dawn in %d min",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Day in %d min",
+   "display": "Day in %d min",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dusk in %d min",
+   "display": "Dusk in %d min",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Night in %d min",
+   "display": "Night in %d min",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Lv -",
    "display": "Lv -",
    "context": "",
    "section": "Bottom Line",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Lock the interface to change layouts.",
+   "display": "Lock the interface to change layouts.",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Close the copy window to change layouts.",
+   "display": "Close the copy window to change layouts.",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Click to pick a layout.",
+   "display": "Click to pick a layout.",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Commanders on this map: %s",
+   "display": "Commanders on this map: %s",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Groups for this map: %s",
+   "display": "Groups for this map: %s",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No watched category",
+   "display": "No watched category",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Click to hide the Group Finder",
+   "display": "Click to hide the Group Finder",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Click to show the Group Finder",
+   "display": "Click to show the Group Finder",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The day and night cycle does not apply here. The time of day is fixed.",
+   "display": "The day and night cycle does not apply here. The time of day is fixed.",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tyrian time %02d:%02d",
+   "display": "Tyrian time %02d:%02d",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This map's schedule, in Tyrian time:",
+   "display": "This map's schedule, in Tyrian time:",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dawn starts at %02d:00",
+   "display": "Dawn starts at %02d:00",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Day starts at %02d:00",
+   "display": "Day starts at %02d:00",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dusk starts at %02d:00",
+   "display": "Dusk starts at %02d:00",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Night starts at %02d:00",
+   "display": "Night starts at %02d:00",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Hide",
@@ -7333,14 +7881,6 @@
    "budget": 0
   },
   {
-   "key": "Bottom Line",
-   "display": "Bottom Line",
-   "context": "",
-   "section": "Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "drag to rearrange - position is in Settings",
    "display": "drag to rearrange - position is in Settings",
    "context": "",
@@ -7377,14 +7917,6 @@
    "display": "Mastery %d",
    "context": "",
    "section": "Bottom Line Items",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Cast Bar",
-   "display": "Cast Bar",
-   "context": "",
-   "section": "Cast Bar",
    "tooltip": false,
    "budget": 0
   },
@@ -7427,6 +7959,15 @@
    "section": "Chat",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Pie UI user",
+   "display": "Pie UI user",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Commander",
@@ -7709,6 +8250,33 @@
    "budget": 0
   },
   {
+   "key": "Vote to kick from squad",
+   "display": "Vote to kick from squad",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Confirm: vote to kick from squad?",
+   "display": "Confirm: vote to kick from squad?",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Cancel vote to kick",
+   "display": "Cancel vote to kick",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Open map",
    "display": "Open map",
    "context": "",
@@ -7829,14 +8397,6 @@
    "budget": 0
   },
   {
-   "key": "Notifications",
-   "display": "Notifications",
-   "context": "",
-   "section": "Chat Window",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Item pickups",
    "display": "Item pickups",
    "context": "",
@@ -7879,14 +8439,6 @@
   {
    "key": "Send to",
    "display": "Send to",
-   "context": "",
-   "section": "Chat Window",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "(native input: channel set in-game)",
-   "display": "(native input: channel set in-game)",
    "context": "",
    "section": "Chat Window",
    "tooltip": false,
@@ -7989,14 +8541,6 @@
    "budget": 0
   },
   {
-   "key": "Chat",
-   "display": "Chat",
-   "context": "",
-   "section": "Chat Window",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Food",
    "display": "Food",
    "context": "",
@@ -8073,14 +8617,6 @@
    "display": "Strikes",
    "context": "",
    "section": "Consumable Catalog",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Consumables",
-   "display": "Consumables",
-   "context": "",
-   "section": "Consumables",
    "tooltip": false,
    "budget": 0
   },
@@ -8205,14 +8741,6 @@
    "budget": 0
   },
   {
-   "key": "Content Guide",
-   "display": "Content Guide",
-   "context": "",
-   "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Pie UI Content Guide (nothing to point at)",
    "display": "Pie UI Content Guide (nothing to point at)",
    "context": "",
@@ -8293,14 +8821,6 @@
    "budget": 0
   },
   {
-   "key": "Wizard's Vault",
-   "display": "Wizard's Vault",
-   "context": "",
-   "section": "Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Show tracked achievements instead.",
    "display": "Show tracked achievements instead.",
    "context": "",
@@ -8363,6 +8883,15 @@
    "section": "Content Guide",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Click to open the Wizard's Vault.",
+   "display": "Click to open the Wizard's Vault.",
+   "context": "",
+   "section": "Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "No tracked achievements",
@@ -8485,32 +9014,8 @@
    "budget": 0
   },
   {
-   "key": "Boons",
-   "display": "Boons",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Conditions",
-   "display": "Conditions",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Other",
    "display": "Other",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Class effects",
-   "display": "Class effects",
    "context": "",
    "section": "Effect Sections",
    "tooltip": false,
@@ -8579,6 +9084,15 @@
    "section": "General",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "No leader",
+   "display": "No leader",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "This group's map is full.",
@@ -8693,14 +9207,6 @@
    "budget": 0
   },
   {
-   "key": "Group Finder",
-   "display": "Group Finder",
-   "context": "",
-   "section": "Group Finder",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Watched category",
    "display": "Watched category",
    "context": "",
@@ -8725,18 +9231,28 @@
    "budget": 0
   },
   {
+   "key": "Native hotbar background",
+   "display": "Native hotbar background",
+   "context": "",
+   "section": "Image Layers",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Image layer",
+   "display": "Image layer",
+   "context": "",
+   "section": "Image Layers",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Instance Controls",
    "display": "Instance Controls",
    "context": "",
    "section": "Instance Controls",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Interact prompt",
-   "display": "Interact prompt",
-   "context": "",
-   "section": "Interact Prompt",
    "tooltip": false,
    "budget": 0
   },
@@ -8805,6 +9321,567 @@
    "budget": 0
   },
   {
+   "key": "Back",
+   "display": "Back",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Copy elements from this layout into others, or from another layout into this one.",
+   "display": "Copy elements from this layout into others, or from another layout into this one.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copy from this layout to others",
+   "display": "Copy from this layout to others",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copy from another layout into this one",
+   "display": "Copy from another layout into this one",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Select all",
+   "display": "Select all",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Select none",
+   "display": "Select none",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "off in this layout",
+   "display": "off in this layout",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "WHICH ELEMENTS",
+   "display": "WHICH ELEMENTS",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Next",
+   "display": "Next",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "INTO WHICH LAYOUTS",
+   "display": "INTO WHICH LAYOUTS",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "There is no other layout to copy into yet.",
+   "display": "There is no other layout to copy into yet.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "CHECK BEFORE COPYING",
+   "display": "CHECK BEFORE COPYING",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "These elements, with all their settings:",
+   "display": "These elements, with all their settings:",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Replace them in these layouts:",
+   "display": "Replace them in these layouts:",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This cannot be undone. What those layouts had for these elements is replaced.",
+   "display": "This cannot be undone. What those layouts had for these elements is replaced.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copy",
+   "display": "Copy",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copied. Those layouts show the change the next time you use them.",
+   "display": "Copied. Those layouts show the change the next time you use them.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "These layouts could not be written, so nothing changed in them:",
+   "display": "These layouts could not be written, so nothing changed in them:",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Close",
+   "display": "Close",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "FROM WHICH LAYOUT",
+   "display": "FROM WHICH LAYOUT",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "There is no other layout to copy from yet.",
+   "display": "There is no other layout to copy from yet.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Each one you tick shows on your screen now. Nothing is kept until you press Keep.",
+   "display": "Each one you tick shows on your screen now. Nothing is kept until you press Keep.",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keep",
+   "display": "Keep",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copy elements between layouts",
+   "display": "Copy elements between layouts",
+   "context": "",
+   "section": "Layout Copy Wizard",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon and utility bars",
+   "display": "Weapon and utility bars",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Weapon swap slot",
+   "display": "Weapon swap slot",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Special action slot",
+   "display": "Special action slot",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Profession bar",
+   "display": "Profession bar",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pet bar",
+   "display": "Pet bar",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Image layers",
+   "display": "Image layers",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Health & Vitals",
+   "display": "Health & Vitals",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Profession resource",
+   "display": "Profession resource",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Cast Bar",
+   "display": "Cast Bar",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Target Frame",
+   "display": "Target Frame",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Target portrait",
+   "display": "Target portrait",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Player portrait",
+   "display": "Player portrait",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Boons",
+   "display": "Boons",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Conditions",
+   "display": "Conditions",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Specialty effects",
+   "display": "Specialty effects",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Class effects",
+   "display": "Class effects",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Other effects",
+   "display": "Other effects",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Target boons",
+   "display": "Target boons",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Target conditions",
+   "display": "Target conditions",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Target other effects",
+   "display": "Target other effects",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Minimap",
+   "display": "Minimap",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Chat",
+   "display": "Chat",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Messenger",
+   "display": "Messenger",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Content Guide",
+   "display": "Content Guide",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad / Party",
+   "display": "Squad / Party",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Bottom Line",
+   "display": "Bottom Line",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Consumables",
+   "display": "Consumables",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Group Finder",
+   "display": "Group Finder",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Map meta",
+   "display": "Map meta",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Map closing prompt",
+   "display": "Map closing prompt",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Loot Cascade",
+   "display": "Loot Cascade",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Notifications",
+   "display": "Notifications",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Social notices",
+   "display": "Social notices",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Rewards",
+   "display": "Rewards",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Mount",
+   "display": "Mount",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Novelty",
+   "display": "Novelty",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Mastery",
+   "display": "Mastery",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Instance controls",
+   "display": "Instance controls",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Interact prompt",
+   "display": "Interact prompt",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Quick Toggles",
+   "display": "Quick Toggles",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Menu launcher",
+   "display": "Menu launcher",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Wallet: %s",
    "display": "Wallet: %s",
    "context": "",
@@ -8815,14 +9892,6 @@
   {
    "key": "Wallet: %d",
    "display": "Wallet: %d",
-   "context": "",
-   "section": "Loot Cascade",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Loot Cascade",
-   "display": "Loot Cascade",
    "context": "",
    "section": "Loot Cascade",
    "tooltip": false,
@@ -9045,6 +10114,15 @@
    "budget": 0
   },
   {
+   "key": "Click to open or close the Messenger.",
+   "display": "Click to open or close the Messenger.",
+   "context": "",
+   "section": "Messenger",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Tyrian Instant Messaging",
    "display": "Tyrian Instant Messaging",
    "context": "",
@@ -9105,6 +10183,30 @@
    "display": "Native whisper receive",
    "context": "",
    "section": "Messenger",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Role: %s",
+   "display": "Role: %s",
+   "context": "",
+   "section": "Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "In another instance",
+   "display": "In another instance",
+   "context": "",
+   "section": "Minimap",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "+%d more",
+   "display": "+%d more",
+   "context": "",
+   "section": "Minimap",
    "tooltip": false,
    "budget": 0
   },
@@ -9189,30 +10291,6 @@
    "budget": 0
   },
   {
-   "key": "Role: %s",
-   "display": "Role: %s",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "In another instance",
-   "display": "In another instance",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "+%d more",
-   "display": "+%d more",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Mentor %s",
    "display": "Mentor %s",
    "context": "",
@@ -9255,14 +10333,6 @@
   {
    "key": "No map available",
    "display": "No map available",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Minimap",
-   "display": "Minimap",
    "context": "",
    "section": "Minimap",
    "tooltip": false,
@@ -9469,14 +10539,6 @@
    "budget": 0
   },
   {
-   "key": "Novelty",
-   "display": "Novelty",
-   "context": "",
-   "section": "Novelty",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Left-click: make this the default",
    "display": "Left-click: make this the default",
    "context": "",
@@ -9523,6 +10585,15 @@
    "section": "Player Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Endurance bar",
+   "display": "Endurance bar",
+   "context": "",
+   "section": "Player Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Vendor sell: ",
@@ -9677,12 +10748,13 @@
    "budget": 0
   },
   {
-   "key": "Layout: %s (click to cycle)",
-   "display": "Layout: %s (click to cycle)",
+   "key": "Layout: %s. Click to pick another.",
+   "display": "Layout: %s. Click to pick another.",
    "context": "",
    "section": "Quick Bar",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "More in Pie UI settings",
@@ -9717,14 +10789,6 @@
    "budget": 0
   },
   {
-   "key": "Health & Vitals",
-   "display": "Health & Vitals",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Targ",
    "display": "Targ",
    "context": "",
@@ -9733,24 +10797,8 @@
    "budget": 0
   },
   {
-   "key": "Target Frame",
-   "display": "Target Frame",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Squad",
    "display": "Squad",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Squad / Party",
-   "display": "Squad / Party",
    "context": "",
    "section": "Quick Toggle Model",
    "tooltip": false,
@@ -9865,14 +10913,6 @@
    "display": "experience bar",
    "context": "",
    "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Rewards",
-   "display": "Rewards",
-   "context": "",
-   "section": "Reward Tray",
    "tooltip": false,
    "budget": 0
   },
@@ -10013,6 +11053,24 @@
    "budget": 0
   },
   {
+   "key": "image picture png jpg art frame background overlay controller|search keyword",
+   "display": "image picture png jpg art frame background overlay controller",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "hotbar skillbar native game mount backdrop|search keyword",
+   "display": "hotbar skillbar native game mount backdrop",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "status bar tray strip widgets|search keyword",
    "display": "status bar tray strip widgets",
    "context": "search keyword",
@@ -10085,14 +11143,6 @@
    "budget": 0
   },
   {
-   "key": "Forced visible on WvW and PvP maps.",
-   "display": "Forced visible on WvW and PvP maps.",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "toast popup alert notification preview animation fade slide yellow|search keyword",
    "display": "toast popup alert notification preview animation fade slide yellow",
    "context": "search keyword",
@@ -10135,6 +11185,22 @@
   {
    "key": "Search settings",
    "display": "Search settings",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Forced visible on WvW and PvP maps.",
+   "display": "Forced visible on WvW and PvP maps.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "(hidden in WvW and PvP)",
+   "display": "(hidden in WvW and PvP)",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
@@ -10191,22 +11257,6 @@
   {
    "key": "Icon right",
    "display": "Icon right",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Grow down",
-   "display": "Grow down",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Grow up",
-   "display": "Grow up",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
@@ -10737,22 +11787,6 @@
    "display": "Left the squad",
    "context": "",
    "section": "Social Notices",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Social notices",
-   "display": "Social notices",
-   "context": "",
-   "section": "Social Notices",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Squad Frames: install the RealTime API addon",
-   "display": "Squad Frames: install the RealTime API addon",
-   "context": "",
-   "section": "Squad Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -11309,6 +12343,95 @@
    "budget": 0
   },
   {
+   "key": "Close to the game's own layout",
+   "display": "Close to the game's own layout",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Developer's own",
+   "display": "Developer's own",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Suited to a controller",
+   "display": "Suited to a controller",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Game-like",
+   "display": "Game-like",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Controller",
+   "display": "Controller",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Would you like to try a preset layout?",
+   "display": "Would you like to try a preset layout?",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No thanks, I'll set it up myself",
+   "display": "No thanks, I'll set it up myself",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pick one to continue.",
+   "display": "Pick one to continue.",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Choosing one shows it straight away. Drag this window aside to see all of it.",
+   "display": "Choosing one shows it straight away. Drag this window aside to see all of it.",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "It is saved as a new layout, which you can change or delete in Settings.",
+   "display": "It is saved as a new layout, which you can change or delete in Settings.",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Welcome to Pie UI - a customisable replacement for the native interface.",
    "display": "Welcome to Pie UI - a customisable replacement for the native interface.",
    "context": "",
@@ -11325,28 +12448,31 @@
    "budget": 0
   },
   {
-   "key": "These additional addons are needed for full functionality:",
-   "display": "These additional addons are needed for full functionality:",
+   "key": "Recommended additions",
+   "display": "Recommended additions",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Party/Squad frames and social functions",
-   "display": "Party/Squad frames and social functions",
+   "key": "Show what your other characters are carrying",
+   "display": "Show what your other characters are carrying",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "What your other characters are carrying, and mastery progress",
-   "display": "What your other characters are carrying, and mastery progress",
+   "key": "Marker pack routes on the world map and minimap",
+   "display": "Marker pack routes on the world map and minimap",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "All available in the Nexus library.",
@@ -11365,48 +12491,8 @@
    "budget": 0
   },
   {
-   "key": "Pie UI is a work in progress, so some elements are more complete than others. It grows with every release.",
-   "display": "Pie UI is a work in progress, so some elements are more complete than others. It grows with every release.",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI improves with every release. If something crashes or does not work properly, please report it - a report is what makes a fix possible for everyone.",
-   "display": "Pie UI improves with every release. If something crashes or does not work properly, please report it - a report is what makes a fix possible for everyone.",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Discord",
-   "display": "Discord",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Report an Issue",
-   "display": "Report an Issue",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Welcome to Pie UI",
    "display": "Welcome to Pie UI",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Back",
-   "display": "Back",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
@@ -11421,12 +12507,112 @@
    "budget": 0
   },
   {
-   "key": "Next",
-   "display": "Next",
+   "key": "Click to show or hide the counts.",
+   "display": "Click to show or hide the counts.",
    "context": "",
-   "section": "Welcome",
+   "section": "World Map",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Incomplete maps (%d)",
+   "display": "Incomplete maps (%d)",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show fewer",
+   "display": "Show fewer",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show all",
+   "display": "Show all",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Favourite Destinations",
+   "display": "Favourite Destinations",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Right-click a waypoint on the map to add it here.",
+   "display": "Right-click a waypoint on the map to add it here.",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Add favourite destination",
+   "display": "Add favourite destination",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Move up",
+   "display": "Move up",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Move down",
+   "display": "Move down",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Remove",
+   "display": "Remove",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Save",
+   "display": "Save",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "World map",
+   "display": "World map",
+   "context": "",
+   "section": "World Map",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   }
  ]
 }
