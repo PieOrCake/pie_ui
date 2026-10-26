@@ -141,6 +141,14 @@
    "budget": 0
   },
   {
+   "key": "Game artwork",
+   "display": "Game artwork",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Wallet balances",
    "display": "Wallet balances",
    "context": "",
@@ -403,22 +411,6 @@
    "section": "Settings > General",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Native",
-   "display": "Native",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pie UI",
-   "display": "Pie UI",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "ITEMS",
@@ -2856,6 +2848,67 @@
    "budget": 160
   },
   {
+   "key": "Running-out animation",
+   "display": "Running-out animation",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Native",
+   "display": "Native",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Pulse",
+   "display": "Pulse",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Off",
+   "display": "Off",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Native blinks faster and faster as an effect runs out, as the game does; Pulse fades gently instead. Your target's icons too.",
+   "display": "Native blinks faster and faster as an effect runs out, as the game does; Pulse fades gently instead. Your target's icons too.",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Pop in new effects",
+   "display": "Pop in new effects",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A new effect's icon grows in from large and faint, as the game does. Your target's icons too.",
+   "display": "A new effect's icon grows in from large and faint, as the game does. Your target's icons too.",
+   "context": "",
+   "section": "Settings > Effects",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Specialty",
    "display": "Specialty",
    "context": "",
@@ -3538,82 +3591,19 @@
    "budget": 0
   },
   {
-   "key": "Enable Squad Frames",
-   "display": "Enable Squad Frames",
+   "key": "Unit Frames",
+   "display": "Unit Frames",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "A movable roster panel for your party/squad: name, class, commander tag, roles, and live health in PvE. Choose what each member shows on the Content tab.",
-   "display": "A movable roster panel for your party/squad: name, class, commander tag, roles, and live health in PvE. Choose what each member shows on the Content tab.",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Show native party/squad frames",
-   "display": "Show native party/squad frames",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Include Pie UI's own vote-kick prompt",
-   "display": "Include Pie UI's own vote-kick prompt",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
-   "display": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Set Out of combat to 0 to hide the panel while idle. Unlock the UI (General) to drag and resize it.",
    "display": "Set Out of combat to 0 to hide the panel while idle. Unlock the UI (General) to drag and resize it.",
    "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Frame layout",
-   "display": "Frame layout",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "List",
-   "display": "List",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Grid",
-   "display": "Grid",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "List: one member per row with the full name. Grid: compact cells several per row, names hidden, class icon and health bar dominant.",
-   "display": "List: one member per row with the full name. Grid: compact cells several per row, names hidden, class icon and health bar dominant.",
-   "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
@@ -3621,7 +3611,7 @@
    "key": "Health bar style",
    "display": "Health bar style",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3629,7 +3619,7 @@
    "key": "Thin under name",
    "display": "Thin under name",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3637,7 +3627,7 @@
    "key": "Full-height",
    "display": "Full-height",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3645,7 +3635,7 @@
    "key": "Thin under name: a thin health bar along the cell bottom. Full-height: the health bar fills the whole cell with the name drawn over it.",
    "display": "Thin under name: a thin health bar along the cell bottom. Full-height: the health bar fills the whole cell with the name drawn over it.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
@@ -3653,7 +3643,7 @@
    "key": "When too tall",
    "display": "When too tall",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3661,7 +3651,7 @@
    "key": "Scroll",
    "display": "Scroll",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3669,7 +3659,7 @@
    "key": "Wrap columns",
    "display": "Wrap columns",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3677,7 +3667,7 @@
    "key": "Scroll: the panel keeps its size, mouse-wheel to scroll. Wrap columns: overflow continues in a new column so nothing is hidden.",
    "display": "Scroll: the panel keeps its size, mouse-wheel to scroll. Wrap columns: overflow continues in a new column so nothing is hidden.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
@@ -3685,7 +3675,7 @@
    "key": "Grow direction",
    "display": "Grow direction",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3693,39 +3683,32 @@
    "key": "Auto",
    "display": "Auto",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Auto grows away from the nearest screen edge, Right pins the left edge, Left pins the right.",
+   "display": "Auto grows away from the nearest screen edge, Right pins the left edge, Left pins the right.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "List mode hugs its content and grows from the box you set: Auto away from the nearest screen edge, Right pins the left edge, Left pins the right.",
    "display": "List mode hugs its content and grows from the box you set: Auto away from the nearest screen edge, Right pins the left edge, Left pins the right.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Frames per row",
-   "display": "Frames per row",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Cell width (grid)",
-   "display": "Cell width (grid)",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "Cell height",
    "display": "Cell height",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3733,7 +3716,55 @@
    "key": "Cell gap",
    "display": "Cell gap",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Frame layout",
+   "display": "Frame layout",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "List",
+   "display": "List",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Grid",
+   "display": "Grid",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "List: one member per row with the full name. Grid: compact cells several per row, names hidden, class icon and health bar dominant.",
+   "display": "List: one member per row with the full name. Grid: compact cells several per row, names hidden, class icon and health bar dominant.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Frames per row",
+   "display": "Frames per row",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Cell width (grid)",
+   "display": "Cell width (grid)",
+   "context": "",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3741,7 +3772,7 @@
    "key": "Group gap",
    "display": "Group gap",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3749,7 +3780,7 @@
    "key": "Subgroups per row (0 = single row)",
    "display": "Subgroups per row (0 = single row)",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3757,7 +3788,7 @@
    "key": "Squads: how many subgroup columns before wrapping to a new row.",
    "display": "Squads: how many subgroup columns before wrapping to a new row.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
@@ -3765,7 +3796,7 @@
    "key": "Party columns",
    "display": "Party columns",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3773,31 +3804,24 @@
    "key": "Parties (no subgroups): cells per row.",
    "display": "Parties (no subgroups): cells per row.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
   {
-   "key": "Tip: enable Unlock UI (General) to drag and resize the panel.",
-   "display": "Tip: enable Unlock UI (General) to drag and resize the panel.",
+   "key": "Off, the panel has no background.",
+   "display": "Off, the panel has no background.",
    "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Off, the panel uses the theme's background.",
-   "display": "Off, the panel uses the theme's background.",
-   "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Gradient",
    "display": "Gradient",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3805,7 +3829,7 @@
    "key": "Gradient bottom",
    "display": "Gradient bottom",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3813,7 +3837,7 @@
    "key": "BORDER",
    "display": "BORDER",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3821,7 +3845,7 @@
    "key": "Show border",
    "display": "Show border",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3829,7 +3853,7 @@
    "key": "Off, the border uses the theme's accent colour.",
    "display": "Off, the border uses the theme's accent colour.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
   },
@@ -3837,7 +3861,7 @@
    "key": "Name colour",
    "display": "Name colour",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3845,7 +3869,7 @@
    "key": "Your name colour",
    "display": "Your name colour",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3853,7 +3877,7 @@
    "key": "SUBGROUPS",
    "display": "SUBGROUPS",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3861,119 +3885,15 @@
    "key": "Colour-code subgroups (accent bar + label)",
    "display": "Colour-code subgroups (accent bar + label)",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
-  },
-  {
-   "key": "Content",
-   "display": "Content",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "SHOW PER MEMBER",
-   "display": "SHOW PER MEMBER",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Class / elite-spec icon",
-   "display": "Class / elite-spec icon",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Class icons",
-   "display": "Class icons",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Character name",
-   "display": "Character name",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Commander / lieutenant tag",
-   "display": "Commander / lieutenant tag",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Role icons (right-click a member)",
-   "display": "Role icons (right-click a member)",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Tag members with a role (dps / heal / tank / hand-kite). Remembered per character; roles also show on the minimap.",
-   "display": "Tag members with a role (dps / heal / tank / hand-kite). Remembered per character; roles also show on the minimap.",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Squad target markers (commander's shape on a member)",
-   "display": "Squad target markers (commander's shape on a member)",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Red ! beside members carrying a commander or catmander tag",
-   "display": "Red ! beside members carrying a commander or catmander tag",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Subgroup labels (squads)",
-   "display": "Subgroup labels (squads)",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Highlight my target",
-   "display": "Highlight my target",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Outlines the member you currently have targeted, so you can spot them at a glance. Stays visible even when they are faded for distance.",
-   "display": "Outlines the member you currently have targeted, so you can spot them at a glance. Stays visible even when they are faded for distance.",
-   "context": "",
-   "section": "Settings > Squad Frames",
-   "tooltip": true,
-   "budget": 160
   },
   {
    "key": "Health bar",
    "display": "Health bar",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3981,7 +3901,7 @@
    "key": "Colour bar by profession",
    "display": "Colour bar by profession",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3989,7 +3909,7 @@
    "key": "Health bar colours",
    "display": "Health bar colours",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -3997,7 +3917,7 @@
    "key": "Full",
    "display": "Full",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -4005,7 +3925,7 @@
    "key": "Half",
    "display": "Half",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -4013,7 +3933,7 @@
    "key": "Empty",
    "display": "Empty",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
    "budget": 0
   },
@@ -4021,9 +3941,271 @@
    "key": "Bar colour while a member is downed. Applies in every bar style, including profession colours.",
    "display": "Bar colour while a member is downed. Applies in every bar style, including profession colours.",
    "context": "",
-   "section": "Settings > Squad Frames",
+   "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Class / elite-spec icon",
+   "display": "Class / elite-spec icon",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Class icons",
+   "display": "Class icons",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Role icons (right-click a member)",
+   "display": "Role icons (right-click a member)",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Tag members with a role (dps / heal / tank / hand-kite). Remembered per character; roles also show on the minimap.",
+   "display": "Tag members with a role (dps / heal / tank / hand-kite). Remembered per character; roles also show on the minimap.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Highlight my target",
+   "display": "Highlight my target",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Outlines the member you currently have targeted, so you can spot them at a glance. Stays visible even when they are faded for distance.",
+   "display": "Outlines the member you currently have targeted, so you can spot them at a glance. Stays visible even when they are faded for distance.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "SHOW PER MEMBER",
+   "display": "SHOW PER MEMBER",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show yourself",
+   "display": "Show yourself",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Portrait",
+   "display": "Portrait",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Under portrait",
+   "display": "Under portrait",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Beside portrait",
+   "display": "Beside portrait",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "On the name line",
+   "display": "On the name line",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Badge on portrait",
+   "display": "Badge on portrait",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Character name",
+   "display": "Character name",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "EFFECTS",
+   "display": "EFFECTS",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Most shown",
+   "display": "Most shown",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Commander / lieutenant tag",
+   "display": "Commander / lieutenant tag",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad target markers (commander's shape on a member)",
+   "display": "Squad target markers (commander's shape on a member)",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Red ! beside members carrying a commander or catmander tag",
+   "display": "Red ! beside members carrying a commander or catmander tag",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Subgroup labels (squads)",
+   "display": "Subgroup labels (squads)",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Show native party/squad frames",
+   "display": "Show native party/squad frames",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Include Pie UI's own vote-kick prompt",
+   "display": "Include Pie UI's own vote-kick prompt",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
+   "display": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Tip: enable Unlock UI (General) to drag and resize the panel.",
+   "display": "Tip: enable Unlock UI (General) to drag and resize the panel.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Enable Party Frames",
+   "display": "Enable Party Frames",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A movable list of your party: portraits, effects, class, name and health.",
+   "display": "A movable list of your party: portraits, effects, class, name and health.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "With Party Frames off, Squad Frames are used for your party.",
+   "display": "With Party Frames off, Squad Frames are used for your party.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Match native",
+   "display": "Match native",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Sets the portrait, health bar, class badge and effects options below to look like the game's party frames.",
+   "display": "Sets the portrait, health bar, class badge and effects options below to look like the game's party frames.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Enable Squad Frames",
+   "display": "Enable Squad Frames",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "A movable roster panel for your party/squad: name, class, commander tag, roles, and live health in PvE. With the party frames on, it shows squads only.",
+   "display": "A movable roster panel for your party/squad: name, class, commander tag, roles, and live health in PvE. With the party frames on, it shows squads only.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Custom Artwork",
@@ -4053,8 +4235,8 @@
    "new": true
   },
   {
-   "key": "Put PNG or JPG pictures in addons/PieUI/images, then add a layer for each. Unlock the interface to move and resize them.",
-   "display": "Put PNG or JPG pictures in addons/PieUI/images, then add a layer for each. Unlock the interface to move and resize them.",
+   "key": "Put PNG or JPG pictures in addons/PieUI/images. Right-click a row to add one, right-click a picture for its options, and drag pictures between rows. Unlock the interface to move and resize them.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images. Right-click a row to add one, right-click a picture for its options, and drag pictures between rows. Unlock the interface to move and resize them.",
    "context": "",
    "section": "Settings > Custom Artwork",
    "tooltip": false,
@@ -4079,15 +4261,6 @@
    "new": true
   },
   {
-   "key": "Add layer",
-   "display": "Add layer",
-   "context": "",
-   "section": "Settings > Custom Artwork",
-   "tooltip": false,
-   "budget": 0,
-   "new": true
-  },
-  {
    "key": "The images folder is empty.",
    "display": "The images folder is empty.",
    "context": "",
@@ -4097,8 +4270,16 @@
    "new": true
   },
   {
-   "key": "No image layers yet.",
-   "display": "No image layers yet.",
+   "key": "Pie UI",
+   "display": "Pie UI",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "No more pictures can be added.",
+   "display": "No more pictures can be added.",
    "context": "",
    "section": "Settings > Custom Artwork",
    "tooltip": false,
@@ -4160,8 +4341,8 @@
    "new": true
   },
   {
-   "key": "Behind Pie UI",
-   "display": "Behind Pie UI",
+   "key": "Show while downed",
+   "display": "Show while downed",
    "context": "",
    "section": "Settings > Custom Artwork",
    "tooltip": false,
@@ -4169,8 +4350,8 @@
    "new": true
   },
   {
-   "key": "In front of Pie UI",
-   "display": "In front of Pie UI",
+   "key": "Show while defeated",
+   "display": "Show while defeated",
    "context": "",
    "section": "Settings > Custom Artwork",
    "tooltip": false,
@@ -5793,14 +5974,6 @@
   {
    "key": "Fog of war",
    "display": "Fog of war",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Off",
-   "display": "Off",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": false,
@@ -8541,6 +8714,30 @@
    "budget": 0
   },
   {
+   "key": "Commander %s",
+   "display": "Commander %s",
+   "context": "",
+   "section": "Commander Tag Join",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Join %s's Squad",
+   "display": "Join %s's Squad",
+   "context": "",
+   "section": "Commander Tag Join",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Join Squad (no name for this commander)",
+   "display": "Join Squad (no name for this commander)",
+   "context": "",
+   "section": "Commander Tag Join",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Food",
    "display": "Food",
    "context": "",
@@ -9741,12 +9938,22 @@
    "budget": 0
   },
   {
-   "key": "Squad / Party",
-   "display": "Squad / Party",
+   "key": "Squad frames",
+   "display": "Squad frames",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Party frames",
+   "display": "Party frames",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Bottom Line",
@@ -10307,30 +10514,6 @@
    "budget": 0
   },
   {
-   "key": "Commander %s",
-   "display": "Commander %s",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Join %s's Squad",
-   "display": "Join %s's Squad",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Join Squad (no name for this commander)",
-   "display": "Join Squad (no name for this commander)",
-   "context": "",
-   "section": "Minimap",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "No map available",
    "display": "No map available",
    "context": "",
@@ -10799,6 +10982,14 @@
   {
    "key": "Squad",
    "display": "Squad",
+   "context": "",
+   "section": "Quick Toggle Model",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Squad / Party",
+   "display": "Squad / Party",
    "context": "",
    "section": "Quick Toggle Model",
    "tooltip": false,
@@ -11357,6 +11548,24 @@
    "section": "Share Archive Notice",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Launch option no longer needed",
+   "display": "Launch option no longer needed",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Previous versions of Pie UI required the -shareArchive launch option to get the game's art. This is no longer required, and it can be safely removed from your launch shortcut.",
+   "display": "Previous versions of Pie UI required the -shareArchive launch option to get the game's art. This is no longer required, and it can be safely removed from your launch shortcut.",
+   "context": "",
+   "section": "Share Archive Notice",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Not a skill",
@@ -12031,6 +12240,15 @@
    "budget": 0
   },
   {
+   "key": "Party Frames",
+   "display": "Party Frames",
+   "context": "",
+   "section": "Squad Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Squad Frames",
    "display": "Squad Frames",
    "context": "",
@@ -12477,14 +12695,6 @@
   {
    "key": "All available in the Nexus library.",
    "display": "All available in the Nexus library.",
-   "context": "",
-   "section": "Welcome",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Game artwork",
-   "display": "Game artwork",
    "context": "",
    "section": "Welcome",
    "tooltip": false,
