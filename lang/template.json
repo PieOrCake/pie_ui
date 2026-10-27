@@ -8094,6 +8094,132 @@
    "budget": 0
   },
   {
+   "key": "Your target's name.",
+   "display": "Your target's name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your target's name and health, as a percentage.",
+   "display": "Your target's name and health, as a percentage.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The name of the map you are on.",
+   "display": "The name of the map you are on.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A link to the waypoint nearest you.",
+   "display": "A link to the waypoint nearest you.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A link to the point of interest nearest you.",
+   "display": "A link to the point of interest nearest you.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A link to the World vs. World objective nearest you.",
+   "display": "A link to the World vs. World objective nearest you.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The event you are in, as the Content Guide names it.",
+   "display": "The event you are in, as the Content Guide names it.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your character's name.",
+   "display": "Your character's name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your account name.",
+   "display": "Your account name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your current specialization.",
+   "display": "Your current specialization.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your agony resistance.",
+   "display": "Your agony resistance.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your squad commander's name.",
+   "display": "Your squad commander's name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "How many are in your group, and how many it holds.",
+   "display": "How many are in your group, and how many it holds.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The time of day in Tyria.",
+   "display": "The time of day in Tyria.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Build template - click to open",
    "display": "Build template - click to open",
    "context": "",
@@ -8650,6 +8776,15 @@
    "budget": 0
   },
   {
+   "key": "Chat codes, filled in when you send a message:",
+   "display": "Chat codes, filled in when you send a message:",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "rolls %d (%d-%d)",
    "display": "rolls %d (%d-%d)",
    "context": "",
@@ -8672,6 +8807,15 @@
    "section": "Chat Window",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Too long once the codes are filled in. Shorten it, or use fewer codes.",
+   "display": "Too long once the codes are filled in. Shorten it, or use fewer codes.",
+   "context": "",
+   "section": "Chat Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Whisper: click a player's name, or type /w Name to set a target.",
