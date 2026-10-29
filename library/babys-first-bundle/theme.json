@@ -1,0 +1,50 @@
+{
+  "author": "",
+  "base": {
+    "accent": "#FFBD00FF",
+    "alerts": "#FA0F00FF",
+    "background": "#51310BA6",
+    "borders": "#00000073",
+    "controls": "#1F170ABF",
+    "text": "#F0E6CCFF"
+  },
+  "name": "My theme",
+  "overrides": {
+    "bubbleOther": "#342814D7",
+    "bubbleSelf": "#1E325FDC",
+    "button": "#38290FCC",
+    "buttonActive": "#85611FFF",
+    "buttonHovered": "#5C4217E6",
+    "chatBg": "#00000000",
+    "frameBgHovered": "#3D2E14D9",
+    "header": "#33240DB3",
+    "headerHovered": "#573D14CC",
+    "modalDim": "#05030099",
+    "popupBg": "#211A0FF5",
+    "scrollbarGrab": "#806124BF",
+    "senderOther": "#F0E0B8FF",
+    "senderSelf": "#8CBFFFFF",
+    "separator": "#70521A66",
+    "sliderGrab": "#B88C29FF",
+    "tab": "#21170ADB",
+    "tabActive": "#423012FF",
+    "textDisabled": "#857552FF",
+    "textSelected": "#5C5CE08C",
+    "timestamp": "#80704DFF",
+    "titleBg": "#926027FF",
+    "titleBgActive": "#FFA200FF",
+    "unread": "#DC2828FF"
+  },
+  "pieUiTheme": 1,
+  "sizes": {
+    "bubble": 9.0,
+    "frame": 5.0,
+    "frameBorder": 1.0,
+    "grab": 9.0,
+    "popup": 6.0,
+    "scrollbar": 12.0,
+    "tab": 10.0,
+    "window": 6.0,
+    "windowBorder": 1.0
+  }
+}

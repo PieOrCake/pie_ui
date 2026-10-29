@@ -1,0 +1,1771 @@
+{
+  "barCorners": 0.0,
+  "boonOutOfCombatOpacity": 0.5,
+  "boon_frame": {
+    "pos": [
+      -480.0,
+      571.0
+    ],
+    "size": [
+      0.07529069483280182,
+      0.08043478429317474
+    ]
+  },
+  "bottomLine": {
+    "combatOpacity": 0.75,
+    "enabled": true,
+    "outOfCombatOpacity": 0.75,
+    "rect": {
+      "pos": [
+        0.5,
+        0.9927431344985962
+      ]
+    },
+    "screenAnchor": 2,
+    "widgets": [
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 40,
+        "slot": 1,
+        "subFlags": 4294967293,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 80,
+        "slot": 0,
+        "subFlags": 4294967291,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          0.9404761791229248,
+          0.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 70,
+        "slot": 1,
+        "subFlags": 4294967293,
+        "toggleIds": [],
+        "useCustomColor": true
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": false,
+        "order": 30,
+        "slot": 1,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": false,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 10,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1,
+          2,
+          45,
+          28
+        ],
+        "enabled": true,
+        "order": 100,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          0.11764705926179886,
+          1.0,
+          0.05098039284348488,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 50,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": true
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          0.1170281171798706,
+          1.0,
+          0.049107134342193604,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 60,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": true
+      },
+      {
+        "clockSeconds": true,
+        "clockShowAll": false,
+        "color": [
+          0.7544642686843872,
+          0.6466729640960693,
+          0.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": true,
+        "order": 90,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": true
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [
+          1
+        ],
+        "enabled": false,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": true,
+        "order": 20,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [
+          14
+        ],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": true,
+        "order": 30,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": false,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": true,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": true,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      },
+      {
+        "clockSeconds": false,
+        "clockShowAll": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "currencyId": 1,
+        "currencyIds": [],
+        "enabled": false,
+        "order": 0,
+        "slot": 0,
+        "subFlags": 4294967295,
+        "toggleIds": [],
+        "useCustomColor": false
+      }
+    ]
+  },
+  "castBarEnabled": true,
+  "castBarOnlyWhileCasting": true,
+  "castBarVariant": 0,
+  "cast_bar_frame": {
+    "pos": [
+      -5.0,
+      396.0
+    ],
+    "size": [
+      0.10872092843055725,
+      0.027636364102363586
+    ]
+  },
+  "chatColors": [
+    {
+      "name": [
+        0.8500000238418579,
+        0.44999998807907104,
+        0.44999998807907104,
+        1.0
+      ],
+      "sender": [
+        0.8500000238418579,
+        0.44999998807907104,
+        0.44999998807907104,
+        1.0
+      ],
+      "text": [
+        0.8500000238418579,
+        0.44999998807907104,
+        0.44999998807907104,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.8050000071525574,
+        0.8500000238418579,
+        0.3999999761581421,
+        1.0
+      ],
+      "sender": [
+        0.8039215803146362,
+        0.8509804010391235,
+        0.4000000059604645,
+        1.0
+      ],
+      "text": [
+        0.8039215803146362,
+        0.8509804010391235,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.19152583181858063,
+        0.6919642686843872,
+        0.24713002145290375,
+        1.0
+      ],
+      "sender": [
+        0.1921568661928177,
+        0.6901960968971252,
+        0.24705882370471954,
+        1.0
+      ],
+      "text": [
+        0.1921568661928177,
+        0.6901960968971252,
+        0.24705882370471954,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.11136799305677414,
+        0.5669642686843872,
+        0.16159118711948395,
+        1.0
+      ],
+      "sender": [
+        0.10980392247438431,
+        0.5686274766921997,
+        0.16078431904315948,
+        1.0
+      ],
+      "text": [
+        0.10980392247438431,
+        0.5686274766921997,
+        0.16078431904315948,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.0235294122248888,
+        0.3686274588108063,
+        0.062745101749897,
+        1.0
+      ],
+      "sender": [
+        0.0235294122248888,
+        0.3686274588108063,
+        0.062745101749897,
+        1.0
+      ],
+      "text": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "sender": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "text": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "sender": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "text": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "sender": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ],
+      "text": [
+        0.4000000059604645,
+        0.8500000238418579,
+        0.44999998807907104,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        1.0,
+        0.9999899864196777,
+        0.9999899864196777,
+        1.0
+      ],
+      "sender": [
+        0.5076046586036682,
+        0.8722221851348877,
+        0.35373455286026,
+        1.0
+      ],
+      "text": [
+        1.0,
+        0.9999899864196777,
+        0.9999899864196777,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.8660714626312256,
+        0.31317761540412903,
+        0.31317761540412903,
+        1.0
+      ],
+      "sender": [
+        0.6964285373687744,
+        0.27048787474632263,
+        0.27048787474632263,
+        1.0
+      ],
+      "text": [
+        0.8256790041923523,
+        0.8370944857597351,
+        0.8444444537162781,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.1694435477256775,
+        0.5348103642463684,
+        0.9732142686843872,
+        1.0
+      ],
+      "sender": [
+        0.16862745583057404,
+        0.5333333611488342,
+        0.9725490212440491,
+        1.0
+      ],
+      "text": [
+        0.16862745583057404,
+        0.5333333611488342,
+        0.9725490212440491,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.44999998807907104,
+        0.8199999928474426,
+        0.8500000238418579,
+        1.0
+      ],
+      "sender": [
+        0.16593590378761292,
+        0.7598845362663269,
+        0.8080357313156128,
+        1.0
+      ],
+      "text": [
+        0.44999998807907104,
+        0.8199999928474426,
+        0.8500000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.5,
+        0.8500000238418579,
+        0.8799999952316284,
+        1.0
+      ],
+      "sender": [
+        0.5,
+        0.8500000238418579,
+        0.8799999952316284,
+        1.0
+      ],
+      "text": [
+        0.5,
+        0.8500000238418579,
+        0.8799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.949999988079071,
+        0.6000000238418579,
+        0.4000000059604645,
+        1.0
+      ],
+      "sender": [
+        0.9419642686843872,
+        0.8483030200004578,
+        0.7947823405265808,
+        1.0
+      ],
+      "text": [
+        0.949999988079071,
+        0.6000000238418579,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.8500000238418579,
+        0.550000011920929,
+        0.949999988079071,
+        1.0
+      ],
+      "sender": [
+        0.8500000238418579,
+        0.550000011920929,
+        0.949999988079071,
+        1.0
+      ],
+      "text": [
+        0.8500000238418579,
+        0.550000011920929,
+        0.949999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.7642381191253662,
+        0.23128588497638702,
+        0.9419642686843872,
+        1.0
+      ],
+      "sender": [
+        0.7647058963775635,
+        0.23137255012989044,
+        0.9411764740943909,
+        1.0
+      ],
+      "text": [
+        0.7647058963775635,
+        0.23137255012989044,
+        0.9411764740943909,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.75,
+        0.6000000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "sender": [
+        0.75,
+        0.6000000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "text": [
+        0.75,
+        0.6000000238418579,
+        0.8500000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.6000000238418579,
+        0.7799999713897705,
+        0.8199999928474426,
+        1.0
+      ],
+      "sender": [
+        0.6000000238418579,
+        0.7799999713897705,
+        0.8199999928474426,
+        1.0
+      ],
+      "text": [
+        0.6000000238418579,
+        0.7799999713897705,
+        0.8199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "sender": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "text": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.6000000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "sender": [
+        0.6000000238418579,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "text": [
+        0.4515106678009033,
+        0.5133928656578064,
+        0.5133928656578064,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.949999988079071,
+        0.8199999928474426,
+        0.4000000059604645,
+        1.0
+      ],
+      "sender": [
+        0.949999988079071,
+        0.8199999928474426,
+        0.4000000059604645,
+        1.0
+      ],
+      "text": [
+        0.949999988079071,
+        0.8199999928474426,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ],
+      "sender": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ],
+      "text": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.6200000047683716,
+        0.8600000143051147,
+        0.550000011920929,
+        1.0
+      ],
+      "sender": [
+        0.6200000047683716,
+        0.8600000143051147,
+        0.550000011920929,
+        1.0
+      ],
+      "text": [
+        0.6200000047683716,
+        0.8600000143051147,
+        0.550000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.9200000166893005,
+        0.5600000023841858,
+        0.5,
+        1.0
+      ],
+      "sender": [
+        0.9200000166893005,
+        0.5600000023841858,
+        0.5,
+        1.0
+      ],
+      "text": [
+        0.9200000166893005,
+        0.5600000023841858,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.9200000166893005,
+        0.7200000286102295,
+        0.41999998688697815,
+        1.0
+      ],
+      "sender": [
+        0.9200000166893005,
+        0.7200000286102295,
+        0.41999998688697815,
+        1.0
+      ],
+      "text": [
+        0.9200000166893005,
+        0.7200000286102295,
+        0.41999998688697815,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ],
+      "sender": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ],
+      "text": [
+        0.7200000286102295,
+        0.800000011920929,
+        0.8799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": [
+        0.949999988079071,
+        0.6499999761581421,
+        0.800000011920929,
+        1.0
+      ],
+      "sender": [
+        0.949999988079071,
+        0.6499999761581421,
+        0.800000011920929,
+        1.0
+      ],
+      "text": [
+        0.949999988079071,
+        0.6499999761581421,
+        0.800000011920929,
+        1.0
+      ]
+    }
+  ],
+  "chatCombatOpacity": 0.8999999761581421,
+  "chatEnabled": true,
+  "chatMinimalEnabled": true,
+  "chatMinimalIdleSec": 0.0,
+  "chatMinimalLines": 5,
+  "chatMinimalOldestOpacity": 0.5,
+  "chatMinimalWakeOnHover": false,
+  "chatMinimalWakeOnMessage": false,
+  "chatOutOfCombatOpacity": 0.8999999761581421,
+  "chat_frame": {
+    "pos": [
+      0.11395348608493805,
+      0.8247272968292236
+    ],
+    "size": [
+      0.2279069721698761,
+      0.30981817841529846
+    ]
+  },
+  "classfxGrowReverse": 0,
+  "classfx_frame": {
+    "pos": [
+      288.0,
+      159.0
+    ],
+    "size": [
+      0.14302325248718262,
+      0.027636364102363586
+    ]
+  },
+  "colDefiance": [
+    0.2964564859867096,
+    0.5127562284469604,
+    0.5580357313156128,
+    1.0
+  ],
+  "colDefianceRegen": [
+    0.5892857313156128,
+    0.3928759694099426,
+    0.0736607164144516,
+    1.0
+  ],
+  "colRevenant": [
+    0.1873605102300644,
+    0.53125,
+    0.22727619111537933,
+    1.0
+  ],
+  "colTargetFriendly": [
+    0.05919165164232254,
+    0.4910714030265808,
+    0.11485601216554642,
+    1.0
+  ],
+  "colTargetHostile": [
+    0.5357142686843872,
+    0.14391590654850006,
+    0.12436224520206451,
+    1.0
+  ],
+  "colTargetHp": [
+    0.2678571343421936,
+    0.08522924780845642,
+    0.055006373673677444,
+    1.0
+  ],
+  "condiOutOfCombatOpacity": 0.0,
+  "condi_frame": {
+    "pos": [
+      212.0,
+      568.0
+    ],
+    "size": [
+      0.06947674602270126,
+      0.04782608523964882
+    ]
+  },
+  "consumables": {
+    "enabled": true,
+    "frame": {
+      "pos": [
+        0.12790697813034058,
+        0.23854544758796692
+      ]
+    },
+    "pin": true,
+    "pinnedOpacity": 0.5
+  },
+  "contentGuide": {
+    "collapsedBonus": true,
+    "enabled": true,
+    "frame": {
+      "pos": [
+        0.807267427444458,
+        0.7149090766906738
+      ],
+      "size": [
+        0.0924418568611145,
+        0.4170890748500824
+      ]
+    },
+    "growUp": true,
+    "showEventsExperimental": true
+  },
+  "elementFonts": {
+    "bl": {
+      "face": 1,
+      "px": 18.0,
+      "set": true
+    },
+    "chat": {
+      "face": 1,
+      "px": 20.0,
+      "set": true
+    },
+    "consumables": {
+      "face": 1,
+      "px": 30.0,
+      "set": true
+    },
+    "contentguide": {
+      "face": 1,
+      "set": true
+    },
+    "groupfinder": {
+      "face": 1,
+      "px": 18.0,
+      "set": true
+    },
+    "loot": {
+      "face": 1,
+      "px": 20.0,
+      "set": true
+    },
+    "squad": {
+      "face": 1,
+      "set": true
+    },
+    "target": {
+      "face": 1,
+      "px": 19.0,
+      "set": true
+    },
+    "tim": {
+      "face": 1,
+      "px": 19.0,
+      "set": true
+    }
+  },
+  "endurance_frame": {
+    "pos": [
+      -4.0,
+      234.5
+    ],
+    "size": [
+      0.06744185835123062,
+      0.0181818176060915
+    ]
+  },
+  "groupFinder": {
+    "backgroundOpacity": 0.5,
+    "frame": {
+      "pos": [
+        0.0023255813866853714,
+        0.08727272599935532
+      ]
+    }
+  },
+  "hideNativeBoons": true,
+  "hideNativeChat": true,
+  "hideNativeHealthGlobe": true,
+  "hideNativeMap": true,
+  "hideNativeMount": true,
+  "hideNativeProfBar": true,
+  "hideNativeTarget": true,
+  "hideNativeUtilityBar": true,
+  "hideNativeWeaponSkills": true,
+  "hideNativeXp": true,
+  "hotbarAutoCastColor": [
+    1.0,
+    0.0,
+    6.008148193359375e-05,
+    1.0
+  ],
+  "hotbarEnabled": true,
+  "hotbarProfessionFreeSlots": true,
+  "hotbarShowProfession": true,
+  "hotbarUtilityFreeSlots": true,
+  "hotbarWeaponFreeSlots": true,
+  "imageLayers": [
+    {
+      "combatOpacity": 1.0,
+      "file": "FiveAndFive.png",
+      "front": false,
+      "h": 242.12147521972656,
+      "layer": -1,
+      "outOfCombatOpacity": 1.0,
+      "pos": [
+        -1.0,
+        92.36279296875
+      ],
+      "showWhileDefeated": false,
+      "showWhileDowned": true,
+      "w": 477.0
+    },
+    {
+      "combatOpacity": 1.0,
+      "file": "SylvariGirlKneeling.png",
+      "front": true,
+      "h": 189.29751586914063,
+      "layer": 1,
+      "outOfCombatOpacity": 1.0,
+      "pos": [
+        -213.0,
+        109.3515625
+      ],
+      "showWhileDefeated": false,
+      "showWhileDowned": true,
+      "w": 135.0
+    },
+    {
+      "combatOpacity": 1.0,
+      "file": "NornGirlBikini.png",
+      "front": true,
+      "h": 156.28793334960938,
+      "layer": 1,
+      "outOfCombatOpacity": 1.0,
+      "pos": [
+        304.0,
+        88.356689453125
+      ],
+      "showWhileDefeated": false,
+      "showWhileDowned": true,
+      "w": 299.0
+    }
+  ],
+  "instanceControlsEnabled": true,
+  "instance_controls_frame": {
+    "pos": [
+      233.5,
+      226.5
+    ],
+    "size": [
+      0.015988372266292572,
+      0.03999999910593033
+    ]
+  },
+  "interactPromptEnabled": true,
+  "interact_prompt_frame": {
+    "pos": [
+      264.0,
+      607.5
+    ],
+    "size": [
+      0.06453488022089005,
+      0.08072727173566818
+    ]
+  },
+  "lootBgOpacity": 0.30000001192092896,
+  "lootCascadeUp": true,
+  "lootEnabled": true,
+  "lootHideNativeCascade": true,
+  "lootLifetime": 25.0,
+  "lootMaxRows": 14,
+  "lootStackRepeats": true,
+  "loot_frame": {
+    "pos": [
+      0.7681686282157898,
+      0.14000000059604645
+    ],
+    "size": [
+      0.0898255780339241,
+      0.2800000011920929
+    ]
+  },
+  "mapMeta": {
+    "enabled": true,
+    "frame": {
+      "pos": [
+        0.695348858833313,
+        0.9192727208137512
+      ]
+    }
+  },
+  "mapRedirect": {
+    "frame": {
+      "pos": [
+        0.4000000059604645,
+        0.2996363639831543
+      ]
+    }
+  },
+  "mastery_frame": {
+    "pos": [
+      -234.0,
+      55.0
+    ]
+  },
+  "menuLauncherIconSize": 48.0,
+  "menuLauncherPanel": false,
+  "menuLauncherX": 0.0,
+  "menuLauncherY": 0.6211901307106018,
+  "minimapCircle": true,
+  "minimapEnabled": true,
+  "minimapFogColor": [
+    0.06013532727956772,
+    0.1111111044883728,
+    0.021903619170188904,
+    1.0
+  ],
+  "minimapFogOpacity": 0.9300000071525574,
+  "minimapRouteMarkerScale": 0.800000011920929,
+  "minimap_frame": {
+    "pos": [
+      0.8393895626068115,
+      0.8545454740524292
+    ],
+    "size": [
+      0.09738372266292572,
+      0.235636368393898
+    ]
+  },
+  "mount_frame": {
+    "pos": [
+      -345.0,
+      269.0
+    ]
+  },
+  "nameplateIconRange": 2008.0,
+  "nameplateIconSize": 25.0,
+  "notifAnimOut": 2,
+  "notifAnimSpeed": 0.75,
+  "notifBgOpacity": 0.5299999713897705,
+  "notifHideNative": true,
+  "notif_frame": {
+    "pos": [
+      0.8400115966796875,
+      0.6210908889770508
+    ],
+    "size": [
+      0.08652729541063309,
+      0.1599999964237213
+    ]
+  },
+  "novelty_frame": {
+    "pos": [
+      398.0,
+      47.0
+    ]
+  },
+  "other_frame": {
+    "pos": [
+      569.0,
+      255.0
+    ],
+    "size": [
+      0.08168604969978333,
+      0.0560000017285347
+    ]
+  },
+  "party": {
+    "bgColor": [
+      0.2104591578245163,
+      0.2824344336986542,
+      0.7142857313156128,
+      0.44999998807907104
+    ],
+    "bgColor2": [
+      1.0,
+      0.0,
+      0.9375,
+      0.0
+    ],
+    "borderColor": [
+      0.3482142686843872,
+      0.0544084794819355,
+      0.27476364374160767,
+      1.0
+    ],
+    "cellH": 31.0,
+    "cellW": 155.0,
+    "gradient": true,
+    "highHealthColor": [
+      0.08470183610916138,
+      0.3794642686843872,
+      0.13186384737491608,
+      1.0
+    ],
+    "layoutMode": 1,
+    "listBarStyle": 1,
+    "lowHealthColor": [
+      0.08627451211214066,
+      0.3803921639919281,
+      0.13333334028720856,
+      1.0
+    ],
+    "midHealthColor": [
+      0.08627451211214066,
+      0.3803921639919281,
+      0.13333334028720856,
+      1.0
+    ],
+    "minimapRoleMask": 254,
+    "rect": {
+      "pos": [
+        0.31293603777885437,
+        0.8236363530158997
+      ],
+      "size": [
+        0.17005814611911774,
+        0.23927272856235504
+      ]
+    }
+  },
+  "petIconSize": 54.5,
+  "pet_group": {
+    "pos": [
+      288.0,
+      87.0
+    ]
+  },
+  "playerPortraitEnabled": true,
+  "player_portrait_frame": {
+    "pos": [
+      0.41090115904808044,
+      0.671999990940094
+    ],
+    "size": [
+      0.021802324801683426,
+      0.05236363783478737
+    ]
+  },
+  "player_vitals": {
+    "pos": [
+      -3.5,
+      193.5
+    ],
+    "size": [
+      0.0677325576543808,
+      0.031272727996110916
+    ]
+  },
+  "profResArtStyle": 1,
+  "profResEnabled": true,
+  "profResShowText": true,
+  "prof_res_frame": {
+    "pos": [
+      -4.5,
+      264.5
+    ],
+    "size": [
+      0.060606058686971664,
+      0.020363636314868927
+    ]
+  },
+  "professionBarCentre": true,
+  "professionIconSize": 45.0,
+  "profession_group": {
+    "pos": [
+      -112.0,
+      327.0
+    ]
+  },
+  "reticleOffsetY": 64.0,
+  "reticleStyle": 1,
+  "rewardTrayEnabled": true,
+  "rewardTrayFlow": 3,
+  "rewardTrayHideNative": true,
+  "rewardTrayIconSize": 96.0,
+  "reward_tray_frame": {
+    "pos": [
+      0.7590116262435913,
+      0.897454559803009
+    ],
+    "size": [
+      0.029651163145899773,
+      0.21963636577129364
+    ]
+  },
+  "sak_slot": {
+    "pos": [
+      -216.0,
+      455.0
+    ]
+  },
+  "screen": [
+    3440,
+    1375
+  ],
+  "slotClusterMembers": {
+    "prof/0": {
+      "cluster": 2,
+      "dx": 89.0,
+      "dy": 2.0
+    },
+    "skill/0": {
+      "cluster": 0,
+      "dx": 37.0,
+      "dy": 25.0,
+      "size": 55.0
+    },
+    "skill/1": {
+      "cluster": 0,
+      "dx": 98.5,
+      "dy": 25.0
+    },
+    "skill/2": {
+      "cluster": 0,
+      "dx": 162.0,
+      "dy": 23.0
+    },
+    "skill/3": {
+      "cluster": 0,
+      "dx": 226.5,
+      "dy": 25.0
+    },
+    "skill/4": {
+      "cluster": 0,
+      "dx": 291.0,
+      "dy": 24.0
+    },
+    "skill/5": {
+      "cluster": 1,
+      "dx": 32.0,
+      "dy": 15.0
+    },
+    "skill/6": {
+      "cluster": 1,
+      "dx": 97.0,
+      "dy": 15.0
+    },
+    "skill/7": {
+      "cluster": 1,
+      "dx": 161.0,
+      "dy": 15.0
+    },
+    "skill/8": {
+      "cluster": 1,
+      "dx": 225.0,
+      "dy": 15.0
+    },
+    "skill/9": {
+      "cluster": 1,
+      "dx": 289.0,
+      "dy": 16.0
+    }
+  },
+  "slotClusters": [
+    {
+      "circle": false,
+      "fromBar": 0,
+      "iconSize": 77.5,
+      "name": "Weapon group",
+      "rect": {
+        "pos": [
+          -192.0,
+          180.0
+        ],
+        "size": [
+          0.20000000298023224,
+          0.03999999910593033
+        ],
+        "visible": true
+      }
+    },
+    {
+      "circle": false,
+      "fromBar": 1,
+      "iconSize": 58.0,
+      "name": "Utility group",
+      "rect": {
+        "pos": [
+          -192.0,
+          100.0
+        ],
+        "size": [
+          0.20000000298023224,
+          0.03999999910593033
+        ],
+        "visible": true
+      }
+    },
+    {
+      "circle": false,
+      "fromBar": 2,
+      "iconSize": 45.0,
+      "name": "Profession group",
+      "rect": {
+        "pos": [
+          -112.0,
+          327.0
+        ],
+        "size": [
+          0.25999999046325684,
+          0.05000000074505806
+        ],
+        "visible": true
+      }
+    }
+  ],
+  "slotCorners": 0.5851449370384216,
+  "slotGlyphOwnColours": true,
+  "slotGlyphs": {
+    "50": {
+      "kind": "art",
+      "value": "xbox/xbox_button_color_b"
+    },
+    "51": {
+      "kind": "art",
+      "value": "xbox/xbox_button_color_x"
+    },
+    "52": {
+      "kind": "art",
+      "value": "xbox/xbox_dpad_right"
+    },
+    "53": {
+      "kind": "art",
+      "value": "xbox/xbox_lt"
+    }
+  },
+  "socialBgOpacity": 0.0,
+  "social_frame": {
+    "pos": [
+      0.2133720964193344,
+      0.5389090776443481
+    ],
+    "size": [
+      0.06395348906517029,
+      0.2632727324962616
+    ]
+  },
+  "specialtyGrowReverse": 0,
+  "specialtyIconSide": 0,
+  "specialty_frame": {
+    "pos": [
+      496.0,
+      179.0
+    ],
+    "size": [
+      0.07703488320112228,
+      0.023188406601548195
+    ]
+  },
+  "squad": {
+    "bgColor": [
+      0.2104591578245163,
+      0.2824344336986542,
+      0.7142857313156128,
+      0.44999998807907104
+    ],
+    "bgColor2": [
+      1.0,
+      0.0,
+      0.9375,
+      0.0
+    ],
+    "borderColor": [
+      0.3482142686843872,
+      0.0544084794819355,
+      0.27476364374160767,
+      1.0
+    ],
+    "cellH": 31.0,
+    "cellW": 155.0,
+    "enabled": true,
+    "gradient": true,
+    "highHealthColor": [
+      0.08470183610916138,
+      0.3794642686843872,
+      0.13186384737491608,
+      1.0
+    ],
+    "layoutMode": 1,
+    "listBarStyle": 1,
+    "lowHealthColor": [
+      0.08627451211214066,
+      0.3803921639919281,
+      0.13333334028720856,
+      1.0
+    ],
+    "midHealthColor": [
+      0.08627451211214066,
+      0.3803921639919281,
+      0.13333334028720856,
+      1.0
+    ],
+    "minimapRoleMask": 254,
+    "rect": {
+      "pos": [
+        0.31293603777885437,
+        0.8236363530158997
+      ],
+      "size": [
+        0.17005814611911774,
+        0.23927272856235504
+      ]
+    }
+  },
+  "targetClassIconStyle": 1,
+  "targetEnabled": true,
+  "targetPortraitEnabled": true,
+  "target_frame": {
+    "pos": [
+      0.5020349025726318,
+      0.24944429099559784
+    ],
+    "size": [
+      0.0924418568611145,
+      0.04507042095065117
+    ]
+  },
+  "target_portrait_frame": {
+    "pos": [
+      0.44607558846473694,
+      0.24581818282604218
+    ],
+    "size": [
+      0.017732558771967888,
+      0.06109090894460678
+    ]
+  },
+  "tboonEnabled": true,
+  "tboonGrowReverse": 1,
+  "tboonIconSide": 0,
+  "tboonIconSize": 0.02500000037252903,
+  "tboonMode": 0,
+  "tboon_frame": {
+    "pos": [
+      -121.0,
+      1295.0
+    ],
+    "size": [
+      0.06482557952404022,
+      0.08072727173566818
+    ]
+  },
+  "tcondiEnabled": true,
+  "tcondiIconSize": 0.02500000037252903,
+  "tcondiMode": 0,
+  "tcondi_frame": {
+    "pos": [
+      112.0,
+      1295.0
+    ],
+    "size": [
+      0.07354651391506195,
+      0.08218181878328323
+    ]
+  },
+  "timFloatingIconIdleOpacity": 1.0,
+  "timFloatingIconTheme": "Sonar",
+  "timFloatingIconUseOtherTheme": true,
+  "timFloatingIconX": 570.0,
+  "timFloatingIconY": 1015.0,
+  "timIconInChat": true,
+  "totherGrowReverse": 2,
+  "tother_frame": {
+    "pos": [
+      -2.0,
+      1175.0
+    ],
+    "size": [
+      0.14302325248718262,
+      0.02690909057855606
+    ]
+  },
+  "trimColor": [
+    0.0,
+    9.999999974752427e-07,
+    1.1607122729628827e-07,
+    1.0
+  ],
+  "utilityIconSize": 58.0,
+  "utility_group": {
+    "pos": [
+      344.0,
+      415.0
+    ]
+  },
+  "vitalsCombatOpacityLinger": true,
+  "vitalsCombatOpacityLingerPct": 75.0,
+  "vitalsDetachEndurance": true,
+  "vitalsEnabled": true,
+  "vitalsHpColorMode": 1,
+  "vitalsMode": 0,
+  "vitalsModeBoxes": {
+    "hbar": {
+      "pos": [
+        4.5,
+        441.5
+      ],
+      "size": [
+        0.0677325576543808,
+        0.031272727996110916
+      ]
+    },
+    "orb": {
+      "pos": [
+        -174.5,
+        292.5
+      ],
+      "size": [
+        0.06133721023797989,
+        0.15490908920764923
+      ]
+    },
+    "vbar": {
+      "pos": [
+        -80.5,
+        626.5
+      ],
+      "size": [
+        0.018313953652977943,
+        0.23927272856235504
+      ]
+    }
+  },
+  "vitalsMountedOnlyNotFull": true,
+  "vitalsTextOff": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      -10.0,
+      148.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "vitalsTextScale": 1.4600000381469727,
+  "weaponIconSize": 57.5,
+  "weaponSwapIconSize": 52.0,
+  "weapon_group": {
+    "pos": [
+      344.0,
+      495.0
+    ]
+  },
+  "weapon_swap_slot": {
+    "pos": [
+      -320.0,
+      271.0
+    ]
+  }
+}
