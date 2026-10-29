@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "name": "Format 1 sample",
+  "author": "Pie UI tests",
+  "description": "Frozen: every later Pie UI must install this.",
+  "version": 1,
+  "requires": "1.0.0.1",
+  "preview": "preview.png"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "part": "health.hbar.fill",
+    "file": "fill.png",
+    "fit": "repeat",
+    "colour": "tint",
+    "empties": "squash",
+    "opacity": 0.8,
+    "slice": 4
+  }
+]

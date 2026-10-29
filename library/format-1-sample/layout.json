@@ -1,0 +1,21 @@
+{
+  "screen": [
+    1920,
+    1080
+  ],
+  "barCorners": 0.5,
+  "chatEnabled": false,
+  "nameplateIconsEnabled": true,
+  "imageLayers": [
+    {
+      "file": "frame.png",
+      "pos": [
+        0.0,
+        300.0
+      ],
+      "w": 200.0,
+      "h": 50.0,
+      "layer": -1
+    }
+  ]
+}

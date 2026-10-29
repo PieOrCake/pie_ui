@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "generated": "2026-10-29T01:35:09Z",
+  "bundles": [
+    {
+      "slug": "format-1-sample",
+      "name": "Format 1 sample",
+      "author": "Pie UI tests",
+      "description": "Frozen: every later Pie UI must install this.",
+      "version": 1,
+      "requires": "1.0.0.1",
+      "preview": "preview.png",
+      "kind": "bundle",
+      "size": 983,
+      "files": [
+        {
+          "name": "bundle.json",
+          "size": 209,
+          "sha256": "de080a326ebd63663045ef3eded632da6816dc43a79055862bf62b5e66359f9e"
+        },
+        {
+          "name": "fill.png",
+          "size": 100,
+          "sha256": "f957dfc31f9ade31de3bd6a27e8c86cc4c85fe33d1dba1c5827208c6844f1ddd"
+        },
+        {
+          "name": "frame.png",
+          "size": 110,
+          "sha256": "17d99a923051159d664cf0be9528292ef70234dd83ce019ab8af3d87d65cad9e"
+        },
+        {
+          "name": "layout.json",
+          "size": 285,
+          "sha256": "b3925ef1a82a4e1532c7702aba75fc342924e0ab6079763c0f8f5b77d0fd8e90"
+        },
+        {
+          "name": "preview.png",
+          "size": 81,
+          "sha256": "acabf97676ec0d91f62e0f98fa4bda3f2f9fd9ba1e5acf65d5a06fa8ffc27909"
+        },
+        {
+          "name": "skins.json",
+          "size": 170,
+          "sha256": "6ff28954b6db8111fcb8ba33278d303e6ae48930e1c2e849bf4a40af79d54769"
+        },
+        {
+          "name": "theme.json",
+          "size": 28,
+          "sha256": "282be7fba5734fc57f66447d06c5d8804f4b6d137c52e8a62eb518b2326988b4"
+        }
+      ]
+    }
+  ]
+}
