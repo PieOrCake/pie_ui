@@ -18,9 +18,9 @@
 #     id: 2026-08-24-example
 #     text: We are aware of a problem with X and are working on it.
 
-id: 0.9.10.1-upcoming-2
-# max-version: 0.9.7.9
-text: We are aware that the game patch has broken Pie UI.
-text: We are currently testing the fixes, and hope
-text: to have a new release soon.
+id: 1.0.0.0-share1
+max-version: 1.0.0.0
+text: Are you enjoying Pie UI?
+text: Please, tell your friends about it!
+# text: to have a new release soon.
 # link: https://discord.gg/9Z2N4Vukf
