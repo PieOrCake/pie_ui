@@ -19,7 +19,7 @@
 #     text: We are aware of a problem with X and are working on it.
 
 id: 1.0.0.0-share1
-max-version: 1.0.0.0
+max-version: 1.0.0.5
 text: Are you enjoying Pie UI?
 text: Please, tell your friends about it!
 # text: to have a new release soon.
