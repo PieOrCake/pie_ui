@@ -85,6 +85,15 @@
    "budget": 0
   },
   {
+   "key": "Wiki language",
+   "display": "Wiki language",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Translator tools",
    "display": "Translator tools",
    "context": "",
@@ -245,60 +254,31 @@
    "budget": 0
   },
   {
-   "key": "Set border colour",
-   "display": "Set border colour",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Off, borders follow the theme. A widget with its own border colour keeps it.",
-   "display": "Off, borders follow the theme. A widget with its own border colour keeps it.",
+   "key": "The theme every layout uses. A layout can choose its own instead on the Layouts page.",
+   "display": "The theme every layout uses. A layout can choose its own instead on the Layouts page.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
-   "key": "CORNERS",
-   "display": "CORNERS",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Slot corners",
-   "display": "Slot corners",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
-   "display": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
+   "key": "Copies the theme in use into a theme of your own to recolour. It is saved as a file in the Pie UI themes folder.",
+   "display": "Copies the theme in use into a theme of your own to recolour. It is saved as a file in the Pie UI themes folder.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
-   "key": "Bar corners",
-   "display": "Bar corners",
+   "key": "Edit theme",
+   "display": "Edit theme",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
-   "display": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "GENERAL",
@@ -685,14 +665,6 @@
    "budget": 160
   },
   {
-   "key": "Panel background",
-   "display": "Panel background",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "On draws the bar's background, border and button frames. Off gives a floating-icon look, each icon on a dark disc so it stays readable against bright scenery.",
    "display": "On draws the bar's background, border and button frames. Off gives a floating-icon look, each icon on a dark disc so it stays readable against bright scenery.",
    "context": "",
@@ -751,14 +723,6 @@
   {
    "key": "(not loaded yet)",
    "display": "(not loaded yet)",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Search",
-   "display": "Search",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
@@ -965,20 +929,13 @@
    "budget": 0
   },
   {
-   "key": "Mesmer troll protection",
-   "display": "Mesmer troll protection",
+   "key": "Modifier key for troll protection override",
+   "display": "Modifier key for troll protection override",
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Require a modifier key to take a portal.",
-   "display": "Require a modifier key to take a portal.",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Alt",
@@ -1005,6 +962,31 @@
    "budget": 0
   },
   {
+   "key": "Hold this key to reach what a protection is holding back.",
+   "display": "Hold this key to reach what a protection is holding back.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Mesmer troll protection",
+   "display": "Mesmer troll protection",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Require a modifier key to take a portal.",
+   "display": "Require a modifier key to take a portal.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "Where it applies:",
    "display": "Where it applies:",
    "context": "",
@@ -1013,20 +995,30 @@
    "budget": 0
   },
   {
+   "key": "Chest protection",
+   "display": "Chest protection",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A chest right beside you takes the interact key over anything else nearby except your target. Hold the modifier key to reach the other object.",
+   "display": "A chest right beside you takes the interact key over anything else nearby except your target. Hold the modifier key to reach the other object.",
+   "context": "",
+   "section": "Settings > General",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (above) to drag and resize it.",
    "display": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (above) to drag and resize it.",
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
    "budget": 160
-  },
-  {
-   "key": "Layouts",
-   "display": "Layouts",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": false,
-   "budget": 0
   },
   {
    "key": "Enter a name with at least one letter or number.",
@@ -1133,12 +1125,106 @@
    "budget": 160
   },
   {
-   "key": "PASSING THIS LAYOUT ON",
-   "display": "PASSING THIS LAYOUT ON",
+   "key": "THIS LAYOUT'S LOOK",
+   "display": "THIS LAYOUT'S LOOK",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Global theme",
+   "display": "Global theme",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Theme",
+   "display": "Theme",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Switching to this layout switches to this theme.",
+   "display": "Switching to this layout switches to this theme.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Set border colour",
+   "display": "Set border colour",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Off, borders follow the theme. A widget with its own border colour keeps it.",
+   "display": "Off, borders follow the theme. A widget with its own border colour keeps it.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Slot corners",
+   "display": "Slot corners",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
+   "display": "Skill slots, the effect strips and the selector buttons. Square is the shape the game itself draws; past the middle it starts to crop the icon art.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Bar corners",
+   "display": "Bar corners",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
+   "display": "Health, endurance, the cast bar and profession resources. Square is a new look: these bars have always had slightly rounded ends.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
+   "key": "Save as bundle",
+   "display": "Save as bundle",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "bundle name",
+   "display": "bundle name",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "who made it",
@@ -1157,14 +1243,6 @@
    "budget": 0
   },
   {
-   "key": "Left empty, the file says nothing about who made it. Your account name is yours to give, so nothing fills this in for you.",
-   "display": "Left empty, the file says nothing about who made it. Your account name is yours to give, so nothing fills this in for you.",
-   "context": "",
-   "section": "Settings > Layouts",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
    "key": "what it is for",
    "display": "what it is for",
    "context": "",
@@ -1173,12 +1251,319 @@
    "budget": 0
   },
   {
-   "key": "Save this",
-   "display": "Save this",
+   "key": "Version",
+   "display": "Version",
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle library only accepts an update with a higher number than its current copy.",
+   "display": "The bundle library only accepts an update with a higher number than its current copy.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Include the layout",
+   "display": "Include the layout",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Without the layout, the bundle is a skin pack: pictures and skins only.",
+   "display": "Without the layout, the bundle is a skin pack: pictures and skins only.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Include artwork and skins",
+   "display": "Include artwork and skins",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Include the theme",
+   "display": "Include the theme",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pictures going in:",
+   "display": "Pictures going in:",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "%.1f MB of 10 MB",
+   "display": "%.1f MB of 10 MB",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Some parts of this layout would be off a 1920 x 1080 screen.",
+   "display": "Some parts of this layout would be off a 1920 x 1080 screen.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Save bundle",
+   "display": "Save bundle",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Saved. Send this zip to share the bundle:",
+   "display": "Saved. Send this zip to share the bundle:",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "For the bundle library, send a few screenshots with it.",
+   "display": "For the bundle library, send a few screenshots with it.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Made a bundle? Share it in the Pie UI channel on Discord to have it added to the library.",
+   "display": "Made a bundle? Share it in the Pie UI channel on Discord to have it added to the library.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Made from the bundle \"%s\".",
+   "display": "Made from the bundle \"%s\".",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Restore the bundle's look",
+   "display": "Restore the bundle's look",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Restore?",
+   "display": "Restore?",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Puts this layout back the way the bundle looked when it was installed. Your other settings stay as they are.",
+   "display": "Puts this layout back the way the bundle looked when it was installed. Your other settings stay as they are.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Your changes to this layout will be lost.",
+   "display": "Your changes to this layout will be lost.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Restore",
+   "display": "Restore",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows an installed skin pack's skins on this layout instead of its own. Choose None to have the layout's own skins back.",
+   "display": "Shows an installed skin pack's skins on this layout instead of its own. Choose None to have the layout's own skins back.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "This layout's skin pack is no longer installed.",
+   "display": "This layout's skin pack is no longer installed.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "LIBRARY",
+   "display": "LIBRARY",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Browse library",
+   "display": "Browse library",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Opens the library of layouts and skin packs made by other players. Install one with a click; it goes online only while that window is open.",
+   "display": "Opens the library of layouts and skin packs made by other players. Install one with a click; it goes online only while that window is open.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "INSTALLED BUNDLES",
+   "display": "INSTALLED BUNDLES",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No bundles installed.",
+   "display": "No bundles installed.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "by %s",
+   "display": "by %s",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Remove this bundle? Layouts made from it keep their settings but lose its pictures.",
+   "display": "Remove this bundle? Layouts made from it keep their settings but lose its pictures.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "INSTALL A BUNDLE",
+   "display": "INSTALL A BUNDLE",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "To install a bundle, put its zip in the folder below. It becomes one of your layouts within a few seconds.",
+   "display": "To install a bundle, put its zip in the folder below. It becomes one of your layouts within a few seconds.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Installed the skin pack \"%s\".",
+   "display": "Installed the skin pack \"%s\".",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Installed \"%s\" as the layout \"%s\".",
+   "display": "Installed \"%s\" as the layout \"%s\".",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Not installed: %s",
+   "display": "Not installed: %s",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "SHARE THIS LAYOUT",
+   "display": "SHARE THIS LAYOUT",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Saves this layout with its pictures, skins and theme as one zip, ready to send to other players.",
+   "display": "Saves this layout with its pictures, skins and theme as one zip, ready to send to other players.",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "ACTIVE LAYOUT",
@@ -1325,6 +1710,95 @@
    "budget": 0
   },
   {
+   "key": "Bundles",
+   "display": "Bundles",
+   "context": "",
+   "section": "Settings > Layouts",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Skins work with the bar, orb and reticle arc display modes.",
+   "display": "Skins work with the bar, orb and reticle arc display modes.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. Each display mode keeps its own skin.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. Each display mode keeps its own skin.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows every bar and arc at this value while this tab is open, barrier, pet and stamina included. Each fill can be checked without taking damage.",
+   "display": "Shows every bar and arc at this value while this tab is open, barrier, pet and stamina included. Each fill can be checked without taking damage.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "HEALTH",
+   "display": "HEALTH",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ENDURANCE",
+   "display": "ENDURANCE",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "BARRIER",
+   "display": "BARRIER",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "PET HEALTH",
+   "display": "PET HEALTH",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "MOUNT STAMINA",
+   "display": "MOUNT STAMINA",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "DEFEATED WINDOW",
+   "display": "DEFEATED WINDOW",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Enable Health & Vitals",
    "display": "Enable Health & Vitals",
    "context": "",
@@ -1379,6 +1853,15 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Double-click endurance to dodge",
+   "display": "Double-click endurance to dodge",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Set Out of combat to 0 to hide the widget while idle. Unlock the UI (General) to drag it into position.",
@@ -1461,6 +1944,24 @@
    "budget": 0
   },
   {
+   "key": "Detach endurance orb",
+   "display": "Detach endurance orb",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Gives endurance its own orb, so it can be moved and resized separately while the UI is unlocked.",
+   "display": "Gives endurance its own orb, so it can be moved and resized separately while the UI is unlocked.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Detach endurance bar",
    "display": "Detach endurance bar",
    "context": "",
@@ -1475,6 +1976,42 @@
    "section": "Settings > Health & Vitals",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Show dodge marks",
+   "display": "Show dodge marks",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show endurance percentage",
+   "display": "Show endurance percentage",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Detach stamina",
+   "display": "Detach stamina",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Gives glider and Skyscale stamina its own frame, so it can be moved and resized separately while the UI is unlocked.",
+   "display": "Gives glider and Skyscale stamina its own frame, so it can be moved and resized separately while the UI is unlocked.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "STYLE",
@@ -1565,24 +2102,8 @@
    "budget": 160
   },
   {
-   "key": "BARRIER",
-   "display": "BARRIER",
-   "context": "",
-   "section": "Settings > Health & Vitals",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Separate bar",
    "display": "Separate bar",
-   "context": "",
-   "section": "Settings > Health & Vitals",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Overlay",
-   "display": "Overlay",
    "context": "",
    "section": "Settings > Health & Vitals",
    "tooltip": false,
@@ -1623,14 +2144,6 @@
   {
    "key": "Numbers Y",
    "display": "Numbers Y",
-   "context": "",
-   "section": "Settings > Health & Vitals",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Colours",
-   "display": "Colours",
    "context": "",
    "section": "Settings > Health & Vitals",
    "tooltip": false,
@@ -1747,6 +2260,33 @@
    "section": "Settings > Health & Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Enable Defeated Window",
+   "display": "Enable Defeated Window",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show native defeated window",
+   "display": "Show native defeated window",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Unlock the UI (General) to drag and resize it.",
+   "display": "Unlock the UI (General) to drag and resize it.",
+   "context": "",
+   "section": "Settings > Health & Vitals",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "CONTROLLER BUTTONS",
@@ -2437,12 +2977,58 @@
    "budget": 0
   },
   {
-   "key": "Profession Resource",
-   "display": "Profession Resource",
+   "key": "EVERY SLOT",
+   "display": "EVERY SLOT",
    "context": "",
-   "section": "Settings > Profession Resource",
+   "section": "Settings > Hotbars",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Slot overlay",
+   "display": "Slot overlay",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tint with the border colour",
+   "display": "Tint with the border colour",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Slot frame",
+   "display": "Slot frame",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Reach past the slot",
+   "display": "Reach past the slot",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Lets the frame picture spread past each slot's edge, over the gap between slots. A bezel with a thick rim usually needs some.",
+   "display": "Lets the frame picture spread past each slot's edge, over the gap between slots. A bezel with a thick rim usually needs some.",
+   "context": "",
+   "section": "Settings > Hotbars",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Enable Profession Resource",
@@ -2587,6 +3173,103 @@
    "section": "Settings > Profession Resource",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. The reticle curve and each bar orientation keep their own skin.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. The reticle curve and each bar orientation keep their own skin.",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Preview at",
+   "display": "Preview at",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows the cast bar filled to this value while this tab is open, so a fill can be checked without casting.",
+   "display": "Shows the cast bar filled to this value while this tab is open, so a fill can be checked without casting.",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Background",
+   "display": "Background",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Fill",
+   "display": "Fill",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Overlay",
+   "display": "Overlay",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Frame",
+   "display": "Frame",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "RETICLE CURVE",
+   "display": "RETICLE CURVE",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "STANDALONE BAR",
+   "display": "STANDALONE BAR",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tint with the bar colour",
+   "display": "Tint with the bar colour",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Skin",
+   "display": "Skin",
+   "context": "",
+   "section": "Settings > Cast Bar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Enable Cast Bar",
@@ -2893,14 +3576,6 @@
    "budget": 0
   },
   {
-   "key": "Target",
-   "display": "Target",
-   "context": "",
-   "section": "Settings > Target",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Enable Target Frame",
    "display": "Enable Target Frame",
    "context": "",
@@ -3117,6 +3792,42 @@
    "budget": 160
   },
   {
+   "key": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. The standalone frame and the reticle each keep their own skin.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below. The standalone frame and the reticle each keep their own skin.",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows target health and defiance at this value while this tab is open, with or without a target. Each fill can be checked out of combat.",
+   "display": "Shows target health and defiance at this value while this tab is open, with or without a target. Each fill can be checked out of combat.",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "TARGET HEALTH",
+   "display": "TARGET HEALTH",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "DEFIANCE",
+   "display": "DEFIANCE",
+   "context": "",
+   "section": "Settings > Target",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Shows the current target's effects (enemy mobs/bosses).",
    "display": "Shows the current target's effects (enemy mobs/bosses).",
    "context": "",
@@ -3165,20 +3876,22 @@
    "budget": 160
   },
   {
-   "key": "OPACITY",
-   "display": "OPACITY",
+   "key": "Show Pie UI XP bar",
+   "display": "Show Pie UI XP bar",
    "context": "",
    "section": "Settings > Bottom Line",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Set Out of combat to 0 to hide the strip while idle.",
-   "display": "Set Out of combat to 0 to hide the strip while idle.",
+   "key": "Useful when the whole native hotbar is hidden.",
+   "display": "Useful when the whole native hotbar is hidden.",
    "context": "",
    "section": "Settings > Bottom Line",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "In combat",
@@ -3195,6 +3908,22 @@
    "section": "Settings > Bottom Line",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "OPACITY",
+   "display": "OPACITY",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Set Out of combat to 0 to hide the strip while idle.",
+   "display": "Set Out of combat to 0 to hide the strip while idle.",
+   "context": "",
+   "section": "Settings > Bottom Line",
+   "tooltip": true,
+   "budget": 160
   },
   {
    "key": "SCREEN POSITION",
@@ -3581,6 +4310,42 @@
    "budget": 160
   },
   {
+   "key": "Row background",
+   "display": "Row background",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Row frame",
+   "display": "Row frame",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Row health fill",
+   "display": "Row health fill",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Row overlay",
+   "display": "Row overlay",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Health bar style",
    "display": "Health bar style",
    "context": "",
@@ -3675,6 +4440,32 @@
    "section": "Settings > Unit Frames",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Scale",
+   "display": "Scale",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
+   "display": "%.1fx",
+   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Makes the whole party frame bigger or smaller, text included. Dragging the frame's width while the UI is unlocked does the same.",
+   "display": "Makes the whole party frame bigger or smaller, text included. Dragging the frame's width while the UI is unlocked does the same.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Cell height",
@@ -4085,22 +4876,6 @@
    "budget": 0
   },
   {
-   "key": "Include Pie UI's own vote-kick prompt",
-   "display": "Include Pie UI's own vote-kick prompt",
-   "context": "",
-   "section": "Settings > Unit Frames",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
-   "display": "Hiding the native frames also hides the game's kick-vote prompt, leaving nothing to answer a vote with. Leave this off while the native frames show.",
-   "context": "",
-   "section": "Settings > Unit Frames",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
    "key": "Tip: enable Unlock UI (General) to drag and resize the panel.",
    "display": "Tip: enable Unlock UI (General) to drag and resize the panel.",
    "context": "",
@@ -4165,12 +4940,94 @@
    "budget": 160
   },
   {
-   "key": "Custom Artwork",
-   "display": "Custom Artwork",
+   "key": "Squad controls",
+   "display": "Squad controls",
    "context": "",
-   "section": "Settings > Custom Artwork",
+   "section": "Settings > Unit Frames",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Each of these replaces the game's own box with a Pie UI one that you can place anywhere.",
+   "display": "Each of these replaces the game's own box with a Pie UI one that you can place anywhere.",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Enable ready check",
+   "display": "Enable ready check",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Enable group requests",
+   "display": "Enable group requests",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Sparkle on a new request",
+   "display": "Sparkle on a new request",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Enable squad toolbox",
+   "display": "Enable squad toolbox",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show squad counters",
+   "display": "Show squad counters",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Enable vote kick",
+   "display": "Enable vote kick",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "PARTY",
+   "display": "PARTY",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "SQUAD",
+   "display": "SQUAD",
+   "context": "",
+   "section": "Settings > Unit Frames",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Show custom artwork",
@@ -4261,6 +5118,15 @@
    "budget": 0
   },
   {
+   "key": "This picture is too large to show. Make it smaller in an image editor.",
+   "display": "This picture is too large to show. Make it smaller in an image editor.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "This file name cannot be opened.",
    "display": "This file name cannot be opened.",
    "context": "",
@@ -4311,6 +5177,14 @@
   {
    "key": "Remove this layer? Its place and size cannot be recovered.",
    "display": "Remove this layer? Its place and size cannot be recovered.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Image layers",
+   "display": "Image layers",
    "context": "",
    "section": "Settings > Custom Artwork",
    "tooltip": false,
@@ -4757,14 +5631,6 @@
    "budget": 160
   },
   {
-   "key": "Background",
-   "display": "Background",
-   "context": "",
-   "section": "Settings > Social",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "The panel behind the messages, not the messages themselves. At 0 the text sits straight on the world.",
    "display": "The panel behind the messages, not the messages themselves. At 0 the text sits straight on the world.",
    "context": "",
@@ -5205,6 +6071,122 @@
    "budget": 0
   },
   {
+   "key": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below.",
+   "display": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "CHAT",
+   "display": "CHAT",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Panel colour",
+   "display": "Panel colour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Panel background",
+   "display": "Panel background",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Tint with the panel colour",
+   "display": "Tint with the panel colour",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Panel frame",
+   "display": "Panel frame",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Chat codes",
+   "display": "Chat codes",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "YOUR CODES",
+   "display": "YOUR CODES",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Type a code's name between < and > in a chat message to send its text. The text can hold the built-in codes below.",
+   "display": "Type a code's name between < and > in a chat message to send its text. The text can hold the built-in codes below.",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "name",
+   "display": "name",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "text to send",
+   "display": "text to send",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Add a code",
+   "display": "Add a code",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "BUILT-IN CODES",
+   "display": "BUILT-IN CODES",
+   "context": "",
+   "section": "Settings > Social",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Icon",
    "display": "Icon",
    "context": "",
@@ -5453,6 +6435,15 @@
    "budget": 0
   },
   {
+   "key": "Pill",
+   "display": "Pill",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
    "display": "Bookmarks are your own markers on the minimap. Hover the minimap and click an icon on the left strip to drop one where you stand; right-click a bookmark to rename, re-icon, or delete it. They are saved until you remove them.",
    "context": "",
@@ -5487,14 +6478,6 @@
   {
    "key": "(%zu more on other maps)",
    "display": "(%zu more on other maps)",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Bookmark",
-   "display": "Bookmark",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": false,
@@ -5547,6 +6530,42 @@
    "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Corners",
+   "display": "Corners",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "From square to round. At full rounding the minimap is a circle when its sides are equal, and a pill when they are not.",
+   "display": "From square to round. At full rounding the minimap is a circle when its sides are equal, and a pill when they are not.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Lock to square / circle",
+   "display": "Lock to square / circle",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keeps the minimap square, or round at full rounding, on any screen. Untick to resize its width and height freely.",
+   "display": "Keeps the minimap square, or round at full rounding, on any screen. Untick to resize its width and height freely.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Rotate map to facing",
@@ -5661,30 +6680,6 @@
    "budget": 160
   },
   {
-   "key": "Show marker pack routes",
-   "display": "Show marker pack routes",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Draws routes and markers from your marker packs, following the categories switched on in TaimiHUD or Taquito.",
-   "display": "Draws routes and markers from your marker packs, following the categories switched on in TaimiHUD or Taquito.",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "TaimiHUD",
-   "display": "TaimiHUD",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Taquito",
    "display": "Taquito",
    "context": "",
@@ -5701,12 +6696,13 @@
    "budget": 0
   },
   {
-   "key": "The addon whose marker packs and category switches the minimap follows. TaimiHUD changes can take a while to show here; Taquito's show at once.",
-   "display": "The addon whose marker packs and category switches the minimap follows. TaimiHUD changes can take a while to show here; Taquito's show at once.",
+   "key": "The addon whose marker packs the minimap and world map draw. Turn them on or off for each map, and set their size, in that addon's settings.",
+   "display": "The addon whose marker packs the minimap and world map draw. Turn them on or off for each map, and set their size, in that addon's settings.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Waiting for Taquito to share its marker packs.",
@@ -5733,12 +6729,22 @@
    "budget": 0
   },
   {
-   "key": "No marker packs found.",
-   "display": "No marker packs found.",
+   "key": "Markers and trails are switched off in Taquito.",
+   "display": "Markers and trails are switched off in Taquito.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Taquito shows marker packs on neither map.",
+   "display": "Taquito shows marker packs on neither map.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Reading marker packs...",
@@ -5765,20 +6771,21 @@
    "budget": 0
   },
   {
-   "key": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
-   "display": "Could not read which categories are switched on in TaimiHUD, so every route is showing.",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
    "display": "%d packs read. %d of %d routes and %d of %d markers are switched on.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Taquito shows marker packs on the world map only.",
+   "display": "Taquito shows marker packs on the world map only.",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Too many routes to draw here; some are left out.",
@@ -5797,44 +6804,13 @@
    "budget": 0
   },
   {
-   "key": "Marker pack icon size",
-   "display": "Marker pack icon size",
+   "key": "Taquito shows marker packs on the minimap only.",
+   "display": "Taquito shows marker packs on the minimap only.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "%.1fx|slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "display": "%.1fx",
-   "context": "slider unit: a multiplier, as in 1.5x. Translate only the 'x'",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
-   "display": "Scales the icons the marker packs draw on the minimap. Packs size their markers for a full-screen map, so they need enlarging on a compass.",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": true,
-   "budget": 160
-  },
-  {
-   "key": "Marker pack line width",
-   "display": "Marker pack line width",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Scales the width of the routes the marker packs draw on the minimap. Wider routes are easier to follow at a glance.",
-   "display": "Scales the width of the routes the marker packs draw on the minimap. Wider routes are easier to follow at a glance.",
-   "context": "",
-   "section": "Settings > Maps",
-   "tooltip": true,
-   "budget": 160
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Show map badges (vendors, bounty boards)",
@@ -6005,12 +6981,13 @@
    "budget": 0
   },
   {
-   "key": "Higher zoom = closer in. 5-8 roughly matches the in-game minimap.",
-   "display": "Higher zoom = closer in. 5-8 roughly matches the in-game minimap.",
+   "key": "Higher is closer in. Levels 1 to 4 are the game's own minimap zoom levels, and 5 is closer still.",
+   "display": "Higher is closer in. Levels 1 to 4 are the game's own minimap zoom levels, and 5 is closer still.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Zoom",
@@ -6019,6 +6996,33 @@
    "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Zoom style",
+   "display": "Zoom style",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Smooth",
+   "display": "Smooth",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Stepped",
+   "display": "Stepped",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Set Out of combat to 0 to hide the minimap while idle. Unlock the UI (General) to drag and resize it.",
@@ -6085,20 +7089,22 @@
    "budget": 0
   },
   {
-   "key": "Scales the icons the marker packs draw on the world map. At 1.0x they match the size of the game's own map icons.",
-   "display": "Scales the icons the marker packs draw on the world map. At 1.0x they match the size of the game's own map icons.",
+   "key": "Show travel trail",
+   "display": "Show travel trail",
    "context": "",
    "section": "Settings > Maps",
-   "tooltip": true,
-   "budget": 160
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
-   "key": "Scales the width of the routes the marker packs draw on the world map. Wider routes are easier to follow at a glance.",
-   "display": "Scales the width of the routes the marker packs draw on the world map. Wider routes are easier to follow at a glance.",
+   "key": "White dots along the path you have travelled, fading as you go.",
+   "display": "White dots along the path you have travelled, fading as you go.",
    "context": "",
    "section": "Settings > Maps",
    "tooltip": true,
-   "budget": 160
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Close map after taking a waypoint",
@@ -6107,6 +7113,15 @@
    "section": "Settings > Maps",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Turn off Action Camera while the map is open",
+   "display": "Turn off Action Camera while the map is open",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Enable Instance Controls",
@@ -6179,6 +7194,15 @@
    "section": "Settings > Maps",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Show native Map Meta",
+   "display": "Show native Map Meta",
+   "context": "",
+   "section": "Settings > Maps",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Bookmarks",
@@ -6363,6 +7387,24 @@
    "section": "Settings > Content Guide",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "Experience stream",
+   "display": "Experience stream",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The stream of gold experience that flies to the experience bar",
+   "display": "The stream of gold experience that flies to the experience bar",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
   },
   {
    "key": "Directed row (what the guide points at)",
@@ -6637,6 +7679,177 @@
    "section": "Settings > Content Guide",
    "tooltip": true,
    "budget": 160
+  },
+  {
+   "key": "PANEL",
+   "display": "PANEL",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "SECTIONS",
+   "display": "SECTIONS",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Section divider",
+   "display": "Section divider",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "STORY",
+   "display": "STORY",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Story background",
+   "display": "Story background",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Story frame",
+   "display": "Story frame",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "HEART",
+   "display": "HEART",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Heart background",
+   "display": "Heart background",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Heart frame",
+   "display": "Heart frame",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "BONUS EVENTS AND FESTIVALS",
+   "display": "BONUS EVENTS AND FESTIVALS",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Bonus event background",
+   "display": "Bonus event background",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Bonus event frame",
+   "display": "Bonus event frame",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "ACHIEVEMENTS AND WIZARD'S VAULT",
+   "display": "ACHIEVEMENTS AND WIZARD'S VAULT",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Achievements background",
+   "display": "Achievements background",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Achievements frame",
+   "display": "Achievements frame",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "EVENTS",
+   "display": "EVENTS",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Event background",
+   "display": "Event background",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Event frame",
+   "display": "Event frame",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "PROGRESS BARS",
+   "display": "PROGRESS BARS",
+   "context": "",
+   "section": "Settings > Content Guide",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Enable Loot Cascade",
@@ -7491,6 +8704,14 @@
    "budget": 0
   },
   {
+   "key": "Mount",
+   "display": "Mount",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Level / XP",
    "display": "Level / XP",
    "context": "",
@@ -7533,6 +8754,14 @@
   {
    "key": "Contacts",
    "display": "Contacts",
+   "context": "",
+   "section": "Bottom Line",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Quick Toggles",
+   "display": "Quick Toggles",
    "context": "",
    "section": "Bottom Line",
    "tooltip": false,
@@ -8003,22 +9232,6 @@
    "budget": 0
   },
   {
-   "key": "visible",
-   "display": "visible",
-   "context": "",
-   "section": "Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "hidden",
-   "display": "hidden",
-   "context": "",
-   "section": "Bottom Line",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Level %d",
    "display": "Level %d",
    "context": "",
@@ -8033,6 +9246,276 @@
    "section": "Bottom Line Items",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "The file is not a zip, or it is damaged.",
+   "display": "The file is not a zip, or it is damaged.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The zip holds folders. A bundle's files sit at the top of the zip.",
+   "display": "The zip holds folders. A bundle's files sit at the top of the zip.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The zip holds a file that is not a picture or part of a bundle.",
+   "display": "The zip holds a file that is not a picture or part of a bundle.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle holds too many files.",
+   "display": "The bundle holds too many files.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle is larger than 10 MB.",
+   "display": "The bundle is larger than 10 MB.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The zip is not a Pie UI bundle.",
+   "display": "The zip is not a Pie UI bundle.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle's details cannot be read.",
+   "display": "The bundle's details cannot be read.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This bundle needs a newer version of Pie UI.",
+   "display": "This bundle needs a newer version of Pie UI.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle's layout cannot be read.",
+   "display": "The bundle's layout cannot be read.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle's skins cannot be read.",
+   "display": "The bundle's skins cannot be read.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle's theme cannot be read.",
+   "display": "The bundle's theme cannot be read.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A picture in the bundle is not a PNG or JPG it can use.",
+   "display": "A picture in the bundle is not a PNG or JPG it can use.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A picture in the bundle is larger than 4096 pixels on a side.",
+   "display": "A picture in the bundle is larger than 4096 pixels on a side.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle's pictures are too large in total.",
+   "display": "The bundle's pictures are too large in total.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A picture this layout uses is not in the images folder.",
+   "display": "A picture this layout uses is not in the images folder.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "There is nothing to put in the bundle.",
+   "display": "There is nothing to put in the bundle.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This layout's bundle is no longer in the bundles folder.",
+   "display": "This layout's bundle is no longer in the bundles folder.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The zip could not be read. If it was still being copied, put it in the folder again.",
+   "display": "The zip could not be read. If it was still being copied, put it in the folder again.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A file could not be saved. Check the folder can be written to.",
+   "display": "A file could not be saved. Check the folder can be written to.",
+   "context": "",
+   "section": "Bundle Rules",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Wait for the library to finish installing.",
+   "display": "Wait for the library to finish installing.",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "In use",
+   "display": "In use",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Make a layout from it",
+   "display": "Make a layout from it",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use",
+   "display": "Use",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Your layout made from this bundle was deleted. This makes a new one and switches to it.",
+   "display": "Your layout made from this bundle was deleted. This makes a new one and switches to it.",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Switches to the layout \"%s\".",
+   "display": "Switches to the layout \"%s\".",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Switch to the layout",
+   "display": "Switch to the layout",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use its theme",
+   "display": "Use its theme",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Sets this layout's theme to the one that came with the skin pack.",
+   "display": "Sets this layout's theme to the one that came with the skin pack.",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use on this layout",
+   "display": "Use on this layout",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shows this skin pack's skins on the layout you are using, instead of its own.",
+   "display": "Shows this skin pack's skins on the layout you are using, instead of its own.",
+   "context": "",
+   "section": "Bundle Use",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Your target's name.",
@@ -8156,6 +9639,69 @@
    "new": true
   },
   {
+   "key": "Give the code a name.",
+   "display": "Give the code a name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A code name is at most 12 letters or digits.",
+   "display": "A code name is at most 12 letters or digits.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A code name is letters and digits only.",
+   "display": "A code name is letters and digits only.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A code name starts with a letter.",
+   "display": "A code name starts with a letter.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "That name is already a built-in code.",
+   "display": "That name is already a built-in code.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "You already have a code with that name.",
+   "display": "You already have a code with that name.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "A code cannot start with a chat command.",
+   "display": "A code cannot start with a chat command.",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Build template - click to open",
    "display": "Build template - click to open",
    "context": "",
@@ -8196,6 +9742,15 @@
    "budget": 0
   },
   {
+   "key": "Squad Broadcast",
+   "display": "Squad Broadcast",
+   "context": "",
+   "section": "Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Pie UI user",
    "display": "Pie UI user",
    "context": "",
@@ -8230,14 +9785,6 @@
   {
    "key": "From %s",
    "display": "From %s",
-   "context": "",
-   "section": "Chat",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Contact: %s",
-   "display": "Contact: %s",
    "context": "",
    "section": "Chat",
    "tooltip": false,
@@ -8901,6 +10448,14 @@
    "budget": 0
   },
   {
+   "key": "Consumables",
+   "display": "Consumables",
+   "context": "",
+   "section": "Consumables",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Consumables (nothing tracked here)",
    "display": "Consumables (nothing tracked here)",
    "context": "",
@@ -9253,6 +10808,15 @@
    "budget": 0
   },
   {
+   "key": "Resurrect at a waypoint",
+   "display": "Resurrect at a waypoint",
+   "context": "",
+   "section": "Defeated",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Loading...",
    "display": "Loading...",
    "context": "",
@@ -9303,30 +10867,6 @@
   {
    "key": "Specialty Effects",
    "display": "Specialty Effects",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Target Boons",
-   "display": "Target Boons",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Target Conditions",
-   "display": "Target Conditions",
-   "context": "",
-   "section": "Effect Sections",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Target Effects",
-   "display": "Target Effects",
    "context": "",
    "section": "Effect Sections",
    "tooltip": false,
@@ -9509,6 +11049,15 @@
    "budget": 0
   },
   {
+   "key": "Player name",
+   "display": "Player name",
+   "context": "",
+   "section": "Group Requests",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Native hotbar background",
    "display": "Native hotbar background",
    "context": "",
@@ -9521,14 +11070,6 @@
    "display": "Image layer",
    "context": "",
    "section": "Image Layers",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Instance Controls",
-   "display": "Instance Controls",
-   "context": "",
-   "section": "Instance Controls",
    "tooltip": false,
    "budget": 0
   },
@@ -9813,24 +11354,24 @@
    "budget": 0
   },
   {
-   "key": "Profession bar",
-   "display": "Profession bar",
+   "key": "Profession group",
+   "display": "Profession group",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Pet bar",
-   "display": "Pet bar",
+   "key": "Pet group",
+   "display": "Pet group",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Image layers",
-   "display": "Image layers",
+   "key": "Custom Artwork",
+   "display": "Custom Artwork",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
@@ -9845,8 +11386,8 @@
    "budget": 0
   },
   {
-   "key": "Profession resource",
-   "display": "Profession resource",
+   "key": "Profession Resource",
+   "display": "Profession Resource",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
@@ -9861,8 +11402,8 @@
    "budget": 0
   },
   {
-   "key": "Target Frame",
-   "display": "Target Frame",
+   "key": "Target",
+   "display": "Target",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
@@ -9877,12 +11418,13 @@
    "budget": 0
   },
   {
-   "key": "Player portrait",
-   "display": "Player portrait",
+   "key": "Your portrait",
+   "display": "Your portrait",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Boons",
@@ -9925,24 +11467,24 @@
    "budget": 0
   },
   {
-   "key": "Target boons",
-   "display": "Target boons",
+   "key": "Target Boons",
+   "display": "Target Boons",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Target conditions",
-   "display": "Target conditions",
+   "key": "Target Conditions",
+   "display": "Target Conditions",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Target other effects",
-   "display": "Target other effects",
+   "key": "Target Effects",
+   "display": "Target Effects",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
@@ -10005,14 +11547,6 @@
    "budget": 0
   },
   {
-   "key": "Consumables",
-   "display": "Consumables",
-   "context": "",
-   "section": "Layout Elements",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Group Finder",
    "display": "Group Finder",
    "context": "",
@@ -10021,16 +11555,16 @@
    "budget": 0
   },
   {
-   "key": "Map meta",
-   "display": "Map meta",
+   "key": "Map Meta",
+   "display": "Map Meta",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Map closing prompt",
-   "display": "Map closing prompt",
+   "key": "Map closing",
+   "display": "Map closing",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
@@ -10061,44 +11595,111 @@
    "budget": 0
   },
   {
-   "key": "Rewards",
-   "display": "Rewards",
+   "key": "Ready check",
+   "display": "Ready check",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Group requests",
+   "display": "Group requests",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Squad toolbox",
+   "display": "Squad toolbox",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Squad counters",
+   "display": "Squad counters",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Vote kick",
+   "display": "Vote kick",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pending reward tray",
+   "display": "Pending reward tray",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Mount selector",
+   "display": "Mount selector",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Novelty selector",
+   "display": "Novelty selector",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Mastery selector",
+   "display": "Mastery selector",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "XP bar",
+   "display": "XP bar",
+   "context": "",
+   "section": "Layout Elements",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Instance Controls",
+   "display": "Instance Controls",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Mount",
-   "display": "Mount",
+   "key": "Defeated Window",
+   "display": "Defeated Window",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Novelty",
-   "display": "Novelty",
-   "context": "",
-   "section": "Layout Elements",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Mastery",
-   "display": "Mastery",
-   "context": "",
-   "section": "Layout Elements",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Instance controls",
-   "display": "Instance controls",
-   "context": "",
-   "section": "Layout Elements",
-   "tooltip": false,
-   "budget": 0
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Interact prompt",
@@ -10109,20 +11710,288 @@
    "budget": 0
   },
   {
-   "key": "Quick Toggles",
-   "display": "Quick Toggles",
+   "key": "Menu bar",
+   "display": "Menu bar",
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
    "budget": 0
   },
   {
-   "key": "Menu launcher",
-   "display": "Menu launcher",
+   "key": "Install",
+   "display": "Install",
    "context": "",
-   "section": "Layout Elements",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Update",
+   "display": "Update",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Installed",
+   "display": "Installed",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Needs a newer version of Pie UI",
+   "display": "Needs a newer version of Pie UI",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Installing",
+   "display": "Installing",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Replaces the installed copy of this bundle. Your layout keeps your changes; restoring it from its bundle takes the new version.",
+   "display": "Replaces the installed copy of this bundle. Your layout keeps your changes; restoring it from its bundle takes the new version.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Not updated",
+   "display": "Not updated",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Not installed",
+   "display": "Not installed",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The bundle changed while it was being fetched. Try again in a minute.",
+   "display": "The bundle changed while it was being fetched. Try again in a minute.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The library cannot be reached right now.",
+   "display": "The library cannot be reached right now.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Its layout could not be made",
+   "display": "Its layout could not be made",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "By %s",
+   "display": "By %s",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Skin pack",
+   "display": "Skin pack",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Downloads: %s",
+   "display": "Downloads: %s",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Size: %.1f MB",
+   "display": "Size: %.1f MB",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Updated: %s",
+   "display": "Updated: %s",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "All",
+   "display": "All",
+   "context": "",
+   "section": "Library Window",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Layouts",
+   "display": "Layouts",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Skin packs",
+   "display": "Skin packs",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Updates available",
+   "display": "Updates available",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Most downloaded",
+   "display": "Most downloaded",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Newest",
+   "display": "Newest",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Show",
+   "display": "Show",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Sort",
+   "display": "Sort",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Search",
+   "display": "Search",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Refresh Library",
+   "display": "Refresh Library",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Looking for bundles...",
+   "display": "Looking for bundles...",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The library needs a newer version of Pie UI.",
+   "display": "The library needs a newer version of Pie UI.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "There are no bundles in the library.",
+   "display": "There are no bundles in the library.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "No bundles match.",
+   "display": "No bundles match.",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Bundle library",
+   "display": "Bundle library",
+   "context": "",
+   "section": "Library Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Wallet: %s",
@@ -10165,14 +12034,6 @@
    "budget": 0
   },
   {
-   "key": "Map Meta",
-   "display": "Map Meta",
-   "context": "",
-   "section": "Map Meta",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Map Meta (off in competitive modes)",
    "display": "Map Meta (off in competitive modes)",
    "context": "",
@@ -10185,14 +12046,6 @@
    "display": "Map Meta (no meta on this map)",
    "context": "",
    "section": "Map Meta",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Map closing",
-   "display": "Map closing",
-   "context": "",
-   "section": "Map Redirect",
    "tooltip": false,
    "budget": 0
   },
@@ -10757,6 +12610,14 @@
    "budget": 0
   },
   {
+   "key": "Novelty",
+   "display": "Novelty",
+   "context": "",
+   "section": "Novelty",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Left-click: make this the default",
    "display": "Left-click: make this the default",
    "context": "",
@@ -10805,12 +12666,39 @@
    "budget": 0
   },
   {
+   "key": "Endurance orb",
+   "display": "Endurance orb",
+   "context": "",
+   "section": "Player Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Endurance bar",
    "display": "Endurance bar",
    "context": "",
    "section": "Player Vitals",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Stamina orb",
+   "display": "Stamina orb",
+   "context": "",
+   "section": "Player Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Stamina bar",
+   "display": "Stamina bar",
+   "context": "",
+   "section": "Player Vitals",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Vendor sell: ",
@@ -11013,6 +12901,14 @@
    "budget": 0
   },
   {
+   "key": "Target Frame",
+   "display": "Target Frame",
+   "context": "",
+   "section": "Quick Toggle Model",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Squad",
    "display": "Squad",
    "context": "",
@@ -11101,14 +12997,6 @@
    "budget": 0
   },
   {
-   "key": "Menu bar",
-   "display": "Menu bar",
-   "context": "",
-   "section": "Quick Toggle Model",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Loot",
    "display": "Loot",
    "context": "",
@@ -11137,6 +13025,32 @@
    "display": "experience bar",
    "context": "",
    "section": "Quick Toggle Model",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Ready",
+   "display": "Ready",
+   "context": "",
+   "section": "Ready Check",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Not ready",
+   "display": "Not ready",
+   "context": "",
+   "section": "Ready Check",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Rewards",
+   "display": "Rewards",
+   "context": "",
+   "section": "Reward Tray",
    "tooltip": false,
    "budget": 0
   },
@@ -11365,6 +13279,60 @@
    "budget": 0
   },
   {
+   "key": "Stretch",
+   "display": "Stretch",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keep shape, fit inside",
+   "display": "Keep shape, fit inside",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keep shape, fill and crop",
+   "display": "Keep shape, fill and crop",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Repeat",
+   "display": "Repeat",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keep corners",
+   "display": "Keep corners",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Keep corners, repeat edges",
+   "display": "Keep corners, repeat edges",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "toast popup alert notification preview animation fade slide yellow|search keyword",
    "display": "toast popup alert notification preview animation fade slide yellow",
    "context": "search keyword",
@@ -11389,12 +13357,93 @@
    "budget": 0
   },
   {
+   "key": "Fit",
+   "display": "Fit",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "text size typeface bold|search keyword",
    "display": "text size typeface bold",
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Keeps a frame's corners sharp and tiles the edges and middle at the picture's own size, so a pattern keeps its spacing. Corner size is in picture pixels.",
+   "display": "Keeps a frame's corners sharp and tiles the edges and middle at the picture's own size, so a pattern keeps its spacing. Corner size is in picture pixels.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Keep corners stretches only the edges and middle, so a frame's corners stay sharp at any size. Corner size is in the picture's own pixels.",
+   "display": "Keep corners stretches only the edges and middle, so a frame's corners stay sharp at any size. Corner size is in the picture's own pixels.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Corner size",
+   "display": "Corner size",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Opacity",
+   "display": "Opacity",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Picture colours",
+   "display": "Picture colours",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tint colours the picture with the colour this part has without a skin.",
+   "display": "Tint colours the picture with the colour this part has without a skin.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Tint colours the picture with the colour this part has without a skin, so low health and downed still show.",
+   "display": "Tint colours the picture with the colour this part has without a skin, so low health and downed still show.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Tint with my colour",
+   "display": "Tint with my colour",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Pie UI Settings",
@@ -11421,12 +13470,66 @@
    "budget": 0
   },
   {
+   "key": "Fills the panel with this colour, under the background picture if there is one. Its transparency sets how strong it is.",
+   "display": "Fills the panel with this colour, under the background picture if there is one. Its transparency sets how strong it is.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Reveal",
+   "display": "Reveal",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "(hidden in WvW and PvP)",
    "display": "(hidden in WvW and PvP)",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Squash",
+   "display": "Squash",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Reveal keeps the picture still and shows only the filled part. Squash squeezes the whole picture into the filled part.",
+   "display": "Reveal keeps the picture still and shows only the filled part. Squash squeezes the whole picture into the filled part.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "This layout uses the skin pack \"%s\". Its skins are shown instead of the ones below.",
+   "display": "This layout uses the skin pack \"%s\". Its skins are shown instead of the ones below.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Stop using it",
+   "display": "Stop using it",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "(whole hotbar hidden)",
@@ -11877,22 +13980,6 @@
    "budget": 0
   },
   {
-   "key": "Profession group",
-   "display": "Profession group",
-   "context": "",
-   "section": "Slot Cluster",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pet group",
-   "display": "Pet group",
-   "context": "",
-   "section": "Slot Cluster",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Xbox",
    "display": "Xbox",
    "context": "",
@@ -11919,14 +14006,6 @@
   {
    "key": "Nintendo Switch",
    "display": "Nintendo Switch",
-   "context": "",
-   "section": "Slot Glyph Picker",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "All",
-   "display": "All",
    "context": "",
    "section": "Slot Glyph Picker",
    "tooltip": false,
@@ -12269,6 +14348,14 @@
    "budget": 0
   },
   {
+   "key": "Contact: %s",
+   "display": "Contact: %s",
+   "context": "",
+   "section": "Squad Frames",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Party Frames",
    "display": "Party Frames",
    "context": "",
@@ -12413,6 +14500,518 @@
    "budget": 0
   },
   {
+   "key": "The theme file could not be saved.",
+   "display": "The theme file could not be saved.",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Theme name",
+   "display": "Theme name",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Colours",
+   "display": "Colours",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Every colour in the theme is worked out from these six, unless you set it by hand.",
+   "display": "Every colour in the theme is worked out from these six, unless you set it by hand.",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Fine-tune",
+   "display": "Fine-tune",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Reset",
+   "display": "Reset",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Shapes",
+   "display": "Shapes",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Window corners",
+   "display": "Window corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Button and box corners",
+   "display": "Button and box corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Popup corners",
+   "display": "Popup corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Slider handle corners",
+   "display": "Slider handle corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tab corners",
+   "display": "Tab corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Scroll bar corners",
+   "display": "Scroll bar corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Chat bubble corners",
+   "display": "Chat bubble corners",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Window border",
+   "display": "Window border",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Box border",
+   "display": "Box border",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Delete this theme",
+   "display": "Delete this theme",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Delete theme?",
+   "display": "Delete theme?",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Delete the theme '%s'? This cannot be undone.",
+   "display": "Delete the theme '%s'? This cannot be undone.",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Theme editor",
+   "display": "Theme editor",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Copies the colours. The moving background stays with the original theme.",
+   "display": "Copies the colours. The moving background stays with the original theme.",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The theme on screen is built into Pie UI. Make your own copy of it to edit.",
+   "display": "The theme on screen is built into Pie UI. Make your own copy of it to edit.",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Make my own theme",
+   "display": "Make my own theme",
+   "context": "",
+   "section": "Theme Editor Window",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Controls",
+   "display": "Controls",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Accent",
+   "display": "Accent",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Borders",
+   "display": "Borders",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Alerts",
+   "display": "Alerts",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Windows",
+   "display": "Windows",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Window background",
+   "display": "Window background",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Popup background",
+   "display": "Popup background",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Title bar",
+   "display": "Title bar",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Title bar of the window in use",
+   "display": "Title bar of the window in use",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Dividing lines",
+   "display": "Dividing lines",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Screen behind a question box",
+   "display": "Screen behind a question box",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Input boxes",
+   "display": "Input boxes",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Input box under the mouse",
+   "display": "Input box under the mouse",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Buttons",
+   "display": "Buttons",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Button under the mouse",
+   "display": "Button under the mouse",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Button being pressed",
+   "display": "Button being pressed",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Selected rows",
+   "display": "Selected rows",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Row under the mouse",
+   "display": "Row under the mouse",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tabs",
+   "display": "Tabs",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Selected tab",
+   "display": "Selected tab",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Scroll bars",
+   "display": "Scroll bars",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Slider handles",
+   "display": "Slider handles",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tick marks",
+   "display": "Tick marks",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Faded text",
+   "display": "Faded text",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Text selection",
+   "display": "Text selection",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "My chat bubbles",
+   "display": "My chat bubbles",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Other players' chat bubbles",
+   "display": "Other players' chat bubbles",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "My name in chat",
+   "display": "My name in chat",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Other players' names in chat",
+   "display": "Other players' names in chat",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Chat timestamps",
+   "display": "Chat timestamps",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Unread markers",
+   "display": "Unread markers",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Chat background",
+   "display": "Chat background",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This is not a theme file.",
+   "display": "This is not a theme file.",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The theme has no name.",
+   "display": "The theme has no name.",
+   "context": "",
+   "section": "Theme File",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Dungeons",
    "display": "Dungeons",
    "context": "",
@@ -12541,6 +15140,51 @@
    "budget": 0
   },
   {
+   "key": "The file could not be read.",
+   "display": "The file could not be read.",
+   "context": "",
+   "section": "User Themes",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "The name is too long or belongs to a built-in theme.",
+   "display": "The name is too long or belongs to a built-in theme.",
+   "context": "",
+   "section": "User Themes",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Another theme already has this name.",
+   "display": "Another theme already has this name.",
+   "context": "",
+   "section": "User Themes",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "This theme no longer exists.",
+   "display": "This theme no longer exists.",
+   "context": "",
+   "section": "User Themes",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Use 1 to 40 characters, and not the name of a built-in theme.",
+   "display": "Use 1 to 40 characters, and not the name of a built-in theme.",
+   "context": "",
+   "section": "User Themes",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Online",
    "display": "Online",
    "context": "",
@@ -12563,6 +15207,24 @@
    "section": "User Tooltip Model",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Player 1",
+   "display": "Player 1",
+   "context": "",
+   "section": "Vote Kick Dialog",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Player 2",
+   "display": "Player 2",
+   "context": "",
+   "section": "Vote Kick Dialog",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Vote Kick",
@@ -12717,6 +15379,15 @@
    "budget": 0
   },
   {
+   "key": "Find more layouts and looks in the bundle library",
+   "display": "Find more layouts and looks in the bundle library",
+   "context": "",
+   "section": "Welcome",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Welcome to Pie UI",
    "display": "Welcome to Pie UI",
    "context": "",
@@ -12729,6 +15400,14 @@
    "display": "Get started",
    "context": "",
    "section": "Welcome",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Bookmark",
+   "display": "Bookmark",
+   "context": "",
+   "section": "World Map",
    "tooltip": false,
    "budget": 0
   },
