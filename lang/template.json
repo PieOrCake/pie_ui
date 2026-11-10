@@ -553,14 +553,6 @@
    "budget": 0
   },
   {
-   "key": "Icon size",
-   "display": "Icon size",
-   "context": "",
-   "section": "Settings > General",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "%.0f px|slider unit: pixels. Translate only the 'px'",
    "display": "%.0f px",
    "context": "slider unit: pixels. Translate only the 'px'",
@@ -5070,6 +5062,15 @@
    "budget": 160
   },
   {
+   "key": "Pictures placed: %d/%d",
+   "display": "Pictures placed: %d/%d",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "The images folder is empty.",
    "display": "The images folder is empty.",
    "context": "",
@@ -5157,6 +5158,96 @@
    "section": "Settings > Custom Artwork",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Lock aspect ratio",
+   "display": "Lock aspect ratio",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Original size",
+   "display": "Original size",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Rotate",
+   "display": "Rotate",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Flip horizontally",
+   "display": "Flip horizontally",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Flip vertically",
+   "display": "Flip vertically",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Tint",
+   "display": "Tint",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Colours the picture; white leaves it as it is. A white picture takes the exact colour, so one shape can be reused in many colours.",
+   "display": "Colours the picture; white leaves it as it is. A white picture takes the exact colour, so one shape can be reused in many colours.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Corner size",
+   "display": "Corner size",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pixels at each edge of the picture that keep their shape when stretched, so round ends stay round. 0 stretches the whole picture.",
+   "display": "Pixels at each edge of the picture that keep their shape when stretched, so round ends stay round. 0 stretches the whole picture.",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
+   "key": "Duplicate layer",
+   "display": "Duplicate layer",
+   "context": "",
+   "section": "Settings > Custom Artwork",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Remove layer",
@@ -10817,6 +10908,51 @@
    "new": true
   },
   {
+   "key": "X",
+   "display": "X",
+   "context": "",
+   "section": "Edit Selection",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Y",
+   "display": "Y",
+   "context": "",
+   "section": "Edit Selection",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Width",
+   "display": "Width",
+   "context": "",
+   "section": "Edit Selection",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Height",
+   "display": "Height",
+   "context": "",
+   "section": "Edit Selection",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Move",
+   "display": "Move",
+   "context": "",
+   "section": "Edit Selection",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Loading...",
    "display": "Loading...",
    "context": "",
@@ -11047,6 +11183,15 @@
    "section": "Group Finder",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "Maximum height",
+   "display": "Maximum height",
+   "context": "",
+   "section": "Group Finder",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "Player name",
@@ -13087,6 +13232,15 @@
    "budget": 0
   },
   {
+   "key": "Search pictures",
+   "display": "Search pictures",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "Slightly rounded",
    "display": "Slightly rounded",
    "context": "",
@@ -13109,6 +13263,15 @@
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "No pictures match.",
+   "display": "No pictures match.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "No settings match that search.",
@@ -13143,12 +13306,39 @@
    "budget": 0
   },
   {
+   "key": "Used in this layout",
+   "display": "Used in this layout",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "timer event schedule world boss|search keyword",
    "display": "timer event schedule world boss",
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
    "budget": 0
+  },
+  {
+   "key": "This bundle's pictures",
+   "display": "This bundle's pictures",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Other pictures",
+   "display": "Other pictures",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
   },
   {
    "key": "chat contact friend online offline whisper guild|search keyword",
@@ -13207,6 +13397,24 @@
    "budget": 0
   },
   {
+   "key": "rotate turn mirror|search keyword",
+   "display": "rotate turn mirror",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "stretch warp squash proportions|search keyword",
+   "display": "stretch warp squash proportions",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
    "key": "status bar tray strip widgets|search keyword",
    "display": "status bar tray strip widgets",
    "context": "search keyword",
@@ -13247,38 +13455,6 @@
    "budget": 0
   },
   {
-   "key": "casting channel interrupt timer|search keyword",
-   "display": "casting channel interrupt timer",
-   "context": "search keyword",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "initiative life force virtue attunement adrenaline|search keyword",
-   "display": "initiative life force virtue attunement adrenaline",
-   "context": "search keyword",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "enemy mob boss breakbar defiance health|search keyword",
-   "display": "enemy mob boss breakbar defiance health",
-   "context": "search keyword",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "tim messenger whisper message dm private|search keyword",
-   "display": "tim messenger whisper message dm private",
-   "context": "search keyword",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Stretch",
    "display": "Stretch",
    "context": "",
@@ -13304,6 +13480,14 @@
    "tooltip": false,
    "budget": 0,
    "new": true
+  },
+  {
+   "key": "casting channel interrupt timer|search keyword",
+   "display": "casting channel interrupt timer",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Repeat",
@@ -13333,6 +13517,30 @@
    "new": true
   },
   {
+   "key": "initiative life force virtue attunement adrenaline|search keyword",
+   "display": "initiative life force virtue attunement adrenaline",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "enemy mob boss breakbar defiance health|search keyword",
+   "display": "enemy mob boss breakbar defiance health",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "tim messenger whisper message dm private|search keyword",
+   "display": "tim messenger whisper message dm private",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "toast popup alert notification preview animation fade slide yellow|search keyword",
    "display": "toast popup alert notification preview animation fade slide yellow",
    "context": "search keyword",
@@ -13349,14 +13557,6 @@
    "budget": 0
   },
   {
-   "key": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape|search keyword",
-   "display": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape",
-   "context": "search keyword",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Fit",
    "display": "Fit",
    "context": "",
@@ -13366,8 +13566,8 @@
    "new": true
   },
   {
-   "key": "text size typeface bold|search keyword",
-   "display": "text size typeface bold",
+   "key": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape|search keyword",
+   "display": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape",
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
@@ -13383,21 +13583,20 @@
    "new": true
   },
   {
+   "key": "text size typeface bold|search keyword",
+   "display": "text size typeface bold",
+   "context": "search keyword",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Keep corners stretches only the edges and middle, so a frame's corners stay sharp at any size. Corner size is in the picture's own pixels.",
    "display": "Keep corners stretches only the edges and middle, so a frame's corners stay sharp at any size. Corner size is in the picture's own pixels.",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
    "budget": 160,
-   "new": true
-  },
-  {
-   "key": "Corner size",
-   "display": "Corner size",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0,
    "new": true
   },
   {
@@ -13488,14 +13687,6 @@
    "new": true
   },
   {
-   "key": "(hidden in WvW and PvP)",
-   "display": "(hidden in WvW and PvP)",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Squash",
    "display": "Squash",
    "context": "",
@@ -13503,6 +13694,14 @@
    "tooltip": false,
    "budget": 0,
    "new": true
+  },
+  {
+   "key": "(hidden in WvW and PvP)",
+   "display": "(hidden in WvW and PvP)",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": false,
+   "budget": 0
   },
   {
    "key": "Reveal keeps the picture still and shows only the filled part. Squash squeezes the whole picture into the filled part.",
@@ -13756,6 +13955,40 @@
    "budget": 0
   },
   {
+   "key": "Icon size",
+   "display": "Icon size",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Follows the bar's size",
+   "display": "Follows the bar's size",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Skill %d",
+   "display": "Skill %d",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Pet",
+   "display": "Pet",
+   "context": "",
+   "section": "Skillbar",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
    "key": "Weapon",
    "display": "Weapon",
    "context": "",
@@ -13774,14 +14007,6 @@
   {
    "key": "Profession",
    "display": "Profession",
-   "context": "",
-   "section": "Skillbar",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
-   "key": "Pet",
-   "display": "Pet",
    "context": "",
    "section": "Skillbar",
    "tooltip": false,
