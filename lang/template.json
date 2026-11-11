@@ -7675,14 +7675,6 @@
    "new": true
   },
   {
-   "key": "Native",
-   "display": "Native",
-   "context": "",
-   "section": "Settings > Content Guide",
-   "tooltip": false,
-   "budget": 0
-  },
-  {
    "key": "Pie UI",
    "display": "Pie UI",
    "context": "",
@@ -12623,6 +12615,14 @@
    "display": "Click to make this your selected mount",
    "context": "",
    "section": "Mount",
+   "tooltip": false,
+   "budget": 0
+  },
+  {
+   "key": "Native",
+   "display": "Native",
+   "context": "",
+   "section": "Native Layout",
    "tooltip": false,
    "budget": 0
   },
