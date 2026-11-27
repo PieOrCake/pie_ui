@@ -2,19 +2,19 @@
   "de": {
     "credit": "iXTelumZ",
     "sha": "755f3129003592ae",
-    "total": 2452,
-    "translated": 1855,
+    "total": 2459,
+    "translated": 1854,
     "updated": "2026-11-11"
   },
   "fr": {
     "credit": "Yueh",
     "sha": "e9d3e95382278aa5",
-    "total": 2452,
-    "translated": 1855,
+    "total": 2459,
+    "translated": 1854,
     "updated": "2026-11-11"
   },
   "template": {
-    "sha": "7d78b25fdb092d0c",
-    "updated": "2026-11-25"
+    "sha": "91e4a79c62f1bffc",
+    "updated": "2026-11-27"
   }
 }
