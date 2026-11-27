@@ -14533,6 +14533,24 @@
    "budget": 160
   },
   {
+   "key": "Show map dividers",
+   "display": "Show map dividers",
+   "context": "",
+   "section": "Settings > Chat",
+   "tooltip": false,
+   "budget": 0,
+   "new": true
+  },
+  {
+   "key": "Marks each map change, so it is clear which map a message arrived on.",
+   "display": "Marks each map change, so it is clear which map a message arrived on.",
+   "context": "",
+   "section": "Settings > Chat",
+   "tooltip": true,
+   "budget": 160,
+   "new": true
+  },
+  {
    "key": "Share that you're a Pie UI user",
    "display": "Share that you're a Pie UI user",
    "context": "",
