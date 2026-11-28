@@ -1,7 +1,7 @@
 {
  "sinceRelease": {
-  "version": "1.1.0.0",
-  "recorded": "2026-11-11"
+  "version": "1.2.0.0",
+  "recorded": "2026-11-28"
  },
  "strings": [
   {
@@ -250,8 +250,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "GENERAL",
@@ -603,8 +602,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No title",
@@ -860,8 +858,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Hold this key to reach what a protection is holding back.",
@@ -909,8 +906,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set Out of combat to 0 to hide the prompt while idle. Unlock the UI (General) to drag and resize it.",
@@ -918,8 +914,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Enable conversation",
@@ -927,8 +922,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A copy of the box that opens when talking to someone, shown in front of every window.",
@@ -936,8 +930,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Show native conversation box",
@@ -945,8 +938,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set Out of combat to 0 to hide the box while idle. Unlock the UI (General) to drag it into position.",
@@ -954,8 +946,7 @@
    "context": "",
    "section": "Settings > General",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Enter a name with at least one letter or number.",
@@ -1067,8 +1058,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "These apply only to the layout %s.",
@@ -1076,8 +1066,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Same as all layouts",
@@ -1085,8 +1074,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Theme",
@@ -1110,8 +1098,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Save as Bundle",
@@ -1319,8 +1306,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Browse Library",
@@ -1408,8 +1394,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A bundle made on a smaller screen is enlarged to fill this one when installed or restored. Pictures may look slightly softer.",
@@ -1417,8 +1402,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Installed the skin pack \"%s\".",
@@ -1554,8 +1538,7 @@
    "context": "",
    "section": "Settings > Layouts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "AUTO-SWITCH",
@@ -1923,8 +1906,7 @@
    "context": "",
    "section": "Layout Designer > Theme",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "MY THEMES",
@@ -1932,8 +1914,7 @@
    "context": "",
    "section": "Layout Designer > Theme",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Fonts",
@@ -2037,8 +2018,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Applies to all Pie UI text. Each window below can use its own.",
@@ -2046,8 +2026,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Applies to every layout. Undo does not change it.",
@@ -2055,8 +2034,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add your own .ttf fonts to:",
@@ -2072,8 +2050,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "BOTTOM LINE",
@@ -2081,8 +2058,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "SQUAD FRAMES",
@@ -2090,8 +2066,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CONSUMABLES",
@@ -2099,8 +2074,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CONTENT GUIDE",
@@ -2108,8 +2082,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "LOOT CASCADE",
@@ -2117,8 +2090,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "TARGET FRAME",
@@ -2126,8 +2098,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "GROUP FINDER",
@@ -2135,8 +2106,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CONVERSATION",
@@ -2144,8 +2114,7 @@
    "context": "",
    "section": "Layout Designer > Fonts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No more pictures can be added.",
@@ -2177,8 +2146,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Click a picture to change this setting.",
@@ -2186,8 +2154,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Refresh",
@@ -2227,8 +2194,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Locked",
@@ -2236,8 +2202,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Duplicate Picture",
@@ -2245,8 +2210,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove Picture",
@@ -2254,8 +2218,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove Picture?",
@@ -2263,8 +2226,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove this picture? Its place and size cannot be recovered.",
@@ -2272,8 +2234,7 @@
    "context": "",
    "section": "Layout Designer > Custom Artwork",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "START FROM",
@@ -2281,8 +2242,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Replaces every part with one of the classic looks. Each look comes back where it was last placed.",
@@ -2290,8 +2250,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Start from Horizontal Bar",
@@ -2299,8 +2258,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Start from Vertical Bar",
@@ -2308,8 +2266,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Start from Reticle Arcs",
@@ -2317,8 +2274,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Start from Orb",
@@ -2326,8 +2282,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Replace every part with this look?",
@@ -2335,8 +2290,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "RETICLE",
@@ -2344,8 +2298,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Plain",
@@ -2369,8 +2322,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Vertical offset",
@@ -2386,8 +2338,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Background track",
@@ -2411,8 +2362,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show stamina bar (Skyscale flight / gliding)",
@@ -2484,8 +2434,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Colours the pet's health like the player's, from full to low, or with one fixed colour.",
@@ -2493,8 +2442,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Pet HP",
@@ -2510,8 +2458,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This health style has no fill to ride. Give the barrier its own part instead.",
@@ -2519,8 +2466,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The barrier can ride on health once a health part exists.",
@@ -2528,8 +2474,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "On top of health",
@@ -2537,8 +2482,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Own part",
@@ -2546,8 +2490,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Draws the barrier from the top of your health, in health's style, as the game does. Otherwise it is a part with its own style and place.",
@@ -2555,8 +2498,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This health style has no fill to ride, so the barrier is not drawn. Choose Own part to show it.",
@@ -2564,8 +2506,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Multiply",
@@ -2573,8 +2514,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Height",
@@ -2590,8 +2530,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.2f Hz|slider unit: hertz, cycles per second. Translate only the 'Hz'",
@@ -2599,8 +2538,7 @@
    "context": "slider unit: hertz, cycles per second. Translate only the 'Hz'",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Across",
@@ -2608,8 +2546,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Along",
@@ -2617,8 +2554,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.1f Hz|slider unit: hertz, cycles per second. Translate only the 'Hz'",
@@ -2626,8 +2562,7 @@
    "context": "slider unit: hertz, cycles per second. Translate only the 'Hz'",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A barrier riding this health is not drawn in this style.",
@@ -2635,8 +2570,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show dodge marks",
@@ -2652,8 +2586,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Value and percentage",
@@ -2661,8 +2594,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows every bar and arc at this value while this tab is open, barrier, pet and stamina included. Each fill can be checked without taking damage.",
@@ -2678,8 +2610,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Health in this style has no edge to attach to.",
@@ -2687,8 +2618,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Attach endurance first.",
@@ -2696,8 +2626,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Needs a health part.",
@@ -2705,8 +2634,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Attach to Health",
@@ -2714,8 +2642,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Puts it back on the health part, where the classic look places it. Its colours, pictures and rules stay.",
@@ -2723,8 +2650,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Enable Health & Vitals",
@@ -2772,8 +2698,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Only while a bar is not full",
@@ -2789,8 +2714,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show while gliding (full opacity for stamina)",
@@ -2846,8 +2770,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "DEFEATED WINDOW",
@@ -2863,8 +2786,7 @@
    "context": "",
    "section": "Layout Designer > Health & Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "KEY BADGES",
@@ -2872,8 +2794,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show your controller's buttons on the skill slots instead of keyboard keys. A button is set on a key, so every bar that draws that key shows it.",
@@ -2961,8 +2882,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Drag a slot's corner to give it its own size.",
@@ -2986,8 +2906,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the bar moves as one piece while the UI is unlocked. On, each of its slots moves on its own.",
@@ -2995,8 +2914,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "No slots have been moved out of their bar.",
@@ -3180,8 +3098,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "INTERACTION",
@@ -3381,8 +3298,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Auto-attack marker",
@@ -3502,8 +3418,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "WEAPON SWAP",
@@ -3567,8 +3482,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Slots",
@@ -3576,8 +3490,7 @@
    "context": "",
    "section": "Layout Designer > Hotbars",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Artwork",
@@ -3657,8 +3570,7 @@
    "context": "slider unit: percent. Translate only the '%%'",
    "section": "Layout Designer > Cast Bar",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows the cast bar filled to this value while this tab is open, so a fill can be checked without casting.",
@@ -3770,8 +3682,7 @@
    "context": "",
    "section": "Layout Designer > Cast Bar",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Only show while casting",
@@ -3787,8 +3698,7 @@
    "context": "",
    "section": "Layout Designer > Cast Bar",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Show castbar for auto-attacks",
@@ -3852,8 +3762,7 @@
    "context": "",
    "section": "Layout Designer > Cast Bar",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Splits the bar into cast and skill icon parts, each on its own tab. A part can be drawn from a picture of its own.",
@@ -3861,8 +3770,7 @@
    "context": "",
    "section": "Layout Designer > Cast Bar",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Curve position",
@@ -3982,8 +3890,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show the target's rank next to its name",
@@ -4047,8 +3954,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Reticle position",
@@ -4112,8 +4018,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rank artwork",
@@ -4161,8 +4066,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "TARGET HEALTH",
@@ -4178,8 +4082,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "DEFIANCE",
@@ -4195,8 +4098,7 @@
    "context": "",
    "section": "Layout Designer > Target",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "WHICH BOONS TO SHOW",
@@ -4220,8 +4122,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "ADD AN EFFECT",
@@ -4229,8 +4130,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Effect id",
@@ -4238,8 +4138,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The number on the effect's wiki page. The game supplies its icon and name.",
@@ -4247,8 +4146,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Type an effect id first.",
@@ -4256,8 +4154,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Already on the list.",
@@ -4265,8 +4162,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The list is full.",
@@ -4274,8 +4170,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Only an effect the game shows can be added.",
@@ -4283,8 +4178,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add",
@@ -4292,8 +4186,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "WATCHED EFFECTS",
@@ -4301,8 +4194,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No effects yet.",
@@ -4310,8 +4202,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Already first.",
@@ -4319,8 +4210,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Already last.",
@@ -4328,8 +4218,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Minimum stacks",
@@ -4337,8 +4226,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows in this strip only at this many stacks or more. Its usual strip still shows it at any count.",
@@ -4346,8 +4234,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Remove this effect from the list?",
@@ -4355,8 +4242,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "ON YOU NOW",
@@ -4364,8 +4250,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No effects on you right now.",
@@ -4373,8 +4258,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Watch",
@@ -4382,8 +4266,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show native boons",
@@ -4487,8 +4370,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Every effect strip wears these, the target's too, round the icons it shows.",
@@ -4496,8 +4378,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strip colour",
@@ -4505,8 +4386,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strip background",
@@ -4514,8 +4394,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tint with the strip colour",
@@ -4523,8 +4402,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strip overlay",
@@ -4532,8 +4410,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strip frame",
@@ -4541,8 +4418,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reach past the strip",
@@ -4550,8 +4426,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Spreads the strip's skin past its icons on every side, so the frame does not sit on them.",
@@ -4559,8 +4434,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Specialty",
@@ -4576,8 +4450,7 @@
    "context": "",
    "section": "Layout Designer > Effects",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "General",
@@ -4657,8 +4530,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A bar, orb, dial or picture that fills with experience. Its shape is set in the Layout Designer.",
@@ -4666,8 +4538,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "OPACITY",
@@ -4755,8 +4626,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "FPS",
@@ -4948,8 +4818,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Show border",
@@ -5069,8 +4938,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rules",
@@ -5078,8 +4946,7 @@
    "context": "",
    "section": "Layout Designer > Bottom Line",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unit Frames",
@@ -5111,8 +4978,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Row health fill",
@@ -5472,8 +5338,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Who is talking in Discord",
@@ -5481,8 +5346,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Outline",
@@ -5490,8 +5354,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Speaker icon",
@@ -5499,8 +5362,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Bobbing name",
@@ -5508,8 +5370,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A bobbing name shows as an outline while names are hidden.",
@@ -5517,8 +5378,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Outline colour",
@@ -5526,8 +5386,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "EFFECTS",
@@ -5567,8 +5426,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "ORDER",
@@ -5576,8 +5434,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The game's own order: commander, lieutenants and the player first, then by armour, profession and specialization, then by name.",
@@ -5585,8 +5442,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Alphabetical",
@@ -5594,8 +5450,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Achievement points",
@@ -5603,8 +5458,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Most achievement points first, within each subgroup. Offline members go last.",
@@ -5612,8 +5466,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "SHOW PER MEMBER",
@@ -5733,8 +5586,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A member with no match in the voice channel keeps their character name. Hovering a member always shows the character name.",
@@ -5742,8 +5594,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Show who is talking",
@@ -5751,8 +5602,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Marks a member while they speak in the Discord voice channel. The Layout Designer sets how it looks.",
@@ -5760,8 +5610,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Show muted icon",
@@ -5769,8 +5618,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A crossed-out speaker shows after the name of a member who is muted or deafened in Discord.",
@@ -5778,8 +5626,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Needs the Discordant addon, connected to Discord.",
@@ -5787,8 +5634,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show native party/squad frames",
@@ -5804,8 +5650,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Enable Party Frames",
@@ -5933,8 +5778,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "PARTY",
@@ -5950,8 +5794,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "SQUAD",
@@ -5967,8 +5810,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows every health bar at this value while this tab is open. Rows only appear for a real party or squad.",
@@ -5976,8 +5818,7 @@
    "context": "",
    "section": "Layout Designer > Unit Frames",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Social",
@@ -6217,8 +6058,7 @@
    "context": "",
    "section": "Layout Designer > Social",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Use a different theme's icon",
@@ -6634,8 +6474,7 @@
    "context": "",
    "section": "Layout Designer > Content Guide",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "SECTIONS",
@@ -7483,8 +7322,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "SHAPE",
@@ -7548,8 +7386,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Fog colour",
@@ -7573,8 +7410,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Map overlay",
@@ -7582,8 +7418,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Map frame",
@@ -7591,8 +7426,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reach past the edge",
@@ -7600,8 +7434,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Lets the frame picture spread past the minimap's edge. A bezel with a thick rim usually needs some.",
@@ -7609,8 +7442,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Map mask",
@@ -7618,8 +7450,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Title bar",
@@ -7635,8 +7466,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Window mask",
@@ -7644,8 +7474,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The Pie UI world map is not chosen in Settings > Maps.",
@@ -7653,8 +7482,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Button background",
@@ -7662,8 +7490,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Button overlay",
@@ -7671,8 +7498,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Button frame",
@@ -7680,8 +7506,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reach past the button",
@@ -7689,8 +7514,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Lets the frame picture spread past the button's edge. A bezel with a thick rim usually needs some.",
@@ -7698,8 +7522,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Button mask",
@@ -7707,8 +7530,7 @@
    "context": "",
    "section": "Layout Designer > Maps",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Maps",
@@ -7876,8 +7698,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Which way new notifications stack. Use Up for a list placed low on the screen.",
@@ -7957,8 +7778,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CHESTS",
@@ -7966,8 +7786,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Left to right",
@@ -8047,8 +7866,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Chest overlay",
@@ -8056,8 +7874,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Chest frame",
@@ -8065,8 +7882,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reach past the chest",
@@ -8074,8 +7890,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Lets the frame picture spread past each chest's edge. A bezel with a thick rim usually needs some.",
@@ -8083,8 +7898,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Chest mask",
@@ -8092,8 +7906,7 @@
    "context": "",
    "section": "Layout Designer > Notifications",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Enable Loot Cascade",
@@ -8349,8 +8162,7 @@
    "context": "",
    "section": "Layout Designer > Consumables",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Menu Bar",
@@ -8422,8 +8234,7 @@
    "context": "",
    "section": "Layout Designer > Menu Bar",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "On draws the bar's background, border and button frames. Off gives a floating-icon look, each icon on a dark disc so it stays readable against bright scenery.",
@@ -8447,8 +8258,7 @@
    "context": "",
    "section": "Layout Designer > Interact Prompt",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Native draws the game's brush stroke. Pie UI draws a panel with each prompt's own icon, which can take skins.",
@@ -8456,8 +8266,7 @@
    "context": "",
    "section": "Layout Designer > Interact Prompt",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Open Settings",
@@ -8465,8 +8274,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the words keep their usual colour.",
@@ -8474,8 +8282,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set highlight colour",
@@ -8483,8 +8290,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Behind the choice under the mouse. Off, it uses the theme's hover colour.",
@@ -8492,8 +8298,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "PORTRAIT",
@@ -8501,8 +8306,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Portrait overlay",
@@ -8510,8 +8314,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tint with the theme colour",
@@ -8519,8 +8322,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Portrait frame",
@@ -8528,8 +8330,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Portrait mask",
@@ -8537,8 +8338,7 @@
    "context": "",
    "section": "Layout Designer > Conversation",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wiki",
@@ -8962,8 +8762,7 @@
    "context": "",
    "section": "Bottom Line",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Next layout",
@@ -8979,8 +8778,7 @@
    "context": "",
    "section": "Bottom Line",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Close the copy window to change layouts.",
@@ -9436,8 +9234,7 @@
    "context": "",
    "section": "Cast Parts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Your target's name.",
@@ -9493,8 +9290,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A Pie UI location link to you.",
@@ -9502,8 +9298,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The event you are in, as the Content Guide names it.",
@@ -9647,8 +9442,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI Location",
@@ -9656,8 +9450,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI Roles",
@@ -9665,8 +9458,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "You have unlocked this",
@@ -10050,8 +9842,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copy Code",
@@ -10067,8 +9858,7 @@
    "context": "",
    "section": "Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Import into Alter Ego",
@@ -10132,8 +9922,7 @@
    "context": "",
    "section": "Chat Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Self (/self)",
@@ -10781,8 +10570,7 @@
    "context": "",
    "section": "Conversation",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Not enough currency to pay for this.",
@@ -10790,8 +10578,7 @@
    "context": "",
    "section": "Conversation",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "End the conversation.",
@@ -10799,8 +10586,7 @@
    "context": "",
    "section": "Conversation",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Resurrect at a waypoint",
@@ -10832,8 +10618,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pictures hide by opacity. Set a picture's opacity to 0 to hide it.",
@@ -10841,8 +10626,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "A locked picture cannot be clicked on screen. Right-click empty space to unlock pictures.",
@@ -10850,8 +10634,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Group",
@@ -10859,8 +10642,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Grouped elements are picked and moved together, and keep the same rules.",
@@ -10868,8 +10650,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The pictures are shown with different elements.",
@@ -10877,8 +10658,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The pictures have different rules.",
@@ -10886,8 +10666,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "These elements have different rules.",
@@ -10895,8 +10674,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Ungroup",
@@ -10904,8 +10682,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove from Group",
@@ -10913,8 +10690,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pick from Underneath",
@@ -10922,8 +10698,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add Element",
@@ -10931,8 +10706,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Every element is already shown.",
@@ -10940,8 +10714,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add Picture Here",
@@ -10949,8 +10722,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unlock Pictures",
@@ -10958,8 +10730,7 @@
    "context": "",
    "section": "Edit Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows once the game reports the current spec.",
@@ -10967,8 +10738,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Placed for",
@@ -10976,8 +10746,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Chooses whether a move applies to every profession, this profession or this spec. One with no place of its own uses the broader one.",
@@ -10985,8 +10754,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Forget This Place",
@@ -10994,8 +10762,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "All professions",
@@ -11003,8 +10770,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The place set for this profession or spec is replaced by the broader one.",
@@ -11012,8 +10778,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Selected: %d",
@@ -11021,8 +10786,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Ctrl-click to select more.",
@@ -11030,8 +10794,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "X",
@@ -11071,8 +10834,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Place",
@@ -11080,8 +10842,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pictures this tab changes: %d",
@@ -11089,8 +10850,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Selecting pictures and elements.",
@@ -11098,8 +10858,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Selecting pictures only. Hold Shift to include elements.",
@@ -11107,8 +10866,7 @@
    "context": "",
    "section": "Edit Selection",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Already hidden.",
@@ -11116,8 +10874,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Already locked.",
@@ -11125,8 +10882,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This slot is on its bar.",
@@ -11134,8 +10890,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Nothing else is under the pointer.",
@@ -11143,8 +10898,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "One of the selected elements has its position set in Settings.",
@@ -11152,8 +10906,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This element's position is set in Settings.",
@@ -11161,8 +10914,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This element's size cannot be set here.",
@@ -11170,8 +10922,7 @@
    "context": "",
    "section": "Edit Selection Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Loading...",
@@ -11227,8 +10978,7 @@
    "context": "",
    "section": "Element Look",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "One setting for every vitals part. Use Rules to change one part.",
@@ -11236,8 +10986,7 @@
    "context": "",
    "section": "Element Look",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Emoji",
@@ -11253,8 +11002,7 @@
    "context": "",
    "section": "General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Next Layout",
@@ -11278,8 +11026,7 @@
    "context": "",
    "section": "General",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No leader",
@@ -11455,8 +11202,7 @@
    "context": "default name of a picture",
    "section": "Image Layers",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copy Chatcode",
@@ -11592,8 +11338,7 @@
    "context": "",
    "section": "Layout Copy Wizard",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "INTO WHICH LAYOUTS",
@@ -11721,8 +11466,7 @@
    "context": "",
    "section": "Layout Copy Wizard",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copy Elements Between Layouts",
@@ -11810,8 +11554,7 @@
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Target",
@@ -11875,8 +11618,7 @@
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Other Effects",
@@ -11996,8 +11738,7 @@
    "context": "",
    "section": "Layout Elements",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Loot Cascade",
@@ -12229,8 +11970,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "By %s",
@@ -12246,8 +11986,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Skin pack",
@@ -12287,8 +12026,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Not stated",
@@ -12296,8 +12034,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Made for %s. On this screen, some elements may sit closer to the middle.",
@@ -12305,8 +12042,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Made on %s. Installing enlarges it to fill this screen.",
@@ -12314,8 +12050,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "All",
@@ -12411,8 +12146,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Watch the Getting Started Video",
@@ -12420,8 +12154,7 @@
    "context": "",
    "section": "Library Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The library needs a newer version of Pie UI.",
@@ -13141,8 +12874,7 @@
    "context": "",
    "section": "Player Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Barrier",
@@ -13166,8 +12898,7 @@
    "context": "",
    "section": "Player Vitals",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pet",
@@ -13551,8 +13282,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Effect on me",
@@ -13560,8 +13290,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Mounted",
@@ -13569,8 +13298,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Gliding",
@@ -13578,8 +13306,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Underwater",
@@ -13587,8 +13314,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "In a party",
@@ -13596,8 +13322,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "In a squad",
@@ -13605,8 +13330,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "I am the commander",
@@ -13614,8 +13338,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Ready check in progress",
@@ -13623,8 +13346,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Group request waiting",
@@ -13632,8 +13354,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Map type",
@@ -13641,8 +13362,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Time of day",
@@ -13650,8 +13370,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Chat box open",
@@ -13659,8 +13378,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Commander tag on the map",
@@ -13668,8 +13386,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Has a target",
@@ -13677,8 +13394,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Target rank at least",
@@ -13686,8 +13402,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Target has a breakbar",
@@ -13695,8 +13410,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Loot arrives",
@@ -13704,8 +13418,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Notification appears",
@@ -13713,8 +13426,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Social notice",
@@ -13722,8 +13434,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Took damage",
@@ -13731,8 +13442,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Movement",
@@ -13740,8 +13450,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Party and squad",
@@ -13749,8 +13458,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "World",
@@ -13758,8 +13466,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Moments",
@@ -13767,8 +13474,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Full map open",
@@ -13776,8 +13482,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unknown condition",
@@ -13785,8 +13490,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Veteran",
@@ -13794,8 +13498,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Elite",
@@ -13803,8 +13506,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Champion",
@@ -13812,8 +13514,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Legendary",
@@ -13821,8 +13522,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Whisper",
@@ -13830,8 +13530,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Guild",
@@ -13839,8 +13538,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Any social notice",
@@ -13848,8 +13546,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A contact comes online",
@@ -13857,8 +13554,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A contact goes offline",
@@ -13866,8 +13562,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A contact goes away",
@@ -13875,8 +13570,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Someone joins the party",
@@ -13884,8 +13578,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Someone leaves the party",
@@ -13893,8 +13586,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Someone joins the squad",
@@ -13902,8 +13594,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Someone leaves the squad",
@@ -13911,8 +13602,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Main|the main profession resource",
@@ -13920,8 +13610,7 @@
    "context": "the main profession resource",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Second|a specialization's second profession resource",
@@ -13929,8 +13618,7 @@
    "context": "a specialization's second profession resource",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Any mount",
@@ -13938,8 +13626,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Mount %d|a mount the game has not named yet",
@@ -13947,8 +13634,7 @@
    "context": "a mount the game has not named yet",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The extra resource a few specializations have, drawn beside the main one.",
@@ -13956,8 +13642,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Not",
@@ -13965,8 +13650,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "From",
@@ -13974,8 +13658,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "To",
@@ -13983,8 +13666,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "At least",
@@ -13992,8 +13674,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Hold for",
@@ -14001,8 +13682,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.1f s|slider unit: seconds. Translate only the 's'",
@@ -14010,8 +13690,7 @@
    "context": "slider unit: seconds. Translate only the 's'",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This choice comes from a newer version of Pie UI, so it never happens. Pick the condition again to reset it.",
@@ -14019,8 +13698,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This happens only while Pie UI's own list for it is switched on.",
@@ -14028,8 +13706,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI's own list for this collects only commanders joining and leaving.",
@@ -14037,8 +13714,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This character has no second resource, so this never holds.",
@@ -14046,8 +13722,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This condition looks at the target or at my casting. It changes nothing on WvW and PvP maps.",
@@ -14055,8 +13730,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Elements do not move. Pictures and vitals parts do.",
@@ -14064,8 +13738,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The game's hotbar background does not move. Pictures and vitals parts do.",
@@ -14073,8 +13746,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Unchanged|rule motion: the element's own setting stands",
@@ -14082,8 +13754,7 @@
    "context": "rule motion: the element's own setting stands",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "On|rule motion: switched on while the rule holds",
@@ -14091,8 +13762,7 @@
    "context": "rule motion: switched on while the rule holds",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off|rule motion: switched off while the rule holds",
@@ -14100,8 +13770,7 @@
    "context": "rule motion: switched off while the rule holds",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Motion",
@@ -14109,8 +13778,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unchanged keeps the motion as it is set up. On and Off switch it while the rule holds, easing over the fade time.",
@@ -14118,8 +13786,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This part has no texture here.",
@@ -14127,8 +13794,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show cell",
@@ -14136,8 +13802,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Motion speed",
@@ -14145,8 +13810,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "x%.2f|slider unit: a multiplier. Translate only the 'x'",
@@ -14154,8 +13818,7 @@
    "context": "slider unit: a multiplier. Translate only the 'x'",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Motion strength",
@@ -14163,8 +13826,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unknown element",
@@ -14172,8 +13834,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show with",
@@ -14181,8 +13842,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The picture shows only while this element is on screen, and fades with it. Use it for a frame round an element.",
@@ -14190,8 +13850,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "That element is switched off, so the picture stays hidden.",
@@ -14199,8 +13858,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "That element is drawn inside another one, so the picture stays hidden.",
@@ -14208,8 +13866,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Preview rules",
@@ -14217,8 +13874,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows every picture, vitals part and element as its rules would while the UI is unlocked. What is edited here always shows its rules.",
@@ -14226,8 +13882,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "These rules belong to the group.",
@@ -14235,8 +13890,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Stop Previews",
@@ -14244,8 +13898,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The selected pictures have different rules.",
@@ -14253,8 +13906,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Use These Rules for All",
@@ -14262,8 +13914,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Its rules replace the rules of everything else selected.",
@@ -14271,8 +13922,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show with applies to pictures only.",
@@ -14280,8 +13930,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rule %d",
@@ -14289,8 +13938,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows this rule as if its conditions held, while a Rules tab is open. Never saved.",
@@ -14298,8 +13946,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Match",
@@ -14307,8 +13954,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "All|rule match: every condition holds",
@@ -14316,8 +13962,7 @@
    "context": "rule match: every condition holds",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Any|rule match: at least one condition holds",
@@ -14325,8 +13970,7 @@
    "context": "rule match: at least one condition holds",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This rule changes nothing yet.",
@@ -14334,8 +13978,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove this rule?",
@@ -14343,8 +13986,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A rule changes the look while its conditions hold, for example a fade out of combat.",
@@ -14352,8 +13994,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "When two rules change the same thing, the lower one in the list wins. Each rule eases in and out over its fade time.",
@@ -14361,8 +14002,7 @@
    "context": "",
    "section": "Rules Editor",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Say",
@@ -14538,8 +14178,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Marks each map change, so it is clear which map a message arrived on.",
@@ -14547,8 +14186,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Share that you're a Pie UI user",
@@ -14628,8 +14266,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show emoji in messages",
@@ -14637,8 +14274,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show emoji picker",
@@ -14646,8 +14282,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Suggest emoji while typing",
@@ -14655,8 +14290,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "TAB STRIP",
@@ -15192,8 +14826,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Put PNG or JPG pictures in addons/PieUI/images, then choose one for any part below.",
@@ -15233,8 +14866,7 @@
    "context": "",
    "section": "Settings > Chat",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tint with the border colour",
@@ -15258,8 +14890,7 @@
    "context": "",
    "section": "Settings > Element Rules",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Enable Group Finder",
@@ -15347,8 +14978,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Slightly rounded",
@@ -15364,8 +14994,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rounded",
@@ -15397,8 +15026,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Skill icon",
@@ -15406,8 +15034,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The theme every layout uses. A layout can choose its own instead, just below.",
@@ -15415,8 +15042,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "exit leave instance dungeon fractal raid strike|search keyword",
@@ -15432,8 +15058,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "compass radar map rotate zoom|search keyword",
@@ -15449,8 +15074,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This layout uses its own theme.",
@@ -15458,8 +15082,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Used in this layout",
@@ -15475,8 +15098,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession colour",
@@ -15484,8 +15106,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This bundle's pictures",
@@ -15541,8 +15162,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Health colour",
@@ -15558,8 +15178,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A needle keeps its own colours until it is tinted.",
@@ -15567,8 +15186,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "chat contact friend online offline whisper guild|search keyword",
@@ -15584,8 +15202,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tints each member's picture with their own colour. A downed or defeated member shows that colour instead.",
@@ -15593,8 +15210,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "A custom shape keeps its picture's colours until it is tinted.",
@@ -15602,8 +15218,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "colour color channel system messages feedback whisper say map party squad broadcast team guild emote contacts npc combat error notifications item pickups self pve pvp wvw|search keyword",
@@ -15611,8 +15226,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "buff buffs boon condition condi aura duration|search keyword",
@@ -15636,8 +15250,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "skillbar skills weapon utility elite mount|search keyword",
@@ -15653,8 +15266,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "width|search keyword",
@@ -15662,8 +15274,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Looking up...",
@@ -15671,8 +15282,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set marker colour",
@@ -15683,13 +15293,20 @@
    "budget": 0
   },
   {
+   "key": "Shows this fill level while this tab is open, so a look can be checked without earning experience.",
+   "display": "Shows this fill level while this tab is open, so a look can be checked without earning experience.",
+   "context": "",
+   "section": "Settings > shared labels",
+   "tooltip": true,
+   "budget": 160
+  },
+  {
    "key": "No such effect.",
    "display": "No such effect.",
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "chill chilled cooldown slow|search keyword",
@@ -15697,8 +15314,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Make My Own Theme",
@@ -15714,8 +15330,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Fill from the other end",
@@ -15723,8 +15338,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "alacrity cooldown fast|search keyword",
@@ -15732,8 +15346,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Draws one cell of a grid of pictures. The cells can play in turn or follow health.",
@@ -15741,8 +15354,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "party subgroup raid squad members|search keyword",
@@ -15758,8 +15370,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "sort|search keyword",
@@ -15767,8 +15378,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the marker uses the theme's border colour.",
@@ -15784,17 +15394,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
-  },
-  {
-   "key": "Shows this fill level while this tab is open, so a look can be checked without earning experience.",
-   "display": "Shows this fill level while this tab is open, so a look can be checked without earning experience.",
-   "context": "",
-   "section": "Settings > shared labels",
-   "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 0
   },
   {
    "key": "image picture png jpg art frame background overlay controller|search keyword",
@@ -15810,8 +15410,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "hotbar skillbar native game mount backdrop|search keyword",
@@ -15843,8 +15442,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "behind front back order depth|search keyword",
@@ -15852,8 +15450,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No themes made or installed yet.",
@@ -15861,8 +15458,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Charge line thickness",
@@ -15870,8 +15466,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "atlas cells tiles frames animation|search keyword",
@@ -15879,8 +15474,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "stretch warp squash proportions|search keyword",
@@ -15904,8 +15498,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The line that grows around a charged skill's slot as its next charge builds. Never thicker than a quarter of the slot.",
@@ -15913,8 +15506,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Rules for",
@@ -15922,8 +15514,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "order arrange sort|search keyword",
@@ -15931,8 +15522,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "exp level mastery orb dial|search keyword",
@@ -15940,8 +15530,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set charge line colour",
@@ -15949,8 +15538,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "toast popup alert reward banner|search keyword",
@@ -15998,8 +15586,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Off, the line uses the theme's accent colour.",
@@ -16007,8 +15594,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This sprite sheet is larger than 2048 x 2048 pixels or 4096 pixels on a side. Make it smaller in an image editor.",
@@ -16016,8 +15602,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "initiative life force virtue attunement adrenaline|search keyword",
@@ -16033,8 +15618,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "dialogue dialog npc talk speech vendor|search keyword",
@@ -16042,8 +15626,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "enemy mob boss breakbar defiance health|search keyword",
@@ -16059,8 +15642,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "split separate pieces|search keyword",
@@ -16068,8 +15650,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This fill map cannot be used, so the picture fills from left to right.",
@@ -16077,8 +15658,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.1f px|slider unit: pixels. Translate only the 'px'",
@@ -16086,8 +15666,7 @@
    "context": "slider unit: pixels. Translate only the 'px'",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "tim messenger whisper message dm private|search keyword",
@@ -16103,8 +15682,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "PREVIEW",
@@ -16112,8 +15690,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set underline colour",
@@ -16121,8 +15698,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Layouts using this theme go back to the theme for all layouts. This cannot be undone.",
@@ -16130,8 +15706,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "toast popup alert notification preview animation fade slide yellow|search keyword",
@@ -16147,8 +15722,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The out-of-range underline is off in Settings > Hotbars.",
@@ -16156,8 +15730,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Every element with rules has its own page.",
@@ -16165,8 +15738,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "move resize unlock reset position preset|search keyword",
@@ -16182,8 +15754,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "language scale theme keybind hotkey colour color hotbar slot bar corner radius rounded square circle shape|search keyword",
@@ -16199,8 +15770,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "text size typeface bold|search keyword",
@@ -16216,8 +15786,7 @@
    "context": "search keyword",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set slower recharge colour",
@@ -16225,8 +15794,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cooldown numbers while skills recharge slower than normal. Off, the game's own cyan.",
@@ -16234,8 +15802,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set faster recharge colour",
@@ -16243,8 +15810,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cooldown numbers while skills recharge faster than normal. Off, the game's own green.",
@@ -16252,8 +15818,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Forced visible on WvW and PvP maps.",
@@ -16301,8 +15866,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The button's background, disc, icon and overlay take the shape of this picture's solid area. Its colours are not shown.",
@@ -16310,8 +15874,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Cast fill",
@@ -16327,8 +15890,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Interrupt",
@@ -16344,8 +15906,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The panel colour takes the shape of this picture's solid area. Its colours are not shown.",
@@ -16353,8 +15914,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "MOVING FILL",
@@ -16362,8 +15922,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The portrait takes the shape of this picture's solid area. Its colours are not shown.",
@@ -16371,8 +15930,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Texture 1",
@@ -16380,8 +15938,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Unlock the UI to pick an element on screen.",
@@ -16389,8 +15946,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A seamless picture that moves inside the fill. Two textures moving different ways look like churning liquid.",
@@ -16398,8 +15954,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This picture cannot be used as a mask. It must load and have a solid area.",
@@ -16407,8 +15962,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The Native layout cannot be changed. Duplicate it to change its look.",
@@ -16416,8 +15970,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Texture 2",
@@ -16425,8 +15978,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Surface wave",
@@ -16434,8 +15986,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shown while the native hotbar is hidden.",
@@ -16451,8 +16002,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This picture is not in the images folder.",
@@ -16468,8 +16018,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This picture is larger than 16 MB.",
@@ -16485,8 +16034,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "This picture is too large to show. Make it smaller in an image editor.",
@@ -16526,8 +16074,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Open Rules",
@@ -16535,8 +16082,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Makes the fill brighten and dim like a flame. Turn it down for a gentle glow.",
@@ -16544,8 +16090,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Off, borders use the theme's border colour. An element with its own border colour keeps it.",
@@ -16553,8 +16098,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Search settings",
@@ -16682,8 +16226,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Picture colours",
@@ -16699,8 +16242,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "(whole hotbar hidden)",
@@ -16716,8 +16258,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pie UI Settings",
@@ -16733,8 +16274,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Pie UI Layout Designer",
@@ -16742,8 +16282,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Show a faint copy when empty",
@@ -16751,8 +16290,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tint colours the picture with the colour this part has without a skin.",
@@ -16800,8 +16338,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Lock aspect ratio",
@@ -16889,8 +16426,7 @@
    "context": "slider unit: percent. Translate only the '%%'",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Scale",
@@ -16922,8 +16458,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Stretch",
@@ -16955,8 +16490,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Repeat",
@@ -16988,8 +16522,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Drawn over the needle, for a hub cover or glass.",
@@ -16997,8 +16530,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The panel behind the rows, not the rows themselves. Above 0 it stays on screen between pickups.",
@@ -17030,8 +16562,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Needle hub down",
@@ -17039,8 +16570,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reset Hub",
@@ -17048,8 +16578,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Fills the panel with this colour, under the background picture if there is one. Its opacity sets how strong it is.",
@@ -17057,8 +16586,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Keep corners keeps a frame's corners sharp at any size. Repeat tiles the picture at its own size.",
@@ -17066,8 +16594,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The panel behind each notice, not the text itself. At 0 the text sits straight on the world.",
@@ -17083,8 +16610,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pivot down",
@@ -17092,8 +16618,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Tile size",
@@ -17101,8 +16626,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Panel mask",
@@ -17110,8 +16634,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.0f deg|slider unit: degrees. Translate only the 'deg'",
@@ -17135,8 +16658,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Grow left",
@@ -17152,8 +16674,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reset Angles",
@@ -17161,8 +16682,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Scroll",
@@ -17186,8 +16706,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "The panel behind the rows, not the rows themselves. At 0 the text sits straight on the world.",
@@ -17203,8 +16722,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Don't wrap",
@@ -17212,8 +16730,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Needle length",
@@ -17221,8 +16738,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wrap down",
@@ -17230,8 +16746,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strip mask",
@@ -17239,8 +16754,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wrap up",
@@ -17248,8 +16762,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "At 100%, the needle reaches from a centred pivot to the edge of the dial.",
@@ -17257,8 +16770,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "A new row starts once the icons fill the width of the strip's box. Unlock the UI to set that width.",
@@ -17266,8 +16778,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "MOVEMENT",
@@ -17275,8 +16786,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.2f tiles/s|slider unit: tiles per second. Translate only the 'tiles/s'",
@@ -17284,8 +16794,7 @@
    "context": "slider unit: tiles per second. Translate only the 'tiles/s'",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Snap",
@@ -17293,8 +16802,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wrap right",
@@ -17302,8 +16810,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Glide",
@@ -17311,8 +16818,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wrap left",
@@ -17320,8 +16826,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A new column starts once the icons fill the height of the strip's box. Unlock the UI to set that height.",
@@ -17329,8 +16834,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Swing",
@@ -17338,8 +16842,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set corner rounding",
@@ -17347,8 +16850,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Over",
@@ -17356,8 +16858,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Pinned opacity",
@@ -17373,8 +16874,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Blend",
@@ -17382,8 +16882,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Speed",
@@ -17391,8 +16890,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Corner rounding",
@@ -17400,8 +16898,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Add brightens what is under the picture, for light and glows. Over covers it as usual.",
@@ -17409,8 +16906,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Set Out of combat to 0 to hide the section while idle. Unlock the UI (General) to drag and resize it.",
@@ -17426,8 +16922,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Also set by dragging the tray's corner when the UI is unlocked.",
@@ -17451,8 +16946,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Idle opacity",
@@ -17468,8 +16962,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Icon opacity when idle. Jumps to fully visible when a message arrives.",
@@ -17485,8 +16978,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Dial face",
@@ -17494,8 +16986,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Open Strip Skin",
@@ -17503,8 +16994,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Set content padding",
@@ -17512,8 +17002,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The space between the panel's edge and its contents. Off, it clears the frame picture and corners by itself.",
@@ -17521,8 +17010,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Content padding",
@@ -17530,8 +17018,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Draws one cell of a grid of pictures. Rules can pick which cell shows.",
@@ -17539,8 +17026,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Reveal",
@@ -17556,8 +17042,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Columns",
@@ -17565,8 +17050,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Squash",
@@ -17582,8 +17066,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Play cells",
@@ -17591,8 +17074,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cells follow",
@@ -17600,8 +17082,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reveal keeps the picture still and shows only the filled part. Squash squeezes the whole picture into the filled part.",
@@ -17617,8 +17098,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Cells used",
@@ -17626,8 +17106,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cells per second",
@@ -17635,8 +17114,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Font face and size: see Fonts in the Layout Designer.",
@@ -17644,8 +17122,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Random order",
@@ -17653,8 +17130,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Open Fonts",
@@ -17662,8 +17138,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "This layout uses the skin pack \"%s\". Its skins are shown instead of the ones below.",
@@ -17679,8 +17154,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Profession resource",
@@ -17704,8 +17178,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Experience",
@@ -17713,8 +17186,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Value",
@@ -17722,8 +17194,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Reverse order",
@@ -17731,8 +17202,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shows cell 1 at 100% and the last cell at 0%.",
@@ -17740,8 +17210,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Hide when there is no value",
@@ -17749,8 +17218,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No value means no target, a value not shown in WvW or PvP, or one that cannot be read. Off shows the cell below.",
@@ -17758,8 +17226,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Cell",
@@ -17767,8 +17234,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The cells play in turn while Play cells is on.",
@@ -17776,8 +17242,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "A value picks the cell while Cells follow is on.",
@@ -17785,8 +17250,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "CELLS",
@@ -17794,8 +17258,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Sprite sheet",
@@ -17803,8 +17266,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cells run left to right, then top to bottom. The first cell shows empty and the last shows full.",
@@ -17812,8 +17274,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Rotate",
@@ -17853,8 +17314,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Custom",
@@ -17862,8 +17322,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Flip horizontally",
@@ -17879,8 +17338,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Redo",
@@ -17888,8 +17346,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Flip vertically",
@@ -17905,8 +17362,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Cells",
@@ -17914,8 +17370,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Not while the copy window is open.",
@@ -17923,8 +17378,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Nothing to undo.",
@@ -17932,8 +17386,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Nothing to redo.",
@@ -17941,8 +17394,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Undoes this layout's last change.",
@@ -17950,8 +17402,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Turns per minute",
@@ -17959,8 +17410,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Anticlockwise",
@@ -17968,8 +17418,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Angle",
@@ -17977,8 +17426,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.0f°",
@@ -17986,8 +17434,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%.2f Hz",
@@ -17995,8 +17442,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Strength",
@@ -18004,8 +17450,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Draw under other Pie UI windows",
@@ -18013,8 +17458,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Draws this part beneath every other Pie UI window, as the reticle arcs are drawn. Suits a part that sits behind other windows.",
@@ -18022,8 +17466,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Spin",
@@ -18031,8 +17474,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Turns it round and round. Several kinds of motion can be on at once.",
@@ -18040,8 +17482,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Own colour",
@@ -18049,8 +17490,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Wobble",
@@ -18058,8 +17498,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Rocks it left and right like a pendulum. Angle is how far it swings.",
@@ -18067,8 +17506,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Jiggle",
@@ -18076,8 +17514,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shakes it with quick, small twitches. Strength is how far it moves.",
@@ -18085,8 +17522,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Bob",
@@ -18094,8 +17530,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Floats it up and down. Strength is a share of its height.",
@@ -18103,8 +17538,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Radius",
@@ -18128,8 +17562,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Arc spread",
@@ -18145,8 +17578,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "How much of the arc's width the fill covers. Lower draws a thin fill inside the track.",
@@ -18154,8 +17586,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Leave room for a rim",
@@ -18163,8 +17594,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Shrinks the globe inside its box, so an arc placed round it has room.",
@@ -18172,8 +17602,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "NUMBERS",
@@ -18197,8 +17626,7 @@
    "context": "",
    "section": "Settings > shared labels",
    "tooltip": true,
-   "budget": 160,
-   "new": true
+   "budget": 160
   },
   {
    "key": "Number size",
@@ -18286,8 +17714,7 @@
    "context": "",
    "section": "Shared Flag Draw",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s N of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18295,8 +17722,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s NNE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18304,8 +17730,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s NE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18313,8 +17738,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s ENE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18322,8 +17746,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s E of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18331,8 +17754,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s ESE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18340,8 +17762,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s SE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18349,8 +17770,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s SSE of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18358,8 +17778,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s S of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18367,8 +17786,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s SSW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18376,8 +17794,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s SW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18385,8 +17802,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s WSW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18394,8 +17810,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s W of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18403,8 +17818,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s WNW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18412,8 +17826,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s NW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18421,8 +17834,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "%s NNW of %s|shared location: the distance, a compass point, then the waypoint's link",
@@ -18430,8 +17842,7 @@
    "context": "shared location: the distance, a compass point, then the waypoint's link",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Remove Flag",
@@ -18439,8 +17850,7 @@
    "context": "",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Place My Marker Here",
@@ -18448,8 +17858,7 @@
    "context": "",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "The game's own marker can only be placed on the continent the player is on.",
@@ -18457,8 +17866,7 @@
    "context": "",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Share Location",
@@ -18466,8 +17874,7 @@
    "context": "",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Share My Position",
@@ -18475,8 +17882,7 @@
    "context": "",
    "section": "Shared Flag Menu",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Not a skill",
@@ -19252,8 +18658,7 @@
    "context": "",
    "section": "Squad Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No one in the group has a role yet.",
@@ -19261,8 +18666,7 @@
    "context": "",
    "section": "Squad Frames",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Grid layout (click for List)",
@@ -19302,8 +18706,7 @@
    "context": "the label before a squad role code in chat",
    "section": "Squad Roles",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No one in this code is in the current squad.",
@@ -19311,8 +18714,7 @@
    "context": "",
    "section": "Squad Roles",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "No role",
@@ -19320,8 +18722,7 @@
    "context": "",
    "section": "Squad Roles",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Click to apply these roles.",
@@ -19329,8 +18730,7 @@
    "context": "",
    "section": "Squad Roles",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "DPS",
@@ -19394,8 +18794,7 @@
    "context": "",
    "section": "Target Parts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Defiance",
@@ -19411,8 +18810,7 @@
    "context": "",
    "section": "Target Parts",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Target Portrait",
@@ -19596,8 +18994,7 @@
    "context": "",
    "section": "Theme Editor Window",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Copies the colours. The moving background stays with the original theme.",
@@ -20157,8 +19554,7 @@
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "New to Pie UI? Watch the getting started video.",
@@ -20166,8 +19562,7 @@
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Welcome to Pie UI",
@@ -20183,8 +19578,7 @@
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Open Bundle Library",
@@ -20192,8 +19586,7 @@
    "context": "",
    "section": "Welcome",
    "tooltip": false,
-   "budget": 0,
-   "new": true
+   "budget": 0
   },
   {
    "key": "Bookmark",
